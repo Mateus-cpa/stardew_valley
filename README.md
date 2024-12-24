@@ -1,12 +1,12 @@
 Projeto de webscrapping de tabelas da wiki do Stardew Valley e organizar em dataframes
 
-FASE 0
-Configurar .env 
+FASE 0 - ok
+Configurar .env
 
-FASE 1
+FASE 1 - em andamento
 Migrar caderno python para arquivo py
 
-FASE 2
+FASE 2 - OK
 Webscrapping: baixar todas tabelas de interesse: OK
 
 FASE 3
