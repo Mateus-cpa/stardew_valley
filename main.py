@@ -1,116 +1,17 @@
-# importações
-from bs4 import BeautifulSoup as bs
-import requests as rq
-import pandas as pd
-from io import StringIO
+def pipeline():
+    #importações
+    import pandas as pd
+    from io import StringIO
+    from bs4 import BeautifulSoup as bs4
+
+    #bibliotecas locais
+    from src.extract_bs4 import extrair_sopa as extrair
+    from src.process_html_to_csv import df_cultivo
+
+    extrair()
+    df_cultivo(html='docs\sopa_Cultivo.html')
 
 
-paginas = ['Cultivo', #0
-           'Mineração', #1
-           'Coleta', #2
-           'Pesca', #3
-           'Combate', #4
-           'Lavouras', #5
-           'Animais', #6
-           'Árvores_frutíferas', #7
-           'Mercadorias_Artesanais', #8
-           'Casa_da_Fazenda', #9
-           'A_Caverna', #10
-           'Estufa', #11
-           'Casa', #12
-           'Clima', #13
-           'Primavera', #14
-           'Verão', #15
-           'Outono', #16
-           'Inverno', #17
-           'Festivais', #18
-           'Monstros', #19
-           'Televisão', #20
-           'Aldeões', #21
-           'Amizade', #22
-           'Casamento', #23
-           'Crianças', #24
-           'Missões', #25
-           'Conjuntos', #26
-           'Conquistas', #27
-           'Multijogador', #28
-           'Modificações', #29
-           'Ferramentas', #30
-           'Armas', #31
-           'Chapéus', #32
-           'Calçados', #33
-           'Anéis', #34
-           'Peixes', #35
-           'Isca', #36
-           'Anzóis', #37
-           'Fertilizante', #38
-           'Culinária', #39
-           'Artesanato', #40
-           'Árvores', #41
-           'Recados_Secretos', #42
-           'Carteira', #43
-           'Artefatos', #44
-           'Minerais', #45
-           'Mobília', #46
-           'Papel_de_Parede', #47
-           'Pisos', #48
-           'Vila_Pelicanos', #49
-           'Lista_de_Todos_os_Presentes', #50
-           'Ferreiro', #51
-           'Mercado_Joja', #52
-           'Museu', #53,
-           'Armazém_do_Pierre', #54
-           'Saloon_Fruta_Estrelar', #55
-           'Rancho_da_Marnie', #56
-           'Casa_Arruinada', #57
-           'Bosque_Secreto', #58
-           'Torre_do_mago', #59
-           'Peixaria', #60
-           'A_Montanha', #61
-           'Guilda_dos_Aventureiros', #62
-           'Carpintaria', #63
-
-
-
-
-
-           #outros
-               ]
-sopa = []
-
-for pagina in paginas:
-    url = f'https://pt.stardewvalleywiki.com/{pagina}'
-    sopa.append(bs(rq.get(url).text, 'html.parser'))
-
-
-#0 Cultivo 
-i=0
-lista = []
-for tabela in sopa[0].find_all('table'):
-    lista.append(pd.read_html(StringIO(str(tabela))))
-    i +=1
-"""for i in range(len(lista)):
-    for j in range(len(lista[i])):
-        print(f'i = {i}, j = {j}')
-        #print(lista[i][j])
-    print('*-* FIM DA TABELA *-*'*5)"""
-
-profissao_cultivo = lista[0][0]
-
-#transformar linhas 3 a 6 em novas colunas na profissao_cultivo
-profissao_cultivo_cont = profissao_cultivo[3:].reset_index(drop=True)
-profissao_cultivo_cont.columns = profissao_cultivo_cont.iloc[0]
-profissao_cultivo_cont = profissao_cultivo_cont[1:].reset_index(drop=True)
-
-
-#adicionar colunas em profissao_cultivo
-profissao_cultivo = profissao_cultivo[:3]
-profissao_cultivo = pd.concat([profissao_cultivo, profissao_cultivo_cont], axis=1)
-profissao_cultivo['profissao'] = 'cultivo'
-
-del profissao_cultivo_cont
-
-profissao_cultivo.to_csv("docs/profissao_cultivo.csv")
-
-profissao_cultivo
-
+if __name__ == '__main__':
+    pipeline()
+    
