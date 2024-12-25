@@ -1,0 +1,100 @@
+,nivel_habilidade_cultivo,Melhoramento,qualidade_produto,percentual
+0,0,Fertilizante de Qualidade,1.regular,78
+1,0,Normal,1.regular,97
+2,0,Fertilizante Básico,1.regular,87
+3,0,Normal,2.prata,2
+4,0,Fertilizante de Qualidade,2.prata,14
+5,0,Fertilizante Básico,2.prata,9
+6,0,Normal,3.ouro,1
+7,0,Fertilizante Básico,3.ouro,4
+8,0,Fertilizante de Qualidade,3.ouro,8
+9,1,Fertilizante de Qualidade,2.prata,23
+10,1,Normal,2.prata,6
+11,1,Fertilizante Básico,2.prata,15
+12,1,Fertilizante de Qualidade,3.ouro,13
+13,1,Fertilizante de Qualidade,1.regular,64
+14,1,Normal,1.regular,91
+15,1,Fertilizante Básico,1.regular,77
+16,1,Fertilizante Básico,3.ouro,8
+17,1,Normal,3.ouro,3
+18,2,Fertilizante Básico,2.prata,20
+19,2,Normal,2.prata,10
+20,2,Fertilizante de Qualidade,2.prata,30
+21,2,Normal,1.regular,86
+22,2,Fertilizante Básico,3.ouro,12
+23,2,Normal,3.ouro,5
+24,2,Fertilizante de Qualidade,3.ouro,18
+25,2,Fertilizante Básico,1.regular,68
+26,2,Fertilizante de Qualidade,1.regular,52
+27,3,Fertilizante de Qualidade,1.regular,40
+28,3,Fertilizante Básico,2.prata,26
+29,3,Normal,2.prata,13
+30,3,Fertilizante Básico,1.regular,59
+31,3,Normal,1.regular,80
+32,3,Fertilizante Básico,3.ouro,15
+33,3,Fertilizante de Qualidade,3.ouro,24
+34,3,Fertilizante de Qualidade,2.prata,36
+35,3,Normal,3.ouro,7
+36,4,Normal,2.prata,16
+37,4,Fertilizante de Qualidade,3.ouro,29
+38,4,Normal,3.ouro,9
+39,4,Fertilizante de Qualidade,2.prata,41
+40,4,Fertilizante de Qualidade,1.regular,30
+41,4,Normal,1.regular,75
+42,4,Fertilizante Básico,2.prata,31
+43,4,Fertilizante Básico,1.regular,50
+44,4,Fertilizante Básico,3.ouro,19
+45,5,Normal,3.ouro,11
+46,5,Fertilizante Básico,3.ouro,23
+47,5,Fertilizante de Qualidade,3.ouro,34
+48,5,Normal,2.prata,20
+49,5,Fertilizante de Qualidade,2.prata,46
+50,5,Fertilizante de Qualidade,1.regular,20
+51,5,Normal,1.regular,69
+52,5,Fertilizante Básico,1.regular,42
+53,5,Fertilizante Básico,2.prata,35
+54,6,Fertilizante de Qualidade,2.prata,45
+55,6,Normal,2.prata,23
+56,6,Fertilizante Básico,1.regular,35
+57,6,Fertilizante de Qualidade,3.ouro,40
+58,6,Normal,3.ouro,13
+59,6,Fertilizante Básico,3.ouro,26
+60,6,Fertilizante de Qualidade,1.regular,15
+61,6,Normal,1.regular,64
+62,6,Fertilizante Básico,2.prata,39
+63,7,Fertilizante Básico,2.prata,42
+64,7,Fertilizante de Qualidade,3.ouro,45
+65,7,Normal,3.ouro,15
+66,7,Normal,2.prata,25
+67,7,Fertilizante de Qualidade,2.prata,41
+68,7,Fertilizante Básico,1.regular,28
+69,7,Fertilizante de Qualidade,1.regular,14
+70,7,Normal,1.regular,60
+71,7,Fertilizante Básico,3.ouro,30
+72,8,Fertilizante Básico,1.regular,22
+73,8,Normal,1.regular,55
+74,8,Normal,3.ouro,17
+75,8,Fertilizante de Qualidade,3.ouro,50
+76,8,Fertilizante de Qualidade,2.prata,38
+77,8,Fertilizante de Qualidade,1.regular,12
+78,8,Normal,2.prata,28
+79,8,Fertilizante Básico,2.prata,44
+80,8,Fertilizante Básico,3.ouro,34
+81,9,Fertilizante Básico,2.prata,47
+82,9,Normal,1.regular,50
+83,9,Fertilizante Básico,1.regular,16
+84,9,Fertilizante de Qualidade,1.regular,11
+85,9,Normal,3.ouro,19
+86,9,Fertilizante de Qualidade,2.prata,33
+87,9,Normal,2.prata,31
+88,9,Fertilizante de Qualidade,3.ouro,56
+89,9,Fertilizante Básico,3.ouro,37
+90,10,Fertilizante Básico,2.prata,44
+91,10,Fertilizante de Qualidade,2.prata,29
+92,10,Fertilizante Básico,1.regular,15
+93,10,Normal,1.regular,46
+94,10,Normal,2.prata,33
+95,10,Fertilizante de Qualidade,1.regular,10
+96,10,Fertilizante Básico,3.ouro,41
+97,10,Fertilizante de Qualidade,3.ouro,61
+98,10,Normal,3.ouro,21

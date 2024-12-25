@@ -1,0 +1,61 @@
+,Profissao,Estacao,Cultivo,XP
+0,cultivo,Verão,Abacaxi,30.0
+1,cultivo,Outono,Abóbora,31.0
+2,cultivo,Outono,Alcachofra,22.0
+3,cultivo,Primavera,Alho,12.0
+4,cultivo,Outono,Amaranto,21.0
+5,cultivo,Primavera,Arroz não moído,7.0
+6,cultivo,Primavera,Batata,14.0
+7,cultivo,Outono,Berinjela,12.0
+8,cultivo,Outono,Beterraba,16.0
+9,cultivo,Outono,Broccoli,13.0
+10,cultivo,Primavera,Cada 1 das 1250 Chirivias coletadas,8.0
+11,cultivo,Primavera,Cada 1 das 13 Chirivias coletadas,8.0
+12,cultivo,Primavera,Cada 1 das 163 Chirivias coletadas,8.0
+13,cultivo,Primavera,Cada 1 das 1875 Chirivias coletadas,8.0
+14,cultivo,Primavera,Cada 1 das 269 Chirivias coletadas,8.0
+15,cultivo,Primavera,Cada 1 das 413 Chirivias coletadas,8.0
+16,cultivo,Primavera,Cada 1 das 48 Chirivias coletadas,8.0
+17,cultivo,Primavera,Cada 1 das 600 Chirivias coletadas,8.0
+18,cultivo,Primavera,Cada 1 das 863 Chirivias coletadas,8.0
+19,cultivo,Primavera,Cada 1 das 97 Chirivias coletadas,8.0
+20,cultivo,Verão,Carambola,44.0
+21,cultivo,Primavera,Cenoura,8.0
+22,cultivo,Outono,Cereja de Joia Doce,64.0
+23,cultivo,Primavera,Chirívia,8.0
+24,cultivo,Primavera,Couve,17.0
+25,cultivo,Outono,Couve chinesa,14.0
+26,cultivo,Primavera,Couve-flor,23.0
+27,cultivo,Verão,Flor-Miçanga,15.0
+28,cultivo,Outono,Fruta antiga,38.0
+29,cultivo,Primavera,Fruta antiga,38.0
+30,cultivo,Verão,Fruta antiga,38.0
+31,cultivo,Outono,Fruto do cacto,14.0
+32,cultivo,Primavera,Fruto do cacto,14.0
+33,cultivo,Verão,Fruto do cacto,14.0
+34,cultivo,Outono,Girassol,14.0
+35,cultivo,Verão,Girassol,14.0
+36,cultivo,Primavera,Grão de café,4.0
+37,cultivo,Verão,Grão de café,4.0
+38,cultivo,Outono,Inhame,22.0
+39,cultivo,Verão,Inhame-coco,16.0
+40,cultivo,Primavera,Jasmim-Azul,10.0
+41,cultivo,Verão,Lúpulo,6.0
+42,cultivo,Verão,Melão,27.0
+43,cultivo,Outono,Milho,10.0
+44,cultivo,Verão,Milho,10.0
+45,cultivo,Verão,Mirtilo,10.0
+46,cultivo,Primavera,Morango,18.0
+47,cultivo,Outono,Oxicoco,14.0
+48,cultivo,Verão,Papoula,20.0
+49,cultivo,Verão,Pimenta quente,9.0
+50,cultivo,Verão,Rabanete,15.0
+51,cultivo,Verão,Repolho roxo,28.0
+52,cultivo,Outono,Rosa-de-fada,29.0
+53,cultivo,Primavera,Ruibarbo,26.0
+54,cultivo,Verão,Tomate,12.0
+55,cultivo,Outono,Trigo,6.0
+56,cultivo,Verão,Trigo,6.0
+57,cultivo,Primavera,Tulipa,7.0
+58,cultivo,Outono,Uva,14.0
+59,cultivo,Primavera,Vagem,9.0
