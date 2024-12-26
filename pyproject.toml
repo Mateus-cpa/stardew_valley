@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "stardew_valley"
+version = "0.1.0"
+description = "Webscrapping and data viz from Stardew Valley data"
+authors = ["Mateus Pinheiro <mateus.mcpa@gmail.com>"] 
+
+[tool.poetry.dependencies]
+pandas = "^2.2.3"  # Use the appropriate version for your needs
+requests = "^2.31.0" 
+beautifulsoup4 = "^4.12.2"
+bs4 = "^0.0.2"
+numpy = "^2.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
