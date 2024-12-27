@@ -1,0 +1,10 @@
+,Imagem,Nome,Descrição,Ingredientes,Energia / Saúde,Bônus,Duração do Bônus,Fonte da Receita,Preço de Venda
+0,,Sopa de peixe,Para se esquentar após uma noite fria no mar.,Concha  (1)  Leite  (1),225  101,Pesca  (+1),16min47s,Willy  (Correio - 3+  ),135 ouros
+1,,Prato do mar,Mantém você quente no vento frio do mar.,Sardinha  (2)  Batata-palha  (1),150  67,Pesca  (+3),5min35s,Pesca  Nível 3,220 ouros
+2,,Escargô,Lesmas cobertas de manteiga e cozidas com perfeição.,Lesma  (1)  Alho  (1),225  101,Pesca  (+2),16min47s,Willy  (Correio- 5+  ),125 ouros
+3,,Guisado de peixe,Tem cheiro de mar. Mas o gosto é melhor.,Lagostim  (1)  Mexilhão  (1)  Caramujo  (1)  Tomate  (1),225  101,Pesca  (+3),16min47s,Willy  (Correio - 7+  ),175 ouros
+4,,Taco de peixe,Tem um cheiro delicioso.,Atum  (1)  Tortilha  (1)  Repolho roxo  (1)  Maionese  (1),165  74,Pesca  (+2),7min,Linus  (Correio - 7+  ),500 ouros
+5,,Bisque de lagosta,Esta sopa delicada é uma receita secreta de família do Willy.,Lagosta  (1)  Leite  (1),225  101,Pesca  (+3)  Energia Máxima  (+50),16min47s,"Rainha do Molho  14 Inverno, Ano 2  Willy  (Correio - 9+  )",205 ouros
+8,,Pão de ácer,Uma rosquinha doce coberta com ácer.,Xarope de ácer  (1)  Açúcar  (1)  Farinha de trigo  (1),225  101,Cultivo  (+1)  Pesca  (+1)  Mineração  (+1),16min47s,"Rainha do Molho  14 Verão, Ano 2",300 ouros
+11,,Sopa de truta,Bem salgada.,Truta arco-íris  (1)  Algas verdes  (1),100  45,Pesca  (+1),4min39s,"Rainha do Molho  14 Outono, Ano 1",100 ouros
+14,,Pudim de espuma do mar,Este pudim salgado vai realmente levar você à mentalidade marítima!,Linguado  (1)  Carpa da meia-noite  (1)  Tinta de Lula  (1),175  78,Pesca  (+4),3min30s,Pesca  (Nível 9),300 ouros

@@ -1,0 +1,7 @@
+,Imagem,Nome,Descrição,Ingrediente,Tempo,Valor de venda,Energia/Saúde/Bônus
+0,,Cerveja,Beba com moderação.,Trigo  (1),1750min (1-2 dias),200 ouros,50  22
+1,,Pale Ale,Beba com moderação.,Lúpulo  (1),2250min (1-2 dias),300 ouros,50  22
+2,,Vinho,Beba com moderação.,Qualquer  fruta  (1),10 000min (≈7 dias),3 × Valor base da  fruta,50  22
+3,,Suco,Uma bebida doce e nutritiva.,Qualquer  vegetal  (1),6000min (≈4 dias),2.25 × Valor base do  vegetal,75  33
+4,,Hidromel,Uma bebida fermentada feita com mel. Beba com moderação.,Mel  (1),600min (10h),300 ouros,75  33
+5,,Café,Possui um cheiro delicioso. Com certeza vai lhe dar energia extra.,Grão de café  (5),120min (2h),150 ouros,3  1  Velocidade  (+1)

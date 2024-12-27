@@ -1,0 +1,31 @@
+,Imagem,Nome,Ingrediente,Qualidade base,Prata (x 1.25),Ouro (x 1.5),Irídio (x 2)
+0,,Vinho,Qualquer  fruta  (1),3 x Preço Base da Fruta,(3 x Base) x 1.25  Envelhecido: 14 Dias,(3 x Base) x 1.5  Envelhecido: 14 Dias  Total: 28 Dias,(3 x Base) x 2  Envelhecido: 28 Dias  Total: 56 Dias
+1,,3 x Preço Base da Fruta,,,,,
+2,,(3 x Base) x 1.25,,,,,
+3,,(3 x Base) x 1.5,,,,,
+4,,(3 x Base) x 2,,,,,
+5,,Pale Ale,Lúpulo  (1),300 ouros,375 ouros  Envelhecido: 9 Dias,450 ouros  Envelhecido: 8 Dias  Total: 17 Dias,600 ouros  Envelhecido: 17 Dias  Total: 34 Dias
+6,,300 ouros,,,,,
+7,,375 ouros,,,,,
+8,,450 ouros,,,,,
+9,,600 ouros,,,,,
+10,,Cerveja,Trigo  (1),200 ouros,250 ouros  Envelhecido: 7 Dias,300 ouros  Envelhecido: 7 Dias  Total: 14 Dias,400 ouros  Envelhecido: 14 Dias  Total: 28 Dias
+11,,200 ouros,,,,,
+12,,250 ouros,,,,,
+13,,300 ouros,,,,,
+14,,400 ouros,,,,,
+15,,Hidromel,Mel  (1),300 ouros,375 ouros  Envelhecido: 7 Dias,450 ouros  Envelhecido: 7 Dias  Total: 14 Dias,600 ouros  Envelhecido: 14 Dias  Total: 28 Dias
+16,,300 ouros,,,,,
+17,,375 ouros,,,,,
+18,,450 ouros,,,,,
+19,,600 ouros,,,,,
+20,,Queijo,Leite  (1)  ou  Leite grande  (1),230 ouros,287 ouros  Envelhecido: 3 Dias,345 ouros  Envelhecido: 4 Dias  Total: 7 Dias,460 ouros  Envelhecido: 7 Dias  Total: 14 Dias
+21,,230 ouros,,,,,
+22,,287 ouros,,,,,
+23,,345 ouros,,,,,
+24,,460 ouros,,,,,
+25,,Queijo de cabra,Leite de cabra  (1)  ou  Leite grande de cabra  (1),400 ouros,500 ouros  Envelhecido: 3 Dias,600 ouros  Envelhecido: 4 Dias  Total: 7 Dias,800 ouros  Envelhecido: 7 Dias  Total: 14 Dias
+26,,400 ouros,,,,,
+27,,500 ouros,,,,,
+28,,600 ouros,,,,,
+29,,800 ouros,,,,,
