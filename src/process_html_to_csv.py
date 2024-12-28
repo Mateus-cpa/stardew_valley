@@ -23,7 +23,6 @@ def df_cultivo(html):
     profissao_cultivo = pd.concat([profissao_cultivo, profissao_cultivo_cont], axis=1)
     profissao_cultivo['profissao'] = 'cultivo'
 
-    del profissao_cultivo_cont
 
 
     profissao_cultivo.to_csv("docs_bronze/profissao_cultivo.csv")
@@ -41,9 +40,7 @@ def df_cultivo(html):
     df_solos = solo_normal.merge(solo_fertilizante_basico, how='outer').merge(solo_fertilizante_qualidade, how='outer')
 
     #apagar dataframes originais da memória
-    del solo_normal
-    del solo_fertilizante_basico
-    del solo_fertilizante_qualidade
+
 
     df_solos = df_solos[['Melhoramento', 'Nível Cultivo', '% Qual. Regular', '% Qual. Prata', '% Qual. Ouro']]
     df_solos = df_solos.rename(columns={'Nível Cultivo': 'nivel_habilidade_cultivo',
@@ -67,9 +64,6 @@ def df_cultivo(html):
     #concatenar
     df_solos = pd.concat([df_solos_regular, df_solos_prata, df_solos_ouro])
 
-    del df_solos_regular
-    del df_solos_prata
-    del df_solos_ouro
 
     #ordenar e resetar index
     df_solos = df_solos.sort_values(by=['qualidade_produto']).sort_values(by=['nivel_habilidade_cultivo']).reset_index(drop=True)
@@ -102,22 +96,13 @@ def df_cultivo(html):
     #adaptando chirivias aos outros dataframes
     xp_chirivia['XP'] = round(xp_chirivia['Experiência'] / xp_chirivia['Chirivias Colhidas no Total'],0)
     xp_chirivia['Cultivo'] = xp_chirivia['Chirivias Colhidas no Total'].apply(lambda linha: f'Cada 1 das {linha} Chirivias coletadas')
-    print(xp_chirivia)
     xp_chirivia = xp_chirivia[['Estacao', 'XP', 'Cultivo']]
 
     #merge dfs
     df_xp_cultivos = xp_cultivo_primavera.merge(xp_cultivo_verao, how='outer')
     df_xp_cultivos = df_xp_cultivos.merge(xp_cultivo_outono, how='outer')
-    print(df_xp_cultivos)
     df_xp_cultivos = df_xp_cultivos.merge(xp_chirivia, how='outer')
-    print(df_xp_cultivos)
-
-    #apagar dataframes concatenados
-    del xp_cultivo_primavera
-    del xp_cultivo_verao
-    del xp_cultivo_outono
-    del xp_chirivia
-
+    
     df_xp_cultivos['Profissao'] = 'cultivo'
 
     #reordenar colunas
@@ -577,7 +562,687 @@ def df_caverna(html):
     caverna_cogumelo = lista[21][0]
     caverna_cogumelo.to_csv('docs_bronze/caverna_cogumelo.csv')
 
+def df_estufa(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
 
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    estufa = lista[0][0]
+    estufa.to_csv('docs_bronze/estufa.csv')
+
+    pass
+
+def df_casa(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    #sem tabela
+
+def df_clima(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    clima = lista[1][0]        
+    clima.to_csv('docs_bronze/clima.csv')
+
+def df_caverna(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+def df_primavera(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    calendario_primavera_festivais = lista[2][0]
+    calendario_primavera_festivais.to_csv('docs_bronze/calendario_primavera_festivais.csv')
+    calendario_primavera_aniversario = lista[3][0]
+    calendario_primavera_aniversario.to_csv('docs_bronze/calendario_primavera_aniversario.csv')
+    calendario_primavera_colheita_unica = lista[4][0]
+    calendario_primavera_colheita_unica.to_csv('docs_bronze/calendario_primavera_colheita_unica.csv')
+    calendario_primavera_colheita_multipla = lista[5][0]
+    calendario_primavera_colheita_multipla.to_csv('docs_bronze/calendario_primavera_coolheita_multipla.csv')
+    calendario_primavera_pesca = lista[23][0]
+    calendario_primavera_pesca.to_csv('docs_bronze/calendario_primavera_pesca.csv')
+
+def df_verao(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    calendario_verao_festivais = lista[1][0]
+    calendario_verao_festivais.to_csv('docs_bronze/calendario_verao_festivais.csv')
+    calendario_verao_aniversario = lista[2][0]
+    calendario_verao_aniversario.to_csv('docs_bronze/calendario_verao_aniversario.csv')
+    calendario_verao_colheita_unica = lista[3][0]
+    calendario_verao_colheita_unica.to_csv('docs_bronze/calendario_verao_colheita_unica.csv')
+    calendario_verao_colheita_multipla = lista[4][0]
+    calendario_verao_colheita_multipla.to_csv('docs_bronze/calendario_verao_coolheita_multipla.csv')
+    calendario_verao_pesca = lista[16][0]
+    calendario_verao_pesca.to_csv('docs_bronze/calendario_verao_pesca.csv')
+
+def df_outono(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    calendario_outono_festivais = lista[1][0]
+    calendario_outono_festivais.to_csv('docs_bronze/calendario_outono_festivais.csv')
+    calendario_outono_aniversario = lista[2][0]
+    calendario_outono_aniversario.to_csv('docs_bronze/calendario_outono_aniversario.csv')
+    calendario_outono_colheita_unica = lista[3][0]
+    calendario_outono_colheita_unica.to_csv('docs_bronze/calendario_outono_colheita_unica.csv')
+    calendario_outono_colheita_multipla = lista[5][0]
+    calendario_outono_colheita_multipla.to_csv('docs_bronze/calendario_outono_coolheita_multipla.csv')
+    calendario_outono_pesca = lista[19][0]
+    calendario_outono_pesca.to_csv('docs_bronze/calendario_outono_pesca.csv')
+
+def df_inverno(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    calendario_inverno_festivais = lista[2][0]
+    calendario_inverno_festivais.to_csv('docs_bronze/calendario_inverno_festivais.csv')
+    calendario_inverno_aniversario = lista[3][0]
+    calendario_inverno_aniversario.to_csv('docs_bronze/calendario_inverno_aniversario.csv')
+    calendario_inverno_colheita = lista[4][0]
+    calendario_inverno_colheita.to_csv('docs_bronze/calendario_inverno_colheita.csv')
+    calendario_inverno_pesca = lista[23][0]
+    calendario_inverno_pesca.to_csv('docs_bronze/calendario_inverno_pesca.csv')
+
+def df_missoes(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    missoes = lista[0][0]
+    missoes.to_csv('docs_bronze/missoes.csv')
+    missoes_lista = lista[1][0]
+    missoes_lista.to_csv('docs_bronze/missoes_lista.csv')
+    missoes_itens_lista = lista[2][0]
+    missoes_itens_lista.to_csv('docs_bronze/missoes_iitens_lista.csv')
+    missoes_pedidos_especiais = lista[3][0]
+    missoes_pedidos_especiais.to_csv('docs_bronze/missoes_pedidos_especiais.csv')
+    missoes_pedidos_especiais_sr_qi = lista[4][0]
+    missoes_pedidos_especiais_sr_qi.to_csv('docs_bronze/missoes_especiais_sr_qi.csv')
+
+def df_conjuntos(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    conjunto_primavera = lista[3][2]
+    conjunto_primavera.to_csv('docs_bronze/conjunto_primavera.csv')
+    conjunto_verao = lista[3][3]
+    conjunto_verao.to_csv('docs_bronze/conjunto_verao.csv')
+    conjunto_outono = lista[3][4]
+    conjunto_outono.to_csv('docs_bronze/conjunto_outono.csv')
+    conjunto_inverno = lista[3][5]
+    conjunto_inverno.to_csv('docs_bronze/conjunto_inverno.csv')
+    conjunto_construcao = lista[3][6]
+    conjunto_construcao.to_csv('docs_bronze/conjunto_construcao.csv')
+    conjunto_recursos_exoticos = lista[3][7]
+    conjunto_recursos_exoticos.to_csv('docs_bronze/conjunto_recursos_exoticos.csv')
+    conjunto_plantacoes_primavera = lista[11][2]
+    conjunto_plantacoes_primavera.to_csv('docs_bronze/conjunto_plantacoes_primavera.csv')
+    conjunto_plantacoes_verao = lista[11][3]
+    conjunto_plantacoes_verao.to_csv('docs_bronze/conjunto_plantacoes_verao.csv')
+    conjunto_plantacoes_outono = lista[11][4]
+    conjunto_plantacoes_outono.to_csv('docs_bronze/conjunto_plantacoes_outuno.csv')
+    conjunto_plantacoes_qualidade = lista[11][5]
+    conjunto_plantacoes_qualidade.to_csv('docs_bronze/conjunto_plantacoes_qualidade.csv')
+    conjunto_animal = lista[11][10]
+    conjunto_animal.to_csv('docs_bronze/conjunto_animal.csv')
+    conjunto_artesao = lista[11][11]
+    conjunto_artesao.to_csv('docs_bronze/conjunto_artesao.csv')
+    conjunto_peixes_rio = lista[23][2]
+    conjunto_peixes_rio.to_csv('docs_bronze/conjunto_peixes_rio.csv')
+    conjunto_peixes_lago = lista[23][3]
+    conjunto_peixes_lago.to_csv('docs_bronze/conjunto_peixes_lago.csv')
+    conjunto_peixes_oceano = lista[23][4]
+    conjunto_peixes_oceano.to_csv('docs_bronze/conjunto_peixes_oceano.csv')
+    conjunto_pesca_noturna = lista[23][5]
+    conjunto_pesca_noturna.to_csv('docs_bronze/conjunto_pesca_noturna.csv')
+    conjunto_pesca_covo = lista[23][6]
+    conjunto_pesca_covo.to_csv('docs_bronze/conjunto_pesca_covo.csv')
+    conjunto_peixes_especializados = lista[23][7]
+    conjunto_peixes_especializados.to_csv('docs_bronze/conjunto_peixes_especializados.csv')
+    conjunto_ferreiro = lista[31][2]
+    conjunto_ferreiro.to_csv('docs_bronze/conjunto_ferreiro.csv')
+    conjunto_geologo = lista[31][3]
+    conjunto_geologo.to_csv('docs_bronze/conjunto_geologo.csv')
+    conjunto_aventureiro = lista[31][4]
+    conjunto_aventureiro.to_csv('docs_bronze/conjunto_aventureiro.csv')
+    conjunto_cozinheiro = lista[36][2]
+    conjunto_cozinheiro.to_csv('docs_bronze/conjunto_cozinheiro.csv')
+    conjunto_tinta = lista[36][3]
+    conjunto_tinta.to_csv('docs_bronze/conjunto_tinta.csv')
+    conjunto_pesquisa_campo = lista[36][4]
+    conjunto_pesquisa_campo.to_csv('docs_bronze/conjunto_pesquisa_campo.csv')
+    conjunto_forragem = lista[36][5]
+    conjunto_forragem.to_csv('docs_bronze/conjunto_forragem.csv')
+    conjunto_encantador = lista[36][6]
+    conjunto_encantador.to_csv('docs_bronze/conjunto_encantador.csv')
+    conjunto_2500 = lista[43][2]
+    conjunto_2500.to_csv('docs_bronze/conjunto_2500.csv')
+    conjunto_5000 = lista[43][3]
+    conjunto_5000.to_csv('docs_bronze/conjunto_5000.csv')
+    conjunto_10000 = lista[43][4]
+    conjunto_10000.to_csv('docs_bronze/conjunto_10000.csv')
+    conjunto_25000 = lista[43][5]
+    conjunto_25000.to_csv('docs_bronze/conjunto_25000.csv')
+    conjunto_a_desaparecida = lista[50][0]
+    conjunto_a_desaparecida.to_csv('docs_bronze/conjunto_a_desaparecida.csv')
+
+    pass
+
+def df_conquistas (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    conquistas = lista[0][0]
+    conquistas.to_csv('docs_bronze/conquistas.csv')
+
+    pass
+
+def df_ferramentas (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    enxada = lista[0][0]
+    enxada.to_csv('docs_bronze/ferramenta_enxada.csv')
+    picareta = lista[1][0]
+    picareta.to_csv('docs_bronze/ferramenta_picareta.csv')
+    machado = lista[2][0]
+    machado.to_csv('docs_bronze/ferramenta_machado.csv')
+    regador = lista[3][0]
+    regador.to_csv('docs_bronze/ferramenta_regador.csv')
+    lixeira = lista[4][0]
+    lixeira.to_csv('docs_bronze/ferramenta_lixeira.csv')
+    vara_pesca = lista[5][0]
+    vara_pesca.to_csv('docs_bronze/ferramenta_vara_pesca.csv')
+
+    pass
+
+def df_armas (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    luta_atributos = lista[1][0]
+    luta_atributos.to_csv('docs_bronze/armas_luta_atributos.csv')
+    espadas = lista[2][0]
+    espadas.to_csv('docs_bronze/armas_espadas.csv')
+    adagas = lista[3][0]
+    adagas.to_csv('docs_bronze/armas_adagas.csv')
+    clavas= lista[4][0]
+    clavas.to_csv('docs_bronze/armas_clavas.csv')
+    estilingues = lista[5][0]
+    estilingues.to_csv('docs_bronze/armas_estilingues.csv')
+    municoes =lista[6][0]
+    municoes.to_csv('docs_bronze/armas_municoes.csv')
+    armas_impossiveis = lista[7][0]
+    armas_impossiveis.to_csv('docs_bronze/armas_impossiveis.csv')
+
+    pass
+
+def df_chapeus (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    chapeus = lista[0][0]
+    chapeus.to_csv('docs_bronze/chapeus.csv')
+
+    pass
+
+def df_calcados (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    calcados = lista[0][0]
+    calcados.to_csv('docs_bronze/calcados.csv')
+
+    pass
+
+def df_aneis (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    aneis = lista[0][0]
+    aneis.to_csv('docs_bronze/aneis.csv')
+
+    pass
+
+def df_chapeus (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    chapeus = lista[0][0]
+    chapeus.to_csv('docs_bronze/chapeus.csv')
+
+    pass
+
+def df_peixes (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    peixes_vara_pesca = lista[0][0]
+    peixes_vara_pesca.to_csv('docs_bronze/peixes_vara_pesca.csv')
+    peixes_mercado_noturno = lista[145][0]
+    peixes_mercado_noturno.to_csv('docs_bronze/peixes_mercado_noturno.csv')
+    peixes_lendarios = lista[155][0]
+    peixes_lendarios.to_csv('docs_bronze/peixes_lendarios.csv')
+    peixes_lendarios_ii = lista[171][0]
+    peixes_lendarios_ii.to_csv('docs_bronze/peixes_lendarios_ii.csv')
+    peixes_covo = lista[187][0]
+    peixes_covo.to_csv('docs_bronze/peixes_covo.csv')
+    itens_pescaveis = lista[198][0]
+    itens_pescaveis.to_csv('docs_bronze/peixes_itens_pescaveis.csv')
+    receitas_pesca = lista[200][0]
+    receitas_pesca.to_csv('docs_bronze/peixes_receitas_pesca.csv')
+    peixe_sashimi = lista[202][0]
+    peixe_sashimi.to_csv('docs_bronze/peixes_sashimi.csv')
+
+    pass
+
+def df_iscas (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    iscas = lista[0][0]
+    iscas.to_csv('docs_bronze/iscas.csv')
+
+    pass
+
+def df_fertilizantes (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    fertilizante = lista[0][0]
+    fertilizante.to_csv('docs_bronze/fertilizante.csv')
+    taxa_cultivo_solo_normal = lista[1][0]
+    taxa_cultivo_solo_normal.to_csv('docs_bronze/taxa_cultivo_solo_normal.csv')
+    taxa_cultivo_fertilizante_basico = lista[2][0]
+    taxa_cultivo_fertilizante_basico.to_csv('docs_bronze/taxa_cultivo_fertilizante_basico.csv')
+    taxa_cultivo_fertilizante_qualidade = lista[3][0]
+    taxa_cultivo_fertilizante_qualidade.to_csv('docs_bronze/taxa_cultivo_.fertilizande_qualidade.csv')
+    taxa_cultivo_fertilizante_premium = lista[4][0]
+    taxa_cultivo_fertilizante_premium.to_csv('docs_bronze/taxa_cultivo_fertilizante_premium.csv')
+    custo_solo_foliar_concha = lista[6][0]
+    custo_solo_foliar_concha.to_csv('docs_bronze/custo_solo_foliar_concha.csv')
+    custo_solo_foliar_coral = lista[8][0]
+    custo_solo_foliar_coral.to_csv('docs_bronze/custo_solo_foliar_coral.csv')
+
+    pass
+
+def df_culinaria (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    culinaria_receitas = lista[3][0]
+    culinaria_receitas.to_csv('docs_bronze/culinaria_receitas.csv')
+    culinaria_cultivos = lista[36][0]
+    culinaria_cultivos.to_csv('docs_bronze/culinaria_cultivos.csv')
+    culinaria_itens_coleta = lista[37][0]
+    culinaria_itens_coleta.to_csv('docs_bronze/culinaria_itens_coleta.csv')
+    culinaria_frutas_arvore = lista[38][0]
+    culinaria_frutas_arvore.to_csv('docs_bronze/culinaria_frutas_arvore.csv')
+    culinaria_produtos_animais = lista[39][0]
+    culinaria_produtos_animais.to_csv('docs_bronze/culinaria_produtos_naturais.csv')
+    culinaria_mercadorias_artesanais = lista[40][0]
+    culinaria_mercadorias_artesanais.to_csv('docs_bronze/culinaria_mercadorias_artesanais.csv')
+    culinaria_diversos = lista[41][0]
+    culinaria_diversos.to_csv('docs_bronze/culinaria_diversos.csv')
+    culinaria_pescaria = lista[42][0]
+    culinaria_pescaria.to_csv('docs_bronze/culinaria_pescaria.csv')
+    culinaria_covo = lista[43][0]
+    culinaria_covo.to_csv('docs_bronze/culinaria_covo.csv')
+    culinaria_itens_loja = lista[44][0]
+    culinaria_itens_loja.to_csv('docs_bronze/culinaria_itens_loja.csv')
+    culinaria_pratos_ingredientes = lista[45][0]
+    culinaria_pratos_ingredientes.to_csv('docs_bronze/culinaria_pratos_ingredientes.csv')
+
+    pass
+
+def df_artesanato (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    artesanato_bombas = lista[0][0]
+    artesanato_bombas.to_csv('docs_bronze/artesanato_bombas.csv')
+    artesanato_cercas = lista[1][0]
+    artesanato_cercas.to_csv('docs_bronze/artesanato_cercas.csv')
+    artesanato_aspersores = lista[2][0]
+    artesanato_aspersores.to_csv('docs_bronze/artesanato_aspersores.csv')
+    artesanato_equipamentos_artesanais = lista[3][0]
+    artesanato_equipamentos_artesanais.to_csv('docs_bronze/artesanato_equipamentos_artesanais.csv')
+    artesanato_fertilizantes = lista[4][0]
+    artesanato_fertilizantes.to_csv('docs_bronze/artesanato_fertilizantes.csv')
+    artesanato_sementes = lista[5][0]
+    artesanato_sementes.to_csv('docs_bronze/artesanato_sementes.csv')
+    artesanato_decoracao = lista[6][0]
+    artesanato_decoracao.to_csv('docs_bronze/artesanato_decoracao.csv')
+    artesanato_pesca = lista[7][0]
+    artesanato_pesca.to_csv('docs_bronze/artesanato_pesca.csv')
+    artesanato_aneis = lista[8][0]
+    artesanato_aneis.to_csv('docs_bronze/artesanato_aneis.csv')
+    artesanato_itens_comestiveis = lista[9][0]
+    artesanato_itens_comestiveis.to_csv('docs_bronze/artesanato_itens_comestiveis.csv')
+    artesanato_iluminacao = lista[10][0]
+    artesanato_iluminacao.to_csv('docs_bronze/artesanato_iluminacao.csv')
+    artesanato_equipamento_refino = lista[11][0]
+    artesanato_equipamento_refino.to_csv('docs_bronze/artesanato_equipamento_refino.csv')
+    artesanato_mobilia = lista[12][0]
+    artesanato_mobilia.to_csv('docs_bronze/artesanato_mobilia.csv')
+    artesanato_diversos = lista[13][0]
+    artesanato_diversos.to_csv('docs_bronze/artesanato_diversos.csv')
+
+    pass
+
+def df_carteira (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+    
+        carteira_itens_especiais = lista[1][0]
+    carteira_itens_especiais.to_csv('docs_bronze/carteira_itens_especiais.csv')
+    livros_poderes_especiais = lista[2][0]
+    livros_poderes_especiais.to_csv('docs_bronze/carteira_livros_poderes_especiais.csv')
+    poderes_maestria = lista[3][0]
+    poderes_maestria.to_csv('docs_bronze/carteira_poderes_maestria.csv')
+
+    pass
+
+def df_artefatos(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+    
+    artefatos = lista[0][0]
+    artefatos.to_csv('docs_bronze/artefatos.csv')
+    artefatos_tesouro = lista[1][0]
+    artefatos_tesouro.to_csv('docs_bronze/artefatos_tesouro.csv')
+
+    pass
+
+def df_minerais(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    minerais_coleta = lista[0][0]
+    minerais_coleta.to_csv('docs_bronze/minerais_coleta.csv')
+    minerais_gemas = lista[1][0]
+    minerais_gemas.to_csv('docs_bronze/minerais_gemas.csv')
+    minerais_origem_geodos = lista[2][0]
+    minerais_origem_geodos.to_csv('docs_bronze/minerais_origem_geodos.csv')
+    geodos = lista[3][0]
+    geodos.to_csv('docs_bronze/minerais_geodos.csv')
+
+    pass
+
+def df_mobilia(html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+
+    sofas = lista[1][0]
+    sofas.to_csv('docs_bronze/mobilia_sofas.csv')
+    poltronas = lista[2][0]
+    poltronas.to_csv('docs_bronze/mobilia_poltronas.csv')
+    cadeiras1 = lista[4][0]
+    cadeiras1.to_csv('docs_bronze/mobilia_cadeiras1.csv')
+    cadeiras2 = lista[5][0]
+    cadeiras2.to_csv('docs_bronze/mobilia_cadeiras2.csv')
+    cadeiras3 = lista[6][0]
+    cadeiras3.to_csv('docs_bronze/mobilia_cadeiras3.csv')
+    bancos = lista[7][0]
+    bancos.to_csv('docs_bronze/mobilia_bancos.csv')
+    mesas1 = lista[9][0]
+    mesas1.to_csv('docs_bronze/mobilia_mesas1.csv')
+    mesas2 = lista[10][0]
+    mesas2.to_csv('docs_bronze/mobilia_mesas2.csv')
+    mesas3 = lista[11][0]
+    mesas3.to_csv('docs_bronze/mobilia_mesas3.csv')
+    mesas_longas = lista[12][0]
+    mesas_longas.to_csv('docs_bronze/mobilia_mesas_longas.csv')
+    estantes = lista[14][0]
+    estantes.to_csv('docs_bronze/mobilia_estantes.csv')
+    comodas = lista[15][0]
+    comodas.to_csv('docs_bronze/mobilia_comodas.csv')
+    lareiras = lista[16][0]
+    lareiras.to_csv('docs_bronze/mobilia_lareiras.csv')
+    tapetes = lista[17][0]
+    tapetes.to_csv('docs_bronze/mobilia_tapetes.csv')
+    lampadas = lista[20][0]
+    lampadas.to_csv('docs_bronze/mobilia_lampadas.csv')
+    janelas = lista[21][0]
+    janelas.to_csv('docs_bronze/mobilia_janelas.csv')
+    tvs = lista[22][0]
+    tvs.to_csv('docs_bronze/mobilia_tvs.csv')
+    camas = lista[23][0]
+    camas.to_csv('docs_bronze/mobilia_camas.csv')
+    plantas_decorativas_chao1 = lista[26][0]
+    plantas_decorativas_chao1.to_csv('docs_bronze/mobilia_plantas_decorativas_chao1.csv')
+    plantas_decorativas_chao2 = lista[27][0]
+    plantas_decorativas_chao2.to_csv('docs_bronze/mobilia_plantas_decorativas_chao2.csv')
+    plantas_decorativas_penduradas = lista[28][0]
+    plantas_decorativas_penduradas.to_csv('docs_bronze/mobilia_plantas_decorativas_penduradas.csv')
+    pinturas = lista[30][0]
+    pinturas.to_csv('docs_bronze/mobilia_pinturas.csv')
+    pinturas_mercado_noturno = lista[32][0]
+    pinturas_mercado_noturno.to_csv('docs_bronze/mobilia_pinturas_mercado_noturno.csv')
+    posteres = lista[34][0]
+    posteres.to_csv('docs_bronze/mobilia_posteres.csv')
+    bandeiras = lista[36][0]
+    bandeiras.to_csv('docs_bronze/mobilia_bandeiras.csv')
+    decoracao_parede = lista[38][0]
+    decoracao_parede.to_csv('docs_bronze/mobilia_decoracao_parede.csv')
+    aquarios = lista[40][1]
+    aquarios.to_csv('docs_bronze/mobilia_aquarios.csv')
+    tochas = lista[40][2]
+    tochas.to_csv('docs_bronze/mobilia_tochas.csv')
+    mobilia_diversos1 = lista[40][4]
+    mobilia_diversos1.to_csv('docs_bronze/mobilia_diversos1.csv')
+    mobilia_diversos2 = lista[40][5]
+    mobilia_diversos2.to_csv('docs_bronze/mobilia_diversos2.csv')
+    mobilia_outras_decoracoes1 = lista[40][7]
+    mobilia_outras_decoracoes1.to_csv('docs_bronze/mobilia_outras_decoracoes1.csv')
+    mobilia_outras_decoracoes2 = lista[40][8]
+    mobilia_outras_decoracoes2.to_csv('docs_bronze/mobilia_outras_decoracoes2.csv')
+    mobilia_itens_especiais1 = lista[40][10]
+    mobilia_itens_especiais1.to_csv('docs_bronze/mobilia_itens_especiais1.csv')
+    mobilia_itens_especiais2 = lista[40][11]
+    mobilia_itens_especiais2.to_csv('docs_bronze/mobilia_itens_especiais2.csv')
+    mobilia_catalogo = lista[40][12]
+    mobilia_catalogo.to_csv('docs_bronze/mobilia_catalogo.csv')
+
+    pass
+
+def df_presentes_favoritos (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    
+    sopa = bs4(html, 'html.parser')
+
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+    
+    lista_presentes = lista[0][0]
+    lista_presentes.to_csv('docs_bronze/lista_presentes.csv')
 
 if __name__ == '__main__':
     #import
@@ -586,14 +1251,67 @@ if __name__ == '__main__':
     from io import StringIO
 
     #execute
-    #df_cultivo(html='docs_raw/sopa_Cultivo.html')
-    #df_mineracao(html='docs_raw/sopa_Mineração.html')
-    #df_coleta(html='docs_raw/sopa_Coleta.html')
-    #df_pesca(html='docs_raw/sopa_Pesca.html')
-    #df_combate(html='docs_raw/sopa_Combate.html')
-    #df_lavouras(html='docs_raw/sopa_Lavouras.html')
-    #df_animais(html='docs_raw/sopa_Animais.html')
-    #df_arvores_frutiferas(html='docs_raw/sopa_Árvores_frutíferas.html')
-    #df_mercadorias_artesanais(html='docs_raw/sopa_Mercadorias_Artesanais.html')
-    #df_casa_fazenda(html='docs_raw/sopa_Casa_da_Fazenda.html')
+    df_cultivo(html='docs_raw/sopa_Cultivo.html')
+    df_mineracao(html='docs_raw/sopa_Mineração.html')
+    df_coleta(html='docs_raw/sopa_Coleta.html')
+    df_pesca(html='docs_raw/sopa_Pesca.html')
+    df_combate(html='docs_raw/sopa_Combate.html')
+    df_lavouras(html='docs_raw/sopa_Lavouras.html')
+    df_animais(html='docs_raw/sopa_Animais.html')
+    df_arvores_frutiferas(html='docs_raw/sopa_Árvores_frutíferas.html')
+    df_mercadorias_artesanais(html='docs_raw/sopa_Mercadorias_Artesanais.html')
+    df_casa_fazenda(html='docs_raw/sopa_Casa_da_Fazenda.html')
     df_caverna(html='docs_raw/sopa_A_Caverna.html')
+    df_estufa(html='docs_raw/sopa_Estufa.html')
+    df_casa(html='docs_raw/sopa_Casa.html') #sem tabela
+    df_clima(html='docs_raw/sopa_Clima.html')
+    df_primavera(html='docs_raw/sopa_Primavera.html')
+    df_verao(html='docs_raw/sopa_Verão.html')
+    df_outono(html='docs_raw/sopa_Outono.html')
+    df_inverno(html='docs_raw/sopa_Inverno.html')
+    #'Festivais', #18
+    #'Monstros', #19
+    #'Televisão', #20
+    #'Aldeões', #21
+    #'Amizade', #22
+    #'Casamento', #23
+    #'Crianças', #24
+    df_missoes(html='docs_raw/sopa_Missões.html')
+    #df_conjuntos(html='docs_raw/sopa_Conjuntos.html') #corrigir
+    df_conquistas(html='docs_raw/sopa_Conquistas.html')
+    #'Modificações', #29
+    df_ferramentas(html='docs_raw/sopa_ferramentas.html')
+    df_armas(html='docs_raw/sopa_Armas.html')
+    df_chapeus(html='docs_raw/sopa_Chapéus.html')
+    df_calcados(html='docs_raw/sopa_Calçados.html')
+    df_aneis(html='docs_raw/sopa_Anéis.html')
+    df_peixes(html='docs_raw/sopa_Peixes.html')
+    df_iscas(html='docs_raw/sopa_Isca.html')
+    #'Anzóis', #37
+    df_fertilizantes(html='docs_raw/sopa_Fertilizante.html')
+    df_culinaria(html='docs_raw/sopa_Culinária.html')
+    df_artesanato(html='docs_raw/sopa_Artesanato.html')
+    #'Árvores', #41
+    #'Recados_Secretos', #42
+    df_carteira(html='docs_raw/sopa_Carteira.html')
+    df_artefatos(html='docs_raw/sopa_Artefatos.html')
+    df_minerais(html='docs_raw/sopa_Minerais.html')
+    df_mobilia(html='docs_raw/sopa_Mobília.html')
+    #'Papel_de_Parede', #47
+    #'Pisos', #48
+    #'Vila_Pelicanos', #49
+    df_presentes_favoritos(html='docs_raw\sopa_Lista_de_Todos_os_Presentes.html')
+    #'Ferreiro', #51
+    #'Mercado_Joja', #52
+    #'Museu', #53,
+    #'Armazém_do_Pierre', #54
+    #'Saloon_Fruta_Estrelar', #55
+    #'Rancho_da_Marnie', #56
+    #'Casa_Arruinada', #57
+    #'Bosque_Secreto', #58
+    #'Torre_do_mago', #59
+    #'Peixaria', #60
+    #'A_Montanha', #61
+    #'Guilda_dos_Aventureiros', #62
+    #'Carpintaria', #63
+    
