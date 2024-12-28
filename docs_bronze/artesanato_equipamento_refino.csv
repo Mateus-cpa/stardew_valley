@@ -1,0 +1,18 @@
+,Imagem,Nome,Descrição,Ingredientes,Fonte da Receita
+0,,Carvoaria,Transforma 10 pedaços de madeira em um grande pedaço de carvão.,Madeira  (20)  Barra de ouro  (1),Coleta  nível 4
+1,,Cristalário,Insira uma joia de sua escolha e ele a copiará.,Pedra  (99)  Barra de ouro  (5)  Barra de irídio  (2)  Conjunto de pilhas  (1),Mineração  nível 9
+2,,Fornalha,Transforma minério e carvão em barras de metal.,Minério de cobre  (20)  Pedra  (25),Clint  (na manhã seguinte ao coletar 1+  Minério de cobre  )
+3,,Para-raios,Coleciona energia de tempestades de raios e transforma-a em baterias.,Barra de ferro  (1)  Quartzo refinado  (1)  Asa de morcego  (5),Coleta  nível 6
+4,,Máquina de reciclagem,Transforma restos de pesca em recursos.,Madeira  (25)  Pedra  (25)  Barra de ferro  (1),Pesca  nível 4
+5,,Gerador de sementes,Ponha produtos colhidos dentro dele para produzir diversos tipos de sementes. Não funciona com árvores frutíferas.,Madeira  (25)  Carvão  (10)  Barra de ouro  (1),Cultivo  nível 9
+6,,Incubador de gosmas,Chocas os ovos de gosmas. Permite criar gosmas em ambientes externos.,Barra de irídio  (2)  Gosma  (100),Combate  nível 8
+7,,Incubadora de Avestruzes,Choca ovos de avestruz em bebês avestruzes. Coloque em um celeiro.,Fragmento de Osso  (50)  Madeira de lei  (50)  Fragmento de Brasa  (20),Complete a coleção do  Escritório local da ilha
+8,,Prensa de Gosmas,Comprime 100 pedaços de gosmas em um ovo de gosmas. É um milagre científico!,Carvão  (25)  Quartzo de fogo  (1)  Conjunto de pilhas  (1),Combate  nível 6
+9,,Torneirinha,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher!",Madeira  (40)  Barra de cobre  (2),Coleta  nível 3
+10,,Torneirinha Pesada,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher! Funciona duas vezes mais rápido que uma torneirinha normal.",Madeira de lei  (30)  Barra Radioativa  (1),Sala de Nozes do Sr. Qi  por  20
+11,,Cesto de minhocas,Produz iscas regularmente. As minhocas se sustentam sozinhas.,Madeira de lei  (25)  Barra de ouro  (1)  Barra de ferro  (1)  Fibra  (50),Pesca  nível 4
+12,,Cesto de Minhocas de Luxo,Produz iscas de luxo regularmente. As minhocas se sustentam sozinhas.,Cesto de minhocas  (1)  Musgo  (30),Pesca  Nível 8
+13,,Moedor de Ossos,Transforma itens de osso em fertilizantes.,Fragmento de Osso  (10)  Argila  (3)  Pedra  (20),Gunther  (  Pedido Especial  )
+14,,Esmagador de Geodos,Quebra geodos automaticamente. Precisa de carvão para funcionar.,Barra de ouro  (2)  Pedra  (50)  Diamante  (1),Clint  (  Pedido Especial  )
+15,,Tronco de Cogumelo,"Cultiva cogumelos de vez em quando. Quanto mais árvores selvagens estiverem por perto, melhor funciona",Madeira de lei  (10)  Musgo  (10),Coleta  (Level 4)
+16,,Máquina de Iscas,Coloque um peixe dentro para criar uma isca direcionada.,Barra de ferro  (3)  Coral  (3)  Ouriço-do-mar  (1),Pesca  (Level 6)

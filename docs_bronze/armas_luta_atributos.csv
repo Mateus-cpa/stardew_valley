@@ -1,0 +1,6 @@
+,Imagem,Nome,Descrição
+0,,Velocidade,Velocidade da arma é separada da velocidade do jogador. Essa velocidade apenas influencia a frequência dos ataques.
+1,,Defesa,Defesa é uma estatística que afeta a quantidade de dano que o jogador recebe.
+2,,Peso,O Peso de uma arma afeta o quão longe um inimigo será empurrado para trás.
+3,,Ataque Crítico,"Quando você acerta um Ataque Crítico, esta estatística adicionará dano adicional ao seu inimigo."
+4,,Chance Crítica,A Chance Crítica de uma arma afeta a probabilidade de realizar um ataque crítico com dano aumentado.

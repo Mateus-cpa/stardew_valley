@@ -1,0 +1,5 @@
+,Imagem,Nome,Quantidade necessária,Fonte,Item de entrada,Tempo de Produção,Necessário para
+0,,Queijo,3,Prensa de queijo,Leite  (1),3.3 horas,Couve-flor com queijo  (1)  Pizza  (1)  Enroladinhos de pimenta  (1)
+1,,Maionese,2,Máquina de maionese,Ovo  (1),3 horas,Taco de peixe  (1)  Salada de repolho  (1)
+2,,Maionese nula,1,Máquina de maionese,Ovo nulo  (1),3 horas,Pão estranho  (1)
+3,,Café,3,Barril,Grão de café  (5),2 horas,Café Expresso Triplo  (3)

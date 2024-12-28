@@ -1,0 +1,17 @@
+,Imagem,Nome,Descrição,Ingredientes,Fonte da Receita
+0,,Baú,Feito para armazenar seus itens.,Madeira  (50),Início do jogo
+1,,Placa de Madeira,Use um item nele para mudar o que é exibido. O item não será consumido.,Madeira  (25),Início do jogo
+2,,Placa de Pedra,Use um item nele para mudar o que é exibido. O item não será consumido.,Pedra  (25),Início do jogo
+3,,Vaso de Jardim,"Crie plantações de qualquer estação em ambientes fechados. Ao ar livre, só pode abrigar plantações sazonais.",Argila  (1)  Pedra  (10)  Quartzo refinado  (1),Cinemática com a  Evelyn  depois de completar a  estufa  .
+4,,Espantalho,Evita que corvos ataquem suas plantações. Tem um raio limitado (cerca de 8 espaços).,Madeira  (50)  Carvão  (1)  Fibra  (20),Cultivo  nível 1
+5,,Espantalho de luxo,"Previne que corvos ataquem suas plantas. Tem um grande alcance (cerca de 16 ""blocos"").",Madeira  (50)  Fibra  (40)  Minério de irídio  (1),Carta após coletar todos os  Espantalhos Raros
+6,,Escadaria,Utilize-a para descer um nível nas minas.,Pedra  (99),Mineração  nível 2
+7,,Munição explosiva,Utilize-a com o estilingue.,Barra de ferro  (1)  Carvão  (2),Combate  nível 8
+8,,Transmutar (Fe),Uma barra de ferro puro.,Barra de cobre  (3),Mineração  nível 4
+9,,Transmutar (Au),Uma barra de ouro puro.,Barra de ferro  (2),Mineração  nível 7
+10,,Totem de teletransporte: Praia,Transporta direto para a praia. Consumido após utilização.,Madeira de lei  (1)  Coral  (2)  Fibra  (10),Coleta  nível 6
+11,,Totem de teletransporte: Montanhas,Transporta direto para as montanhas. Consumido após utilização.,Madeira de lei  (1)  Barra de ferro  (1)  Pedra  (25),Coleta  nível 7
+12,,Totem de teletransporte: Fazenda,Transporta direto para a sua casa. Consumido após utilização.,Madeira de lei  (1)  Mel  (1)  Fibra  (20),Coleta  nível 8
+13,,Totem de Teletransporte: Deserto,Transporta direto para o Deserto Calico. Consumido após utilização.,Madeira de lei  (2)  Coco  (1)  Minério de irídio  (4),Comerciante do Deserto  por  Barra de irídio  (10)
+14,,Totem de Teletransporte: Ilha,Teletransporta direto para a Ilha Gengibre. Consumido após utilização.,Madeira de lei  (5)  Dente de Dragão  (1)  Gengibre  (1),Loja da Caverna do Vulcão  por  10 000 ouros
+15,,Totem de chuva,Ative para aumentar grandemente a chance de chuva para amanhã. Consumido após utilização.,Madeira de lei  (1)  Óleo de trufas  (1)  Alcatrão de pinho  (5),Coleta  nível 9

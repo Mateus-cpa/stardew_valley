@@ -1,0 +1,25 @@
+,Imagem,Nome,Nível,Descrição,Dano,Chance de Acerto Crítico,Estatísticas,Localização,Preço de Compra,Preço de Venda
+0,,Espada enferrujada,1,Uma espada enferrujada e cega.,2-5,0.02,,Entrada das  Minas,,50 ouros
+1,,Espada de madeira,1,Nada mal para um pedaço de madeira.,3-7,0.02,,Guilda dos Aventureiros  Baú no 10º andar das  Minas  (com recompensas aleatórias na mina apenas),250 ouros,50 ouros
+2,,Espada de aço,1,Uma espada padrão.,4-8,0.02,Velocidade  (+2),Baú no 20º andar das  Minas,,50 ouros
+3,,Sabre de prata,2,Folheado com prata para reduzir a ferrugem.,8-15,0.02,Defesa  (+1),Guilda dos Aventureiros  (depois de desbloquear o 20º andar das  Minas  )  Baú no 50º andar das  Minas  (com recompensas aleatórias na mina apenas),750 ouros,100 ouros
+4,,Espada de pirata,2,Parece que um pirata a possuía.,8-14,0.02,Velocidade  (+2),Guilda dos Aventureiros  (depois de desbloquear o 30º andar das  Minas  )  Baú no 50º andar das  Minas  (com recompensas aleatórias na mina apenas),850 ouros,100 ouros
+5,,Sabre,3,Um sabre muito bem feito.,9-17,0.02,Velocidade  (+2),Guilda dos Aventureiros  (depois de desbloquear o 25º andar das  Minas  )  Baú no 60º andar das  Minas  (com recompensas aleatórias na mina apenas),1 500 ouros,150 ouros
+6,,Espada da Floresta,3,Feita poderosa mágica da floresta.,8-18,0.02,Velocidade  (+2)  Defesa  (+1),As Minas  (andares 21-59),,150 ouros
+7,,Lâmina de ferro,3,Uma espada pesada.,12-25,0.02,Velocidade  (−2)  Defesa  (+1)  Peso  (+3),As Minas  (andares 41-59)  Baú no 60º andar das  Minas  (com recompensas aleatórias na mina apenas),,150 ouros
+8,,Cabeça de inseto,4,Não muito agradável de segurar.,10-20,0.04,Velocidade  (+2)  Chance Crítica  (+2),Guilda dos Aventureiros  (como recompensa por matar 125  Insetos  e posteriomente disponível para compra),10 000 ouros,200 ouros
+9,,Gládio de Netuno,5,Herança de além do Mar de Joias.,18-35,0.02,Velocidade  (−1)  Defesa  (+2)  Peso  (+4),Baús de Tesouro de Pesca  (Pesca Nível 2+),,250 ouros
+10,,Espada Escocesa,5,É muito pesada.,20-32,0.02,Velocidade  (−4)  Defesa  (+2)  Peso  (+3),Guilda dos Aventureiros  (depois de desbloquear o 45º andar das  Minas  )  Baú no 80º andar das  Minas  (com recompensas aleatórias na mina apenas),2 000 ouros,250 ouros
+11,,Espada do templário,5,Já pertenceu a um honrado cavaleiro.,22-29,0.0,Defesa  (+1),Guilda dos Aventureiros  (depois de desbloquear o 55º andar das  Minas  )  Baú no 80º andar das  Minas  (com recompensas aleatórias na mina apenas),4 000 ouros,250 ouros
+12,,Espada de ossos,5,Muito leve. Feita de osso polido.,20-30,0.02,Velocidade  (+4)  Peso  (+2),Drop de  Esqueletos  Guilda dos Aventureiros  (depois de desbloquear o 75º andar das  Minas  )  Baú no 90º andar das  Minas  (com recompensas aleatórias na mina apenas),6 000 ouros,250 ouros
+13,,Lâmina Ossificada,6,Uma lâmina grande e afiada formada por ossos.,26-42,0.02,Velocidade  (−2)  Defesa  (+1)  Peso  (+2),Baú no 90º andar das  Minas  (com recompensas aleatórias na mina apenas),,300 ouros
+14,,Espada de Obsidiana,6,Incrivelmente afiada.,30-45,0.02,Velocidade  (−1)  Ataque Crítico  (+10),Baú no 90º andar das  Minas,,300 ouros
+15,,Dentes de iete,7,Muito frios ao toque.,26-42,0.02,Defesa  (+4)  Ataque Crítico  (+10),As Minas  (andares 81-99),,350 ouros
+16,,Espada temperada,7,Parece aguentar qualquer impacto.,29-44,0.02,Velocidade  (−3)  Defesa  (+3)  Peso  (+3),As Minas  (andares 81-99)  Caverna da Caveira  Baú no 90º andar das  Minas  (com recompensas aleatórias na mina apenas),,350 ouros
+17,,Cimitarra de metal,8,Leve e poderosa.,28-46,0.02,Velocidade  (+4)  Ataque Crítico  (+20),Guilda dos Aventureiros  (depois de desbloquear o 90º andar das  Minas  )  As Minas  (andares 101+)  Caverna da Caveira  Baú no 110º andar das  Minas  (com recompensas aleatórias na mina apenas),9 000 ouros,400 ouros
+18,,Espada das trevas,9,Brilha com uma energia misteriosa.,30-45,0.04,Velocidade  (−5)  Chance Crítica  (+2)  Peso  (+5)  Vampírico  (9%),Drop de  Caveira Assombrada,,450 ouros
+19,,Katana de lava,10,"Uma lâmina poderosa, forjada em uma piscina de lava.",55-64,0.015,Defesa  (+3)  Ataque Crítico  (+25)  Peso  (+3),Guilda dos Aventureiros  (depois de desbloquear o 120º andar das  Minas  ),25 000 ouros,500 ouros
+20,,Espada Anã,13,"É antiga, mas a lâmina nunca desgasta.",65-75,0.02,Velocidade  (+2)  Defesa  (+4),Baús de tesouro comuns na  Caverna do Vulcão,,650 ouros
+21,,Espada da galáxia,13,Diferente de tudo que você já viu.,60-80,0.02,Velocidade  (+4),Leve um  Fragmento prismático  para os três pilares no  Deserto,50 000 ouros,650 ouros
+22,,Espada de Dente de Dragão,13,A lâmina foi forjada de um dente mágico.,75-90,0.02,Ataque Crítico  (+50),Baús de tesouro raros na  Caverna do Vulcão,,650 ouros
+23,,Lâmina do Infinito,17,A verdadeira forma da Espada da Galáxia.,80-100,0.02,Velocidade  (+4)  Defesa  (+2),Combine a  Espada da galáxia  com  Alma da Galáxia  (3)  na  Forja,,850 ouros

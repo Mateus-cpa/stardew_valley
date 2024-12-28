@@ -1,0 +1,145 @@
+,Imagem,Nome,Descrição,Ingredientes,Energia / Saúde,Bônus,Duração do Bônus,Fonte da Receita,Preço de Venda
+0,,Ovo frito,Lado amarelinho para cima.,Ovo  (1),50  22,,,Casa da Fazenda  atualizada,35 ouros
+1,,Omelete,Superfofinha.,Ovo  (1)  Leite  (1),100  45,,,"Rainha do Molho  28 Primavera, Ano 1  Saloon  por  500 ouros",125 ouros
+2,,Rainha do Molho,,,,,,,
+3,,"28 Primavera, Ano 1",,,,,,,
+4,,Salada,Uma saudável salada de jardim.,Alho-poró  (1)  Dente-de-leão  (1)  Vinagre  (1),113  50,,,Emily  (Correio - 3+  ),110 ouros
+5,,Couve-flor com queijo,Um cheiro maravilhoso!,Couve-flor  (1)  Queijo  (1),138  62,,,Pam  (Correio - 3+  ),300 ouros
+6,,Peixe cozido,Peixe cozido em uma cama de ervas.,Peixe-sol  (1)  Brema  (1)  Farinha de trigo  (1),75  33,,,"Rainha do Molho  7 Verão, Ano 1",100 ouros
+7,,Rainha do Molho,,,,,,,
+8,,"7 Verão, Ano 1",,,,,,,
+9,,Sopa de chirívia,Fresca e com um sabor forte.,Chirívia  (1)  Leite  (1)  Vinagre  (1),85  38,,,Caroline  (Correio - 3+  ),120 ouros
+10,,Mexido de legumes,Muito nutritivo.,Tomate  (1)  Beterraba  (1),165  74,,,Caroline  (Correio - 7+  ),120 ouros
+11,,Café da manhã completo,Dá energia para conquistar o mundo!,Ovo frito  (1)  Leite  (1)  Batata-palha  (1)  Panquecas  (1),200  90,Cultivo  (+2)  Energia Máxima  (+50),7min,"Rainha do Molho  21 Primavera, Ano 2",350 ouros
+12,,Rainha do Molho,,,,,,,
+13,,"21 Primavera, Ano 2",,,,,,,
+14,,Lula frita,Que puxenta!,Lula  (1)  Farinha de trigo  (1)  Óleo  (1),80  36,,,Jodi  (Correio - 3+  ),150 ouros
+15,,Pão estranho,O que será que tem dentro?,Farinha de trigo  (1)  Caramujo  (1)  Maionese nula  (1),100  45,,,Shane  (Correio - 7+  ),225 ouros
+16,,Almoço da sorte,Uma pequena refeição.,Pepino-do-mar  (1)  Tortilha  (1)  Jasmim-Azul  (1),100  45,Sorte  (+3),11min11s,"Rainha do Molho  28 Primavera, Ano 2",250 ouros
+17,,Rainha do Molho,,,,,,,
+18,,"28 Primavera, Ano 2",,,,,,,
+19,,Cogumelo frito,Terroso e aromático.,Cogumelo comum  (1)  Morel  (1)  Óleo  (1),135  60,Ataque  (+2),7min,Demetrius  (Correio - 3+  ),200 ouros
+20,,Pizza,Popular pelos motivos certos.,Farinha de trigo  (1)  Tomate  (1)  Queijo  (1),150  67,,,"Rainha do Molho  Primavera 7, Ano 2  Saloon  por  150 ouros",300 ouros
+21,,Rainha do Molho,,,,,,,
+22,,"Primavera 7, Ano 2",,,,,,,
+23,,Pote de feijão,É bem saudável.,Vagem  (2),125  56,Energia Máxima  (+30)  Magnetismo  (+32),7min,Clint  (Correio - 7+  ),100 ouros
+24,,Inhames com cobertura,Doces e saborosos... O açúcar dá um toque de caramelo.,Inhame  (1)  Açúcar  (1),200  90,,,"Rainha do Molho  21 Outono, Ano 1",200 ouros
+25,,Rainha do Molho,,,,,,,
+26,,"21 Outono, Ano 1",,,,,,,
+27,,Carpa-surpresa,É insossa e oleosa.,Carpa  (4),90  40,,,"Rainha do Molho  7 Verão, Ano 2",150 ouros
+28,,Rainha do Molho,,,,,,,
+29,,"7 Verão, Ano 2",,,,,,,
+30,,Batata-palha,Crocante e dourada!,Batata  (1)  Óleo  (1),90  40,Cultivo  (+1),5min35s,"Rainha do Molho  14 Primavera, Ano 2  Saloon  por  50 ouros",120 ouros
+31,,Rainha do Molho,,,,,,,
+32,,"14 Primavera, Ano 2",,,,,,,
+33,,Panquecas,Uma pilha dupla de panquecas fofinhas e macias.,Farinha de trigo  (1)  Ovo  (1),90  40,Coleta  (+2),11min11s,"Rainha do Molho  14 Verão, Ano 1  Saloon  por  500 ouros",80 ouros
+34,,Rainha do Molho,,,,,,,
+35,,"14 Verão, Ano 1",,,,,,,
+36,,Jantar de salmão,Os biscoitinhos de limão o tornam especial.,Salmão  (1)  Amaranto  (1)  Couve  (1),125  56,,,Gus  (Correio - 3+  ),300 ouros
+37,,Taco de peixe,Tem um cheiro delicioso.,Atum  (1)  Tortilha  (1)  Repolho roxo  (1)  Maionese  (1),165  74,Pesca  (+2),7min,Linus  (Correio - 7+  ),500 ouros
+38,,Achigã Crocante,O acompanhamento com pão está perfeito!,Achigã  (1)  Farinha de trigo  (1)  Óleo  (1),90  40,Magnetismo  (+64),7min,Kent  (Correio - 3+  ),150 ouros
+39,,Enroladinhos de pimenta,Enroladinhos apimentados cheios de queijo.,Pimenta quente  (1)  Queijo  (1),130  58,Cultivo  (+2)  Velocidade  (+1),7min,Shane  (Correio - 3+  ),200 ouros
+40,,Pão,Uma baguete crocante.,Farinha de trigo  (1),50  22,,,"Rainha do Molho  28 Verão, Ano 1  Saloon  por  500 ouros",60 ouros
+41,,Rainha do Molho,,,,,,,
+42,,"28 Verão, Ano 1",,,,,,,
+43,,Sopa Tom Kha,Que sabores incríveis!,Coco  (1)  Camarão  (1)  Cogumelo comum  (1),175  78,Cultivo  (+2)  Energia Máxima  (+30),7min,Sandy  (Correio - 7+  ),250 ouros
+44,,Sopa de truta,Bem salgada.,Truta arco-íris  (1)  Algas verdes  (1),100  45,Pesca  (+1),4min39s,"Rainha do Molho  14 Outono, Ano 1",100 ouros
+45,,Rainha do Molho,,,,,,,
+46,,"14 Outono, Ano 1",,,,,,,
+47,,Bolo de chocolate,"Rico e úmido, com uma camada bem grossa de glacê.",Farinha de trigo  (1)  Açúcar  (1)  Ovo  (1),150  67,,,"Rainha do Molho  14 Inverno, Ano 1",200 ouros
+48,,Rainha do Molho,,,,,,,
+49,,"14 Inverno, Ano 1",,,,,,,
+50,,Bolo rosa,Tem pequenos doces de coração em cima.,Melão  (1)  Farinha de trigo  (1)  Açúcar  (1)  Ovo  (1),250  112,,,"Rainha do Molho  21 Verão, Ano 2",480 ouros
+51,,Rainha do Molho,,,,,,,
+52,,"21 Verão, Ano 2",,,,,,,
+53,,Torta de ruibarbo,Huum... picante e doce!,Ruibarbo  (1)  Farinha de trigo  (1)  Açúcar  (1),215  96,,,Marnie  (Correio - 7+  ),400 ouros
+54,,Biscoitos,Bem puxento.,Farinha de trigo  (1)  Açúcar  (1)  Ovo  (1),90  40,,,Evelyn  (4  ),140 ouros
+55,,Espaguete,Um clássico.,Farinha de trigo  (1)  Tomate  (1),75  33,,,Lewis  (Correio - 3+  ),120 ouros
+56,,Enguia frita,"Oleosa, mas cheia de sabor.",Enguia  (1)  Óleo  (1),75  33,Sorte  (+1),7min,George  (Correio - 3+  ),120 ouros
+57,,Enguia picante,Como é picante! Cuidado.,Enguia  (1)  Pimenta quente  (1),115  51,Sorte  (+1)  Velocidade  (+1),7min,George  (Correio - 7+  ),175 ouros
+58,,Sashimi,Peixe cru fatiado em pedaços finos.,Qualquer  peixe  (1),75  33,,,Linus  (Correio - 3+  ),75 ouros
+59,,Rolinhos de arroz,Peixe e arroz enrolados em algas.,Qualquer  peixe  (1)  Algas marinhas  (1)  Arroz  (1),100  45,,,"Rainha do Molho  21 Verão, Ano 1  Saloon  por  300 ouros",220 ouros
+60,,Rainha do Molho,,,,,,,
+61,,"21 Verão, Ano 1",,,,,,,
+62,,Tortilha,Pode ser acompanhada de outras comidas ou comida por si só.,Milho  (1),50  22,,,"Rainha do Molho  7 Outono, Ano 1  Saloon Fruta Estrelar  por  500 ouros",50 ouros
+63,,Rainha do Molho,,,,,,,
+64,,"7 Outono, Ano 1",,,,,,,
+65,,Prato vermelho,Cheio de antioxidantes.,Repolho roxo  (1)  Rabanete  (1),240  108,Energia máxima  (+50),3min30s,Emily  (Correio - 7+  ),400 ouros
+66,,Parmesão com berinjela,"Picante, cheia de queijo, e maravilhosa.",Berinjela  (1)  Tomate  (1),175  78,Mineração  (+1)  Defesa  (+3),4min39s,Lewis  (Correio - 7+  ),200 ouros
+67,,Pudim de arroz,"Cremoso, doce, e divertido de comer.",Leite  (1)  Açúcar  (1)  Arroz  (1),115  51,,,Evelyn  (Correio - 7+  ),260 ouros
+68,,Sorvete,Difícil achar quem não gosta disso.,Leite  (1)  Açúcar  (1),100  45,,,Jodi  (Correio - 7+  ),120 ouros
+69,,Torta de Mirtilo,Sutil e refrescante.,Mirtilo  (1)  Farinha de trigo  (1)  Açúcar  (1)  Ovo  (1),125  56,,,Pierre  (Correio - 3+  ),150 ouros
+70,,Prato de outono,Uma amostra da estação.,Inhame  (1)  Abóbora  (1),220  99,Coleta  (+2)  Defesa  (+2),7min41s,Demetrius  (Correio - 7+  ),350 ouros
+71,,Sopa de abóbora,Favorita da estação.,Abóbora  (1)  Leite  (1),200  90,Defesa  (+2)  Sorte  (+2),7min42s,Robin  (Correio - 7+  ),300 ouros
+72,,Superprato,Um prato muito energizante.,Couve chinesa  (1)  Oxicoco  (1)  Alcachofra  (1),160  72,Energia Máxima  (+40)  Velocidade  (+1),3min30s,Kent  (Correio - 7+  ),220 ouros
+73,,Molho de oxicoco,Uma refeição festiva.,Oxicoco  (1)  Açúcar  (1),125  56,Mineração  (+2),3min30s,Gus  (Correio - 7+  ),120 ouros
+74,,Recheio,Ah... o doce de pão quente e salva.,Pão  (1)  Oxicoco  (1)  Avelã  (1),170  76,Defesa  (+2),5min35s,Pam  (Correio - 7+  ),165 ouros
+75,,Almoço de fazendeiro,Isto vai dar bastante energia.,Omelete  (1)  Chirívia  (1),200  90,Cultivo  (+3),5min35s,Cultivo  Nível 3,150 ouros
+76,,Hambúrguer de Sobrevivência,Uma refeição conveniente para o explorador.,Pão  (1)  Cenoura subterrânea  (1)  Berinjela  (1),125  56,Coleta  (+3),5min35s,Coleta  Nível 8,180 ouros
+77,,Prato do mar,Mantém você quente no vento frio do mar.,Sardinha  (2)  Batata-palha  (1),150  67,Pesca  (+3),5min35s,Pesca  Nível 3,220 ouros
+78,,Refeição de mineiro,Mantém você energizado.,Cenoura subterrânea  (2)  Açúcar  (1)  Leite  (1),125  56,Mineração  (+3)  Magnetismo  (+32),5min35s,Mineração  Nível 3,200 ouros
+79,,Prato de raízes,Vai fazer você comer até terra.,Cenoura subterrânea  (1)  Raiz de inverno  (1),125  56,Ataque  (+3),5min35s,Combate  Nível 3,100 ouros
+80,,Café Expresso Triplo,É mais forte que café normal!,Café  (3),8  3,Velocidade  (+1),4min12s,Saloon Fruta Estrelar  por  5 000 ouros,450 ouros
+81,,Pudim de espuma do mar,Este pudim salgado vai realmente levar você à mentalidade marítima!,Linguado  (1)  Carpa da meia-noite  (1)  Tinta de Lula  (1),175  78,Pesca  (+4),3min30s,Pesca  (Nível 9),300 ouros
+82,,Sopa de alga,Um pouco gosmenta.,Algas verdes  (4),75  33,,,Clint  (Correio - 3+  ),100 ouros
+83,,Caldo pálido,Um caldo delicado com um toque de enxofre.,Algas brancas  (2),125  56,,,Marnie  (Correio - 3+  ),150 ouros
+84,,Pudim de ameixa,Uma delícia de feriado tradicional.,Ameixa selvagem  (2)  Farinha de trigo  (1)  Açúcar  (1),175  78,,,"Rainha do Molho  7 Inverno, Ano 1",260 ouros
+85,,Rainha do Molho,,,,,,,
+86,,"7 Inverno, Ano 1",,,,,,,
+87,,Molho de alcachofra,Muito refrescante.,Alcachofra  (1)  Leite  (1),100  45,,,"Rainha do Molho  28 Outono, Ano 1",210 ouros
+88,,Rainha do Molho,,,,,,,
+89,,"28 Outono, Ano 1",,,,,,,
+90,,Refogado,Legumes à juliana em uma cama de arroz.,Cenoura subterrânea  (1)  Cogumelo comum  (1)  Couve  (1)  Óleo  (1),200  90,,,"Rainha do Molho  7 Primavera, Ano 1",335 ouros
+91,,Rainha do Molho,,,,,,,
+92,,"7 Primavera, Ano 1",,,,,,,
+93,,Avelãs torradas,O processo de torra dá um rico sabor de floresta.,Avelã  (3),175  78,,,"Rainha do Molho  28 Verão, Ano 2",270 ouros
+94,,Rainha do Molho,,,,,,,
+95,,"28 Verão, Ano 2",,,,,,,
+96,,Torta de abóbora,"Sabor extremamente delicado, crosta seca e crocante.",Abóbora  (1)  Farinha de trigo  (1)  Leite  (1)  Açúcar  (1),225  101,,,"Rainha do Molho  21 Winter, Year 1",385 ouros
+97,,Rainha do Molho,,,,,,,
+98,,"21 Winter, Year 1",,,,,,,
+99,,Salada de rabanete,Os rabanetes são tão crocantes!,Óleo  (1)  Vinagre  (1)  Rabanete  (1),200  90,,,"Rainha do Molho  21 Primavera, Ano 1",300 ouros
+100,,Rainha do Molho,,,,,,,
+101,,"21 Primavera, Ano 1",,,,,,,
+102,,Salada de frutas,Uma combinação deliciosa de frutas de verão.,Mirtilo  (1)  Melão  (1)  Damasco  (1),263  118,,,"Rainha do Molho  7 Outono, Ano 2",450 ouros
+103,,Rainha do Molho,,,,,,,
+104,,"7 Outono, Ano 2",,,,,,,
+105,,Mexido de amoras,Não tem nada igual.,Amora  (2)  Açúcar  (1)  Farinha de trigo  (1),175  78,,,"Rainha do Molho  14 Outono, Ano 2",260 ouros
+106,,Rainha do Molho,,,,,,,
+107,,"14 Outono, Ano 2",,,,,,,
+108,,Doce de oxicoco,Doce o suficiente para mascarar o amargor da fruta.,Oxicoco  (1)  Maçã  (1)  Açúcar  (1),125  56,,,"Rainha do Molho  28 Inverno, Ano 1",175 ouros
+109,,Rainha do Molho,,,,,,,
+110,,"28 Inverno, Ano 1",,,,,,,
+111,,Brusqueta,Tomates assados em pão branco crocante.,Pão  (1)  Óleo  (1)  Tomate  (1),113  50,,,"Rainha do Molho  21 Inverno, Ano 2",210 ouros
+112,,Rainha do Molho,,,,,,,
+113,,"21 Inverno, Ano 2",,,,,,,
+114,,Salada de repolho,"Leve, fresquinha e saudável.",Repolho roxo  (1)  Vinagre  (1)  Maionese  (1),213  95,,,"Rainha do Molho  14 Primavera, Ano 1",345 ouros
+115,,Rainha do Molho,,,,,,,
+116,,"14 Primavera, Ano 1",,,,,,,
+117,,Risoto de samambaia,Um prato de arroz cremoso com samambaias salteadas. É meio insosso.,Óleo  (1)  Broto de samambaia  (1)  Alho  (1),225  101,,,"Rainha do Molho  28 Outono, Ano 2",350 ouros
+118,,Rainha do Molho,,,,,,,
+119,,"28 Outono, Ano 2",,,,,,,
+120,,Bolinho de papoula,Possui efeito calmante.,Papoula  (1)  Farinha de trigo  (1)  Açúcar  (1),150  67,,,"Rainha do Molho  7 Inverno, Ano 2",250 ouros
+121,,Rainha do Molho,,,,,,,
+122,,"7 Inverno, Ano 2",,,,,,,
+123,,Sopa de peixe,Para se esquentar após uma noite fria no mar.,Concha  (1)  Leite  (1),225  101,Pesca  (+1),16min47s,Willy  (Correio - 3+  ),135 ouros
+124,,Guisado de peixe,Tem cheiro de mar. Mas o gosto é melhor.,Lagostim  (1)  Mexilhão  (1)  Caramujo  (1)  Tomate  (1),225  101,Pesca  (+3),16min47s,Willy  (Correio - 7+  ),175 ouros
+125,,Escargô,Lesmas cobertas de manteiga e cozidas com perfeição.,Lesma  (1)  Alho  (1),225  101,Pesca  (+2),16min47s,Willy  (Correio- 5+  ),125 ouros
+126,,Bisque de lagosta,Esta sopa delicada é uma receita secreta de família do Willy.,Lagosta  (1)  Leite  (1),225  101,Pesca  (+3)  Energia Máxima  (+50),16min47s,"Rainha do Molho  14 Inverno, Ano 2  Willy  (Correio - 9+  )",205 ouros
+127,,Rainha do Molho,,,,,,,
+128,,"14 Inverno, Ano 2",,,,,,,
+129,,Pão de ácer,Uma rosquinha doce coberta com ácer.,Xarope de ácer  (1)  Açúcar  (1)  Farinha de trigo  (1),225  101,Cultivo  (+1)  Pesca  (+1)  Mineração  (+1),16min47s,"Rainha do Molho  14 Verão, Ano 2",300 ouros
+130,,Rainha do Molho,,,,,,,
+131,,"14 Verão, Ano 2",,,,,,,
+132,,Bolinhos de caranguejo,"Caranguejo, pão e ovo achatados e fritos até ficarem dourados.",Caranguejo  (1)  Farinha de trigo  (1)  Ovo  (1)  Óleo  (1),225  101,Velocidade  (+1)  Defesa  (+1),16min47s,"Rainha do Molho  21 Outono, Ano 2",275 ouros
+133,,Rainha do Molho,,,,,,,
+134,,"21 Outono, Ano 2",,,,,,,
+135,,Coquetel de Camarão,Um aperitivo suntuoso feito com camarão fresco.,Tomate  (1)  Camarão  (1)  Raiz-forte  (1),225  101,Pesca  (+1)  Sorte  (+1),10min2s,"Rainha do Molho  28 Inverno, Ano 2",160 ouros
+136,,Rainha do Molho,,,,,,,
+137,,"28 Inverno, Ano 2",,,,,,,
+138,,Ginger Ale,Um refrigerante picante conhecido por seus efeitos acalmantes no estomâgo.,Gengibre  (3)  Açúcar  (1),63  28,Sorte  (+1),5min,Loja da Caverna do Vulcão  por  1 000 ouros,200 ouros
+139,,Pudim de Banana,Uma sobremsa cremosa com um incrível sabor tropical.,Banana  (1)  Leite  (1)  (Qualquer)  Açúcar  (1),125  56,Mineração  (+1)  Sorte  (+1)  Defesa  (+1),5min1s,Comerciante da Ilha,260 ouros
+140,,Arroz Doce de Manga,Manga doce e coco tornam este arroz em algo muito especial.,Manga  (1)  Coco  (1)  Arroz  (1),113  50,Defesa  (+3),5min1s,Leo  (Correio - 7+  ),250 ouros
+141,,Poi,Uma comida tradicional com um sabor delicado e doce quando está fresca.,Inhame-coco  (4),75  33,,,Leo  (Correio - 3+  ),400 ouros
+142,,Curry Tropical,Um exótico e aromático curry servido em uma tigela de abacaxi.,Coco  (1)  Abacaxi  (1)  Pimenta quente  (1),150  67,Coleta  (+4),5min1s,Resort da Praia,500 ouros
+143,,Ravioli de Tinta de Lula,Temporariamente protege de efeitos negativos.,Tinta de Lula  (1)  Farinha de trigo  (1)  Tomate  (1),125  56,Mineração  (+1)  Bônus de Ravioli  de Tinta de Lula,4min39s (Mineração)  2min59s (Bônus de Ravioli),Combate  (Nível 9),150 ouros

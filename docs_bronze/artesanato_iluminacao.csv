@@ -1,0 +1,14 @@
+,Imagem,Nome,Descrição,Ingredientes,Fonte da Receita
+0,,Tocha,Provê uma quantidade moderada de luz.,Madeira  (1)  Seiva  (2),Início do jogo
+1,,Fogueira,Ilumina moderadamente.,Pedra  (10)  Madeira  (10)  Fibra  (10),Início do jogo
+2,,Braseiro de madeira,Ilumina moderadamente.,Madeira  (10)  Carvão  (1)  Fibra  (5),Carpintaria  por  250 ouros
+3,,Braseiro de pedra,Ilumina moderadamente.,Pedra  (10)  Carvão  (1)  Fibra  (5),Carpintaria  por  400 ouros
+4,,Braseiro dourado,Ilumina moderadamente.,Barra de ouro  (1)  Carvão  (1)  Fibra  (5),Carpintaria  por  1 000 ouros
+5,,Braseiro esculpido,Ilumina moderadamente.,Madeira de lei  (10)  Carvão  (1),Carpintaria  por  2 000 ouros
+6,,Braseiro de toco de árvore,Ilumina moderadamente.,Madeira de lei  (5)  Carvão  (1),Carpintaria  por  800 ouros
+7,,Braseiro de barril,Ilumina moderadamente.,Madeira  (50)  Essência solar  (1)  Carvão  (1),Carpintaria  por  800 ouros
+8,,Braseiro de crânio,Ilumina moderadamente.,Madeira de lei  (10)  Essência solar  (1)  Carvão  (1),Carpintaria  por  3 000 ouros
+9,,Braseiro de mármore,Ilumina moderadamente.,Mármore  (1)  Água-marinha  (1)  Pedra  (100),Carpintaria  por  5 000 ouros
+10,,Poste de luz lígneo,Ilumina bem.,Madeira  (50)  Conjunto de pilhas  (1),Carpintaria  por  500 ouros
+11,,Poste de luz férreo,Ilumina bem.,Barra de ferro  (1)  Conjunto de pilhas  (1),Carpintaria  por  1 000 ouros
+12,,Cabeça de abóbora,Uma sofisticada decoração de outono.,Abóbora  (1)  Tocha  (1),Loja de  Pierre  no festival da  Véspera dos Espíritos  (  2 000 ouros  )

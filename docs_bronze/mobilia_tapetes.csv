@@ -1,0 +1,29 @@
+,0,1,2,3,4,5
+0,Item  Preço  Preço  Preço  Preço  Tamanho  Tapete de Bambu  250 ouros  N/A  N/A  N/A  1 x 2  Tapete de Juta  350 ouros  N/A  N/A  N/A  2 x 2  Tapete de Madeira  800 ouros  N/A  N/A  N/A  2 x 2  Tapete Marinho  1 250 ouros  N/A  N/A  N/A  3 x 2  Tapete negro  2 000 ouros  250–2 500 ouros  N/A  N/A  3 x 2  Tapete vermelho  1 000 ouros  250–2 500 ouros  N/A  N/A  3 x 2  Tapete Vermelho Grande  N/A  N/A  1 000 ouros  N/A  4 x 3  Tapete de Monstro  N/A  N/A  N/A  N/A  2 x 2  Tapete Verde Claro  N/A  N/A  500  N/A  3 x 2  Tapete de Flores  N/A  N/A  N/A  N/A  6 x 4  Tapete Verde Grande  N/A  N/A  N/A  2 500 ouros  4 x 3  Tapete Rústico  N/A  N/A  N/A  2 500 ouros  4 x 3  Tapete Grande de Cabana  N/A  N/A  N/A  2 000 ouros  4 x 3  Tapete verde de cabana  N/A  N/A  N/A  N/A  3 x 2  Tapete vermelho de cabana  N/A  N/A  N/A  N/A  3 x 2  Tapete místico  N/A  N/A  N/A  N/A  3 x 2  Tapete de Ossos  N/A  N/A  N/A  N/A  3 x 2  Tapete Nevado  N/A  N/A  N/A  N/A  3 x 2  Tapete de Pirata  N/A  N/A  N/A  N/A  3 x 2  Tapete de retalhos  800 ouros  250–2 500 ouros  N/A  N/A  3 x 2  Tapete Salada de Frutas  N/A  N/A  N/A  N/A  3 x 2  Tapete Oceânico  N/A  250–2 500 ouros  N/A  Acará-Disco Azul  (3)  3 x 2  Tapete Gelado  N/A  N/A  4 000 ouros  N/A  4 x 3  Tapete Doidinho  N/A  N/A  4 000 ouros  N/A  5 x 4  Tapete Moderno  N/A  N/A  4 000 ouros  N/A  5 x 4  Divisores de Chão  N/A  N/A  N/A  N/A  1 x 1,,,,,
+1,Item,Preço,Preço,Preço,Preço,Tamanho
+2,Tapete de Bambu,250 ouros,,,,1 x 2
+3,Tapete de Juta,350 ouros,,,,2 x 2
+4,Tapete de Madeira,800 ouros,,,,2 x 2
+5,Tapete Marinho,1 250 ouros,,,,3 x 2
+6,Tapete negro,2 000 ouros,250–2 500 ouros,,,3 x 2
+7,Tapete vermelho,1 000 ouros,250–2 500 ouros,,,3 x 2
+8,Tapete Vermelho Grande,,,1 000 ouros,,4 x 3
+9,Tapete de Monstro,,,,,2 x 2
+10,Tapete Verde Claro,,,500,,3 x 2
+11,Tapete de Flores,,,,,6 x 4
+12,Tapete Verde Grande,,,,2 500 ouros,4 x 3
+13,Tapete Rústico,,,,2 500 ouros,4 x 3
+14,Tapete Grande de Cabana,,,,2 000 ouros,4 x 3
+15,Tapete verde de cabana,,,,,3 x 2
+16,Tapete vermelho de cabana,,,,,3 x 2
+17,Tapete místico,,,,,3 x 2
+18,Tapete de Ossos,,,,,3 x 2
+19,Tapete Nevado,,,,,3 x 2
+20,Tapete de Pirata,,,,,3 x 2
+21,Tapete de retalhos,800 ouros,250–2 500 ouros,,,3 x 2
+22,Tapete Salada de Frutas,,,,,3 x 2
+23,Tapete Oceânico,,250–2 500 ouros,,Acará-Disco Azul  (3),3 x 2
+24,Tapete Gelado,,,4 000 ouros,,4 x 3
+25,Tapete Doidinho,,,4 000 ouros,,5 x 4
+26,Tapete Moderno,,,4 000 ouros,,5 x 4
+27,Divisores de Chão,,,,,1 x 1

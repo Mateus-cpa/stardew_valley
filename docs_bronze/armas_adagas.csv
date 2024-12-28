@@ -1,0 +1,15 @@
+,Imagem,Nome,Nível,Descrição,Dano,Chance de Acerto Crítico,Estatísticas,Localização,Preço de Compra,Preço de Venda
+0,,Faca de entalhe,1,Lâmina pequena e leve.,1-3,0.04,Chance Crítica  (+2),As Minas  (andares 1-19),,50 ouros
+1,,Punhal de ferro,1,Uma adaga comum.,2-4,0.03,Chance Crítica  (+2),Guilda dos Aventureiros  (depois de desbloquear o 15º andar das  Minas  )  Baú no 10º andar das  Minas  (com recompensas aleatórias na mina apenas),500 ouros,50 ouros
+2,,Espada de vento,1,Uma pequena e ágil espada.,1-5,0.02,Chance Crítica  (+1)  Ataque Crítico  (+10)  Peso  (+5),As Minas  (andares 21-39)  Baú no 10º andar das  Minas  (com recompensas aleatórias na mina apenas),,50 ouros
+3,,Espada élfica,2,Só as mãos ágeis de um elfo seriam capazes de criá-la.,3-5,0.04,Chance Crítica  (+2),Baú no 20º andar das  Minas  (com recompensas aleatórias na mina apenas),,100 ouros
+4,,Adaga de cristal,4,A lâmina é feita de quartzo purificado.,4-10,0.03,Chance Crítica  (+2)  Ataque Crítico  (+50)  Peso  (+5),Baú no 60º andar das  Minas,,200 ouros
+5,,Espada do ladrão,4,Arma de escolha para os rápidos e silenciosos.,7-12,0.04,Chance Crítica  (+2)  Ataque Crítico  (+25),As Minas  (andares 81+)  Caverna da Caveira  Baú no 60º andar das  Minas  (com recompensas aleatórias na mina apenas),,200 ouros
+6,,Adaga das sombras,4,"Ao segurar a espada próximo da orelha, você ouve 1.000 almas gritando.",10-20,0.04,Chance Crítica  (+2),As Minas  (andares 61-79 e 101-119)  Baú no 80º andar das  Minas  (com recompensas aleatórias na mina apenas),,200 ouros
+7,,Tridente quebrado,5,"Veio do mar, mas ainda está pontudo.",15-26,0.02,Chance Crítica  (+1),Baús de Tesouro de Pesca  (Pesca Nível 2+),,250 ouros
+8,,Espada maligna,8,Lâmina feita com minério de irídio.,24-30,0.06,Chance Crítica  (+4),Caverna da Caveira  Baú no 90º andar das  Minas  (com recompensas aleatórias na mina apenas),,400 ouros
+9,,Adaga da galáxia,8,Diferente de tudo que você já viu.,30-40,0.02,Velocidade  (+1)  Chance Crítica  (+1)  Peso  (+5),Guilda dos Aventureiros  (após obter a  Espada da galáxia  ),35 000 ouros,400 ouros
+10,,Adaga Anã,11,"É antiga, mas a lâmina nunca desgasta.",32-38,0.03,Velocidade  (+1)  Defesa  (+6)  Chance Crítica  (+2)  Peso  (+5),Baús de tesouro comuns na  Caverna do Vulcão,,550 ouros
+11,,Adaga de Dente de Dragão,12,A lâmina foi forjada de um dente mágico.,40-50,0.05,Chance Crítica  (+3)  Ataque Crítico  (+100)  Peso  (+5),Baús de tesouro raros na  Caverna do Vulcão,,600 ouros
+12,,Agulha de Irídio,12,"A ponta é inacreditavelmente afiada, até um nível atômico.",20-35,0.1,Chance Crítica  (+6)  Ataque Crítico  (+200),"Drop de  Gosmas Especiais  nas  Minas  durante a missão ""  Perigo nas Profundezas  "" ou com o  Santuário do Desafio  ativado.",,600 ouros
+13,,Adaga do Infinito,16,A verdadeira forma da Adaga da Galáxia.,50-70,0.06,Velocidade  (+1)  Defesa  (+3)  Chance Crítica  (+4)  Peso  (+5),Combine a  Adaga da galáxia  com  Alma da Galáxia  (3)  na  Forja,,800 ouros

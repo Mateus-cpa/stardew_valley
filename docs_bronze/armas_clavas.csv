@@ -1,0 +1,11 @@
+,Imagem,Nome,Nível,Descrição,Dano,Chance de Acerto Crítico,Estatísticas,Localização,Preço de Compra,Preço de Venda
+0,,Fêmur,2,Um osso velho e pesado coberto por décadas de sujeira.,6-11,0.02,Velocidade  (+2),Baú no 10º andar das  Minas  (com recompensas aleatórias na mina apenas),,100 ouros
+1,,Taco de madeira,2,Feito de madeira pouco maciça.,9-16,0.02,,As Minas  (andares 1-39)  Baú no 20º andar das  Minas  (com recompensas aleatórias na mina apenas),,100 ouros
+2,,Malho de Madeira,3,A cabeça maciça causa um estrago... Muito leve para um malho.,15-24,0.02,Velocidade  (+2)  Peso  (+3),As Minas  (andares 41-79)  Guilda dos Aventureiros  (depois de desbloquear o 40º andar das  Minas  )  Baú no 60º andar das  Minas  (com recompensas aleatórias na mina apenas),2 000 ouros,150 ouros
+3,,Taco de chumbo,4,Incrivelmente pesado.,18-27,0.02,Velocidade  (−4),As Minas  (andares 41-79),,200 ouros
+4,,Clava,5,A companhia de um bruto.,27-40,0.02,Velocidade  (−1)  Ataque Crítico  (+4)  Peso  (+2),As Minas  (andares 101+)  Baú no 80º andar das  Minas  (com recompensas aleatórias na mina apenas),,250 ouros
+5,,O Arremessador,7,Martelo tão pesado que manda inimigos voando.,40-55,0.02,Velocidade  (−2),As Minas  (andares 81-99)  Caverna da Caveira  Baú no 110º andar das  Minas  (com recompensas aleatórias na mina apenas),,350 ouros
+6,,Martelo da Galáxia,12,Feito de um material ultraleve que você nunca viu antes.,70-90,0.02,Velocidade  (+2)  Peso  (+5),Guilda dos Aventureiros  (após obter a  Espada da galáxia  ),75 000 ouros,600 ouros
+7,,Martelo Anão,13,Emite um zunido bem sutil.,75-85,0.02,Defesa  (+2)  Peso  (+5),Baús de tesouro comuns na  Caverna do Vulcão,,650 ouros
+8,,Clava de Dente de Dragão,14,Esta clava foi forjada de um dente mágico.,80-100,0.02,Ataque Crítico  (+50)  Peso  (+3),Baús de tesouro raros na  Caverna do Vulcão,,700 ouros
+9,,Martelo do Infinito,17,A verdadeira forma do Martelo da Galáxia.,100-120,0.02,Velocidade  (+2)  Defesa  (+1)  Peso  (+5),Combine o  Martelo da Galáxia  com  Alma da Galáxia  (3)  na  Forja,,850 ouros
