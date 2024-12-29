@@ -732,70 +732,70 @@ def df_conjuntos(html):
     sopa = bs4(html, 'html.parser')
 
     lista = []
-    for tabela in sopa.find_all('table'):
+    for tabela in sopa.find_all('table', class_= 'wikitable'):
         lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
 
-    conjunto_primavera = lista[3][2]
+    conjunto_primavera = lista[1][0]
     conjunto_primavera.to_csv('docs_bronze/conjunto_primavera.csv')
-    conjunto_verao = lista[3][3]
+    conjunto_verao = lista[2][0]
     conjunto_verao.to_csv('docs_bronze/conjunto_verao.csv')
-    conjunto_outono = lista[3][4]
+    conjunto_outono = lista[3][0]
     conjunto_outono.to_csv('docs_bronze/conjunto_outono.csv')
-    conjunto_inverno = lista[3][5]
+    conjunto_inverno = lista[4][0]
     conjunto_inverno.to_csv('docs_bronze/conjunto_inverno.csv')
-    conjunto_construcao = lista[3][6]
+    conjunto_construcao = lista[5][0]
     conjunto_construcao.to_csv('docs_bronze/conjunto_construcao.csv')
-    conjunto_recursos_exoticos = lista[3][7]
+    conjunto_recursos_exoticos = lista[6][0]
     conjunto_recursos_exoticos.to_csv('docs_bronze/conjunto_recursos_exoticos.csv')
-    conjunto_plantacoes_primavera = lista[11][2]
+    conjunto_plantacoes_primavera = lista[8][0]
     conjunto_plantacoes_primavera.to_csv('docs_bronze/conjunto_plantacoes_primavera.csv')
-    conjunto_plantacoes_verao = lista[11][3]
+    conjunto_plantacoes_verao = lista[9][0]
     conjunto_plantacoes_verao.to_csv('docs_bronze/conjunto_plantacoes_verao.csv')
-    conjunto_plantacoes_outono = lista[11][4]
+    conjunto_plantacoes_outono = lista[10][0]
     conjunto_plantacoes_outono.to_csv('docs_bronze/conjunto_plantacoes_outuno.csv')
-    conjunto_plantacoes_qualidade = lista[11][5]
+    conjunto_plantacoes_qualidade = lista[11][0]
     conjunto_plantacoes_qualidade.to_csv('docs_bronze/conjunto_plantacoes_qualidade.csv')
-    conjunto_animal = lista[11][10]
+    conjunto_animal = lista[12][0]
     conjunto_animal.to_csv('docs_bronze/conjunto_animal.csv')
-    conjunto_artesao = lista[11][11]
+    conjunto_artesao = lista[13][0]
     conjunto_artesao.to_csv('docs_bronze/conjunto_artesao.csv')
-    conjunto_peixes_rio = lista[23][2]
+    conjunto_peixes_rio = lista[15][0]
     conjunto_peixes_rio.to_csv('docs_bronze/conjunto_peixes_rio.csv')
-    conjunto_peixes_lago = lista[23][3]
+    conjunto_peixes_lago = lista[16][0]
     conjunto_peixes_lago.to_csv('docs_bronze/conjunto_peixes_lago.csv')
-    conjunto_peixes_oceano = lista[23][4]
+    conjunto_peixes_oceano = lista[17][0]
     conjunto_peixes_oceano.to_csv('docs_bronze/conjunto_peixes_oceano.csv')
-    conjunto_pesca_noturna = lista[23][5]
+    conjunto_pesca_noturna = lista[18][0]
     conjunto_pesca_noturna.to_csv('docs_bronze/conjunto_pesca_noturna.csv')
-    conjunto_pesca_covo = lista[23][6]
+    conjunto_pesca_covo = lista[19][0]
     conjunto_pesca_covo.to_csv('docs_bronze/conjunto_pesca_covo.csv')
-    conjunto_peixes_especializados = lista[23][7]
+    conjunto_peixes_especializados = lista[20][0]
     conjunto_peixes_especializados.to_csv('docs_bronze/conjunto_peixes_especializados.csv')
-    conjunto_ferreiro = lista[31][2]
+    conjunto_ferreiro = lista[22][0]
     conjunto_ferreiro.to_csv('docs_bronze/conjunto_ferreiro.csv')
-    conjunto_geologo = lista[31][3]
+    conjunto_geologo = lista[23][0]
     conjunto_geologo.to_csv('docs_bronze/conjunto_geologo.csv')
-    conjunto_aventureiro = lista[31][4]
+    conjunto_aventureiro = lista[24][0]
     conjunto_aventureiro.to_csv('docs_bronze/conjunto_aventureiro.csv')
-    conjunto_cozinheiro = lista[36][2]
+    conjunto_cozinheiro = lista[26][0]
     conjunto_cozinheiro.to_csv('docs_bronze/conjunto_cozinheiro.csv')
-    conjunto_tinta = lista[36][3]
+    conjunto_tinta = lista[27][0]
     conjunto_tinta.to_csv('docs_bronze/conjunto_tinta.csv')
-    conjunto_pesquisa_campo = lista[36][4]
+    conjunto_pesquisa_campo = lista[28][0]
     conjunto_pesquisa_campo.to_csv('docs_bronze/conjunto_pesquisa_campo.csv')
-    conjunto_forragem = lista[36][5]
+    conjunto_forragem = lista[29][0]
     conjunto_forragem.to_csv('docs_bronze/conjunto_forragem.csv')
-    conjunto_encantador = lista[36][6]
+    conjunto_encantador = lista[30][0]
     conjunto_encantador.to_csv('docs_bronze/conjunto_encantador.csv')
-    conjunto_2500 = lista[43][2]
+    conjunto_2500 = lista[32][0]
     conjunto_2500.to_csv('docs_bronze/conjunto_2500.csv')
-    conjunto_5000 = lista[43][3]
+    conjunto_5000 = lista[33][0]
     conjunto_5000.to_csv('docs_bronze/conjunto_5000.csv')
-    conjunto_10000 = lista[43][4]
+    conjunto_10000 = lista[34][0]
     conjunto_10000.to_csv('docs_bronze/conjunto_10000.csv')
-    conjunto_25000 = lista[43][5]
+    conjunto_25000 = lista[35][0]
     conjunto_25000.to_csv('docs_bronze/conjunto_25000.csv')
-    conjunto_a_desaparecida = lista[50][0]
+    conjunto_a_desaparecida = lista[37][0]
     conjunto_a_desaparecida.to_csv('docs_bronze/conjunto_a_desaparecida.csv')
 
     pass
@@ -1097,7 +1097,7 @@ def df_carteira (html):
     for tabela in sopa.find_all('table'):
         lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
     
-        carteira_itens_especiais = lista[1][0]
+    carteira_itens_especiais = lista[1][0]
     carteira_itens_especiais.to_csv('docs_bronze/carteira_itens_especiais.csv')
     livros_poderes_especiais = lista[2][0]
     livros_poderes_especiais.to_csv('docs_bronze/carteira_livros_poderes_especiais.csv')
@@ -1277,7 +1277,7 @@ if __name__ == '__main__':
     #'Casamento', #23
     #'Crianças', #24
     df_missoes(html='docs_raw/sopa_Missões.html')
-    #df_conjuntos(html='docs_raw/sopa_Conjuntos.html') #corrigir
+    df_conjuntos(html='docs_raw/sopa_Conjuntos.html')
     df_conquistas(html='docs_raw/sopa_Conquistas.html')
     #'Modificações', #29
     df_ferramentas(html='docs_raw/sopa_ferramentas.html')
@@ -1287,7 +1287,7 @@ if __name__ == '__main__':
     df_aneis(html='docs_raw/sopa_Anéis.html')
     df_peixes(html='docs_raw/sopa_Peixes.html')
     df_iscas(html='docs_raw/sopa_Isca.html')
-    #'Anzóis', #37
+    #'Anzóis', #37 # tem tabela
     df_fertilizantes(html='docs_raw/sopa_Fertilizante.html')
     df_culinaria(html='docs_raw/sopa_Culinária.html')
     df_artesanato(html='docs_raw/sopa_Artesanato.html')
@@ -1314,4 +1314,3 @@ if __name__ == '__main__':
     #'A_Montanha', #61
     #'Guilda_dos_Aventureiros', #62
     #'Carpintaria', #63
-    
