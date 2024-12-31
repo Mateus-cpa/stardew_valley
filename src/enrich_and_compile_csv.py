@@ -101,41 +101,76 @@ def pegar_inteiro_cond(x):
         pass
   return cond
 
+def pesca_colunas(linha, colunas):
+
+  pass
 
 
 def xp ():
-  
-  combate = pd.read_csv('docs_bronze\xp_combate.csv', encoding='utf-8')
+  #combate
+  combate = pd.read_csv('docs_bronze/xp_combate.csv', encoding='utf-8')
   combate = combate.rename(columns={'Experiência':'XP'})
+  combate['Profissao'] = "combate"
+  combate = combate.rename(columns={'Monstro': 'item'})
 
-  cultivo = pd.read_csv('docs_bronze\xp_cultivo.csv', encoding='utf-8')
+  #cultivo
+  cultivo = pd.read_csv('docs_bronze/xp_cultivo.csv', encoding='utf-8')
   cultivo['XP'] = cultivo['XP'].astype(int) #estava float
+  cultivo = cultivo.rename(columns={'Cultivo': 'item', 'Estacao':'estacao_condicao'})
 
-  mineracao = pd.read_csv('docs_bronze\xp_mineracao.csv', encoding='utf-8')
+  #mineração
+  mineracao = pd.read_csv('docs_bronze/xp_mineracao.csv', encoding='utf-8')
   #divide texto e lista de palavras
   mineracao.Experiências = mineracao.Experiências.apply(lambda x: x.split()) 
   mineracao['Experiências'] = mineracao.Experiências.apply(lambda lista: transforma_lista(lista))
   mineracao['XP'] = mineracao.Experiências.apply(lambda x: pegar_primeiro_inteiro(x))
-  mineracao['condicao'] = mineracao.Experiências.apply(lambda x: pegar_condicao(x))
+  mineracao['estacao_condicao'] = mineracao.Experiências.apply(lambda x: pegar_condicao(x))
   mineracao['XP_condicional'] = mineracao.Experiências.apply(lambda x: pegar_inteiro_cond(x))
   mineracao.drop(columns=['Experiências'], inplace=True)
-  mineracao['profissao'] = 'mineracao'
-  mineracao = mineracao[['profissao','Tipo de Rocha','XP','condicao','XP_condicional']]
+  mineracao['Profissao'] = 'mineracao'
+  mineracao = mineracao.rename(columns={'Tipo de Rocha': 'item'})
+  mineracao = mineracao[['Profissao','item','XP','estacao_condicao','XP_condicional']]
 
-  pesca = pd.read_csv('docs_bronze\xp_pesca.csv', encoding='utf-8')
-  #separar xp por tipo de pesca
+  #coleta
+  coleta = pd.read_csv('docs_bronze/xp_coleta.csv', encoding='utf-8')
+  coleta['XP'] = coleta.item.apply(lambda x: pegar_primeiro_inteiro(x))
+  coleta.loc[6:12,'XP'] = 7
+  coleta.XP = coleta.XP.astype(int)
+  coleta.item[0:3] = coleta.item[0:3].apply(lambda linha: linha.split('por')[1])
+  coleta.item[5] = coleta.item[5].split('para')[1]
+  coleta.drop(4)
+  coleta['Profissao'] = 'coleta'
+
+  #pesca
+  pesca = pd.read_csv('docs_bronze/xp_pesca.csv', encoding='utf-8') 
+  pesca = pesca.rename(columns={'Total de Sardinhas (Sem estrelas)':'sardinhas',
+                                'Total de Peixes Lendários com Estrela Dourada (Peixes com maior EXP)': 'lendarios',
+                                'Total de Covos': 'covos'})
+  df_pesca_melt = pd.melt(pesca, 
+                          id_vars=['Experiência','Nível'],
+                          value_vars=['sardinhas', 'lendarios', 'covos'], 
+                          var_name='peixe', 
+                          value_name='Quantidade')
+  # Repetindo o valor de 'Experiência' para cada linha
+  df_pesca_melt['XP'] = df_pesca_melt['Experiência'] / df_pesca_melt['Quantidade']
+  df_pesca_melt['item'] = 'Nível ' + df_pesca_melt['Nível'].astype(str) + ' pescando ' + df_pesca_melt['peixe']
+  df_pesca_melt['Profissao'] = 'pesca'
+
+  pesca = df_pesca_melt[['Profissao','item','XP']]
 
   #concatenar no df xp
-
-  print(xp)
+  lista_xp_dataframes = [combate,mineracao,coleta,pesca,cultivo]
+  xp = pd.concat(lista_xp_dataframes)
+  xp = xp[['item','XP','Profissao','estacao_condicao','XP_condicional']]
+  xp.to_csv('docs_silver/xp.csv')
 
   pass
 
 
 if __name__ == '__main__':
   import pandas as pd
-  #profissoes()
-  limpar_csv('docs_bronze\xp_coleta.csv')
+  profissoes()
+  limpar_csv('docs_bronze/xp_coleta.csv')
   xp()
 
 
