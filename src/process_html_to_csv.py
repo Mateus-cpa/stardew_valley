@@ -230,11 +230,14 @@ def df_coleta(html):
     lista = []
     for item in sopa.find_all('li'):
         lista.append(item.text)
-    
+ 
+      
     #salvar linhas 27 a 39 de lista no dataframe, cada um em uma linha
     xp_coleta = pd.DataFrame(lista[27:40])
     xp_coleta.columns = ['item']
-
+    xp_coleta['item'] = xp_coleta.item.apply(lambda x: x.replace('\n','')) #retira quebras de linha
+    xp_coleta['item'] = xp_coleta.item.str.split().agg(" ".join) #retira espaços múltiplos entre as palavras
+                                     
     xp_coleta.to_csv('docs_bronze/xp_coleta.csv')
 
     pass
