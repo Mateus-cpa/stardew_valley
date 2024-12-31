@@ -1,126 +1,14 @@
 ,item
-0,"
-
-         12 PE
-        
-        por cortar uma
-        
-         árvore
-        
-        com um machado (concedido de uma só vez para o último corte que causar a queda da árvore).
-       "
-1,"
-
-         1 PE
-        
-        por remover o toco da árvore.
-       "
-2,"
-
-         25 PE
-        
-        por remover
-        
-         Toco grande
-        
-        e
-        
-         tronco grande
-        
-        .
-       "
-3,"
-
-         7 PE
-        
-        por cada item de coleta apanhado do chão.
-       "
-4,"
-        Se a profissão Coletor dobrar o item coletado, outros 7 PE são concedidos para o item extra.
-       "
-5,"
-
-         3 PE
-        
-        para cada
-        
-         Cebolinha
-        
-        colhida na
-        
-         Floresta Cinzaseiva
-        
-        na
-        
-         Primavera
-        
-        .
-       "
-6,"
-        Itens de coleta padrão gerados aleatoriamente em Stardew Valley e no Deserto Calico.
-       "
-7,"
-        Itens cultivados a partir de
-        
-         Sementes Silvestres
-        
-        , (a menos que esteja em um
-        
-         Vaso de Jardim
-        
-        , nesse caso 0 PE).
-       "
-8,"
-        Todos os itens coletados na
-        
-         Praia
-        
-        e no
-        
-         e no lado oeste da Ilha Gengibre
-        
-        .
-       "
-9,"
-        Todas as frutas coletadas na
-        
-         Caverna
-        
-        , se a opção morcego de fruta for selecionada.
-       "
-10,"
-        Todos os cogumelos coletados na
-        
-         Caverna de cogumelos da Ilha Gengibre
-        
-        .
-       "
-11,"
-
-         Trufas
-        
-        .
-       "
-12,"
-        Itens de coleta encontrados no chão das
-        
-         Minas
-        
-        e da
-        
-         Caverna da Caveira
-        
-        , ou seja
-        
-         Cogumelos vermelhos
-        
-        ,
-        
-         Cogumelos roxos
-        
-        , e
-        
-         Brotos de samambaia
-        
-        .
-       "
+0,12 PE por cortar uma árvore com um machado (concedido de uma só vez para o último corte que causar a queda da árvore).
+1,1 PE por remover o toco da árvore.
+2,25 PE por remover Toco grande e tronco grande .
+3,7 PE por cada item de coleta apanhado do chão.
+4,"Se a profissão Coletor dobrar o item coletado, outros 7 PE são concedidos para o item extra."
+5,3 PE para cada Cebolinha colhida na Floresta Cinzaseiva na Primavera .
+6,Itens de coleta padrão gerados aleatoriamente em Stardew Valley e no Deserto Calico.
+7,"Itens cultivados a partir de Sementes Silvestres , (a menos que esteja em um Vaso de Jardim , nesse caso 0 PE)."
+8,Todos os itens coletados na Praia e no e no lado oeste da Ilha Gengibre .
+9,"Todas as frutas coletadas na Caverna , se a opção morcego de fruta for selecionada."
+10,Todos os cogumelos coletados na Caverna de cogumelos da Ilha Gengibre .
+11,Trufas .
+12,"Itens de coleta encontrados no chão das Minas e da Caverna da Caveira , ou seja Cogumelos vermelhos , Cogumelos roxos , e Brotos de samambaia ."
