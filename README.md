@@ -48,3 +48,6 @@ Transformação do notebook Jupyter(.ipynb) com o código de scraping em um scri
 
 ### `FASE 6 - Visualização` :crystal_ball:
 Criação de um dashboard interativo para visualizar os dados de forma clara e concisa.
+
+### `FASE 7 - íCones` :crystal_ball:
+Importar biblioteca de imagens e ícones.
