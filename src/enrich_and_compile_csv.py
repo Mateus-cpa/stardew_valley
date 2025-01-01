@@ -101,10 +101,6 @@ def pegar_inteiro_cond(x):
         pass
   return cond
 
-def pesca_colunas(linha, colunas):
-
-  pass
-
 
 def xp ():
   #combate
@@ -166,12 +162,135 @@ def xp ():
 
   pass
 
+def concat_dataframes ():
+  #animais
+  lista_animais = ['avestruz',
+                   'cabra',
+                   'coelho',
+                   'dinossauro',
+                   'galinha',
+                   'ovelha',
+                   'pato',
+                   'porco',
+                   'vaca']
+  colunas_inicial=['Imagem',
+                  'Nome',
+                  'Custo',
+                  'Requisitos',
+                  'Produz',
+                  'Preço de venda com 5 corações']
+  colunas_renomeado=['Imagem',
+                  'Nome',
+                  'Custo',
+                  'Requisitos',
+                  'Produz',
+                  'Venda_5_coracoes']  
+  rename_dict = dict(zip(colunas_inicial, colunas_renomeado))
+
+  df_animais = pd.DataFrame(columns=colunas_renomeado)
+  for animal in lista_animais:
+    df_temp = pd.read_csv(f'docs_bronze/animais_{animal}.csv')
+    df_temp = df_temp.rename(columns=rename_dict)
+    print(f'colunas de {animal}: {df_temp.columns}')
+    if 'Nome' in df_temp.columns:
+      print(f'fundindo df_{animal}...')
+      df_animais = df_animais.merge(df_temp, how='outer', on='Nome', suffixes=('_original', '_novo'))
+      print(f'{animal} ok')
+    else:
+      print(f"A coluna 'Nome' não existe em {animal}.csv")
+  df_animais.to_csv('docs_silver/animais.csv', encoding='utf-8')
+
+  #armas
+  lista_armas = ['adagas',
+                'clavas',
+                'espadas',
+                'estilingues',
+                'impossiveis',
+                'luta_atributos',
+                'municoes']
+  df_armas = pd.DataFrame()
+  for arma in lista_armas:
+    df_temp = pd.read_csv(f'docs_bronze/armas_{arma}.csv')
+    df_armas = df_armas.merge(df_temp, how='outer')
+  df_armas.to_csv('docs_silver/armas.csv', encoding='utf-8')
+
+#artefatos
+
+#artesanato
+  lista_artesanato = ['aneis',
+                      'aspersores',
+                      'bombas',
+                      'cercas',
+                      'decoracao',
+                      'diversos',
+                      'equipamento_refino',
+                      'equipamentos_artesanais',
+                      'fertilizantes',
+                      'iluminacao',
+                      'itens_comestiveis',
+                      'mobilia',
+                      'pesca',
+                      'sementes']
+  df_artesanato = pd.DataFrame()
+  for artesanato in lista_artesanato:
+    df_temp = pd.read_csv(f'docs_bronze/artesanato_{artesanato}.csv')
+    df_artesanato = df_artesanato.merge(df_temp, how='outer')
+  df_artesanato.to_csv('docs_silver/artesanato.csv', encoding='utf-8')
+
+  #arvores
+
+  #calendario
+
+  #vestuario
+
+  #calendario
+
+  #carteira
+
+  #coleta
+
+  #conjunto
+
+  #culinaria
+
+  #custo_solo
+
+  #casa/estufa
+
+  #ferramenta
+
+  #lavoura
+
+  #lista_presente
+
+  #mercadoria
+
+  #minerais
+
+  #missao
+
+  #mobilia
+
+  #nos_minerio
+
+  #peixes
+
+  #pesca
+
+  #taxa_cultivo
+
+  
+  pass
+
+
+
 
 if __name__ == '__main__':
   import pandas as pd
-  profissoes()
-  limpar_csv('docs_bronze/xp_coleta.csv')
-  xp()
+  #profissoes()
+  #limpar_csv('docs_bronze/xp_coleta.csv')
+  #xp()
+  concat_dataframes()
 
 
 
@@ -240,7 +359,7 @@ display(menu)
 
 
 
-xp_mineracao
+
 
 
 def processar_dataframe(df):
