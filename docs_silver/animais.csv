@@ -1,0 +1,15 @@
+,Nome,Custo,Requisitos,Produz,Venda_5_coracoes
+0,Avestruz,,Celeiro e  Incubadora de Avestruzes,Ovo de Avestruz  -  600 ouros,20 800 ouros
+1,Cabra,4 000 ouros,Celeiro Grande,Leite de cabra  -  225 ouros  Leite grande de cabra  -  345 ouros,5 200 ouros
+2,Coelho,8 000 ouros,Galinheiro de Luxo,Lã  -  340 ouros  Pé de coelho  -  565 ouros,10 400 ouros
+3,Dinossauro,,Galinheiro Grande,Ovo de dinossauro  -  350 ouros,1 300 ouros
+4,Galinha Branca,800 ouros,,Ovo  - 50g  Ovo grande  - 95g,1 040 ouros
+5,Galinha Marrom,800 ouros,,Ovo marrom  - 50g  Ovo marrom grande  - 95g,1 040 ouros
+6,Galinha Azul,800 ouros,,Ovo  - 50g  Ovo grande  - 95g,1 040 ouros
+7,Galinha nula,,,Ovo nulo  - 65g,1 040 ouros
+8,Galinha Dourada,,,Ovo Dourado  - 500g,1 040 ouros
+9,Ovelha,8 000 ouros,Celeiro de Luxo,Lã  -  340 ouros,10 400 ouros
+10,Pato,1 200 ouros,Galinheiro Grande,Ovo de pata  -  95 ouros  Pena de pato  -  250 ouros,1 560 ouros
+11,Porco,16 000 ouros,Celeiro de Luxo,Trufa  -  625 ouros,20 800 ouros
+12,Vaca,1 500 ouros,,Leite  -  125 ouros  Leite grande  -  190 ouros,1 950 ouros
+13,Vaca marrom,1 500 ouros,,Leite  -  125 ouros  Leite grande  -  190 ouros,1 950 ouros
