@@ -270,17 +270,122 @@ def concat_dataframes ():
     dfs_to_concat.append(df_temp)
   df_arvores = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8')
-  #calendario
 
   #vestuario
+  lista_vestuario = ['aneis',
+                     'calcados',
+                     'chapeus']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for vestuario in lista_vestuario:
+    df_temp = pd.read_csv(f'docs_bronze/{vestuario}.csv')
+    print(f'colunas de {vestuario}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_vestuarios = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_vestuarios.to_csv('docs_silver/vestuarios.csv', encoding='utf-8')
+
+  #calendario
+  lista_datas = ['inverno_aniversario',
+                 'inverno_festivais',
+                 'outono_aniversario',
+                 'outono_festivais',
+                 'outono_colheita_unica',
+                 'primavera_aniversario',
+                 'primavera_festivais',
+                 'verao_aniversario',
+                 'verao_festivais']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for data in lista_datas:
+    df_temp = pd.read_csv(f'docs_bronze/calendario_{vestuario}.csv')
+    print(f'colunas de {data}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_calendario = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_calendario.to_csv('docs_silver/calendario.csv', encoding='utf-8')
 
   #carteira
+  carteira_especiais = pd.read_csv(f'docs_bronze\carteira_itens_especiais.csv')
+  carteira_livros = pd.read_csv(f'docs_bronze\carteira_livros_poderes_especiais.csv')
+  carteira_poderes = pd.read_csv(f'docs_bronze\carteira_poderes_maestria.csv')
+  df_carteira = pd.concat([carteira_especiais,carteira_livros,carteira_poderes],ignore_index=True).reset_index(drop=True)
+  df_carteira.to_csv('docs_silver/carteira.csv', encoding='utf-8')
+
+  #caverna
+  caverna_cogumelo = pd.read_csv(f'docs_bronze\caverna_cogumelo.csv')
+  caverna_morcego = pd.read_csv(f'docs_bronze\caverna_morcego.csv')
+  df_caverna = pd.concat([caverna_cogumelo,caverna_morcego],ignore_index=True).reset_index(drop=True)
+  df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
   #coleta
+  lista_coleta = ['cavernas',
+                 'deserto',
+                 'ilha_gengibre',
+                 'inverno',
+                 'outono',
+                 'praia',
+                 'primavera',
+                 'seiva',
+                 'verao']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for coleta in lista_coleta:
+    df_temp = pd.read_csv(f'docs_bronze/coleta_{coleta}.csv')
+    print(f'colunas de {coleta}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_coleta = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_coleta.to_csv('docs_silver/coleta.csv', encoding='utf-8')
 
   #conjunto
+  lista_conjunto = ['2500',
+                 '5000',
+                 '10000',
+                 '25000',
+                 'a_desaparecida',
+                 'animal',
+                 'artesao',
+                 'aventureiro',
+                 'construcao',
+                 'cozinheiro',
+                 'encantador',
+                 'ferreiro',
+                 'forragem',
+                 'geologo',
+                 'inverno',
+                 'outono',
+                 'peixes_especializados',
+                 'peixes_lago',
+                 'peixes_oceano',
+                 'peixes_rio'
+                 'pesca_covo']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for conjunto in lista_conjunto:
+    df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
+    print(f'colunas de {conjunto}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_conjuntos.to_csv('docs_silver/conjuntos.csv', encoding='utf-8')
 
   #culinaria
+  lista_culinaria = ['covo',
+                    'cultivos',
+                    'diversos',
+                    'frutas_arvore',
+                    'itens_coleta',
+                    'itens_loja',
+                    'mercadorias_artesanais',
+                    'pescaria',
+                    'pratos_ingredientes',
+                    'produtos_naturais',
+                    'receitas']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for culinaria in lista_culinaria:
+    df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
+    print(f'colunas de {culinaria}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_culinaria = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
 
   #custo_solo
 
@@ -322,27 +427,7 @@ if __name__ == '__main__':
   concat_dataframes()
 
 
-
-"""def grafico_xp ():
-  #xp cultivo
-  sns.boxplot(data=df_xp_cultivos, y='Estacao', x='XP', hue='Estacao')
-
-  df_xp_cultivos = df_xp_cultivos.sort_values(by='XP', ascending=False)
-  with sns.axes_style('whitegrid'):
-    grafico = sns.barplot(data=df_xp_cultivos, y='Cultivo', x='XP', hue='Estacao', width = 0.8)
-    grafico.set_title('XP por cultivo')
-    grafico.set_xlabel('XP')
-    grafico.set_ylabel('Cultivo')
-    #tamanho do gráfico
-    grafico.figure.set_size_inches(10, 20)
-    
-  #qualidade cultivo
-  #fixar cores da legenda
-  
-  pass
-
-
-
+"""
 def fertilizante ():
   for i in ['Normal','Fertilizante Básico','Fertilizante de Qualidade']:
     grafico = sns.barplot(data=df_solos[df_solos['Melhoramento']==i],
