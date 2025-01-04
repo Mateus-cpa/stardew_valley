@@ -473,7 +473,7 @@ def df_arvores_frutiferas(html):
     muda_bananeira = lista[17][0]
     muda_bananeira.to_csv('docs_bronze/arvores_muda_bananeira.csv')
     mangueira = lista[20][0]
-    mangueira.to_csv('docs_bronze/arvores_manqueira.csv')
+    mangueira.to_csv('docs_bronze/arvores_mangueira.csv')
     muda_mangueira = lista[21][0]
     muda_mangueira.to_csv('docs_bronze/arvores_muda_mangueira.csv')
     macieira = lista[24][0]
