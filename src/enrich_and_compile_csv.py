@@ -215,23 +215,30 @@ def concat_dataframes ():
   df_armas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_armas.to_csv('docs_silver/armas.csv', encoding='utf-8')
 
-#artefatos
+  #artefatos
+  artefato_tesouro = pd.read_csv('docs_bronze/artefatos_tesouro.csv')
+  artefatos = pd.read_csv('docs_bronze/artefatos.csv')
+  artefato_tesouro.columns = ['','Imagem','Nome','Descrição','Local']
+  lista_artefatos = [artefatos,artefato_tesouro]
+  artefatos = pd.concat(lista_artefatos,ignore_index=True)
+  artefatos = artefato_tesouro[['Nome','Descrição','Preço','Local']]
+  print(artefatos)
 
-#artesanato
+  #artesanato
   lista_artesanato = ['aneis',
-                      'aspersores',
-                      'bombas',
-                      'cercas',
-                      'decoracao',
-                      'diversos',
-                      'equipamento_refino',
-                      'equipamentos_artesanais',
-                      'fertilizantes',
-                      'iluminacao',
-                      'itens_comestiveis',
-                      'mobilia',
-                      'pesca',
-                      'sementes']
+                        'aspersores',
+                        'bombas',
+                        'cercas',
+                        'decoracao',
+                        'diversos',
+                        'equipamento_refino',
+                        'equipamentos_artesanais',
+                        'fertilizantes',
+                        'iluminacao',
+                        'itens_comestiveis',
+                        'mobilia',
+                        'pesca',
+                        'sementes']
   #padronizar colunas
   dfs_to_concat = [] 
   for artesanato in lista_artesanato:
@@ -241,13 +248,31 @@ def concat_dataframes ():
   df_artesanatos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_artesanatos.to_csv('docs_silver/artesanatos.csv', encoding='utf-8')
 
-  #arvores
-
+    #arvores
+  lista_arvores: list = ['bananeira',
+                         'cerejeira',
+                         'damasqueiro',
+                         'laranjeira',
+                         'macieira',
+                         'mangurira',
+                         'pessegueira',
+                         'romanzeira']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for arvore in lista_arvores:
+    df_temp = pd.read_csv(f'docs_bronze/arvores_{artesanato}.csv')
+    df_temp = df_temp.loc[1,:].reindex()
+    df_temp_muda = pd.read_csv(f'docs_bronze/arvores_muda_{artesanato}.csv')
+    df_temp_muda = df_temp_muda.loc[0,:].reindex()
+    #concatenar árvore e muda em novas colunas
+    df_temp.join(df_temp_muda)
+    print(f'colunas de {arvore}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_arvores = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8')
   #calendario
 
   #vestuario
-
-  #calendario
 
   #carteira
 
