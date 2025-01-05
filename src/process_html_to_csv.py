@@ -385,8 +385,8 @@ def df_lavouras(html):
     semente_alcachofra.to_csv('docs_bronze/lavoura_semente_alcachofra.csv')
     semente_amaranto = lista[108][0]
     semente_amaranto.to_csv('docs_bronze/lavoura_semente_amaranto.csv')
-    semente_beringela = lista[112][0]
-    semente_beringela.to_csv('docs_bronze/lavoura_semente_beringela.csv')
+    semente_berinjela = lista[112][0]
+    semente_berinjela.to_csv('docs_bronze/lavoura_semente_berinjela.csv')
     semente_beterraba = lista[116][0]
     semente_beterraba.to_csv('docs_bronze/lavoura_semente_beterraba.csv')
     semente_couve_chinesa = lista[120][0]
@@ -517,7 +517,7 @@ def df_mercadorias_artesanais(html):
     produto_tear = lista[37][0]
     produto_tear.to_csv('docs_bronze/mercadoria_produto_tear.csv')
     maquina_maionese = lista[38][0]
-    maquina_maionese.to_csv('docs_bronze/mercadoria_paquina_maionese.csv')
+    maquina_maionese.to_csv('docs_bronze/mercadoria_maquina_maionese.csv')
     produto_maquina_maionese = lista[39][0]
     produto_maquina_maionese.to_csv('docs_bronze/mercadoria_produto_maquina_maionese.csv')
     maquina_molho = lista[40][0]
