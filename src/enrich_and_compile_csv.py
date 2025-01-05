@@ -316,6 +316,10 @@ def concat_dataframes ():
   df_caverna = pd.concat([caverna_cogumelo,caverna_morcego],ignore_index=True).reset_index(drop=True)
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
+  #clima
+  df_clima = pd.read_csv('docs_bronze\clima.csv', encoding='utf-8')
+  df_clima.to_csv('docs_silver/clima.csv', encoding='utf-8')
+
   #coleta
   lista_coleta = ['cavernas',
                  'deserto',
@@ -388,16 +392,137 @@ def concat_dataframes ():
   df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
 
   #custo_solo
+  solo_concha = pd.read_csv(f'docs_bronze\custo_solo_foliar_concha.csv', header=0)
+  solo_coral = pd.read_csv(f'docs_bronze\custo_solo_foliar_coral.csv', header=0)
+  df_solo = pd.concat([solo_concha,solo_coral],ignore_index=True).reset_index(drop=True)
+  df_solo.to_csv('docs_silver/solo_foliar.csv', encoding='utf-8')  
 
   #casa/estufa
+  lista_casa = ['casa_estagios',
+                      'casa_renovacoes',
+                      'estufa']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for casa in lista_casa:
+    df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
+    print(f'colunas de {casa}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
   #ferramenta
+  lista_ferramentas = ['enxada',
+                      'lixeira',
+                      'machado',
+                      'picareta',
+                      'regador',
+                      'vara_pesca']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for ferramenta in lista_ferramentas:
+    df_temp = pd.read_csv(f'docs_bronze/ferramenta_{ferramenta}.csv')
+    print(f'colunas de {ferramenta}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_ferramentas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_ferramentas.to_csv('docs_silver/ferramentas.csv', encoding='utf-8')
+
+  #iscas
+  df_iscas = pd.read_csv('docs_bronze\iscas.csv', encoding='utf-8')
+  df_iscas.to_csv('docs_silver/iscas.csv', encoding='utf-8')
 
   #lavoura
+  lista_lavouras = ['broto_cha',
+                    'grao_cafe',
+                    'muda_feijao',
+                    'muda_lupulo',
+                    'muda_uva',
+                    'semente_abacaxi',
+                    'semente_abobora',
+                    'semente_alcachofra',
+                    'semente_alho',
+                    'semente_amaranto',
+                    'semente_antiga',
+                    'semente_arroz',
+                    'semente_batata',
+                    'semente_berinjela',
+                    'semente_beterraba',
+                    'semente_cacto',
+                    'semente_carambola',
+                    'semente_cenoura',
+                    'semente_chirivia',
+                    'semente_cuove_chinesa',
+                    'semente_couve_flor',
+                    'semente_couve',
+                    'semente_fada',
+                    'semente_girassol',
+                    'semente_inhame',
+                    'semente_jasmin_azul',
+                    'semente_melao',
+                    'semente_micanga',
+                    'semente_milho',
+                    'semente_mirtilo',
+                    'semente_morango',
+                    'semente_oxicoco',
+                    'semente_papoula',
+                    'semente_pimenta',
+                    'semente_rabanete',
+                    'semente_rara',
+                    'semente_repolho',
+                    'semente_rubiarmo',
+                    'semente_tomate',
+                    'semente_trigo',
+                    'semente_tulipa']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for lavoura in lista_lavouras:
+    df_temp = pd.read_csv(f'docs_bronze/lavoura_{ferramenta}.csv')
+    print(f'colunas de {lavoura}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_lavouras = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_lavouras.to_csv('docs_silver/lavouras.csv', encoding='utf-8')
 
   #lista_presente
+  df_presentes = pd.read_csv('docs_bronze\lista_presentes.csv', encoding='utf-8')
+  df_presentes.to_csv('docs_silver/lista_presentes.csv', encoding='utf-8')
 
   #mercadoria
+  lista_maquinas = ['apiario',
+                    'barril_madeira',
+                    'barril',
+                    'gerador_oleo',
+                    'jarra_conserva',
+                    'maquina_molho',
+                    'prensa_queijo',
+                    'maquina_maionese',
+                    'tear']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for maquina in lista_maquinas:
+    df_temp = pd.read_csv(f'docs_bronze/mercadoria_{maquina}.csv')
+    print(f'colunas de {maquina}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_maquina = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_maquina.to_csv('docs_silver/maquinas.csv', encoding='utf-8')
+
+
+  #produtos
+  lista_mercadorias = ['mel',
+                    'produto_barril_madeira',
+                    'produto_barril',
+                    'produto_gerador_oleo',
+                    'produto_jarra_conserva',
+                    'produto_maquina_molho',
+                    'produto_prensa_queijo',
+                    'produto_maquina_maionese',
+                    'produto_tear']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for mercadoria in lista_mercadorias:
+    df_temp = pd.read_csv(f'docs_bronze/mercadoria_{mercadoria}.csv')
+    print(f'colunas de {mercadoria}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_mercadorias = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_mercadorias.to_csv('docs_silver/mercadorias.csv', encoding='utf-8')
 
   #minerais
 
