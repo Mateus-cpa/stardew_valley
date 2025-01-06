@@ -721,7 +721,7 @@ def df_missoes(html):
     missoes_lista = lista[1][0]
     missoes_lista.to_csv('docs_bronze/missoes_lista.csv')
     missoes_itens_lista = lista[2][0]
-    missoes_itens_lista.to_csv('docs_bronze/missoes_iitens_lista.csv')
+    missoes_itens_lista.to_csv('docs_bronze/missoes_itens_lista.csv')
     missoes_pedidos_especiais = lista[3][0]
     missoes_pedidos_especiais.to_csv('docs_bronze/missoes_pedidos_especiais.csv')
     missoes_pedidos_especiais_sr_qi = lista[4][0]
