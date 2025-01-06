@@ -507,14 +507,14 @@ def concat_dataframes ():
 
   #produtos
   lista_mercadorias = ['mel',
-                    'produto_barril_madeira',
-                    'produto_barril',
-                    'produto_gerador_oleo',
-                    'produto_jarra_conserva',
-                    'produto_maquina_molho',
-                    'produto_prensa_queijo',
-                    'produto_maquina_maionese',
-                    'produto_tear']
+                      'produto_barril_madeira',
+                      'produto_barril',
+                      'produto_gerador_oleo',
+                      'produto_jarra_conserva',
+                      'produto_maquina_molho',
+                      'produto_prensa_queijo',
+                      'produto_maquina_maionese',
+                      'produto_tear']
   #padronizar colunas
   dfs_to_concat = [] 
   for mercadoria in lista_mercadorias:
@@ -525,18 +525,131 @@ def concat_dataframes ():
   df_mercadorias.to_csv('docs_silver/mercadorias.csv', encoding='utf-8')
 
   #minerais
+  lista_minerais = ['coleta',
+                    'gemas',
+                    'geodos',
+                    'origem_geodos']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for mineral in lista_minerais:
+    df_temp = pd.read_csv(f'docs_bronze/mineral_{mercadoria}.csv')
+    print(f'colunas de {mineral}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_minerais = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_minerais.to_csv('docs_silver/minerais.csv', encoding='utf-8')
 
   #missao
+  lista_missoes = ['_especiais_sr_qi',
+                    '_itens_lista',
+                    '_lista',
+                    '_pedidos_especiais',
+                    '']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for missao in lista_missoes:
+    df_temp = pd.read_csv(f'docs_bronze/missao{missao}.csv')
+    print(f'colunas de {missao}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_missoes = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_missoes.to_csv('docs_silver/missoes.csv', encoding='utf-8')
 
   #mobilia
+  lista_mobilias = ['aquarios',
+                    'bancos',
+                    'bandeiras',
+                    'cadeiras1',
+                    'cadeiras2',
+                    'cadeiras3',
+                    'camas',
+                    'catalogo',
+                    'comodas',
+                    'decoracao_parede',
+                    'diversos1',
+                    'diversos2',
+                    'estantes',
+                    'itens_especiais1'
+                    'itens_especiais2'
+                    'janelas',
+                    'lampadas',
+                    'lareiras',
+                    'mesas_longas',
+                    'mesas1',
+                    'mesas2',
+                    'mesas3',
+                    'outras_decoracoes1',
+                    'outras_decoracoes2',
+                    'pinturas_mercado_noturno',
+                    'pinturas',
+                    'plantas_decorativas_chao1',
+                    'plantas_decorativas_chao2',
+                    'plantas_decorativas_penduradas',
+                    'poltronas',
+                    'posteres',
+                    'sofas',
+                    'tapetes',
+                    'tochas',
+                    'tvs']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for mobilia in lista_mobilias:
+    df_temp = pd.read_csv(f'docs_bronze/mobilia_{mobilia}.csv')
+    print(f'colunas de {mobilia}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_mobilias = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_mobilias.to_csv('docs_silver/mobilias.csv', encoding='utf-8')
 
   #nos_minerio
+  df_minerios_nos = pd.read_csv(f'docs_bronze/nos_minerio.csv')
+  df_minerios_nos.to_csv('docs_silver/minerios_nos.csv', encoding='utf-8')
 
   #peixes
+  lista_peixes = ['covo',
+                    'itens_pescaveis',
+                    'lendarios',
+                    'lendarios_ii',
+                    'mercado_noturno',
+                    'receitas_pesca']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for peixe in lista_peixes:
+    df_temp = pd.read_csv(f'docs_bronze/peixes_{peixe}.csv')
+    print(f'colunas de {peixe}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_peixes = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_peixes.to_csv('docs_silver/peixes.csv', encoding='utf-8')
 
   #pesca
+  lista_pescas = ['bau',
+                  'comida',
+                  'varas_pesca',
+                  'zona']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for pesca in lista_pescas:
+    df_temp = pd.read_csv(f'docs_bronze/pesca_{pesca}.csv')
+    print(f'colunas de {pesca}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_pescas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_pescas.to_csv('docs_silver/pescas.csv', encoding='utf-8')
 
+  #solos_producao
+  df_solos_producao = pd.read_csv('docs_bronze\solos_producao.csv', encoding='utf-8')
+  # transformar colunas
+  df_solos_producao.to_csv('docs_zilver\solos_producao.csv', encoding='utf-8')
+  
   #taxa_cultivo
+  lista_taxas_cultivo = ['fertilizante_qualidade',
+                        'fertilizante_basico',
+                        'fertilizante_premium',
+                        'solo_normal']
+  #padronizar colunas
+  dfs_to_concat = [] 
+  for taxa in lista_taxas_cultivo:
+    df_temp = pd.read_csv(f'docs_bronze/taxa_cultivo_{taxa}.csv')
+    print(f'colunas de {taxa}: {df_temp.columns}')
+    dfs_to_concat.append(df_temp)
+  df_taxas_cultivo = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_taxas_cultivo.to_csv('docs_silver/taxas_cultivo.csv', encoding='utf-8')
 
   
   pass
@@ -546,9 +659,9 @@ def concat_dataframes ():
 
 if __name__ == '__main__':
   import pandas as pd
-  #profissoes()
-  #limpar_csv('docs_bronze/xp_coleta.csv')
-  #xp()
+  profissoes()
+  limpar_csv('docs_bronze/xp_coleta.csv')
+  xp()
   concat_dataframes()
 
 
