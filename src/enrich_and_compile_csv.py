@@ -101,7 +101,6 @@ def pegar_inteiro_cond(x):
         pass
   return cond
 
-
 def xp ():
   #combate
   combate = pd.read_csv('docs_bronze/xp_combate.csv', encoding='utf-8')
@@ -162,6 +161,68 @@ def xp ():
 
   pass
 
+def limpar_preco(serie):
+  """Limpa e converte uma série para float, tratando cada elemento individualmente.
+
+  Args:
+      serie: Uma Série do pandas.
+
+  Returns:
+      Uma nova Série com os valores limpos e convertidos para float (se possível).
+  """
+
+  def tratar_elemento(elemento):
+      elemento = str(elemento).replace('ouros', '').replace('ouro', '').replace(' ', '').replace('g','')
+      try:
+          return float(elemento)
+      except ValueError:
+          return elemento
+
+  return serie.apply(tratar_elemento)
+
+def separar_e_explodir(df, coluna):
+  """
+    Separa as strings de uma coluna em novas linhas com base em letras maiúsculas
+    e explode o resultado, evitando ValueError.
+
+  Args:
+      df: DataFrame Pandas.
+      coluna: Nome da coluna a ser processada.
+
+  Returns:
+      DataFrame com as linhas explodidas.
+  """
+
+  # Função para separar as strings com base em letras maiúsculas
+  def separar_por_maiusculas(texto):
+      padrao_regex = r'\b[A-ZÁ-Ú][^A-ZÁ-Ú]*\b'
+      return re.findall(padrao_regex, texto)
+
+  # Aplicar a função e explodir, resetando o índice
+  df[coluna] = df[coluna].apply(separar_por_maiusculas)
+  df = df.explode(coluna)
+  df = df.reset_index(drop=True)
+  df[f'{coluna}_item'] = df[coluna].apply(lambda linha: linha.split('-')[0].strip())
+  df[f'{coluna}_valor'] = df[coluna].apply(lambda linha: linha.split('-')[1].strip())
+  df[f'{coluna}_valor'] = limpar_preco(df[f'{coluna}_valor'])
+  df = df.drop(coluna, axis=1)
+  return df
+
+def separar_quantidades_e_explodir (df, coluna):
+  df[coluna] = df[coluna].apply(lambda linha: linha.split(')'))
+  df = df.explode(coluna).dropna(subset=coluna)
+  df = df.reset_index(drop=True)
+  df[coluna] = df[coluna].apply(lambda linha: linha.split('('))
+  df[f'{coluna}_item'] = df[coluna].apply(lambda lista: lista[0].strip())
+  try:
+    df[f'{coluna}_qtd'] = df[coluna].apply(lambda lista: lista[1])
+  except IndexError:
+    df[f'{coluna}_qtd'] = 0
+  #df = df.drop(coluna, axis=1)
+
+  return df
+
+
 def concat_dataframes ():
   #animais
   lista_animais = ['avestruz',
@@ -194,8 +255,11 @@ def concat_dataframes ():
     df_temp = df_temp.rename(columns=rename_dict)
     dfs_to_concat.append(df_temp)
   df_animais = pd.concat(dfs_to_concat, ignore_index=True).reset_index(drop=True)
-
-  df_animais = df_animais[['Nome','Custo','Requisitos','Produz','Venda_5_coracoes']]  
+  df_animais['Custo'] = limpar_preco(df_animais['Custo'])
+  df_animais['Venda_5_coracoes'] = limpar_preco(df_animais['Venda_5_coracoes'])
+  df_animais['Produz'] = df_animais['Produz'].apply(lambda linha: linha.replace('Avestruz','avestruz').replace('Dourado','dourado'))
+  df_animais = separar_e_explodir(df_animais,'Produz')
+  df_animais = df_animais[['Nome','Custo','Requisitos','Produz_item','Produz_valor','Venda_5_coracoes']]  
   df_animais.to_csv('docs_silver/animais.csv', encoding='utf-8')
 
   #armas
@@ -221,14 +285,16 @@ def concat_dataframes ():
     
     dfs_to_concat.append(df_temp)
   df_armas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_armas['Preço de Compra'] = df_armas['Preço de Compra'].apply(lambda linha: str(linha).replace('ouros','').replace(' ',''))
-  df_armas['Preço de Venda'] = df_armas['Preço de Venda'].apply(lambda linha: str(linha).replace('ouros','').replace(' ',''))
-  df_armas = df_armas.drop('Imagem', axis=1)
+  df_armas['Preço de Compra'] = limpar_preco(df_armas['Preço de Compra'])
+  df_armas['Preço de Venda'] = limpar_preco(df_armas['Preço de Venda'])
+  df_armas = df_armas.drop(columns=['Unnamed: 0','Imagem'])
+  df_armas = df_armas[['Nome','Tipo','Nível','Descrição','Dano','Chance de Acerto Crítico','Estatísticas','Localização','Preço de Compra','Preço de Venda','Chance de  Acerto Crítico']]
   df_armas.to_csv('docs_silver/armas.csv', encoding='utf-8')
+
 
   #atributos luta
   df_atributos_luta = pd.read_csv('docs_bronze/armas_luta_atributos.csv',encoding='utf-8')
-  df_atributos_luta = df_atributos_luta.drop('Imagem', axis=1)
+  df_atributos_luta = df_atributos_luta.drop(['Unnamed: 0','Imagem'], axis=1)
   df_atributos_luta.to_csv('docs_silver/atributos_luta.csv', encoding='utf-8')
 
   
@@ -238,34 +304,35 @@ def concat_dataframes ():
   artefatos = pd.read_csv('docs_bronze/artefatos.csv')
   lista_artefatos = [artefatos,artefato_tesouro]
   artefatos = pd.concat(lista_artefatos,join='outer',ignore_index=True)
-  artefatos = artefatos[['Nome','Descrição','Preço','Local']]
-  artefatos['Preço'] = artefatos['Preço'].apply(lambda linha: str(linha).replace('ouros','').replace('ouro','').replace(' ',''))
+  artefatos = artefatos.drop(columns='')
+  artefatos['Preço'] = limpar_preco(artefatos['Preço'])
   artefatos.to_csv('docs_silver/artefatos.csv',encoding='utf-8')
 
   
   #artesanato
-  lista_artesanato = ['aneis',
-                        'aspersores',
-                        'bombas',
-                        'cercas',
-                        'decoracao',
-                        'diversos',
-                        'equipamento_refino',
-                        'equipamentos_artesanais',
-                        'fertilizantes',
-                        'iluminacao',
-                        'itens_comestiveis',
-                        'mobilia',
-                        'pesca',
-                        'sementes']
+  lista_produtos = ['aneis',
+                      'aspersores',
+                      'bombas',
+                      'cercas',
+                      'decoracao',
+                      'diversos',
+                      'equipamento_refino',
+                      'equipamentos_artesanais',
+                      'fertilizantes',
+                      'iluminacao',
+                      'itens_comestiveis',
+                      'mobilia',
+                      'pesca',
+                      'sementes']
   dfs_to_concat = [] 
-  for artesanato in lista_artesanato:
+  for artesanato in lista_produtos:
     df_temp = pd.read_csv(f'docs_bronze/artesanato_{artesanato}.csv')
-    print(f'colunas de {artesanato}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_artesanatos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_artesanatos = df_artesanatos.drop(columns=['Unnamed: 0','Imagem'])
-  df_artesanatos.to_csv('docs_silver/artesanatos.csv', encoding='utf-8')
+  df_artesanatos = separar_quantidades_e_explodir(df_artesanatos,'Ingredientes')
+  #df_artesanatos = df_artesanatos[['Nome','Descrição','Ingredientes_item','Ingredientes_qtd','Fonte da Receita','Origem da Receita','Dura Por','Energia','Saúde']]
+  df_artesanatos.to_csv('docs_silver/produtos.csv', encoding='utf-8')
 
   """
     #arvores
@@ -679,6 +746,7 @@ def concat_dataframes ():
 
 if __name__ == '__main__':
   import pandas as pd
+  import re
   profissoes()
   limpar_csv('docs_bronze/xp_coleta.csv')
   xp()
