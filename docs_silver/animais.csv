@@ -1,15 +1,23 @@
-,Nome,Custo,Requisitos,Produz,Venda_5_coracoes
-0,Avestruz,,Celeiro e  Incubadora de Avestruzes,Ovo de Avestruz  -  600 ouros,20 800 ouros
-1,Cabra,4 000 ouros,Celeiro Grande,Leite de cabra  -  225 ouros  Leite grande de cabra  -  345 ouros,5 200 ouros
-2,Coelho,8 000 ouros,Galinheiro de Luxo,Lã  -  340 ouros  Pé de coelho  -  565 ouros,10 400 ouros
-3,Dinossauro,,Galinheiro Grande,Ovo de dinossauro  -  350 ouros,1 300 ouros
-4,Galinha Branca,800 ouros,,Ovo  - 50g  Ovo grande  - 95g,1 040 ouros
-5,Galinha Marrom,800 ouros,,Ovo marrom  - 50g  Ovo marrom grande  - 95g,1 040 ouros
-6,Galinha Azul,800 ouros,,Ovo  - 50g  Ovo grande  - 95g,1 040 ouros
-7,Galinha nula,,,Ovo nulo  - 65g,1 040 ouros
-8,Galinha Dourada,,,Ovo Dourado  - 500g,1 040 ouros
-9,Ovelha,8 000 ouros,Celeiro de Luxo,Lã  -  340 ouros,10 400 ouros
-10,Pato,1 200 ouros,Galinheiro Grande,Ovo de pata  -  95 ouros  Pena de pato  -  250 ouros,1 560 ouros
-11,Porco,16 000 ouros,Celeiro de Luxo,Trufa  -  625 ouros,20 800 ouros
-12,Vaca,1 500 ouros,,Leite  -  125 ouros  Leite grande  -  190 ouros,1 950 ouros
-13,Vaca marrom,1 500 ouros,,Leite  -  125 ouros  Leite grande  -  190 ouros,1 950 ouros
+,Nome,Custo,Requisitos,Produz_item,Produz_valor,Venda_5_coracoes
+0,Avestruz,,Celeiro e  Incubadora de Avestruzes,Ovo de avestruz,600.0,20800.0
+1,Cabra,4000.0,Celeiro Grande,Leite de cabra,225.0,5200.0
+2,Cabra,4000.0,Celeiro Grande,Leite grande de cabra,345.0,5200.0
+3,Coelho,8000.0,Galinheiro de Luxo,Lã,340.0,10400.0
+4,Coelho,8000.0,Galinheiro de Luxo,Pé de coelho,565.0,10400.0
+5,Dinossauro,,Galinheiro Grande,Ovo de dinossauro,350.0,1300.0
+6,Galinha Branca,800.0,,Ovo,50.0,1040.0
+7,Galinha Branca,800.0,,Ovo grande,95.0,1040.0
+8,Galinha Marrom,800.0,,Ovo marrom,50.0,1040.0
+9,Galinha Marrom,800.0,,Ovo marrom grande,95.0,1040.0
+10,Galinha Azul,800.0,,Ovo,50.0,1040.0
+11,Galinha Azul,800.0,,Ovo grande,95.0,1040.0
+12,Galinha nula,,,Ovo nulo,65.0,1040.0
+13,Galinha Dourada,,,Ovo dourado,500.0,1040.0
+14,Ovelha,8000.0,Celeiro de Luxo,Lã,340.0,10400.0
+15,Pato,1200.0,Galinheiro Grande,Ovo de pata,95.0,1560.0
+16,Pato,1200.0,Galinheiro Grande,Pena de pato,250.0,1560.0
+17,Porco,16000.0,Celeiro de Luxo,Trufa,625.0,20800.0
+18,Vaca,1500.0,,Leite,125.0,1950.0
+19,Vaca,1500.0,,Leite grande,190.0,1950.0
+20,Vaca marrom,1500.0,,Leite,125.0,1950.0
+21,Vaca marrom,1500.0,,Leite grande,190.0,1950.0

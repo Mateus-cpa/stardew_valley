@@ -1,0 +1,417 @@
+,Nome,Descrição,Ingredientes,Fonte da Receita,Origem da Receita,Dura Por,Energia,Saúde,Ingredientes_item,Ingredientes_qtd
+0,Anel duro,Corta a duração de efeitos negativos pela metade.,"['Barra de cobre  ', '10']",Combate  nível 1,,,,,Barra de cobre,0
+1,Anel duro,Corta a duração de efeitos negativos pela metade.,"['  Quartzo refinado  ', '5']",Combate  nível 1,,,,,Quartzo refinado,0
+2,Anel duro,Corta a duração de efeitos negativos pela metade.,"['  Cristal de terra  ', '10']",Combate  nível 1,,,,,Cristal de terra,0
+3,Anel duro,Corta a duração de efeitos negativos pela metade.,[''],Combate  nível 1,,,,,,0
+4,Anel de Pedra Luminosa,"Emite uma luz constante, e também aumenta seu alcance de coleta de itens.","['Essência solar  ', '5']",Mineração  Nível 4,,,,,Essência solar,0
+5,Anel de Pedra Luminosa,"Emite uma luz constante, e também aumenta seu alcance de coleta de itens.","['  Barra de ferro  ', '5']",Mineração  Nível 4,,,,,Barra de ferro,0
+6,Anel de Pedra Luminosa,"Emite uma luz constante, e também aumenta seu alcance de coleta de itens.",[''],Mineração  Nível 4,,,,,,0
+7,Anel de guerreiro,"Ocasionalmente enche quem o usa de ""energia de guerreiro"" após matar um monstro.","['Barra de ferro  ', '10']",Combate  nível 4,,,,,Barra de ferro,0
+8,Anel de guerreiro,"Ocasionalmente enche quem o usa de ""energia de guerreiro"" após matar um monstro.","['  Carvão  ', '25']",Combate  nível 4,,,,,Carvão,0
+9,Anel de guerreiro,"Ocasionalmente enche quem o usa de ""energia de guerreiro"" após matar um monstro.","['  Lágrima congelada  ', '10']",Combate  nível 4,,,,,Lágrima congelada,0
+10,Anel de guerreiro,"Ocasionalmente enche quem o usa de ""energia de guerreiro"" após matar um monstro.",[''],Combate  nível 4,,,,,,0
+11,Anel de Ioba,Protege ocasionalmente quem o usa de dano.,"['Barra de ouro  ', '5']",Combate  nível 7,,,,,Barra de ouro,0
+12,Anel de Ioba,Protege ocasionalmente quem o usa de dano.,"['  Barra de ferro  ', '5']",Combate  nível 7,,,,,Barra de ferro,0
+13,Anel de Ioba,Protege ocasionalmente quem o usa de dano.,"['  Diamante  ', '1']",Combate  nível 7,,,,,Diamante,0
+14,Anel de Ioba,Protege ocasionalmente quem o usa de dano.,[''],Combate  nível 7,,,,,,0
+15,Anel de irídio,"Brilha, atrai itens, e aumenta dano de ataque em 10%.","['Barra de irídio  ', '5']",Combate  nível 9,,,,,Barra de irídio,0
+16,Anel de irídio,"Brilha, atrai itens, e aumenta dano de ataque em 10%.","['  Essência solar  ', '50']",Combate  nível 9,,,,,Essência solar,0
+17,Anel de irídio,"Brilha, atrai itens, e aumenta dano de ataque em 10%.","['  Essência nula  ', '50']",Combate  nível 9,,,,,Essência nula,0
+18,Anel de irídio,"Brilha, atrai itens, e aumenta dano de ataque em 10%.",[''],Combate  nível 9,,,,,,0
+19,Anel de Casamento,Uma antiga tradição da Cidade de Zuzu... Use para pedir a mão de uma pessoa em casamento.  Nota: apenas  multijogador  .,"['Barra de irídio  ', '5']",Carrinho de Viagem  por  500 ouros,,,,,Barra de irídio,0
+20,Anel de Casamento,Uma antiga tradição da Cidade de Zuzu... Use para pedir a mão de uma pessoa em casamento.  Nota: apenas  multijogador  .,"['  Fragmento prismático  ', '1']",Carrinho de Viagem  por  500 ouros,,,,,Fragmento prismático,0
+21,Anel de Casamento,Uma antiga tradição da Cidade de Zuzu... Use para pedir a mão de uma pessoa em casamento.  Nota: apenas  multijogador  .,[''],Carrinho de Viagem  por  500 ouros,,,,,,0
+22,Aspersor,Rega os quatro espaços adjacentes toda manhã.,"['Barra de cobre  ', '1']",Cultivo  nível 2,,,,,Barra de cobre,0
+23,Aspersor,Rega os quatro espaços adjacentes toda manhã.,"['  Barra de ferro  ', '1']",Cultivo  nível 2,,,,,Barra de ferro,0
+24,Aspersor,Rega os quatro espaços adjacentes toda manhã.,[''],Cultivo  nível 2,,,,,,0
+25,Aspersor de qualidade,Rega 8 espaços adjacentes toda manhã.,"['Barra de ferro  ', '1']",Cultivo  nível 6,,,,,Barra de ferro,0
+26,Aspersor de qualidade,Rega 8 espaços adjacentes toda manhã.,"['  Barra de ouro  ', '1']",Cultivo  nível 6,,,,,Barra de ouro,0
+27,Aspersor de qualidade,Rega 8 espaços adjacentes toda manhã.,"['  Quartzo refinado  ', '1']",Cultivo  nível 6,,,,,Quartzo refinado,0
+28,Aspersor de qualidade,Rega 8 espaços adjacentes toda manhã.,[''],Cultivo  nível 6,,,,,,0
+29,Aspersor de irídio,Rega 24 espaços adjacentes toda manhã.,"['Barra de ouro  ', '1']",Cultivo  nível 9,,,,,Barra de ouro,0
+30,Aspersor de irídio,Rega 24 espaços adjacentes toda manhã.,"['  Barra de irídio  ', '1']",Cultivo  nível 9,,,,,Barra de irídio,0
+31,Aspersor de irídio,Rega 24 espaços adjacentes toda manhã.,"['  Conjunto de pilhas  ', '1']",Cultivo  nível 9,,,,,Conjunto de pilhas,0
+32,Aspersor de irídio,Rega 24 espaços adjacentes toda manhã.,[''],Cultivo  nível 9,,,,,,0
+33,Bombinha,Gera uma pequena explosão. Afaste-se!,"['Minério de cobre  ', '4']",,Mineração  nível 1,,,,Minério de cobre,0
+34,Bombinha,Gera uma pequena explosão. Afaste-se!,"['  Carvão  ', '1']",,Mineração  nível 1,,,,Carvão,0
+35,Bombinha,Gera uma pequena explosão. Afaste-se!,[''],,Mineração  nível 1,,,,,0
+36,Bomba,Gera uma explosão. Cuidado!,"['Minério de ferro  ', '4']",,Mineração  nível 6,,,,Minério de ferro,0
+37,Bomba,Gera uma explosão. Cuidado!,"['  Carvão  ', '1']",,Mineração  nível 6,,,,Carvão,0
+38,Bomba,Gera uma explosão. Cuidado!,[''],,Mineração  nível 6,,,,,0
+39,Megabomba,Gera uma explosão poderosa. Utilize com o máximo de cuidado.,"['Minério de ouro  ', '4']",,Mineração  nível 8,,,,Minério de ouro,0
+40,Megabomba,Gera uma explosão poderosa. Utilize com o máximo de cuidado.,"['  Essência solar  ', '1']",,Mineração  nível 8,,,,Essência solar,0
+41,Megabomba,Gera uma explosão poderosa. Utilize com o máximo de cuidado.,"['  Essência nula  ', '1']",,Mineração  nível 8,,,,Essência nula,0
+42,Megabomba,Gera uma explosão poderosa. Utilize com o máximo de cuidado.,[''],,Mineração  nível 8,,,,,0
+43,Portão,Permite passar por uma cerca.,"['Madeira  ', '10']",Início do jogo,,100 dias,,,Madeira,0
+44,Portão,Permite passar por uma cerca.,[''],Início do jogo,,100 dias,,,,0
+45,Cerca de madeira,Retém grama e animais!,"['Madeira  ', '2']",Início do jogo,,46-66 dias,,,Madeira,0
+46,Cerca de madeira,Retém grama e animais!,[''],Início do jogo,,46-66 dias,,,,0
+47,Cerca de Pedra,Dura mais que uma cerca de madeira.,"['Pedra  ', '2']",Cultivo  nível 2,,110-132 dias,,,Pedra,0
+48,Cerca de Pedra,Dura mais que uma cerca de madeira.,[''],Cultivo  nível 2,,110-132 dias,,,,0
+49,Cerca de ferro,Dura mais que uma cerca de pedra.,"['Barra de ferro  ', '1']",Cultivo  nível 4,,240-264 dias,,,Barra de ferro,0
+50,Cerca de ferro,Dura mais que uma cerca de pedra.,[''],Cultivo  nível 4,,240-264 dias,,,,0
+51,Cerca de madeira de lei,Um tipo especial de madeira. Muito bonita e resistente.,"['Madeira de lei  ', '1']",Cultivo  nível 6,,558-562 dias,,,Madeira de lei,0
+52,Cerca de madeira de lei,Um tipo especial de madeira. Muito bonita e resistente.,[''],Cultivo  nível 6,,558-562 dias,,,,0
+53,Piso de madeira,Ponha no chão para criar caminhos ou decorá-lo.,"['Madeira  ', '1']",Carpintaria  por  100 ouros,,,,,Madeira,0
+54,Piso de madeira,Ponha no chão para criar caminhos ou decorá-lo.,[''],Carpintaria  por  100 ouros,,,,,,0
+55,Piso Rústico de Tábuas,Coloque no chão para criar caminhos ou para decorá-los.,"['Madeira  ', '1']",Carpintaria  por  200 ouros,,,,,Madeira,0
+56,Piso Rústico de Tábuas,Coloque no chão para criar caminhos ou para decorá-los.,[''],Carpintaria  por  200 ouros,,,,,,0
+57,Piso de palha,Ponha no chão para criar caminhos ou incrementá-lo.,"['Madeira  ', '1']",Carpintaria  por  200 ouros,,,,,Madeira,0
+58,Piso de palha,Ponha no chão para criar caminhos ou incrementá-lo.,"['  Fibra  ', '1']",Carpintaria  por  200 ouros,,,,,Fibra,0
+59,Piso de palha,Ponha no chão para criar caminhos ou incrementá-lo.,[''],Carpintaria  por  200 ouros,,,,,,0
+60,Piso desgastado,Ponha no chão para criar caminhos ou incrementá-lo.,"['Madeira  ', '1']",Anão  (  500 ouros  ),,,,,Madeira,0
+61,Piso desgastado,Ponha no chão para criar caminhos ou incrementá-lo.,[''],Anão  (  500 ouros  ),,,,,,0
+62,Piso de cristal  (5),Ponha no chão para criar caminhos ou incrementá-lo.,"['Quartzo refinado  ', '1']",Krobus  (  500 ouros  ),,,,,Quartzo refinado,0
+63,Piso de cristal  (5),Ponha no chão para criar caminhos ou incrementá-lo.,[''],Krobus  (  500 ouros  ),,,,,,0
+64,Piso de pedra,Ponha no chão para criar caminhos ou incrementá-lo.,"['Pedra  ', '1']",Carpintaria  por  100 ouros,,,,,Pedra,0
+65,Piso de pedra,Ponha no chão para criar caminhos ou incrementá-lo.,[''],Carpintaria  por  100 ouros,,,,,,0
+66,Piso Passarela de Pedra,Coloque no chão para criar caminhos ou para decorá-los.,"['Pedra  ', '1']",Carpintaria  por  200 ouros,,,,,Pedra,0
+67,Piso Passarela de Pedra,Coloque no chão para criar caminhos ou para decorá-los.,[''],Carpintaria  por  200 ouros,,,,,,0
+68,Piso de tijolo  (5),Ponha no chão para criar caminhos ou decorá-lo.,"['Argila  ', '2']",Carpintaria  por  500 ouros,,,,,Argila,0
+69,Piso de tijolo  (5),Ponha no chão para criar caminhos ou decorá-lo.,"['  Pedra  ', '5']",Carpintaria  por  500 ouros,,,,,Pedra,0
+70,Piso de tijolo  (5),Ponha no chão para criar caminhos ou decorá-lo.,[''],Carpintaria  por  500 ouros,,,,,,0
+71,Caminho de madeira,Ponha no chão para criar caminhos ou incrementá-lo.,"['Madeira  ', '1']",Início,,,,,Madeira,0
+72,Caminho de madeira,Ponha no chão para criar caminhos ou incrementá-lo.,[''],Início,,,,,,0
+73,Caminho de cascalho,Ponha no chão para criar caminhos ou incrementá-lo.,"['Pedra  ', '1']",Início,,,,,Pedra,0
+74,Caminho de cascalho,Ponha no chão para criar caminhos ou incrementá-lo.,[''],Início,,,,,,0
+75,Caminho de pedra arredondada,Ponha no chão para criar caminhos ou incrementá-lo.,"['Pedra  ', '1']",Início,,,,,Pedra,0
+76,Caminho de pedra arredondada,Ponha no chão para criar caminhos ou incrementá-lo.,[''],Início,,,,,,0
+77,Caminho de Pedras Polidas,Ponha no chão para criar caminhos e incrementá-lo.,"['Pedra  ', '1']",Carpintaria  por  100 ouros,,,,,Pedra,0
+78,Caminho de Pedras Polidas,Ponha no chão para criar caminhos e incrementá-lo.,[''],Carpintaria  por  100 ouros,,,,,,0
+79,Caminho de cristal  (5),Ponha no chão para criar caminhos ou incrementá-lo.,"['Quartzo refinado  ', '1']",Carpintaria  por  200 ouros,,,,,Quartzo refinado,0
+80,Caminho de cristal  (5),Ponha no chão para criar caminhos ou incrementá-lo.,[''],Carpintaria  por  200 ouros,,,,,,0
+81,Baú,Feito para armazenar seus itens.,"['Madeira  ', '50']",Início do jogo,,,,,Madeira,0
+82,Baú,Feito para armazenar seus itens.,[''],Início do jogo,,,,,,0
+83,Placa de Madeira,Use um item nele para mudar o que é exibido. O item não será consumido.,"['Madeira  ', '25']",Início do jogo,,,,,Madeira,0
+84,Placa de Madeira,Use um item nele para mudar o que é exibido. O item não será consumido.,[''],Início do jogo,,,,,,0
+85,Placa de Pedra,Use um item nele para mudar o que é exibido. O item não será consumido.,"['Pedra  ', '25']",Início do jogo,,,,,Pedra,0
+86,Placa de Pedra,Use um item nele para mudar o que é exibido. O item não será consumido.,[''],Início do jogo,,,,,,0
+87,Vaso de Jardim,"Crie plantações de qualquer estação em ambientes fechados. Ao ar livre, só pode abrigar plantações sazonais.","['Argila  ', '1']",Cinemática com a  Evelyn  depois de completar a  estufa  .,,,,,Argila,0
+88,Vaso de Jardim,"Crie plantações de qualquer estação em ambientes fechados. Ao ar livre, só pode abrigar plantações sazonais.","['  Pedra  ', '10']",Cinemática com a  Evelyn  depois de completar a  estufa  .,,,,,Pedra,0
+89,Vaso de Jardim,"Crie plantações de qualquer estação em ambientes fechados. Ao ar livre, só pode abrigar plantações sazonais.","['  Quartzo refinado  ', '1']",Cinemática com a  Evelyn  depois de completar a  estufa  .,,,,,Quartzo refinado,0
+90,Vaso de Jardim,"Crie plantações de qualquer estação em ambientes fechados. Ao ar livre, só pode abrigar plantações sazonais.",[''],Cinemática com a  Evelyn  depois de completar a  estufa  .,,,,,,0
+91,Espantalho,Evita que corvos ataquem suas plantações. Tem um raio limitado (cerca de 8 espaços).,"['Madeira  ', '50']",Cultivo  nível 1,,,,,Madeira,0
+92,Espantalho,Evita que corvos ataquem suas plantações. Tem um raio limitado (cerca de 8 espaços).,"['  Carvão  ', '1']",Cultivo  nível 1,,,,,Carvão,0
+93,Espantalho,Evita que corvos ataquem suas plantações. Tem um raio limitado (cerca de 8 espaços).,"['  Fibra  ', '20']",Cultivo  nível 1,,,,,Fibra,0
+94,Espantalho,Evita que corvos ataquem suas plantações. Tem um raio limitado (cerca de 8 espaços).,[''],Cultivo  nível 1,,,,,,0
+95,Espantalho de luxo,"Previne que corvos ataquem suas plantas. Tem um grande alcance (cerca de 16 ""blocos"").","['Madeira  ', '50']",Carta após coletar todos os  Espantalhos Raros,,,,,Madeira,0
+96,Espantalho de luxo,"Previne que corvos ataquem suas plantas. Tem um grande alcance (cerca de 16 ""blocos"").","['  Fibra  ', '40']",Carta após coletar todos os  Espantalhos Raros,,,,,Fibra,0
+97,Espantalho de luxo,"Previne que corvos ataquem suas plantas. Tem um grande alcance (cerca de 16 ""blocos"").","['  Minério de irídio  ', '1']",Carta após coletar todos os  Espantalhos Raros,,,,,Minério de irídio,0
+98,Espantalho de luxo,"Previne que corvos ataquem suas plantas. Tem um grande alcance (cerca de 16 ""blocos"").",[''],Carta após coletar todos os  Espantalhos Raros,,,,,,0
+99,Escadaria,Utilize-a para descer um nível nas minas.,"['Pedra  ', '99']",Mineração  nível 2,,,,,Pedra,0
+100,Escadaria,Utilize-a para descer um nível nas minas.,[''],Mineração  nível 2,,,,,,0
+101,Munição explosiva,Utilize-a com o estilingue.,"['Barra de ferro  ', '1']",Combate  nível 8,,,,,Barra de ferro,0
+102,Munição explosiva,Utilize-a com o estilingue.,"['  Carvão  ', '2']",Combate  nível 8,,,,,Carvão,0
+103,Munição explosiva,Utilize-a com o estilingue.,[''],Combate  nível 8,,,,,,0
+104,Transmutar (Fe),Uma barra de ferro puro.,"['Barra de cobre  ', '3']",Mineração  nível 4,,,,,Barra de cobre,0
+105,Transmutar (Fe),Uma barra de ferro puro.,[''],Mineração  nível 4,,,,,,0
+106,Transmutar (Au),Uma barra de ouro puro.,"['Barra de ferro  ', '2']",Mineração  nível 7,,,,,Barra de ferro,0
+107,Transmutar (Au),Uma barra de ouro puro.,[''],Mineração  nível 7,,,,,,0
+108,Totem de teletransporte: Praia,Transporta direto para a praia. Consumido após utilização.,"['Madeira de lei  ', '1']",Coleta  nível 6,,,,,Madeira de lei,0
+109,Totem de teletransporte: Praia,Transporta direto para a praia. Consumido após utilização.,"['  Coral  ', '2']",Coleta  nível 6,,,,,Coral,0
+110,Totem de teletransporte: Praia,Transporta direto para a praia. Consumido após utilização.,"['  Fibra  ', '10']",Coleta  nível 6,,,,,Fibra,0
+111,Totem de teletransporte: Praia,Transporta direto para a praia. Consumido após utilização.,[''],Coleta  nível 6,,,,,,0
+112,Totem de teletransporte: Montanhas,Transporta direto para as montanhas. Consumido após utilização.,"['Madeira de lei  ', '1']",Coleta  nível 7,,,,,Madeira de lei,0
+113,Totem de teletransporte: Montanhas,Transporta direto para as montanhas. Consumido após utilização.,"['  Barra de ferro  ', '1']",Coleta  nível 7,,,,,Barra de ferro,0
+114,Totem de teletransporte: Montanhas,Transporta direto para as montanhas. Consumido após utilização.,"['  Pedra  ', '25']",Coleta  nível 7,,,,,Pedra,0
+115,Totem de teletransporte: Montanhas,Transporta direto para as montanhas. Consumido após utilização.,[''],Coleta  nível 7,,,,,,0
+116,Totem de teletransporte: Fazenda,Transporta direto para a sua casa. Consumido após utilização.,"['Madeira de lei  ', '1']",Coleta  nível 8,,,,,Madeira de lei,0
+117,Totem de teletransporte: Fazenda,Transporta direto para a sua casa. Consumido após utilização.,"['  Mel  ', '1']",Coleta  nível 8,,,,,Mel,0
+118,Totem de teletransporte: Fazenda,Transporta direto para a sua casa. Consumido após utilização.,"['  Fibra  ', '20']",Coleta  nível 8,,,,,Fibra,0
+119,Totem de teletransporte: Fazenda,Transporta direto para a sua casa. Consumido após utilização.,[''],Coleta  nível 8,,,,,,0
+120,Totem de Teletransporte: Deserto,Transporta direto para o Deserto Calico. Consumido após utilização.,"['Madeira de lei  ', '2']",Comerciante do Deserto  por  Barra de irídio  (10),,,,,Madeira de lei,0
+121,Totem de Teletransporte: Deserto,Transporta direto para o Deserto Calico. Consumido após utilização.,"['  Coco  ', '1']",Comerciante do Deserto  por  Barra de irídio  (10),,,,,Coco,0
+122,Totem de Teletransporte: Deserto,Transporta direto para o Deserto Calico. Consumido após utilização.,"['  Minério de irídio  ', '4']",Comerciante do Deserto  por  Barra de irídio  (10),,,,,Minério de irídio,0
+123,Totem de Teletransporte: Deserto,Transporta direto para o Deserto Calico. Consumido após utilização.,[''],Comerciante do Deserto  por  Barra de irídio  (10),,,,,,0
+124,Totem de Teletransporte: Ilha,Teletransporta direto para a Ilha Gengibre. Consumido após utilização.,"['Madeira de lei  ', '5']",Loja da Caverna do Vulcão  por  10 000 ouros,,,,,Madeira de lei,0
+125,Totem de Teletransporte: Ilha,Teletransporta direto para a Ilha Gengibre. Consumido após utilização.,"['  Dente de Dragão  ', '1']",Loja da Caverna do Vulcão  por  10 000 ouros,,,,,Dente de Dragão,0
+126,Totem de Teletransporte: Ilha,Teletransporta direto para a Ilha Gengibre. Consumido após utilização.,"['  Gengibre  ', '1']",Loja da Caverna do Vulcão  por  10 000 ouros,,,,,Gengibre,0
+127,Totem de Teletransporte: Ilha,Teletransporta direto para a Ilha Gengibre. Consumido após utilização.,[''],Loja da Caverna do Vulcão  por  10 000 ouros,,,,,,0
+128,Totem de chuva,Ative para aumentar grandemente a chance de chuva para amanhã. Consumido após utilização.,"['Madeira de lei  ', '1']",Coleta  nível 9,,,,,Madeira de lei,0
+129,Totem de chuva,Ative para aumentar grandemente a chance de chuva para amanhã. Consumido após utilização.,"['  Óleo de trufas  ', '1']",Coleta  nível 9,,,,,Óleo de trufas,0
+130,Totem de chuva,Ative para aumentar grandemente a chance de chuva para amanhã. Consumido após utilização.,"['  Alcatrão de pinho  ', '5']",Coleta  nível 9,,,,,Alcatrão de pinho,0
+131,Totem de chuva,Ative para aumentar grandemente a chance de chuva para amanhã. Consumido após utilização.,[''],Coleta  nível 9,,,,,,0
+132,Carvoaria,Transforma 10 pedaços de madeira em um grande pedaço de carvão.,"['Madeira  ', '20']",Coleta  nível 4,,,,,Madeira,0
+133,Carvoaria,Transforma 10 pedaços de madeira em um grande pedaço de carvão.,"['  Barra de ouro  ', '1']",Coleta  nível 4,,,,,Barra de ouro,0
+134,Carvoaria,Transforma 10 pedaços de madeira em um grande pedaço de carvão.,[''],Coleta  nível 4,,,,,,0
+135,Cristalário,Insira uma joia de sua escolha e ele a copiará.,"['Pedra  ', '99']",Mineração  nível 9,,,,,Pedra,0
+136,Cristalário,Insira uma joia de sua escolha e ele a copiará.,"['  Barra de ouro  ', '5']",Mineração  nível 9,,,,,Barra de ouro,0
+137,Cristalário,Insira uma joia de sua escolha e ele a copiará.,"['  Barra de irídio  ', '2']",Mineração  nível 9,,,,,Barra de irídio,0
+138,Cristalário,Insira uma joia de sua escolha e ele a copiará.,"['  Conjunto de pilhas  ', '1']",Mineração  nível 9,,,,,Conjunto de pilhas,0
+139,Cristalário,Insira uma joia de sua escolha e ele a copiará.,[''],Mineração  nível 9,,,,,,0
+140,Fornalha,Transforma minério e carvão em barras de metal.,"['Minério de cobre  ', '20']",Clint  (na manhã seguinte ao coletar 1+  Minério de cobre  ),,,,,Minério de cobre,0
+141,Fornalha,Transforma minério e carvão em barras de metal.,"['  Pedra  ', '25']",Clint  (na manhã seguinte ao coletar 1+  Minério de cobre  ),,,,,Pedra,0
+142,Fornalha,Transforma minério e carvão em barras de metal.,[''],Clint  (na manhã seguinte ao coletar 1+  Minério de cobre  ),,,,,,0
+143,Para-raios,Coleciona energia de tempestades de raios e transforma-a em baterias.,"['Barra de ferro  ', '1']",Coleta  nível 6,,,,,Barra de ferro,0
+144,Para-raios,Coleciona energia de tempestades de raios e transforma-a em baterias.,"['  Quartzo refinado  ', '1']",Coleta  nível 6,,,,,Quartzo refinado,0
+145,Para-raios,Coleciona energia de tempestades de raios e transforma-a em baterias.,"['  Asa de morcego  ', '5']",Coleta  nível 6,,,,,Asa de morcego,0
+146,Para-raios,Coleciona energia de tempestades de raios e transforma-a em baterias.,[''],Coleta  nível 6,,,,,,0
+147,Máquina de reciclagem,Transforma restos de pesca em recursos.,"['Madeira  ', '25']",Pesca  nível 4,,,,,Madeira,0
+148,Máquina de reciclagem,Transforma restos de pesca em recursos.,"['  Pedra  ', '25']",Pesca  nível 4,,,,,Pedra,0
+149,Máquina de reciclagem,Transforma restos de pesca em recursos.,"['  Barra de ferro  ', '1']",Pesca  nível 4,,,,,Barra de ferro,0
+150,Máquina de reciclagem,Transforma restos de pesca em recursos.,[''],Pesca  nível 4,,,,,,0
+151,Gerador de sementes,Ponha produtos colhidos dentro dele para produzir diversos tipos de sementes. Não funciona com árvores frutíferas.,"['Madeira  ', '25']",Cultivo  nível 9,,,,,Madeira,0
+152,Gerador de sementes,Ponha produtos colhidos dentro dele para produzir diversos tipos de sementes. Não funciona com árvores frutíferas.,"['  Carvão  ', '10']",Cultivo  nível 9,,,,,Carvão,0
+153,Gerador de sementes,Ponha produtos colhidos dentro dele para produzir diversos tipos de sementes. Não funciona com árvores frutíferas.,"['  Barra de ouro  ', '1']",Cultivo  nível 9,,,,,Barra de ouro,0
+154,Gerador de sementes,Ponha produtos colhidos dentro dele para produzir diversos tipos de sementes. Não funciona com árvores frutíferas.,[''],Cultivo  nível 9,,,,,,0
+155,Incubador de gosmas,Chocas os ovos de gosmas. Permite criar gosmas em ambientes externos.,"['Barra de irídio  ', '2']",Combate  nível 8,,,,,Barra de irídio,0
+156,Incubador de gosmas,Chocas os ovos de gosmas. Permite criar gosmas em ambientes externos.,"['  Gosma  ', '100']",Combate  nível 8,,,,,Gosma,0
+157,Incubador de gosmas,Chocas os ovos de gosmas. Permite criar gosmas em ambientes externos.,[''],Combate  nível 8,,,,,,0
+158,Incubadora de Avestruzes,Choca ovos de avestruz em bebês avestruzes. Coloque em um celeiro.,"['Fragmento de Osso  ', '50']",Complete a coleção do  Escritório local da ilha,,,,,Fragmento de Osso,0
+159,Incubadora de Avestruzes,Choca ovos de avestruz em bebês avestruzes. Coloque em um celeiro.,"['  Madeira de lei  ', '50']",Complete a coleção do  Escritório local da ilha,,,,,Madeira de lei,0
+160,Incubadora de Avestruzes,Choca ovos de avestruz em bebês avestruzes. Coloque em um celeiro.,"['  Fragmento de Brasa  ', '20']",Complete a coleção do  Escritório local da ilha,,,,,Fragmento de Brasa,0
+161,Incubadora de Avestruzes,Choca ovos de avestruz em bebês avestruzes. Coloque em um celeiro.,[''],Complete a coleção do  Escritório local da ilha,,,,,,0
+162,Prensa de Gosmas,Comprime 100 pedaços de gosmas em um ovo de gosmas. É um milagre científico!,"['Carvão  ', '25']",Combate  nível 6,,,,,Carvão,0
+163,Prensa de Gosmas,Comprime 100 pedaços de gosmas em um ovo de gosmas. É um milagre científico!,"['  Quartzo de fogo  ', '1']",Combate  nível 6,,,,,Quartzo de fogo,0
+164,Prensa de Gosmas,Comprime 100 pedaços de gosmas em um ovo de gosmas. É um milagre científico!,"['  Conjunto de pilhas  ', '1']",Combate  nível 6,,,,,Conjunto de pilhas,0
+165,Prensa de Gosmas,Comprime 100 pedaços de gosmas em um ovo de gosmas. É um milagre científico!,[''],Combate  nível 6,,,,,,0
+166,Torneirinha,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher!","['Madeira  ', '40']",Coleta  nível 3,,,,,Madeira,0
+167,Torneirinha,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher!","['  Barra de cobre  ', '2']",Coleta  nível 3,,,,,Barra de cobre,0
+168,Torneirinha,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher!",[''],Coleta  nível 3,,,,,,0
+169,Torneirinha Pesada,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher! Funciona duas vezes mais rápido que uma torneirinha normal.","['Madeira de lei  ', '30']",Sala de Nozes do Sr. Qi  por  20,,,,,Madeira de lei,0
+170,Torneirinha Pesada,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher! Funciona duas vezes mais rápido que uma torneirinha normal.","['  Barra Radioativa  ', '1']",Sala de Nozes do Sr. Qi  por  20,,,,,Barra Radioativa,0
+171,Torneirinha Pesada,"Ponha em um ácer, carvalho ou pinheiro e espere o reservatório se encher! Funciona duas vezes mais rápido que uma torneirinha normal.",[''],Sala de Nozes do Sr. Qi  por  20,,,,,,0
+172,Cesto de minhocas,Produz iscas regularmente. As minhocas se sustentam sozinhas.,"['Madeira de lei  ', '25']",Pesca  nível 4,,,,,Madeira de lei,0
+173,Cesto de minhocas,Produz iscas regularmente. As minhocas se sustentam sozinhas.,"['  Barra de ouro  ', '1']",Pesca  nível 4,,,,,Barra de ouro,0
+174,Cesto de minhocas,Produz iscas regularmente. As minhocas se sustentam sozinhas.,"['  Barra de ferro  ', '1']",Pesca  nível 4,,,,,Barra de ferro,0
+175,Cesto de minhocas,Produz iscas regularmente. As minhocas se sustentam sozinhas.,"['  Fibra  ', '50']",Pesca  nível 4,,,,,Fibra,0
+176,Cesto de minhocas,Produz iscas regularmente. As minhocas se sustentam sozinhas.,[''],Pesca  nível 4,,,,,,0
+177,Cesto de Minhocas de Luxo,Produz iscas de luxo regularmente. As minhocas se sustentam sozinhas.,"['Cesto de minhocas  ', '1']",Pesca  Nível 8,,,,,Cesto de minhocas,0
+178,Cesto de Minhocas de Luxo,Produz iscas de luxo regularmente. As minhocas se sustentam sozinhas.,"['  Musgo  ', '30']",Pesca  Nível 8,,,,,Musgo,0
+179,Cesto de Minhocas de Luxo,Produz iscas de luxo regularmente. As minhocas se sustentam sozinhas.,[''],Pesca  Nível 8,,,,,,0
+180,Moedor de Ossos,Transforma itens de osso em fertilizantes.,"['Fragmento de Osso  ', '10']",Gunther  (  Pedido Especial  ),,,,,Fragmento de Osso,0
+181,Moedor de Ossos,Transforma itens de osso em fertilizantes.,"['  Argila  ', '3']",Gunther  (  Pedido Especial  ),,,,,Argila,0
+182,Moedor de Ossos,Transforma itens de osso em fertilizantes.,"['  Pedra  ', '20']",Gunther  (  Pedido Especial  ),,,,,Pedra,0
+183,Moedor de Ossos,Transforma itens de osso em fertilizantes.,[''],Gunther  (  Pedido Especial  ),,,,,,0
+184,Esmagador de Geodos,Quebra geodos automaticamente. Precisa de carvão para funcionar.,"['Barra de ouro  ', '2']",Clint  (  Pedido Especial  ),,,,,Barra de ouro,0
+185,Esmagador de Geodos,Quebra geodos automaticamente. Precisa de carvão para funcionar.,"['  Pedra  ', '50']",Clint  (  Pedido Especial  ),,,,,Pedra,0
+186,Esmagador de Geodos,Quebra geodos automaticamente. Precisa de carvão para funcionar.,"['  Diamante  ', '1']",Clint  (  Pedido Especial  ),,,,,Diamante,0
+187,Esmagador de Geodos,Quebra geodos automaticamente. Precisa de carvão para funcionar.,[''],Clint  (  Pedido Especial  ),,,,,,0
+188,Tronco de Cogumelo,"Cultiva cogumelos de vez em quando. Quanto mais árvores selvagens estiverem por perto, melhor funciona","['Madeira de lei  ', '10']",Coleta  (Level 4),,,,,Madeira de lei,0
+189,Tronco de Cogumelo,"Cultiva cogumelos de vez em quando. Quanto mais árvores selvagens estiverem por perto, melhor funciona","['  Musgo  ', '10']",Coleta  (Level 4),,,,,Musgo,0
+190,Tronco de Cogumelo,"Cultiva cogumelos de vez em quando. Quanto mais árvores selvagens estiverem por perto, melhor funciona",[''],Coleta  (Level 4),,,,,,0
+191,Máquina de Iscas,Coloque um peixe dentro para criar uma isca direcionada.,"['Barra de ferro  ', '3']",Pesca  (Level 6),,,,,Barra de ferro,0
+192,Máquina de Iscas,Coloque um peixe dentro para criar uma isca direcionada.,"['  Coral  ', '3']",Pesca  (Level 6),,,,,Coral,0
+193,Máquina de Iscas,Coloque um peixe dentro para criar uma isca direcionada.,"['  Ouriço-do-mar  ', '1']",Pesca  (Level 6),,,,,Ouriço-do-mar,0
+194,Máquina de Iscas,Coloque um peixe dentro para criar uma isca direcionada.,[''],Pesca  (Level 6),,,,,,0
+195,Máquina de maionese,Transforma ovos em maionese.,"['Madeira  ', '15']",Cultivo  nível 2,,,,,Madeira,0
+196,Máquina de maionese,Transforma ovos em maionese.,"['  Pedra  ', '15']",Cultivo  nível 2,,,,,Pedra,0
+197,Máquina de maionese,Transforma ovos em maionese.,"['  Cristal de terra  ', '1']",Cultivo  nível 2,,,,,Cristal de terra,0
+198,Máquina de maionese,Transforma ovos em maionese.,"['  Barra de cobre  ', '1']",Cultivo  nível 2,,,,,Barra de cobre,0
+199,Máquina de maionese,Transforma ovos em maionese.,[''],Cultivo  nível 2,,,,,,0
+200,Apiário,Ponha-o no quintal e obtenha um mel delicioso!(Exceto no inverno).,"['Madeira  ', '40']",Cultivo  nível 3,,,,,Madeira,0
+201,Apiário,Ponha-o no quintal e obtenha um mel delicioso!(Exceto no inverno).,"['  Carvão  ', '8']",Cultivo  nível 3,,,,,Carvão,0
+202,Apiário,Ponha-o no quintal e obtenha um mel delicioso!(Exceto no inverno).,"['  Barra de ferro  ', '1']",Cultivo  nível 3,,,,,Barra de ferro,0
+203,Apiário,Ponha-o no quintal e obtenha um mel delicioso!(Exceto no inverno).,"['  Xarope de ácer  ', '1']",Cultivo  nível 3,,,,,Xarope de ácer,0
+204,Apiário,Ponha-o no quintal e obtenha um mel delicioso!(Exceto no inverno).,[''],Cultivo  nível 3,,,,,,0
+205,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,"['Madeira  ', '50']",Cultivo  nível 4,,,,,Madeira,0
+206,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,"['  Pedra  ', '40']",Cultivo  nível 4,,,,,Pedra,0
+207,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,"['  Carvão  ', '8']",Cultivo  nível 4,,,,,Carvão,0
+208,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,[''],Cultivo  nível 4,,,,,,0
+209,Prensa de queijo,Transforma leite em queijo.,"['Madeira  ', '45']",Cultivo  nível 6,,,,,Madeira,0
+210,Prensa de queijo,Transforma leite em queijo.,"['  Pedra  ', '45']",Cultivo  nível 6,,,,,Pedra,0
+211,Prensa de queijo,Transforma leite em queijo.,"['  Madeira de lei  ', '10']",Cultivo  nível 6,,,,,Madeira de lei,0
+212,Prensa de queijo,Transforma leite em queijo.,"['  Barra de cobre  ', '1']",Cultivo  nível 6,,,,,Barra de cobre,0
+213,Prensa de queijo,Transforma leite em queijo.,[''],Cultivo  nível 6,,,,,,0
+214,Tear,Transforma lã crua em roupas finas.,"['Madeira  ', '60']",Cultivo  nível 7,,,,,Madeira,0
+215,Tear,Transforma lã crua em roupas finas.,"['  Fibra  ', '30']",Cultivo  nível 7,,,,,Fibra,0
+216,Tear,Transforma lã crua em roupas finas.,"['  Alcatrão de pinho  ', '1']",Cultivo  nível 7,,,,,Alcatrão de pinho,0
+217,Tear,Transforma lã crua em roupas finas.,[''],Cultivo  nível 7,,,,,,0
+218,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,"['Madeira  ', '30']",Cultivo  nível 8,,,,,Madeira,0
+219,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,"['  Barra de cobre  ', '1']",Cultivo  nível 8,,,,,Barra de cobre,0
+220,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,"['  Barra de ferro  ', '1']",Cultivo  nível 8,,,,,Barra de ferro,0
+221,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,"['  Resina de carvalho  ', '1']",Cultivo  nível 8,,,,,Resina de carvalho,0
+222,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,[''],Cultivo  nível 8,,,,,,0
+223,Gerador de óleo,Faz óleo gourmet de trufas.,"['Gosma  ', '50']",Cultivo  nível 8,,,,,Gosma,0
+224,Gerador de óleo,Faz óleo gourmet de trufas.,"['  Madeira de lei  ', '20']",Cultivo  nível 8,,,,,Madeira de lei,0
+225,Gerador de óleo,Faz óleo gourmet de trufas.,"['  Barra de ouro  ', '1']",Cultivo  nível 8,,,,,Barra de ouro,0
+226,Gerador de óleo,Faz óleo gourmet de trufas.,[''],Cultivo  nível 8,,,,,,0
+227,Barril de madeira,Utilizado na adega para envelhecer produtos como queijo e vinho.,"['Madeira  ', '20']",Atualização de porão para a  Casa da Fazenda,,,,,Madeira,0
+228,Barril de madeira,Utilizado na adega para envelhecer produtos como queijo e vinho.,"['  Madeira de lei  ', '1']",Atualização de porão para a  Casa da Fazenda,,,,,Madeira de lei,0
+229,Barril de madeira,Utilizado na adega para envelhecer produtos como queijo e vinho.,[''],Atualização de porão para a  Casa da Fazenda,,,,,,0
+230,Defumador de Peixes,"É um tipo de Equipamento Artesanal usado para criar peixes defumados, cujo preço de venda base é o dobro do preço normal do peixe.","['Madeira de lei  ', '10']",Peixaria  por  10 000 ouros,,,,,Madeira de lei,0
+231,Defumador de Peixes,"É um tipo de Equipamento Artesanal usado para criar peixes defumados, cujo preço de venda base é o dobro do preço normal do peixe.","['  Geléia do Mar  ', '1']",Peixaria  por  10 000 ouros,,,,,Geléia do Mar,0
+232,Defumador de Peixes,"É um tipo de Equipamento Artesanal usado para criar peixes defumados, cujo preço de venda base é o dobro do preço normal do peixe.","['  Geléia do Rio  ', '1']",Peixaria  por  10 000 ouros,,,,,Geléia do Rio,0
+233,Defumador de Peixes,"É um tipo de Equipamento Artesanal usado para criar peixes defumados, cujo preço de venda base é o dobro do preço normal do peixe.","['  Geléia da Caverna  ', '1']",Peixaria  por  10 000 ouros,,,,,Geléia da Caverna,0
+234,Defumador de Peixes,"É um tipo de Equipamento Artesanal usado para criar peixes defumados, cujo preço de venda base é o dobro do preço normal do peixe.",[''],Peixaria  por  10 000 ouros,,,,,,0
+235,Desidratador,É um tipo de Equipamento Artesanal usado para criar mercadorias artesanais.,"['Madeira  ', '30']",Armazém do Pierre  por  10 000 ouros,,,,,Madeira,0
+236,Desidratador,É um tipo de Equipamento Artesanal usado para criar mercadorias artesanais.,"['  Argila  ', '2']",Armazém do Pierre  por  10 000 ouros,,,,,Argila,0
+237,Desidratador,É um tipo de Equipamento Artesanal usado para criar mercadorias artesanais.,"['  Quartzo de fogo  ', '1']",Armazém do Pierre  por  10 000 ouros,,,,,Quartzo de fogo,0
+238,Desidratador,É um tipo de Equipamento Artesanal usado para criar mercadorias artesanais.,[''],Armazém do Pierre  por  10 000 ouros,,,,,,0
+239,Fertilizante básico,"Melhora a qualidade do fertilizante um pouco, aumentando sua chance de criar plantações de qualidade. Misture no fertilizante arado.","['Seiva  ', '2']",Cultivo  nível 1,,,,,Seiva,0
+240,Fertilizante básico,"Melhora a qualidade do fertilizante um pouco, aumentando sua chance de criar plantações de qualidade. Misture no fertilizante arado.",[''],Cultivo  nível 1,,,,,,0
+241,Fertilizante de qualidade,"Melhora a qualidade do fertilizante, aumentando sua chance de plantar colheitas de qualidade. Misture no fertilizante arado.","['Seiva  ', '2']",Cultivo  nível 9,,,,,Seiva,0
+242,Fertilizante de qualidade,"Melhora a qualidade do fertilizante, aumentando sua chance de plantar colheitas de qualidade. Misture no fertilizante arado.","['  Qualquer peixe  ', '1']",Cultivo  nível 9,,,,,Qualquer peixe,0
+243,Fertilizante de qualidade,"Melhora a qualidade do fertilizante, aumentando sua chance de plantar colheitas de qualidade. Misture no fertilizante arado.",[''],Cultivo  nível 9,,,,,,0
+244,Fertilizante Premium  (5),"Aumenta muito a qualidade do solo, aumentando sua chance de crescer plantas de qualidade. Misture no solo arado.","['Barra de irídio  ', '1']",Sala de Nozes do Sr. Qi  por  20,,,,,Barra de irídio,0
+245,Fertilizante Premium  (5),"Aumenta muito a qualidade do solo, aumentando sua chance de crescer plantas de qualidade. Misture no solo arado.","['  Seiva  ', '40']",Sala de Nozes do Sr. Qi  por  20,,,,,Seiva,0
+246,Fertilizante Premium  (5),"Aumenta muito a qualidade do solo, aumentando sua chance de crescer plantas de qualidade. Misture no solo arado.",[''],Sala de Nozes do Sr. Qi  por  20,,,,,,0
+247,Solo Foliar  (5),Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 10%. Misture no fertilizante arado.,"['Alcatrão de pinho  ', '1']",Cultivo  nível 3,,,,,Alcatrão de pinho,0
+248,Solo Foliar  (5),Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 10%. Misture no fertilizante arado.,"['  Concha  ', '1']",Cultivo  nível 3,,,,,Concha,0
+249,Solo Foliar  (5),Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 10%. Misture no fertilizante arado.,[''],Cultivo  nível 3,,,,,,0
+250,Solo Foliar Premium  (5),Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 25%. Misture no fertilizante arado.,"['Resina de carvalho  ', '1']",Cultivo  nível 8,,,,,Resina de carvalho,0
+251,Solo Foliar Premium  (5),Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 25%. Misture no fertilizante arado.,"['  Coral  ', '1']",Cultivo  nível 8,,,,,Coral,0
+252,Solo Foliar Premium  (5),Estimula a produção de folhas. Garante um aumento de crescimento de pelo menos 25%. Misture no fertilizante arado.,[''],Cultivo  nível 8,,,,,,0
+253,Hiper Solo Foliar,Estimula muito a produção de folhas. Garante um aumento de crescimento de pelo menos 33%. Misture no solo arado.,"['Minério Radioativo  ', '1']",Sala de Nozes do Sr. Qi  por  30,,,,,Minério Radioativo,0
+254,Hiper Solo Foliar,Estimula muito a produção de folhas. Garante um aumento de crescimento de pelo menos 33%. Misture no solo arado.,"['  Fragmento de Osso  ', '3']",Sala de Nozes do Sr. Qi  por  30,,,,,Fragmento de Osso,0
+255,Hiper Solo Foliar,Estimula muito a produção de folhas. Garante um aumento de crescimento de pelo menos 33%. Misture no solo arado.,"['  Essência solar  ', '1']",Sala de Nozes do Sr. Qi  por  30,,,,,Essência solar,0
+256,Hiper Solo Foliar,Estimula muito a produção de folhas. Garante um aumento de crescimento de pelo menos 33%. Misture no solo arado.,[''],Sala de Nozes do Sr. Qi  por  30,,,,,,0
+257,Solo retentor,Possui uma chance de continuar úmido no próximo dia. Misture no fertilizante arado.,"['Pedra  ', '2']",Cultivo  nível 4,,,,,Pedra,0
+258,Solo retentor,Possui uma chance de continuar úmido no próximo dia. Misture no fertilizante arado.,[''],Cultivo  nível 4,,,,,,0
+259,Solo retentor de qualidade  (2),Possui boa chance de continuar úmido no próximo dia. Misture no fertilizante arado.,"['Pedra  ', '3']",Cultivo  nível 7,,,,,Pedra,0
+260,Solo retentor de qualidade  (2),Possui boa chance de continuar úmido no próximo dia. Misture no fertilizante arado.,"['  Argila  ', '1']",Cultivo  nível 7,,,,,Argila,0
+261,Solo retentor de qualidade  (2),Possui boa chance de continuar úmido no próximo dia. Misture no fertilizante arado.,[''],Cultivo  nível 7,,,,,,0
+262,Solo Retentor Premium,Este solo tem 100% de chance de continuar úmido no próximo dia. Misture no solo arado.,"['Pedra  ', '5']",Comerciante da Ilha  por  Fragmento de Brasa  (50),,,,,Pedra,0
+263,Solo Retentor Premium,Este solo tem 100% de chance de continuar úmido no próximo dia. Misture no solo arado.,"['  Fibra  ', '3']",Comerciante da Ilha  por  Fragmento de Brasa  (50),,,,,Fibra,0
+264,Solo Retentor Premium,Este solo tem 100% de chance de continuar úmido no próximo dia. Misture no solo arado.,"['  Argila  ', '1']",Comerciante da Ilha  por  Fragmento de Brasa  (50),,,,,Argila,0
+265,Solo Retentor Premium,Este solo tem 100% de chance de continuar úmido no próximo dia. Misture no solo arado.,[''],Comerciante da Ilha  por  Fragmento de Brasa  (50),,,,,,0
+266,Fertilizante de Árvore,"Use em um árvore para ter um crescimento rápido, até no inverno. Não funciona com árvores de frutos.","['Fibra  ', '5']",Coleta  Nível 7,,,,,Fibra,0
+267,Fertilizante de Árvore,"Use em um árvore para ter um crescimento rápido, até no inverno. Não funciona com árvores de frutos.","['  Pedra  ', '5']",Coleta  Nível 7,,,,,Pedra,0
+268,Fertilizante de Árvore,"Use em um árvore para ter um crescimento rápido, até no inverno. Não funciona com árvores de frutos.",[''],Coleta  Nível 7,,,,,,0
+269,Tocha,Provê uma quantidade moderada de luz.,"['Madeira  ', '1']",Início do jogo,,,,,Madeira,0
+270,Tocha,Provê uma quantidade moderada de luz.,"['  Seiva  ', '2']",Início do jogo,,,,,Seiva,0
+271,Tocha,Provê uma quantidade moderada de luz.,[''],Início do jogo,,,,,,0
+272,Fogueira,Ilumina moderadamente.,"['Pedra  ', '10']",Início do jogo,,,,,Pedra,0
+273,Fogueira,Ilumina moderadamente.,"['  Madeira  ', '10']",Início do jogo,,,,,Madeira,0
+274,Fogueira,Ilumina moderadamente.,"['  Fibra  ', '10']",Início do jogo,,,,,Fibra,0
+275,Fogueira,Ilumina moderadamente.,[''],Início do jogo,,,,,,0
+276,Braseiro de madeira,Ilumina moderadamente.,"['Madeira  ', '10']",Carpintaria  por  250 ouros,,,,,Madeira,0
+277,Braseiro de madeira,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  250 ouros,,,,,Carvão,0
+278,Braseiro de madeira,Ilumina moderadamente.,"['  Fibra  ', '5']",Carpintaria  por  250 ouros,,,,,Fibra,0
+279,Braseiro de madeira,Ilumina moderadamente.,[''],Carpintaria  por  250 ouros,,,,,,0
+280,Braseiro de pedra,Ilumina moderadamente.,"['Pedra  ', '10']",Carpintaria  por  400 ouros,,,,,Pedra,0
+281,Braseiro de pedra,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  400 ouros,,,,,Carvão,0
+282,Braseiro de pedra,Ilumina moderadamente.,"['  Fibra  ', '5']",Carpintaria  por  400 ouros,,,,,Fibra,0
+283,Braseiro de pedra,Ilumina moderadamente.,[''],Carpintaria  por  400 ouros,,,,,,0
+284,Braseiro dourado,Ilumina moderadamente.,"['Barra de ouro  ', '1']",Carpintaria  por  1 000 ouros,,,,,Barra de ouro,0
+285,Braseiro dourado,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  1 000 ouros,,,,,Carvão,0
+286,Braseiro dourado,Ilumina moderadamente.,"['  Fibra  ', '5']",Carpintaria  por  1 000 ouros,,,,,Fibra,0
+287,Braseiro dourado,Ilumina moderadamente.,[''],Carpintaria  por  1 000 ouros,,,,,,0
+288,Braseiro esculpido,Ilumina moderadamente.,"['Madeira de lei  ', '10']",Carpintaria  por  2 000 ouros,,,,,Madeira de lei,0
+289,Braseiro esculpido,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  2 000 ouros,,,,,Carvão,0
+290,Braseiro esculpido,Ilumina moderadamente.,[''],Carpintaria  por  2 000 ouros,,,,,,0
+291,Braseiro de toco de árvore,Ilumina moderadamente.,"['Madeira de lei  ', '5']",Carpintaria  por  800 ouros,,,,,Madeira de lei,0
+292,Braseiro de toco de árvore,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  800 ouros,,,,,Carvão,0
+293,Braseiro de toco de árvore,Ilumina moderadamente.,[''],Carpintaria  por  800 ouros,,,,,,0
+294,Braseiro de barril,Ilumina moderadamente.,"['Madeira  ', '50']",Carpintaria  por  800 ouros,,,,,Madeira,0
+295,Braseiro de barril,Ilumina moderadamente.,"['  Essência solar  ', '1']",Carpintaria  por  800 ouros,,,,,Essência solar,0
+296,Braseiro de barril,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  800 ouros,,,,,Carvão,0
+297,Braseiro de barril,Ilumina moderadamente.,[''],Carpintaria  por  800 ouros,,,,,,0
+298,Braseiro de crânio,Ilumina moderadamente.,"['Madeira de lei  ', '10']",Carpintaria  por  3 000 ouros,,,,,Madeira de lei,0
+299,Braseiro de crânio,Ilumina moderadamente.,"['  Essência solar  ', '1']",Carpintaria  por  3 000 ouros,,,,,Essência solar,0
+300,Braseiro de crânio,Ilumina moderadamente.,"['  Carvão  ', '1']",Carpintaria  por  3 000 ouros,,,,,Carvão,0
+301,Braseiro de crânio,Ilumina moderadamente.,[''],Carpintaria  por  3 000 ouros,,,,,,0
+302,Braseiro de mármore,Ilumina moderadamente.,"['Mármore  ', '1']",Carpintaria  por  5 000 ouros,,,,,Mármore,0
+303,Braseiro de mármore,Ilumina moderadamente.,"['  Água-marinha  ', '1']",Carpintaria  por  5 000 ouros,,,,,Água-marinha,0
+304,Braseiro de mármore,Ilumina moderadamente.,"['  Pedra  ', '100']",Carpintaria  por  5 000 ouros,,,,,Pedra,0
+305,Braseiro de mármore,Ilumina moderadamente.,[''],Carpintaria  por  5 000 ouros,,,,,,0
+306,Poste de luz lígneo,Ilumina bem.,"['Madeira  ', '50']",Carpintaria  por  500 ouros,,,,,Madeira,0
+307,Poste de luz lígneo,Ilumina bem.,"['  Conjunto de pilhas  ', '1']",Carpintaria  por  500 ouros,,,,,Conjunto de pilhas,0
+308,Poste de luz lígneo,Ilumina bem.,[''],Carpintaria  por  500 ouros,,,,,,0
+309,Poste de luz férreo,Ilumina bem.,"['Barra de ferro  ', '1']",Carpintaria  por  1 000 ouros,,,,,Barra de ferro,0
+310,Poste de luz férreo,Ilumina bem.,"['  Conjunto de pilhas  ', '1']",Carpintaria  por  1 000 ouros,,,,,Conjunto de pilhas,0
+311,Poste de luz férreo,Ilumina bem.,[''],Carpintaria  por  1 000 ouros,,,,,,0
+312,Cabeça de abóbora,Uma sofisticada decoração de outono.,"['Abóbora  ', '1']",Loja de  Pierre  no festival da  Véspera dos Espíritos  (  2 000 ouros  ),,,,,Abóbora,0
+313,Cabeça de abóbora,Uma sofisticada decoração de outono.,"['  Tocha  ', '1']",Loja de  Pierre  no festival da  Véspera dos Espíritos  (  2 000 ouros  ),,,,,Tocha,0
+314,Cabeça de abóbora,Uma sofisticada decoração de outono.,[''],Loja de  Pierre  no festival da  Véspera dos Espíritos  (  2 000 ouros  ),,,,,,0
+315,Lanchinho,Um lanchinho rápido para o coletor faminto.,"['Bolota  ', '1']",Coleta  nível 1,,,45.0,18.0,Bolota,0
+316,Lanchinho,Um lanchinho rápido para o coletor faminto.,"['  Semente de ácer  ', '1']",Coleta  nível 1,,,45.0,18.0,Semente de ácer,0
+317,Lanchinho,Um lanchinho rápido para o coletor faminto.,"['  Pinha  ', '1']",Coleta  nível 1,,,45.0,18.0,Pinha,0
+318,Lanchinho,Um lanchinho rápido para o coletor faminto.,[''],Coleta  nível 1,,,45.0,18.0,,0
+319,Elixir da vida,Restaura sua saúde ao máximo.,"['Cogumelo vermelho  ', '1']",Combate  nível 2,,,200.0,80.0,Cogumelo vermelho,0
+320,Elixir da vida,Restaura sua saúde ao máximo.,"['  Cogumelo roxo  ', '1']",Combate  nível 2,,,200.0,80.0,Cogumelo roxo,0
+321,Elixir da vida,Restaura sua saúde ao máximo.,"['  Morel  ', '1']",Combate  nível 2,,,200.0,80.0,Morel,0
+322,Elixir da vida,Restaura sua saúde ao máximo.,"['  Cantarelo  ', '1']",Combate  nível 2,,,200.0,80.0,Cantarelo,0
+323,Elixir da vida,Restaura sua saúde ao máximo.,[''],Combate  nível 2,,,200.0,80.0,,0
+324,Óleo de alho,Beba isto e monstros mais fracos evitarão você.,"['Alho  ', '10']",Combate  nível 6,,,200.0,80.0,Alho,0
+325,Óleo de alho,Beba isto e monstros mais fracos evitarão você.,"['  Óleo  ', '1']",Combate  nível 6,,,200.0,80.0,Óleo,0
+326,Óleo de alho,Beba isto e monstros mais fracos evitarão você.,[''],Combate  nível 6,,,200.0,80.0,,0
+327,Filé de Inseto,A última opção de exploradores de caverna famintos.,"['Carne de inseto  ', '10']",Combate  nível 1,,,45.0,30.0,Carne de inseto,0
+328,Filé de Inseto,A última opção de exploradores de caverna famintos.,[''],Combate  nível 1,,,45.0,30.0,,0
+329,Barril de flores,Flores plantadas em um barril de carvalho. Floresce na  primavera  e  verão  .,"['Madeira  ', '15']",Loja de  Pierre  na  Dança das Flores  (  2 000 ouros  ),,,,,Madeira,0
+330,Barril de flores,Flores plantadas em um barril de carvalho. Floresce na  primavera  e  verão  .,"['  Bulbo de Tulipa  ', '1']",Loja de  Pierre  na  Dança das Flores  (  2 000 ouros  ),,,,,Bulbo de Tulipa,0
+331,Barril de flores,Flores plantadas em um barril de carvalho. Floresce na  primavera  e  verão  .,"['  Sementes de Jasmim-azul  ', '1']",Loja de  Pierre  na  Dança das Flores  (  2 000 ouros  ),,,,,Sementes de Jasmim-azul,0
+332,Barril de flores,Flores plantadas em um barril de carvalho. Floresce na  primavera  e  verão  .,"['  Sementes de papoula  ', '1']",Loja de  Pierre  na  Dança das Flores  (  2 000 ouros  ),,,,,Sementes de papoula,0
+333,Barril de flores,Flores plantadas em um barril de carvalho. Floresce na  primavera  e  verão  .,"['  Sementes de Miçanga  ', '1']",Loja de  Pierre  na  Dança das Flores  (  2 000 ouros  ),,,,,Sementes de Miçanga,0
+334,Barril de flores,Flores plantadas em um barril de carvalho. Floresce na  primavera  e  verão  .,[''],Loja de  Pierre  na  Dança das Flores  (  2 000 ouros  ),,,,,,0
+335,Estátua maligna,Tem algo estranho com essa estátua.,"['Pedra  ', '25']",Loja de  Krobus  (  1 000 ouros  ),,,,,Pedra,0
+336,Estátua maligna,Tem algo estranho com essa estátua.,"['  Carvão  ', '5']",Loja de  Krobus  (  1 000 ouros  ),,,,,Carvão,0
+337,Estátua maligna,Tem algo estranho com essa estátua.,[''],Loja de  Krobus  (  1 000 ouros  ),,,,,,0
+338,Bloco de flauta,Toca um som de flauta ao passar por ele.,"['Madeira  ', '10']",Robin  (Evento de 6 corações),,,,,Madeira,0
+339,Bloco de flauta,Toca um som de flauta ao passar por ele.,"['  Minério de cobre  ', '2']",Robin  (Evento de 6 corações),,,,,Minério de cobre,0
+340,Bloco de flauta,Toca um som de flauta ao passar por ele.,"['  Fibra  ', '20']",Robin  (Evento de 6 corações),,,,,Fibra,0
+341,Bloco de flauta,Toca um som de flauta ao passar por ele.,[''],Robin  (Evento de 6 corações),,,,,,0
+342,Bloco de bateria,Toca um som de bateria ao passar por ele.,"['Pedra  ', '10']",Robin  (Evento de 6 corações),,,,,Pedra,0
+343,Bloco de bateria,Toca um som de bateria ao passar por ele.,"['  Minério de cobre  ', '2']",Robin  (Evento de 6 corações),,,,,Minério de cobre,0
+344,Bloco de bateria,Toca um som de bateria ao passar por ele.,"['  Fibra  ', '20']",Robin  (Evento de 6 corações),,,,,Fibra,0
+345,Bloco de bateria,Toca um som de bateria ao passar por ele.,[''],Robin  (Evento de 6 corações),,,,,,0
+346,Anzol,Sua forma a faz girar na água. Aumenta levemente as chances de pegar um peixe.,"['Barra de ferro  ', '2']",Pesca  nível 6,,,,,Barra de ferro,0
+347,Anzol,Sua forma a faz girar na água. Aumenta levemente as chances de pegar um peixe.,[''],Pesca  nível 6,,,,,,0
+348,Boia-armadilha,Faz com que os peixes escapem mais lentamente quando você não está içando a vara.,"['Barra de cobre  ', '1']",Pesca  nível 6,,,,,Barra de cobre,0
+349,Boia-armadilha,Faz com que os peixes escapem mais lentamente quando você não está içando a vara.,"['  Seiva  ', '10']",Pesca  nível 6,,,,,Seiva,0
+350,Boia-armadilha,Faz com que os peixes escapem mais lentamente quando você não está içando a vara.,[''],Pesca  nível 6,,,,,,0
+351,Boia de cortiça,"Aumenta levemente o tamanho da sua ""barra de pesca"".","['Madeira  ', '10']",Pesca  nível 7,,,,,Madeira,0
+352,Boia de cortiça,"Aumenta levemente o tamanho da sua ""barra de pesca"".","['  Madeira de lei  ', '5']",Pesca  nível 7,,,,,Madeira de lei,0
+353,Boia de cortiça,"Aumenta levemente o tamanho da sua ""barra de pesca"".","['  Gosma  ', '10']",Pesca  nível 7,,,,,Gosma,0
+354,Boia de cortiça,"Aumenta levemente o tamanho da sua ""barra de pesca"".",[''],Pesca  nível 7,,,,,,0
+355,Boia de Qualidade,Aumenta a qualidade dos peixes que você pesca.,"['Barra de cobre  ', '1']",Willy  (  Pedido Especial  ),,,,,Barra de cobre,0
+356,Boia de Qualidade,Aumenta a qualidade dos peixes que você pesca.,"['  Seiva  ', '20']",Willy  (  Pedido Especial  ),,,,,Seiva,0
+357,Boia de Qualidade,Aumenta a qualidade dos peixes que você pesca.,"['  Essência solar  ', '5']",Willy  (  Pedido Especial  ),,,,,Essência solar,0
+358,Boia de Qualidade,Aumenta a qualidade dos peixes que você pesca.,[''],Willy  (  Pedido Especial  ),,,,,,0
+359,Caça ao tesouro,Peixes não escapam ao coletar tesouros. Também aumenta levemente as chances de encontrar um tesouro.,"['Barra de ouro  ', '2']",Pesca  nível 7,,,,,Barra de ouro,0
+360,Caça ao tesouro,Peixes não escapam ao coletar tesouros. Também aumenta levemente as chances de encontrar um tesouro.,[''],Pesca  nível 7,,,,,,0
+361,Isca artificial,A aba de metal e a os feixes coloridos criam uma tentação fatal para os peixes. Aumenta a chance de mordida ao pescar.,"['Barra de ferro  ', '2']",Pesca  nível 8,,,,,Barra de ferro,0
+362,Isca artificial,A aba de metal e a os feixes coloridos criam uma tentação fatal para os peixes. Aumenta a chance de mordida ao pescar.,"['  Tecido  ', '1']",Pesca  nível 8,,,,,Tecido,0
+363,Isca artificial,A aba de metal e a os feixes coloridos criam uma tentação fatal para os peixes. Aumenta a chance de mordida ao pescar.,[''],Pesca  nível 8,,,,,,0
+364,Anzol farpado,"Prende sua pesca melhor, fazendo com que a ""barra de pesca"" fique presa a ela. Funciona melhor em peixes lentos e fracos.","['Barra de cobre  ', '1']",Pesca  nível 8,,,,,Barra de cobre,0
+365,Anzol farpado,"Prende sua pesca melhor, fazendo com que a ""barra de pesca"" fique presa a ela. Funciona melhor em peixes lentos e fracos.","['  Barra de ferro  ', '1']",Pesca  nível 8,,,,,Barra de ferro,0
+366,Anzol farpado,"Prende sua pesca melhor, fazendo com que a ""barra de pesca"" fique presa a ela. Funciona melhor em peixes lentos e fracos.","['  Barra de ouro  ', '1']",Pesca  nível 8,,,,,Barra de ouro,0
+367,Anzol farpado,"Prende sua pesca melhor, fazendo com que a ""barra de pesca"" fique presa a ela. Funciona melhor em peixes lentos e fracos.",[''],Pesca  nível 8,,,,,,0
+368,Ímã,"Aumenta as chances de achar tesouros ao pescar. Entretanto, os peixes não gostam muito do sabor.","['Barra de ferro  ', '1']",Pesca  nível 9,,,,,Barra de ferro,0
+369,Ímã,"Aumenta as chances de achar tesouros ao pescar. Entretanto, os peixes não gostam muito do sabor.",[''],Pesca  nível 9,,,,,,0
+370,Isca  (5),Faz o peixe morder mais rápido. Deve ser colocado em uma vara de pescar.,"['Carne de inseto  ', '1']",Pesca  nível 2,,,,,Carne de inseto,0
+371,Isca  (5),Faz o peixe morder mais rápido. Deve ser colocado em uma vara de pescar.,[''],Pesca  nível 2,,,,,,0
+372,Isca selvagem  (5),Uma receita especial do Linus. Atraente para todos os peixes.,"['Fibra  ', '10']",Evento de 4 corações do  Linus,,,,,Fibra,0
+373,Isca selvagem  (5),Uma receita especial do Linus. Atraente para todos os peixes.,"['  Carne de inseto  ', '5']",Evento de 4 corações do  Linus,,,,,Carne de inseto,0
+374,Isca selvagem  (5),Uma receita especial do Linus. Atraente para todos os peixes.,"['  Gosma  ', '5']",Evento de 4 corações do  Linus,,,,,Gosma,0
+375,Isca selvagem  (5),Uma receita especial do Linus. Atraente para todos os peixes.,[''],Evento de 4 corações do  Linus,,,,,,0
+376,Isca Mágica  (5),"Permite que você pegue peixes de qualquer estação, tempo ou clima a partir de qualquer corpo d'água.","['Minério Radioativo  ', '1']",Sala de Nozes do Sr. Qi  por  20,,,,,Minério Radioativo,0
+377,Isca Mágica  (5),"Permite que você pegue peixes de qualquer estação, tempo ou clima a partir de qualquer corpo d'água.","['  Carne de inseto  ', '3']",Sala de Nozes do Sr. Qi  por  20,,,,,Carne de inseto,0
+378,Isca Mágica  (5),"Permite que você pegue peixes de qualquer estação, tempo ou clima a partir de qualquer corpo d'água.",[''],Sala de Nozes do Sr. Qi  por  20,,,,,,0
+379,Covo,"Ponha na água, com uma isca, e dê uma olhada no dia seguinte para ver se você pescou algo. Funciona em correntes, lagos, e no oceano.","['Madeira  ', '40']",Pesca  nível 3,,,,,Madeira,0
+380,Covo,"Ponha na água, com uma isca, e dê uma olhada no dia seguinte para ver se você pescou algo. Funciona em correntes, lagos, e no oceano.","['  Barra de ferro  ', '3']",Pesca  nível 3,,,,,Barra de ferro,0
+381,Covo,"Ponha na água, com uma isca, e dê uma olhada no dia seguinte para ver se você pescou algo. Funciona em correntes, lagos, e no oceano.","['  Com a profissão  Armadilheiro  :  Madeira  ', '25']",Pesca  nível 3,,,,,Com a profissão  Armadilheiro  :  Madeira,0
+382,Covo,"Ponha na água, com uma isca, e dê uma olhada no dia seguinte para ver se você pescou algo. Funciona em correntes, lagos, e no oceano.","['  Barra de cobre  ', '2']",Pesca  nível 3,,,,,Barra de cobre,0
+383,Covo,"Ponha na água, com uma isca, e dê uma olhada no dia seguinte para ver se você pescou algo. Funciona em correntes, lagos, e no oceano.",[''],Pesca  nível 3,,,,,,0
+384,Sementes Silvestres (Prim)  (  Sementes de primavera  ),"Uma combinação de sementes selvagens de primavera.  (Nota: O item criado é chamado ""Sementes de primavera"". A receita produz 10 sementes por criação.)","['Raiz-forte  ', '1']",Coleta  nível 1,,,,,Raiz-forte,0
+385,Sementes Silvestres (Prim)  (  Sementes de primavera  ),"Uma combinação de sementes selvagens de primavera.  (Nota: O item criado é chamado ""Sementes de primavera"". A receita produz 10 sementes por criação.)","['  Narciso  ', '1']",Coleta  nível 1,,,,,Narciso,0
+386,Sementes Silvestres (Prim)  (  Sementes de primavera  ),"Uma combinação de sementes selvagens de primavera.  (Nota: O item criado é chamado ""Sementes de primavera"". A receita produz 10 sementes por criação.)","['  Alho-poró  ', '1']",Coleta  nível 1,,,,,Alho-poró,0
+387,Sementes Silvestres (Prim)  (  Sementes de primavera  ),"Uma combinação de sementes selvagens de primavera.  (Nota: O item criado é chamado ""Sementes de primavera"". A receita produz 10 sementes por criação.)","['  Dente-de-leão  ', '1']",Coleta  nível 1,,,,,Dente-de-leão,0
+388,Sementes Silvestres (Prim)  (  Sementes de primavera  ),"Uma combinação de sementes selvagens de primavera.  (Nota: O item criado é chamado ""Sementes de primavera"". A receita produz 10 sementes por criação.)",[''],Coleta  nível 1,,,,,,0
+389,Sementes Silvestres (Ver)  (  Sementes de verão  ),"Várias sementes de verão.  (Nota: O item criado é chamado ""Sementes de verão"". A receita produz 10 sementes por criação.)","['Café de jardim  ', '1']",Coleta  nível 4,,,,,Café de jardim,0
+390,Sementes Silvestres (Ver)  (  Sementes de verão  ),"Várias sementes de verão.  (Nota: O item criado é chamado ""Sementes de verão"". A receita produz 10 sementes por criação.)","['  Uva  ', '1']",Coleta  nível 4,,,,,Uva,0
+391,Sementes Silvestres (Ver)  (  Sementes de verão  ),"Várias sementes de verão.  (Nota: O item criado é chamado ""Sementes de verão"". A receita produz 10 sementes por criação.)","['  Ervilha-de-cheiro  ', '1']",Coleta  nível 4,,,,,Ervilha-de-cheiro,0
+392,Sementes Silvestres (Ver)  (  Sementes de verão  ),"Várias sementes de verão.  (Nota: O item criado é chamado ""Sementes de verão"". A receita produz 10 sementes por criação.)",[''],Coleta  nível 4,,,,,,0
+393,Sementes Silvestres (Out)  (  Sementes de outono  ),"Uma combinação de sementes selvagens de outono.  (Nota: O item criado é chamado ""Sementes de outono"". A receita produz 10 sementes por criação.)","['Cogumelo comum  ', '1']",Coleta  nível 6,,,,,Cogumelo comum,0
+394,Sementes Silvestres (Out)  (  Sementes de outono  ),"Uma combinação de sementes selvagens de outono.  (Nota: O item criado é chamado ""Sementes de outono"". A receita produz 10 sementes por criação.)","['  Ameixa selvagem  ', '1']",Coleta  nível 6,,,,,Ameixa selvagem,0
+395,Sementes Silvestres (Out)  (  Sementes de outono  ),"Uma combinação de sementes selvagens de outono.  (Nota: O item criado é chamado ""Sementes de outono"". A receita produz 10 sementes por criação.)","['  Avelã  ', '1']",Coleta  nível 6,,,,,Avelã,0
+396,Sementes Silvestres (Out)  (  Sementes de outono  ),"Uma combinação de sementes selvagens de outono.  (Nota: O item criado é chamado ""Sementes de outono"". A receita produz 10 sementes por criação.)","['  Amora  ', '1']",Coleta  nível 6,,,,,Amora,0
+397,Sementes Silvestres (Out)  (  Sementes de outono  ),"Uma combinação de sementes selvagens de outono.  (Nota: O item criado é chamado ""Sementes de outono"". A receita produz 10 sementes por criação.)",[''],Coleta  nível 6,,,,,,0
+398,Sementes Silvestres (Inv)  (  Sementes de inverno  ),"Coleção de sementes de inverno selvagens.  (Nota: O item criado é chamado ""Sementes de inverno"". A receita produz 10 sementes por criação.)","['Raiz de inverno  ', '1']",Coleta  nível 7,,,,,Raiz de inverno,0
+399,Sementes Silvestres (Inv)  (  Sementes de inverno  ),"Coleção de sementes de inverno selvagens.  (Nota: O item criado é chamado ""Sementes de inverno"". A receita produz 10 sementes por criação.)","['  Fruta de cristal  ', '1']",Coleta  nível 7,,,,,Fruta de cristal,0
+400,Sementes Silvestres (Inv)  (  Sementes de inverno  ),"Coleção de sementes de inverno selvagens.  (Nota: O item criado é chamado ""Sementes de inverno"". A receita produz 10 sementes por criação.)","['  Inhame de neve  ', '1']",Coleta  nível 7,,,,,Inhame de neve,0
+401,Sementes Silvestres (Inv)  (  Sementes de inverno  ),"Coleção de sementes de inverno selvagens.  (Nota: O item criado é chamado ""Sementes de inverno"". A receita produz 10 sementes por criação.)","['  Flor de açafrão  ', '1']",Coleta  nível 7,,,,,Flor de açafrão,0
+402,Sementes Silvestres (Inv)  (  Sementes de inverno  ),"Coleção de sementes de inverno selvagens.  (Nota: O item criado é chamado ""Sementes de inverno"". A receita produz 10 sementes por criação.)",[''],Coleta  nível 7,,,,,,0
+403,Sementes antigas,Elas ainda crescem?,"['Semente antiga  ', '1']",Doar uma  Semente antiga  para o  Museu  .,,,,,Semente antiga,0
+404,Sementes antigas,Elas ainda crescem?,[''],Doar uma  Semente antiga  para o  Museu  .,,,,,,0
+405,Mudas de grama,Ponha-o na sua fazenda para criar um novo pedaço de grama.,"['Fibra  ', '10']",Compradas no  Armazém do Pierre  por  100 ouros,,,,,Fibra,0
+406,Mudas de grama,Ponha-o na sua fazenda para criar um novo pedaço de grama.,[''],Compradas no  Armazém do Pierre  por  100 ouros,,,,,,0
+407,Broto de Chá,"Demora 20 dias para crescer. Produz folhas de chá durante a última semana de cada estação, exceto inverno. Sem precisar regar!","['Sementes Silvestres ', 'Qualquer']",Caroline  (evento de 2 corações),,,,,Sementes Silvestres,0
+408,Broto de Chá,"Demora 20 dias para crescer. Produz folhas de chá durante a última semana de cada estação, exceto inverno. Sem precisar regar!","[' ', '2']",Caroline  (evento de 2 corações),,,,,,0
+409,Broto de Chá,"Demora 20 dias para crescer. Produz folhas de chá durante a última semana de cada estação, exceto inverno. Sem precisar regar!","['  Fibra  ', '5']",Caroline  (evento de 2 corações),,,,,Fibra,0
+410,Broto de Chá,"Demora 20 dias para crescer. Produz folhas de chá durante a última semana de cada estação, exceto inverno. Sem precisar regar!","['  Madeira  ', '5']",Caroline  (evento de 2 corações),,,,,Madeira,0
+411,Broto de Chá,"Demora 20 dias para crescer. Produz folhas de chá durante a última semana de cada estação, exceto inverno. Sem precisar regar!",[''],Caroline  (evento de 2 corações),,,,,,0
+412,Semente de Fibra  (4),Plante-as em qualquer estação. Não precisam ser regadas. Colha com a foice. Levam 7 dias para crescer.,"['Sementes mistas  ', '1']",Linus  (  Pedido Especial  ),,,,,Sementes mistas,0
+413,Semente de Fibra  (4),Plante-as em qualquer estação. Não precisam ser regadas. Colha com a foice. Levam 7 dias para crescer.,"['  Seiva  ', '5']",Linus  (  Pedido Especial  ),,,,,Seiva,0
+414,Semente de Fibra  (4),Plante-as em qualquer estação. Não precisam ser regadas. Colha com a foice. Levam 7 dias para crescer.,"['  Argila  ', '1']",Linus  (  Pedido Especial  ),,,,,Argila,0
+415,Semente de Fibra  (4),Plante-as em qualquer estação. Não precisam ser regadas. Colha com a foice. Levam 7 dias para crescer.,[''],Linus  (  Pedido Especial  ),,,,,,0
