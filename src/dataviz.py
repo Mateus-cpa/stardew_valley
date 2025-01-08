@@ -7,6 +7,8 @@ profissoes = pd.read_csv('docs_silver/profissoes.csv')
 animais = pd.read_csv('docs_silver/animais.csv')
 armas = pd.read_csv('docs_silver/armas.csv')
 artesanatos = pd.read_csv('docs_silver/artesanatos.csv')
+atributos_luta = pd.read_csv('docs_silver/artesanatos.csv')
+artefatos = pd.read_csv('docs_silver/artefatos.csv')
 
 # Título da aplicação
 st.title('Profissões')
@@ -18,9 +20,14 @@ st.dataframe(animais)
 st.title('Armas')
 st.dataframe(armas)
 
+st.title('Atributos de Luta')
+st.dataframe(atributos_luta)
+
 st.title('Artesanato')
 st.dataframe(artesanatos)
 
+st.title('Artefatos')
+st.dataframe(artefatos)
 
 #streamlit run src/dataviz.py
 
