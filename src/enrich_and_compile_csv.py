@@ -204,26 +204,45 @@ def concat_dataframes ():
                 'espadas',
                 'estilingues',
                 'impossiveis',
-                'luta_atributos',
                 'municoes']
-  #padronizar colunas
   dfs_to_concat = [] 
   for arma in lista_armas:
     df_temp = pd.read_csv(f'docs_bronze/armas_{arma}.csv')
-    print(f'colunas de {arma}: {df_temp.columns}')
+    df_temp['Tipo'] = arma
+    if arma == 'municoes':
+      df_temp = df_temp.rename(columns={'Faixa de Dano Padrão': 'Dano', 
+                                        'Item': 'Nome',
+                                        'Chance de  Acerto Crítico': 'Chance de Acerto Crítico'})
+      df_temp['Descrição'] = df_temp['Multiplicador de Munição'].apply(lambda x: 'Base de dano: ' + str(x))
+      df_temp['Nome'] = df_temp['Nome'].apply(lambda linha: str(linha.replace('Todas as  ','').replace('  • Todos os ',', ').replace('"','')))
+      df_temp.pop('Multiplicador de Munição')
+    if arma == 'impossiveis':
+      df_temp = df_temp.rename(columns={'Preço de venda':'Preço de Venda'})
+    
     dfs_to_concat.append(df_temp)
   df_armas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_armas['Preço de Compra'] = df_armas['Preço de Compra'].apply(lambda linha: str(linha).replace('ouros','').replace(' ',''))
+  df_armas['Preço de Venda'] = df_armas['Preço de Venda'].apply(lambda linha: str(linha).replace('ouros','').replace(' ',''))
+  df_armas = df_armas.drop('Imagem', axis=1)
   df_armas.to_csv('docs_silver/armas.csv', encoding='utf-8')
 
+  #atributos luta
+  df_atributos_luta = pd.read_csv('docs_bronze/armas_luta_atributos.csv',encoding='utf-8')
+  df_atributos_luta = df_atributos_luta.drop('Imagem', axis=1)
+  df_atributos_luta.to_csv('docs_silver/atributos_luta.csv', encoding='utf-8')
+
+  
   #artefatos
   artefato_tesouro = pd.read_csv('docs_bronze/artefatos_tesouro.csv')
-  artefatos = pd.read_csv('docs_bronze/artefatos.csv')
   artefato_tesouro.columns = ['','Imagem','Nome','Descrição','Local']
+  artefatos = pd.read_csv('docs_bronze/artefatos.csv')
   lista_artefatos = [artefatos,artefato_tesouro]
-  artefatos = pd.concat(lista_artefatos,ignore_index=True)
-  artefatos = artefato_tesouro[['Nome','Descrição','Preço','Local']]
-  print(artefatos)
+  artefatos = pd.concat(lista_artefatos,join='outer',ignore_index=True)
+  artefatos = artefatos[['Nome','Descrição','Preço','Local']]
+  artefatos['Preço'] = artefatos['Preço'].apply(lambda linha: str(linha).replace('ouros','').replace('ouro','').replace(' ',''))
+  artefatos.to_csv('docs_silver/artefatos.csv',encoding='utf-8')
 
+  
   #artesanato
   lista_artesanato = ['aneis',
                         'aspersores',
@@ -239,15 +258,16 @@ def concat_dataframes ():
                         'mobilia',
                         'pesca',
                         'sementes']
-  #padronizar colunas
   dfs_to_concat = [] 
   for artesanato in lista_artesanato:
     df_temp = pd.read_csv(f'docs_bronze/artesanato_{artesanato}.csv')
     print(f'colunas de {artesanato}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_artesanatos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_artesanatos = df_artesanatos.drop(columns=['Unnamed: 0','Imagem'])
   df_artesanatos.to_csv('docs_silver/artesanatos.csv', encoding='utf-8')
 
+  """
     #arvores
   lista_arvores: list = ['bananeira',
                          'cerejeira',
@@ -651,7 +671,7 @@ def concat_dataframes ():
   df_taxas_cultivo = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_taxas_cultivo.to_csv('docs_silver/taxas_cultivo.csv', encoding='utf-8')
 
-  
+  """
   pass
 
 
