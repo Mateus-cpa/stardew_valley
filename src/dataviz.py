@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 profissoes = pd.read_csv('docs_silver/profissoes.csv')
 animais = pd.read_csv('docs_silver/animais.csv')
 armas = pd.read_csv('docs_silver/armas.csv')
-artesanatos = pd.read_csv('docs_silver/artesanatos.csv')
+produtos = pd.read_csv('docs_silver/produtos.csv')
 atributos_luta = pd.read_csv('docs_silver/atributos_luta.csv')
 artefatos = pd.read_csv('docs_silver/artefatos.csv')
 xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
@@ -24,17 +24,38 @@ st.dataframe(armas)
 st.title('Atributos de Luta')
 st.dataframe(atributos_luta)
 
-st.title('Artesanato')
-st.dataframe(artesanatos)
+st.title('Produtos')
+st.dataframe(produtos)
 
 st.title('Artefatos')
 st.dataframe(artefatos)
 
 st.title('XP')
 st.dataframe(xp)
+st.bar_chart(xp,x='item',
+             y='XP',
+             x_label='Item',
+             y_label='Valor de Experiência',
+             #color='Profissão',
+             horizontal=True)
 
-#streamlit run src/dataviz.py
 
+"""
+streamlit run src/dataviz.py
+
+
+
+your-repository/
+├── page_1.py
+├── page_2.py
+└── streamlit_app.py
+
+pg = st.navigation([st.Page("page_1.py"), st.Page("page_2.py")])
+pg.run()
+https://docs.streamlit.io/develop/concepts/multipage-apps/page-and-navigation
+https://docs.streamlit.io/develop/quick-reference/cheat-sheet
+
+"""
 
 
 """def grafico_xp ():
