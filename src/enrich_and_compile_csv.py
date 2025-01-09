@@ -211,14 +211,13 @@ def separar_e_explodir(df, coluna):
 def separar_quantidades_e_explodir (df, coluna):
   df[coluna] = df[coluna].apply(lambda linha: linha.split(')'))
   df = df.explode(coluna).dropna(subset=coluna)
-  df = df.reset_index(drop=True)
-  df[coluna] = df[coluna].apply(lambda linha: linha.split('('))
+  #df = df.reset_index(drop=True)
+  df[coluna] = df[coluna].apply(lambda linha: linha.split('(') if '(' in linha else [linha, '0'])
   df[f'{coluna}_item'] = df[coluna].apply(lambda lista: lista[0].strip())
-  try:
-    df[f'{coluna}_qtd'] = df[coluna].apply(lambda lista: lista[1])
-  except IndexError:
-    df[f'{coluna}_qtd'] = 0
-  #df = df.drop(coluna, axis=1)
+  df[f'{coluna}_qtd'] = df[coluna].apply(lambda lista: lista[1].strip())
+  df = df.drop(coluna, axis=1)
+  df[f'{coluna}_qtd'] = pd.to_numeric(df[f'{coluna}_qtd'], errors='coerce')
+  df = df[df[f'{coluna}_qtd'] != 0]
 
   return df
 
@@ -331,7 +330,7 @@ def concat_dataframes ():
   df_artesanatos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_artesanatos = df_artesanatos.drop(columns=['Unnamed: 0','Imagem'])
   df_artesanatos = separar_quantidades_e_explodir(df_artesanatos,'Ingredientes')
-  #df_artesanatos = df_artesanatos[['Nome','Descrição','Ingredientes_item','Ingredientes_qtd','Fonte da Receita','Origem da Receita','Dura Por','Energia','Saúde']]
+  df_artesanatos = df_artesanatos[['Nome','Descrição','Ingredientes_item','Ingredientes_qtd','Fonte da Receita','Origem da Receita','Dura Por','Energia','Saúde']]
   df_artesanatos.to_csv('docs_silver/produtos.csv', encoding='utf-8')
 
   """
