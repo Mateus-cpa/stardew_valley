@@ -223,6 +223,7 @@ def separar_quantidades_e_explodir (df, coluna):
 
 
 def concat_dataframes ():
+  
   #animais
   lista_animais = ['avestruz',
                    'cabra',
@@ -326,37 +327,74 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for artesanato in lista_produtos:
     df_temp = pd.read_csv(f'docs_bronze/artesanato_{artesanato}.csv')
+    df_temp['Tipo'] = artesanato
     dfs_to_concat.append(df_temp)
   df_artesanatos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_artesanatos = df_artesanatos.drop(columns=['Unnamed: 0','Imagem'])
   df_artesanatos = separar_quantidades_e_explodir(df_artesanatos,'Ingredientes')
-  df_artesanatos = df_artesanatos[['Nome','Descrição','Ingredientes_item','Ingredientes_qtd','Fonte da Receita','Origem da Receita','Dura Por','Energia','Saúde']]
+  df_artesanatos = df_artesanatos[['Nome','Descrição','Tipo','Ingredientes_item','Ingredientes_qtd','Fonte da Receita','Origem da Receita','Dura Por','Energia','Saúde']]
   df_artesanatos.to_csv('docs_silver/produtos.csv', encoding='utf-8')
 
-  """
-    #arvores
+  
+  #arvores
   lista_arvores: list = ['bananeira',
                          'cerejeira',
                          'damasqueiro',
                          'laranjeira',
                          'macieira',
-                         'mangurira',
+                         'mangueira',
                          'pessegueira',
                          'romanzeira']
-  #padronizar colunas
   dfs_to_concat = [] 
   for arvore in lista_arvores:
-    df_temp = pd.read_csv(f'docs_bronze/arvores_{artesanato}.csv')
-    df_temp = df_temp.loc[1,:].reindex()
-    df_temp_muda = pd.read_csv(f'docs_bronze/arvores_muda_{artesanato}.csv')
-    df_temp_muda = df_temp_muda.loc[0,:].reindex()
-    #concatenar árvore e muda em novas colunas
-    df_temp.join(df_temp_muda)
-    print(f'colunas de {arvore}: {df_temp.columns}')
-    dfs_to_concat.append(df_temp)
-  df_arvores = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8')
+    serie_arvore = pd.read_csv(f'docs_bronze/arvores_{arvore}.csv').iloc[1,1:]
+    serie_arvore['Unnamed: 0'] = 0
+    serie_muda = pd.read_csv(f'docs_bronze/arvores_muda_{arvore}.csv').iloc[0,1:]
+    serie_final = serie_muda._append(serie_arvore)
+    df_final = pd.DataFrame(serie_final).T.reset_index(drop=True)
+    dfs_to_concat.append(df_final)
+  df_arvores = pd.concat([df.reset_index(drop=True) for df in dfs_to_concat]*4,
+                         ignore_index=True).sort_values(by='Fruta')
+  df_arvores = df_arvores.reset_index(drop=True)
+  for i in range(0,len(df_arvores)):  
+    if i % 4 == 0:
+      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[0].strip())
+      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[0].strip())
+      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[1].strip())
+    if i % 4 == 1:
+      df_arvores.loc[i,'Fruta'] = df_arvores.loc[i,'Fruta'] + '_prata'
+      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[1].strip())
+      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[2].strip())
+      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[3].strip())
+    if i % 4 == 2:
+      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[2].strip())
+      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[4].strip())
+      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[5].strip())
+    if i % 4 == 3:
+      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[3].strip())
+      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[6].strip())
+      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[7].strip())
+  df_arvores = df_arvores.rename(columns = {'Preço da Muda': 'preco_muda_pierre',
+                                          'Preço da Muda.1': 'preco_muda_carrinho_viagem'})
+  df_arvores = df_arvores[['Muda',
+                           'Fruta',
+                           'Preco_venda',
+                           'Energia',
+                           'Saude',
+                           'Vendido por',
+                           'Usado em',
+                           'Estágio 1',
+                           'Estágio 2',
+                           'Estágio 3',
+                           'Estágio 4',
+                           'Estágio 5 - Primavera, Verão, Outono, Inverno',
+                           'Colheita',
+                           'preco_muda_pierre',
+                           'preco_muda_carrinho_viagem']]
+  df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8', index=False)
 
+
+  """
   #vestuario
   lista_vestuario = ['aneis',
                      'calcados',
