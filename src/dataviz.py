@@ -10,6 +10,8 @@ produtos = pd.read_csv('docs_silver/produtos.csv')
 atributos_luta = pd.read_csv('docs_silver/atributos_luta.csv')
 artefatos = pd.read_csv('docs_silver/artefatos.csv')
 xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
+arvores = pd.read_csv('docs_silver/arvores.csv',encoding='utf-8')
+
 
 # Título da aplicação
 st.title('Profissões')
@@ -31,14 +33,25 @@ st.title('Artefatos')
 st.dataframe(artefatos)
 
 st.title('XP')
-st.dataframe(xp)
-st.bar_chart(xp,x='item',
+def filter_dataframe(df, selected_values):
+    if selected_values:
+        filtered_df = df[df['Profissao'].isin(selected_values)]
+    else:
+        filtered_df = df
+    return filtered_df
+
+selected_values = st.multiselect('Selecione filtro por Profissão:', xp['Profissao'].unique())# Create a multiselect widget for selecting values
+filtered_xp = filter_dataframe(xp, selected_values)# Filter the DataFrame based on selected values
+
+st.dataframe(filtered_xp)# Display the filtered DataFrame
+st.bar_chart(filtered_xp,x='item',
              y='XP',
              x_label='Item',
              y_label='Valor de Experiência',
-             #color='Profissão',
              horizontal=True)
 
+st.title('Árvores')
+st.dataframe(arvores)
 
 """
 streamlit run src/dataviz.py
