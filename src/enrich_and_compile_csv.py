@@ -367,17 +367,19 @@ def concat_dataframes ():
       df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[2].strip())
       df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[3].strip())
     if i % 4 == 2:
+      df_arvores.loc[i,'Fruta'] = df_arvores.loc[i,'Fruta'] + '_ouro'
       df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[2].strip())
       df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[4].strip())
       df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[5].strip())
     if i % 4 == 3:
+      df_arvores.loc[i,'Fruta'] = df_arvores.loc[i,'Fruta'] + '_iridio'
       df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[3].strip())
       df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[6].strip())
       df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[7].strip())
   df_arvores = df_arvores.rename(columns = {'Preço da Muda': 'preco_muda_pierre',
                                           'Preço da Muda.1': 'preco_muda_carrinho_viagem'})
-  df_arvores = df_arvores[['Muda',
-                           'Fruta',
+  df_arvores = df_arvores[['Fruta',
+                           'Muda',
                            'Preco_venda',
                            'Energia',
                            'Saude',
