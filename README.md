@@ -47,7 +47,8 @@ Transformação do notebook Jupyter(.ipynb) com o código de scraping em um scri
 - Integração com Ferramentas Externas: Integrar o projeto com outras ferramentas, como bancos de dados ou ferramentas de visualização.
 
 ### `FASE 6 - Visualização` :crystal_ball:
-Criação de um dashboard interativo para visualizar os dados de forma clara e concisa.
+- Criação de um dashboard interativo para visualizar os dados de forma clara e concisa.
+- Criação de uma tech tree de produtos.
 
-### `FASE 7 - íCones` :crystal_ball:
+### `FASE 7 - ícones` :crystal_ball:
 Importar biblioteca de imagens e ícones.
