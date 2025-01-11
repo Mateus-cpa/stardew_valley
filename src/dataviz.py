@@ -2,57 +2,60 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-# Carregar os dados
-profissoes = pd.read_csv('docs_silver/profissoes.csv')
-animais = pd.read_csv('docs_silver/animais.csv')
-armas = pd.read_csv('docs_silver/armas.csv')
-produtos = pd.read_csv('docs_silver/produtos.csv')
-atributos_luta = pd.read_csv('docs_silver/atributos_luta.csv')
-artefatos = pd.read_csv('docs_silver/artefatos.csv')
-xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
-arvores = pd.read_csv('docs_silver/arvores.csv',encoding='utf-8')
+def main():
+  # Carregar os dados
+  profissoes = pd.read_csv('docs_silver/profissoes.csv')
+  animais = pd.read_csv('docs_silver/animais.csv')
+  armas = pd.read_csv('docs_silver/armas.csv')
+  produtos = pd.read_csv('docs_silver/produtos.csv')
+  atributos_luta = pd.read_csv('docs_silver/atributos_luta.csv')
+  artefatos = pd.read_csv('docs_silver/artefatos.csv')
+  xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
+  arvores = pd.read_csv('docs_silver/arvores.csv',encoding='utf-8')
 
 
-# Título da aplicação
-st.title('Profissões')
-st.dataframe(profissoes)
+  # Título da aplicação
+  st.title('Profissões')
+  st.dataframe(profissoes)
 
-st.title('Animais')
-st.dataframe(animais)
+  st.title('Animais')
+  st.dataframe(animais)
 
-st.title('Armas')
-st.dataframe(armas)
+  st.title('Armas')
+  st.dataframe(armas)
 
-st.title('Atributos de Luta')
-st.dataframe(atributos_luta)
+  st.title('Atributos de Luta')
+  st.dataframe(atributos_luta)
 
-st.title('Produtos')
-st.dataframe(produtos)
+  st.title('Produtos')
+  st.dataframe(produtos)
 
-st.title('Artefatos')
-st.dataframe(artefatos)
+  st.title('Artefatos')
+  st.dataframe(artefatos)
 
-st.title('XP')
-def filter_dataframe(df, selected_values):
-    if selected_values:
-        filtered_df = df[df['Profissao'].isin(selected_values)]
-    else:
-        filtered_df = df
-    return filtered_df
+  st.title('XP')
+  def filter_dataframe(df, selected_values):
+      if selected_values:
+          filtered_df = df[df['Profissao'].isin(selected_values)]
+      else:
+          filtered_df = df
+      return filtered_df
 
-selected_values = st.multiselect('Selecione filtro por Profissão:', xp['Profissao'].unique())# Create a multiselect widget for selecting values
-filtered_xp = filter_dataframe(xp, selected_values)# Filter the DataFrame based on selected values
+  selected_values = st.multiselect('Selecione filtro por Profissão:', xp['Profissao'].unique())# Create a multiselect widget for selecting values
+  filtered_xp = filter_dataframe(xp, selected_values)# Filter the DataFrame based on selected values
 
-st.dataframe(filtered_xp)# Display the filtered DataFrame
-st.bar_chart(filtered_xp,x='item',
-             y='XP',
-             x_label='Item',
-             y_label='Valor de Experiência',
-             horizontal=True)
+  st.dataframe(filtered_xp)# Display the filtered DataFrame
+  st.bar_chart(filtered_xp,x='item',
+              y='XP',
+              x_label='Item',
+              y_label='Valor de Experiência',
+              horizontal=True)
 
-st.title('Árvores')
-st.dataframe(arvores)
+  st.title('Árvores')
+  st.dataframe(arvores)
 
+if __name__ == '__main__':
+    main()
 """
 streamlit run src/dataviz.py
 
