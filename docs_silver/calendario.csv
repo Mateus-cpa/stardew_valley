@@ -1,0 +1,54 @@
+,Unnamed: 0,Dia,Aldeões,Nome,Aldeão,Evento,Cultivo,Preço da Semente,Dias para  Crescer,Máximo de Colheitas  por Estação,Preço de Venda,Ouro/Dia
+0,0,1,Krobus,,,,,,,,,
+1,1,3,Linus,,,,,,,,,
+2,2,7,Caroline,,,,,,,,,
+3,3,10,Sebastian,,,,,,,,,
+4,4,14,Harvey,,,,,,,,,
+5,5,17,Feiticeiro,,,,,,,,,
+6,6,20,Evelyn,,,,,,,,,
+7,7,23,Leah,,,,,,,,,
+8,8,26,Clint,,,,,,,,,
+9,0,08,,Festival do Gelo,,,,,,,,
+10,1,15-17,,Mercado Noturno,,,,,,,,
+11,2,25,,Festival da Estrela Invernal,,,,,,,,
+12,0,2,,,Penny,,,,,,,
+13,1,5,,,Elliott,,,,,,,
+14,2,11,,,Jodi,,,,,,,
+15,3,13,,,Abigail,,,,,,,
+16,4,15,,,Sandy,,,,,,,
+17,5,18,,,Marnie,,,,,,,
+18,6,21,,,Robin,,,,,,,
+19,7,24,,,George,,,,,,,
+20,0,16,,Feira do Vale do Orvalho,,,,,,,,
+21,1,27,,Véspera dos Espíritos,,,,,,,,
+22,0,8-11,,,,Temporada de  Amora,,,,,,
+23,0,,,,,,Jasmim-Azul,30 ouros,7 dias,3.0,50 ouros,"≈  2,86 ouros"
+24,1,,,,,,Couve-flor,80 ouros,12 dias,2.0,175 ouros,"≈  7,92 ouros"
+25,2,,,,,,Alho,40 ouros,4 dias,6.0,60 ouros,5 ouros
+26,3,,,,,,Couve,70 ouros,6 dias,4.0,110 ouros,"≈  6,67 ouros"
+27,4,,,,,,Chirívia,20 ouros,4 dias,6.0,35 ouros,"3,75 ouros"
+28,5,,,,,,Batata,50 ouros,6 dias,4.0,80 ouros,5 ouros
+29,6,,,,,,Ruibarbo,Oásis  :  100 ouros,13 dias,2.0,220 ouros,"≈  9,23 ouros"
+30,7,,,,,,Tulipa,20 ouros,6 dias,4.0,30 ouros,"≈  1,67 ouro"
+31,8,,,,,,Arroz não moído,40 ouros,Irrigado: 6 dias,4.0,30 ouros,"Irrigado: ≈  -1,67 ouro"
+32,9,,,,,,Arroz não moído,40 ouros,Não Irrigado: 8 dias,3.0,30 ouros,"Não Irrigado:  -1,25 ouro"
+33,0,4,Kent  (Apartir do ano 2),,,,,,,,,
+34,1,7,Lewis,,,,,,,,,
+35,2,10,Vincent,,,,,,,,,
+36,3,14,Haley,,,,,,,,,
+37,4,18,Pam,,,,,,,,,
+38,5,20,Shane,,,,,,,,,
+39,6,26,Pierre,,,,,,,,,
+40,7,27,Emily,,,,,,,,,
+41,0,4,,,Jas,,,,,,,
+42,1,8,,,Gus,,,,,,,
+43,2,10,,,Maru,,,,,,,
+44,3,13,,,Alex,,,,,,,
+45,4,17,,,Sam,,,,,,,
+46,5,19,,,Demetrius,,,,,,,
+47,6,22,,,Anão,,,,,,,
+48,7,24,,,Willy,,,,,,,
+49,8,26,,,Leo,,,,,,,
+50,0,11,,Luau,,,,,,,,
+51,1,20-21,,Competição de Truta,,,,,,,,
+52,2,28,,Dança das Medusas-da-Lua,,,,,,,,

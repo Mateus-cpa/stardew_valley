@@ -1,0 +1,143 @@
+,Imagem,Nome,Descrição,Efeito,Localização,Ingredientes,Preço de Compra,Preço de Venda,Estatísticas,Conquista,Como obter
+0,,Anel de brilho pequeno,Emite uma luz pequena e constante.,Emite luz num raio de 5 ladrilhos.,As Minas  (andares 1-39)  Baús de Tesouro de Pesca  Conjunto Pesca Noturna,,,50 ouros,,,
+1,,Anel brilhante,Emite uma luz constante.,Emite luz num raio de 10 ladrilhos.,As Minas  (andares 41-79)  Baús de Tesouro de Pesca,,,100 ouros,,,
+2,,Pequeno anel com ímã,Aumenta levemente o seu raio para coletar itens.,Aumenta o raio de  Magnetismo  do jogador em 1 ladrilho.,As Minas  (andares 1-39)  Baús de Tesouro de Pesca  Conjunto de Aventureiro,,,50 ouros,,,
+3,,Anel-ímã,Aumenta o seu raio para coletar itens.,Aumenta o raio de  Magnetismo  do jogador em 2 ladrilhos.,As Minas  (andares 41-79)  Baús de Tesouro de Pesca,,,100 ouros,,,
+4,,Anel de Pedra Luminosa,"Emite uma luz constante, e também aumenta seu alcance de coleta de itens.",Combinação dos efeitos do  Anel brilhante  e do  Anel-ímã  : Emite luz num raio de 10 ladrilhos e aumenta o raio de  Magnetismo  do jogador em 2 ladrilhos.,Artesanato  com Nível 4 em  Mineração  Feira do Vale do Orvalho,Essência solar  (5)  Barra de ferro  (5),1 000  na  Feira do Vale do Orvalho,100 ouros,,,
+5,,Anel duro,Corta a duração de efeitos negativos pela metade.,A duração de  debuffs  é reduzida em 50%.,Artesanato  com Nível 1 em  Combate,Barra de cobre  (2)  Carne de inseto  (25)  Gosma  (25),,750 ouros,,,
+6,,Anel de guerreiro,"Ocasionalmente enche quem o usa de ""energia de guerreiro"" após matar um monstro.",Energia de guerreiro  (  Ataque  (+10)  ),Artesanato  com Nível 4 em  Combate,Barra de ferro  (10)  Carvão  (25)  Lágrima congelada  (10),,750 ouros,,,
+7,,Anel de Espinhos,"Quando inimigos te machucarem, eles também receberão danos.",Monstros  recebem dano igual ao dano absoluto causado ao jogador.,Artesanato  com Nível 7 em  Combate,Fragmento de Osso  (50)  Pedra  (50)  Barra de ouro  (1),,100 ouros,,,
+8,,Anel de Ioba,Protege ocasionalmente quem o usa de dano.,Bênção de Ioba  (Invencibilidade),Artesanato  com Nível 7 em  Combate,Barra de ferro  (5)  Barra de ouro  (5)  Diamante  (1),,750 ouros,,,
+9,,Anel de irídio,"Brilha, atrai itens, e aumenta dano de ataque em 10%.","Combina o efeito do  Anel brilhante  , do  Anel-ímã  , e do  Anel de rubi  .",Artesanato  com Nível 9 em  Combate  Baús de Tesouro de Pesca,Barra de irídio  (5)  Essência solar  (50)  Essência nula  (50),,1 000 ouros,,,
+10,,Anel de música,Toca uma música aleatória que você já tenha ouvido.,Desconhecido.,Impossível de obter,,,100 ouros,,,
+11,,Anel de ametista,Aumenta ricochete em 10%.,Repulsão  (+10%),Guilda dos Aventureiros  Baús de Tesouro de Pesca,,1 000 ouros,100 ouros,,,
+12,,Anel de topázio,Aumenta precisão de arma em 10%.,Não faz nada.,Guilda dos Aventureiros  Baús de Tesouro de Pesca,,1 000 ouros,100 ouros,,,
+13,,Anel de água-marinha,Aumenta chance de dano crítico em 10%.,Chance Crítica  (+10%),Guilda dos Aventureiros  (depois de desbloquear o 40º andar das  Minas  )  Baús de Tesouro de Pesca,,2 500 ouros,200 ouros,,,
+14,,Anel de jade,Aumenta ataque crítico em 10%.,Ataque Crítico  (+10%),Guilda dos Aventureiros  (depois de desbloquear o 40º andar das  Minas  )  Baús de Tesouro de Pesca,,2 500 ouros,200 ouros,,,
+15,,Anel de esmeralda,Aumenta velocidade de arma em 10%.,Velocidade  (+10%),Guilda dos Aventureiros  (depois de desbloquear o 80º andar das  Minas  )  Baús de Tesouro de Pesca,,5 000 ouros,300 ouros,,,
+16,,Anel de rubi,Aumenta ataque em 10%.,Ataque  (+10%),"Guilda dos Aventureiros  (depois de desbloquear o 80º andar das  Minas  ),  Baús de Tesouro de Pesca  .  Derrotando uma  Caveira Assombrada  na  mina da pedreira  e nos andares Aleatórios de masmorra nas  Minas",,5 000 ouros,300 ouros,,,
+17,,Encantador de gosma,Protege contra danos das gosmas.,Imunidade ao dano das  Gosmas  e ao debuff  Coberto de gosma,Guilda dos Aventureiros  (como recompensa por matar 1000  Gosmas  e posteriomente disponível para compra),,25 000 ouros,350 ouros,,,
+18,,Anel selvagem,Ganhe um pouco de velocidade toda vez que matar um monstro.,Fluxo de adrenalina  (  Velocidade  (+2)  ),Guilda dos Aventureiros  (como recompensa por matar 150  Espíritos do Vazio  e posteriomente disponível para compra),,25 000 ouros,750 ouros,,,
+19,,Anel do ladrão,Monstros possuem uma chance maior de deixarem itens.,Monstros  dropam itens mais facilmente.,Guilda dos Aventureiros  (como recompensa por matar 500  Espíritos da poeira  e posteriomente disponível para compra),,20 000 ouros,750 ouros,,,
+20,,Anel vampiro,Ganhe um pouco de saúde toda vez que matar um monstro.,Restaura 2 de  saúde  após matar um  monstro  .,Guilda dos Aventureiros  (como recompensa por matar 200  Morcegos  e posteriomente disponível para compra),,15 000 ouros,750 ouros,,,
+21,,Anel de Caraguejo,O topo do anel é feito de carapaça de caranguejo encantada.,Defesa  (+5),Guilda dos Aventureiros  (como recompensa por matar 60  Caranguejos-pedra  e posteriomente disponível para compra),,15 000 ouros,1 000 ouros,,,
+22,,Anel Napalm,"Quando derrotar um inimigo, ele explode.","Monstros  derrotados explodem, destruindo objetos e danificando inimigos. Não causa dano ao jogador.",Guilda dos Aventureiros  (como recompensa por matar 250  Sepentes  e posteriomente disponível para compra),,30 000 ouros,1 000 ouros,,,
+23,,Anel de Casamento,Uma antiga tradição da Cidade de Zuzu... Use para pedir a mão de uma pessoa em casamento.,Permite que dois jogadores se  casem  no modo  Multijogador  .,Compre a  receita  no  Carrinho de Viagem  por  500 ouros,Barra de irídio  (5)  Fragmento prismático  (1),,1 000 ouros,,,
+24,,Anel de Imunidade,A parte de cima do anel é feita de lã roxa encantada.,Imunidade  (+4),As Minas  (andares 100+)  Caverna da Caveira,,,250 ouros,,,
+25,,Anel da Sorte,É dito que o emblema lunar traz sorte para quem o usa.,Sorte  (+1),Caverna da Caveira  Peneirando,,,100 ouros,,,
+26,,Anel de Proteção,Fique invencível por mais tempo depois de tomar dano.,Aumenta o tempo de invencibilidade depois de receber dano em 0.4 segundos.,Baús de tesouro comuns na  Caverna do Vulcão,,,100 ouros,,,
+27,,Anel Roubador de Alma,Ganhe um pouco de energia toda vez que matar um monstro.,Restaura 4 de  energia  após matar um  monstro  .,Baús de tesouro comuns na  Caverna do Vulcão,,,100 ouros,,,
+28,,Anel da Fênix,"Uma vez por dia, recupera um pouco de vida após ser derrotado em combate.","Uma vez por dia, restaura 50% da  saúde  máxima ao ser nocauteado.",Baús de tesouro raros na  Caverna do Vulcão,,,100 ouros,,,
+29,,Anel Quente de Java,Aumenta consideravelmente suas chances de encontrar café quando mata monstros.,Aumenta a chance de encontrar  Café  e  Café Expresso Triplo  ao matar  Monstros  .,Baús de tesouro raros na  Caverna do Vulcão,,,100 ouros,,,
+30,,Tênis,Um pouco frágeis... mas na moda!,,Guilda dos Aventureiros  As Minas  (andares 1-39)  Baús de Tesouro de Pesca,,500 ouros,50 ouros,Defesa  (+1),,
+31,,Botas de borracha,Proteção das intempéries.,,As Minas  (andares 1-39)  Baús de Tesouro de Pesca,,,50 ouros,Imunidade  (+1),,
+32,,Botas de couro,O couro é muito maleável.,,Baú no 10º andar das  Minas  Guilda dos Aventureiros  (depois de desbloquear o 10º andar das  Minas  )  Baús de Tesouro de Pesca,,500 ouros,100 ouros,Defesa  (+1)  Imunidade  (+1),,
+33,,Botas de trabalho,Com bicos de aço para proteção extra.,,Baús de Tesouro de Pesca  Baú no 10º andar das  Minas  (com recompensas aleatórias na mina apenas),,,100 ouros,Defesa  (+2),,
+34,,Botas de combate,Reforçadas com malha de aço.,,Guilda dos Aventureiros  (depois de desbloquear o 40º andar das  Minas  )  As Minas  (andares 61-79)  Baús de Tesouro de Pesca  Baú no 50º andar das  Minas  (com recompensas aleatórias na mina apenas),,1 250 ouros,150 ouros,Defesa  (+3),,
+35,,Botas de tundra,O tecido felpudo mantém seus calcanhares quentinhos.,,Baú no 50º andar das  Minas  Guilda dos Aventureiros  (depois de desbloquear o 50º andar das  Minas  )  Baús de Tesouro de Pesca,,750 ouros,150 ouros,Defesa  (+2)  Imunidade  (+1),,
+36,,Sapatos de Duende,A fivela é feita de ouro puro.,,Trens,,,150 ouros,Defesa  (+2)  Imunidade  (+1),,
+37,,Botas térmicas,Projetadas com temperaturas externas em mente.,,As Minas  (andares 41-79)  Baús de Tesouro de Pesca  Baú no 50º andar das  Minas  (com recompensas aleatórias na mina apenas),,,150 ouros,Defesa  (+1)  Imunidade  (+2),,
+38,,Botas de vaqueiro,O ápice da moda no interior.,,Impossível de obter,,,200 ouros,Defesa  (+2)  Imunidade  (+2),,
+39,,Botas negras,Feitas com couro negro e espesso.,,Guilda dos Aventureiros  (depois de desbloquear o 80º andar das  Minas  )  As Minas  (andares 81+)  Caverna da Caveira  Baús de Tesouro de Pesca  Baú no 80º andar das  Minas  (com recompensas aleatórias na mina apenas),,2 500 ouros,300 ouros,Defesa  (+4)  Imunidade  (+2),,
+40,,Botas de Salamandra,Dizem que aguentam o magma mais quente.,,Baú no 80º andar das  Minas  Guilda dos Aventureiros  (depois de desbloquear o 80º andar das  Minas  )  Baús de Tesouro de Pesca,,2 000 ouros,300 ouros,Defesa  (+3)  Imunidade  (+3),,
+41,,Sapatos de gênio,Uma energia curiosa permeia o tecido.,,As Minas  (andares 81+)  Caverna da Caveira  Baús de Tesouro de Pesca,,,350 ouros,Defesa  (+1)  Imunidade  (+6),,
+42,,Botas Mágicas da Emily,Feitas com amor pela Emily. 100% compostable!,,Presente da  Emily  durante seu evento de 14 corações.,,,400 ouros,Defesa  (+4)  Imunidade  (+4),,
+43,,Botas espaciais,Um tecido de irídio dá um acabamento púrpura.,,Baú no 110º andar das  Minas  Guilda dos Aventureiros  (depois de desbloquear o 110º andar das  Minas  ),,5 000 ouros,400 ouros,Defesa  (+4)  Imunidade  (+4),,
+44,,Sapatos de Cristal,Estes sapatos brilhantes vão manter seus pés seguros.,,Caverna da Caveira  Baú no 110º andar das  Minas  (com recompensas aleatórias na mina apenas),,,400 ouros,Defesa  (+3)  Imunidade  (+5),,
+45,,Sapatos de Palhaço da Brasa,Estes sapatos pertenceram a um famoso bobo da corte Anão.,,Loja da Caverna do Vulcão,,Fragmento  de Brasa  (100),550 ouros,Defesa  (+6)  Imunidade  (+5),,
+46,,Botas de Sereia,Escamas de sereia dão a estas botas uma aura protetora.,,Baús de tesouro raros na  Caverna do Vulcão,,,650 ouros,Defesa  (+5)  Imunidade  (+8),,
+47,,Botas de Escama de Dragão,Estas botas cintilantes são extremamente resistentes.,,Baús de tesouro raros na  Caverna do Vulcão,,,350 ouros,Defesa  (+7),,
+48,,Chapéu de Caubói,"O couro está velho e rachado, mas surpreendentemente flexível. Está com cheiro de mofo.",,,,,,,Coleção Completa,Complete a coleção do  Museu  .
+49,,Chapéu-coco,Feito de feltro macio.,,,,,,,Milionário,Ganhe  1 000 000 ouros  .
+50,,Cartola,Clássico para um cavalheiro.,,,,,,,,Compre por  8 000  no  Cassino  do Qi.
+51,,Sombreiro,Chapéu com decoração festiva. Tecido com palha.,,,,,,,Lenda,Ganhe  10 000 000 ouros  .
+52,,Chapéu de palha,Leve e fresco. A alegria de um fazendeiro,,,,,,,,Ganhe a caça aos ovos no  Festival do Ovo  .
+53,,Boina oficial,"Parece ter pertencido a um carteiro ou policial. De qualquer forma, ainda está bem macio e cheira bem.",,,,,,,Velho Marinheiro,Pegue 24  peixes  diferentes.
+54,,Touca azul,Volte aos doces tempos de infância com esta touca.,,,,,,,Cova do Tesouro,Doe 40 itens ao  Museu  .
+55,,Chapéu Gourmet,Parece bom.,,,,,,,Vice-chefe de Cozinha,Cozinhe  25 receitas diferentes.
+56,,Máscara de esqueleto,Os olhos vermelhos brilham misteriosamente,,,,,,,,Meta de Erradicação de Monstros  - Mate 50  Esqueletos  .
+57,,Máscara de duende,Assuste a vizinhança com esta máscara medonha. Juntas de borracha nas orelhas para completar.,,,,,,,Envio Completo,Envie  um item de cada.
+58,,Máscara de galinha,Faça-os todos sorrirem com esta máscara.,,,,,,,Uma Grande Ajuda,Complete 40 '  Precisa-se de ajuda  '.
+59,,Protetor de orelhas,Mantenha suas orelhas aquecidas. Feito com veludo artesanal da Vila Castelo.,,,,,,,Popular,Alcance  amizade  nível 5 com 20 pessoas.
+60,,Lacinho delicado,Pequenas joias brilham enquanto você a examina.,,,,,,,Cozinheiro,Cozinhe  10 receitas diferentes.
+61,,Tropiclipe,Possui a forma de uma pequena palmeira.,,,,,,,Subindo de Vida,Atualize  sua casa.
+62,,Gravata-borboleta,É bem macia.,,,,,,,Um Novo Amigo,Alcance  amizade  nível 5 com alguém.
+63,,Chapéu de caçador,A lã do chapéu continua quente até no meio da floresta.,,,,,,,Grande Vida,Atualize  sua casa o máximo possível.
+64,,Chapéu de Caminhoneiro,Ponha atrás para esfriar a sua cabeça.,,,,,,,Artesão,Crie  30 itens diferentes.
+65,,Chapéu de marinheiro,Fresco e rico em amido.,,,,,,,,Ganhe a competição de pesca no  Festival do Gelo  .
+66,,Bom e velho chapéu,Um chapéu flexível com um bico amassado. Parece ter passado por muita coisa.,,,,,,,Dedo Verde,Ganhe  15 000 ouros
+67,,Fedora,Essencial para o habitante da cidade.,,,,,,,,Compre por  500  na  Feira do Vale do Orvalho
+68,,Chapéu legal,Desbotou bastante. Seu azul era bem vivo.,,,,,,,Autossuficiência,Ganhe  250 000 ouros
+69,,Gravata da sorte,O meio é feito de ouro maciço.,,,,,,,Vaqueiro,Ganhe  50 000 ouros
+70,,Gravata de bolinhas,É de revirar os olhos.,,,,,,,Subalterno,Complete 10 '  Precisa-se de ajuda  '.
+71,,Chapéu de gnomo,Este gnomo era cabeçudo.,,,,,,,Mestre do Artesanato,Crie  todos os itens.
+72,,Tampão de olho,Não dá para saber se é de verdade ou de uma loja de fantasias.,,,,,,,Velho Pescador,Pegue todos os  peixes  .
+73,,Gorro de papai noel,Celebre um natal mágico.,,,,,,,Rede de Contatos,Alcance  amizade  nível 5 com 10 pessoas.
+74,,Tiara,Possui uma grande ametista cercada de ouro.,,,,,,,Panelinha,Alcance  amizade  nível 5 com 4 pessoas.
+75,,Chapéu duro,Para manter sua cabeça inteira.,,,,,,,,Meta de Erradicação de Monstros  - Mate 30  Cavadores  .
+76,,Chapéu Sudoeste,Sua forma ajuda a manter os marinheiros secos durante tempestades.,,,,,,,Pescador,Pegue 10  peixes  diferentes.
+77,,Margarida,Uma margarida fresca para colocar no cabelo.,,,,,,,Faça Você Mesmo,Crie  15 itens diferentes.
+78,,Fita de melancia,Cores inspiradas pelo amado melão dourado.,,,,,,,Deus Pescador,Pegue 100  peixes  .
+79,,Orelhas de rato,Feitas de fibra sintética.,,,,,,,Melhores Amigos,Alcance  amizade  nível 10 com alguém.
+80,,Orelhas de gato,Bigodes incluídos.,,,,,,,Amado Fazendeiro,Alcance  amizade  nível 10 com 8 pessoas.
+81,,Chapéu de Vaqueira,O laço está cheio de diamantes falsos.,,,,,,,Monocultura,Envie 300 itens de uma  lavoura  só.
+82,,Chapéu de Vaqueiro,Para especialistas em laticínios.,,,,,,,Policultura,Envie 15 de cada  lavoura  .
+83,,Chapéu de arqueiro,Na moda goste você de arqueiros ou não.,,,,,,,Chefe Gourmet,Cozinhe  todas as receitas.
+84,,Panda Hat,A lovely panda hat.,,,,,,,,WeGame  [1]  (conteúdo exclusivo); impossível de obter de outra forma
+85,,Chapéu de Caubói Azul,Um chapéu de caubói de jeans azul.,,,,,,,,Encontrado aleatoriamente em baús do tesouro na  Caverna da Caveira  .
+86,,Chapéu de Caubói Vermelho,Um chapéu de caubói vermelho chamativo.,,,,,,,,Encontrado aleatoriamente em baús do tesouro na  Caverna da Caveira  .
+87,,Chapéu de Cone,"Uma curiosidade, vinda de uma terra distante.",,,,,,,,Pode ser comprado durante o  Mercado Noturno  no barco mercante mágico.
+88,,Chapéu Vivo,Ele absorve humidade do seu escalpo. Sem precisar regar!,,,,,,,,"* 0,001% chance de encontrar ao cortar ervas daninhas  * 0,01% chance de cair ao matar  Golem selvagem"
+89,,Chapéu Mágico de Emily,Feito com amor por Emily. É 100% orgânico!,,,,,,,,Obtido no evento de 14 corações da  Emily
+90,,Chapéu de Cogumelo,Tem cheiro de terra.,,,,,,,,1% de chance de obter ao cortar  Árvore de cogumelo
+91,,Chapéu de Dinossauro,Um chapéu feito para parecer um pequeno dinossauro.,,,,,,,,Alfaiataria
+92,,Máscara de Totem,"Não se preocupe, ela não vai deformar sua cara...",,,,,,,,Alfaiataria
+93,,Boné com Logo,Um boné vermelho com uma logo na frente.,,,,,,,,Alfaiataria
+94,,Elmo de Anão Vestível,Uma versão um pouco maior dos capacetes usados pelos anões.,,,,,,,,Alfaiataria
+95,,Chapéu Elegante,Um chapéu elegante com uma pena na aba.,,,,,,,,Alfaiataria
+96,,Máscara de Abóbora,Essa deve ter sido uma abóbora muito grande...,,,,,,,,Alfaiataria
+97,,Osso de Cabelo,Uma versão pré-histórica do arco de cabelo.,,,,,,,,Alfaiataria
+98,,Elmo de Cavaleiro,Parece até que é de verdade!,,,,,,,,Meta de Erradicação de Monstros  - Mate 50  Pimentas Rex  .
+99,,Elmo de Escudeiro,A cara é exposta pra aumentar o fluxo de ar.,,,,,,,,Aleatoriamente cai ao matar  Cabeça de metal
+100,,Cachecol de Bolinhas,Um cachecol vermelho de bolinhas amarrado no pescoço.,,,,,,,,Alfaiataria
+101,,Gorro,Um chapéu bem quente e justo.,,,,,,,,Alfaiataria
+102,,Gorro Grande,Um chapéu quente e um pouco largo.,,,,,,,,Alfaiataria
+103,,Chapéu de Pescador,A aba larga te mantém na sombra enquanto estiver pescando na margem do rio.,,,,,,,,Alfaiataria
+104,,Máscara de Peixe-Bolha,Tão esponjoso quanto o de verdade!,,,,,,,,Alfaiataria
+105,,Chapéu de Festa,Um chapéu vermelho que faz qualquer celebração mais divertida.,,,,,,,,Alfaiataria
+106,,Chapéu de Festa,Um chapéu azul que faz qualquer celebração mais divertida.,,,,,,,,Alfaiataria
+107,,Chapéu de Festa,Um chapéu verde que faz qualquer celebração mais divertida.,,,,,,,,Alfaiataria
+108,,Chapéu Arcano,O tipo de chapéu de vaqueiro que é usado por um mago.,,,,,,,,Meta de Erradicação de Monstros  - Mate 100  Múmias  .
+109,,Chapéu de Chefe de Cozinha,O chapéu tradicional de um chefe de cozinha.,,,,,,,Chefe Gourmet,Cozinhe todas as  Receitas  .
+110,,Chapéu de Pirata,O chapéu de um capitão com um caveira horrivel na frente.,,,,,,,,Alfaiataria
+111,,Chapéu Plano,Um chapéu antigo que já foi considerado muito estiloso.,,,,,,,,Alfaiataria
+112,,Turbante Elegante,Um turbante de tecido preto com detalhes dourados.,,,,,,,,Obtenha todas as  Conquistas  .
+113,,Turbante Branco,Um turbante de tecido branco com detalhes azuis.,,,,,,,,Alfaiataria  Caverna da Caveira
+114,,Chapéu de Lixo,É uma tampa de lata de lixo 'reciclada' como chapéu...,,,,,,,,"0,2% chance de encontrar ao mexer em latas de lixo na cidade, somente após verificar 20 latas"
+115,,Máscara Dourada,Uma recriação fiel da relíquia do Deserto Calico!,,,,,,,,Alfaiataria
+116,,Chapéu de Hélice,Um chapéu bobo com uma hélice em cima.,,,,,,,,Alfaiataria
+117,,Véu de Noiva,O chapéu tradicional de uma noiva.,,,,,,,,Alfaiataria
+118,,Chapéu de Bruxa,Um chapéu pontudo popular entre bruxas.,,,,,,,,Alfaiataria
+119,,Peneira de Cobre,Você coloca a peneira de cobre na sua cabeça...,,,,,,,,Coloque a  Peneira de cobre  no slot próximo ao avatar de fazendo no inventário.
+120,,Turbante Verde,Um turbante verde de seda com um ornamento dourado na frente.,,,,,,,,Vendido pelo  Comerciante do Deserto
+121,,Chapéu de Vaqueiro Mágico,Está brilhando com energia prismática.,,,,,,,,"Vendido pelo  Comerciante do Deserto  , em dias ímpares."
+122,,Turbante Mágico,Está brilhando com energia prismática,,,,,,,,"Vendido pelo  Comerciante do Deserto  , em dias pares."
+123,,Capacete Dourado,É a metade de um coco dourado.,,,,,,,,Coco Dourado  (5% de chance ao abrir)
+124,,Chapéu de Pirata de Luxo,Só o pirata mais infame poderia vestir isso.,,,,,,,,Baús na  Caverna do Vulcão
+125,,Laço Rosa,Este laço gigante é uma declaração e tanto!,,,,,,,,Vendido pelo anão na  Caverna do Vulcão
+126,,Chapéu de Sapo,Um amigo pegajoso que vive na sua cabeça.,,,,,,,,Pesca na caverna do  Sapo Gourmand  na  Ilha Gengibre
+127,,Boné Pequeno,É um estilo de boné mais aerodinâmico.,,,,,,,,Comerciante da Ilha  às Segundas por 30  Inhames-coco  .
+128,,Máscara de Pássaro Azul,Use isto para ficar igual ao se comerciante favorito da ilha.,,,,,,,,Comerciante da Ilha  às Quartas por 30  Inhames-coco  .
+129,,Chapéu de Caubói de Luxo,Um chapéu de caubói com um formato mais extremo.,,,,,,,,Comerciante da Ilha  às Sextas por 30  Inhames-coco  .
+130,,Chapéu do Sr. Qi,Uma réplica do chapéu icônico do Sr. Qi.,,,,,,,,Sala de Nozes do Sr. Qi  por  5  .
+131,,Chapéu de Caubói Escuro,Um chapéu de caubói em um clássico preto.,,,,,,,,Obtido aleatoriamente em  Salas de Tesouro na Caverna da Caveira
+132,,Óculos Radioativos,Na verdade não fornece nenhuma proteção contra radiação.,,,,,,,,Alfaiataria
+133,,Chapéu de Espadachim,A clássica vestimenta de um espadachim.,,,,,,,,Alfaiataria
+134,,Máscara Qi,???,,,,,,,,Alfaiataria
+135,,Chapéu de Estrela,Um chapéu vermelho com estrelas.,,,,,,,,Alfaiataria
+136,,Óculos de Sol,Eles te dão uma aparência relaxada.,,,,,,,,Alfaiataria
+137,,Óculos de Proteção,Você vai se sentir muito mais seguro com eles.,,,,,,,,Alfaiataria
+138,,Chapéu de Coletor,É o deleite de um coletor.,,,,,,,,Alfaiataria
+139,,Chapéu de Tigre,Faz você parecer um belíssimo tigre.,,,,,,,,Drop aleatório de  Gosmas-Tigre
+140,,Capacete de Guerreiro,Uma casca de ovo de avestruz reutilizado como capacete.,,,,,,,,Alfaiataria
+141,,???,???,,,,,,,,Interaja com o macaco na  Cratera do Vulcão  após alcançar 100% de  Perfeição  .
