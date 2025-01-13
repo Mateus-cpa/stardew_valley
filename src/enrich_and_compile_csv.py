@@ -404,10 +404,13 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = [] 
   for vestuario in lista_vestuario:
-    df_temp = pd.read_csv(f'docs_bronze/{vestuario}.csv')
+    df_temp = pd.read_csv(f'docs_bronze/{vestuario}.csv', index_col='Unnamed: 0')
     print(f'colunas de {vestuario}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_vestuarios = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  print(df_vestuarios.columns)
+  df_vestuarios = df_vestuarios.drop('Imagem', axis=1)
+  df_vestuarios = separar_quantidades_e_explodir(df_vestuarios,'Ingredientes')
   df_vestuarios.to_csv('docs_silver/vestuarios.csv', encoding='utf-8')
 
   #calendario
@@ -423,8 +426,8 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = [] 
   for data in lista_datas:
-    df_temp = pd.read_csv(f'docs_bronze/calendario_{vestuario}.csv')
-    print(f'colunas de {data}: {df_temp.columns}')
+    df_temp = pd.read_csv(f'docs_bronze/calendario_{data}.csv')
+    #print(f'colunas de {data}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_calendario = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_calendario.to_csv('docs_silver/calendario.csv', encoding='utf-8')
@@ -485,13 +488,13 @@ def concat_dataframes ():
                  'peixes_especializados',
                  'peixes_lago',
                  'peixes_oceano',
-                 'peixes_rio'
+                 'peixes_rio',
                  'pesca_covo']
   #padronizar colunas
   dfs_to_concat = [] 
   for conjunto in lista_conjunto:
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
-    print(f'colunas de {conjunto}: {df_temp.columns}')
+    #print(f'colunas de {conjunto}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_conjuntos.to_csv('docs_silver/conjuntos.csv', encoding='utf-8')
@@ -512,7 +515,7 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for culinaria in lista_culinaria:
     df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
-    print(f'colunas de {culinaria}: {df_temp.columns}')
+    #print(f'colunas de {culinaria}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_culinaria = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
