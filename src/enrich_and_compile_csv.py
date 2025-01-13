@@ -396,7 +396,7 @@ def concat_dataframes ():
   df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8', index=False)
 
 
-  """
+  
   #vestuario
   lista_vestuario = ['aneis',
                      'calcados',
@@ -777,7 +777,7 @@ def concat_dataframes ():
   df_taxas_cultivo = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_taxas_cultivo.to_csv('docs_silver/taxas_cultivo.csv', encoding='utf-8')
 
-  """
+  
   pass
 
 
