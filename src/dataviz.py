@@ -12,26 +12,45 @@ def main():
   artefatos = pd.read_csv('docs_silver/artefatos.csv')
   xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
   arvores = pd.read_csv('docs_silver/arvores.csv',encoding='utf-8')
-
+  vestuarios = pd.read_csv('docs_silver/vestuarios.csv',encoding='utf-8')
 
   # Título da aplicação
+  st.markdown('Profissões')
+  st.sidebar.markdown('Profissões')
   st.title('Profissões')
   st.dataframe(profissoes)
 
+  st.markdown('Animais')
+  st.sidebar.markdown('Animais')
   st.title('Animais')
   st.dataframe(animais)
 
+  st.markdown('Armas')
+  st.sidebar.markdown('Armas')
   st.title('Armas')
   st.dataframe(armas)
 
+  st.markdown('Atributos de Luta')
+  st.sidebar.markdown('Atributos de Luta')
   st.title('Atributos de Luta')
   st.dataframe(atributos_luta)
 
+  st.markdown('Produtos')
+  st.sidebar.markdown('Produtos')
   st.title('Produtos')
   st.dataframe(produtos)
 
+  st.markdown('Artefatos')
+  st.sidebar.markdown('Artefatos')
   st.title('Artefatos')
   st.dataframe(artefatos)
+
+  st.markdown('Vestuário')
+  st.sidebar.markdown('Vestuário')
+  st.title('Vestuário')
+  st.dataframe(vestuarios)
+
+  # fim da função
 
   st.title('XP')
   def filter_dataframe(df, selected_values):
