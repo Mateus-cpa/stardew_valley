@@ -409,7 +409,7 @@ def concat_dataframes ():
     dfs_to_concat.append(df_temp)
   df_vestuarios = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   print(df_vestuarios.columns)
-  df_vestuarios = df_vestuarios.drop('Imagem', axis=1)
+  df_vestuarios = df_vestuarios.drop('Imagem', axis=1')
   df_vestuarios = separar_quantidades_e_explodir(df_vestuarios,'Ingredientes')
   df_vestuarios.to_csv('docs_silver/vestuarios.csv', encoding='utf-8')
 
@@ -449,7 +449,7 @@ def concat_dataframes ():
   df_clima = pd.read_csv('docs_bronze\clima.csv', encoding='utf-8')
   df_clima.to_csv('docs_silver/clima.csv', encoding='utf-8')
 
-  #coleta
+  #coleta  
   lista_coleta = ['cavernas',
                  'deserto',
                  'ilha_gengibre',
