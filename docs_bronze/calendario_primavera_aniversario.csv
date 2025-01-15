@@ -1,11 +1,9 @@
-,Cultivo,Preço da Semente,Dias para  Crescer,Máximo de Colheitas  por Estação,Preço de Venda,Ouro/Dia
-0,Jasmim-Azul,30 ouros,7 dias,3,50 ouros,"≈  2,86 ouros"
-1,Couve-flor,80 ouros,12 dias,2,175 ouros,"≈  7,92 ouros"
-2,Alho,40 ouros,4 dias,6,60 ouros,5 ouros
-3,Couve,70 ouros,6 dias,4,110 ouros,"≈  6,67 ouros"
-4,Chirívia,20 ouros,4 dias,6,35 ouros,"3,75 ouros"
-5,Batata,50 ouros,6 dias,4,80 ouros,5 ouros
-6,Ruibarbo,Oásis  :  100 ouros,13 dias,2,220 ouros,"≈  9,23 ouros"
-7,Tulipa,20 ouros,6 dias,4,30 ouros,"≈  1,67 ouro"
-8,Arroz não moído,40 ouros,Irrigado: 6 dias,4,30 ouros,"Irrigado: ≈  -1,67 ouro"
-9,Arroz não moído,40 ouros,Não Irrigado: 8 dias,3,30 ouros,"Não Irrigado:  -1,25 ouro"
+,Dia,Aldeões
+0,4,Kent  (Apartir do ano 2)
+1,7,Lewis
+2,10,Vincent
+3,14,Haley
+4,18,Pam
+5,20,Shane
+6,26,Pierre
+7,27,Emily
