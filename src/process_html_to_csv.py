@@ -629,10 +629,9 @@ def df_primavera(html):
     lista = []
     for tabela in sopa.find_all('table'):
         lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
-
-    calendario_primavera_festivais = lista[2][0]
+    calendario_primavera_festivais = lista[1][0]
     calendario_primavera_festivais.to_csv('docs_bronze/calendario_primavera_festivais.csv')
-    calendario_primavera_aniversario = lista[3][0]
+    calendario_primavera_aniversario = lista[2][0]
     calendario_primavera_aniversario.to_csv('docs_bronze/calendario_primavera_aniversario.csv')
     calendario_primavera_colheita_unica = lista[4][0]
     calendario_primavera_colheita_unica.to_csv('docs_bronze/calendario_primavera_colheita_unica.csv')
