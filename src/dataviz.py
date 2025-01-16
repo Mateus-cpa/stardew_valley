@@ -13,6 +13,18 @@ def main():
   xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
   arvores = pd.read_csv('docs_silver/arvores.csv',encoding='utf-8')
   vestuarios = pd.read_csv('docs_silver/vestuarios.csv',encoding='utf-8')
+  calendario = pd.read_csv('docs_silver/calendario.csv',encoding='utf-8')
+  carteira = pd.read_csv('docs_silver/carteira.csv',encoding='utf-8')
+  caverna = pd.read_csv('docs_silver/caverna.csv',encoding='utf-8')
+  clima = pd.read_csv('docs_silver/clima.csv',encoding='utf-8')
+  coleta = pd.read_csv('docs_silver/coleta.csv',encoding='utf-8')
+  conjunto = pd.read_csv('docs_silver/conjuntos.csv',encoding='utf-8')
+  culinaria = pd.read_csv('docs_silver/culinaria.csv',encoding='utf-8')
+  solo_foliar = pd.read_csv('docs_silver/solo_foliar.csv',encoding='utf-8')
+  casa = pd.read_csv('docs_silver/casa.csv',encoding='utf-8')
+  ferramentas = pd.read_csv('docs_silver/ferramentas.csv',encoding='utf-8')
+  iscas = pd.read_csv('docs_silver/iscas.csv',encoding='utf-8')
+
 
   # Título da aplicação
   st.markdown('Profissões')
@@ -50,6 +62,56 @@ def main():
   st.title('Vestuário')
   st.dataframe(vestuarios)
 
+  st.markdown('Calendário')
+  st.sidebar.markdown('Calendário')
+  st.title('Calendário')
+  st.dataframe(calendario)
+
+  st.markdown('Carteira')
+  st.sidebar.markdown('Carteira')
+  st.title('Carteira')
+  st.dataframe(carteira)
+
+  st.markdown('Clima')
+  st.sidebar.markdown('Clima')
+  st.title('Clima')
+  st.dataframe(clima)
+
+  st.markdown('Coleta')
+  st.sidebar.markdown('Coleta')
+  st.title('Coleta')
+  st.dataframe(coleta)
+
+  st.markdown('Conjunto')
+  st.sidebar.markdown('Conjunto')
+  st.title('Conjunto')
+  st.dataframe(conjunto)
+
+  st.markdown('Culinária')
+  st.sidebar.markdown('Culinária')
+  st.title('Culinária')
+  st.dataframe(culinaria)
+
+  st.markdown('Solo foliar')
+  st.sidebar.markdown('Solo foliar')
+  st.title('Solo foliar')
+  st.dataframe(solo_foliar)
+
+  st.markdown('Casa')
+  st.sidebar.markdown('Casa')
+  st.title('Casa')
+  st.dataframe(casa)
+
+  st.markdown('Ferramentas')
+  st.sidebar.markdown('Ferramentas')
+  st.title('Ferramentas')
+  st.dataframe(ferramentas)
+
+  st.markdown('Iscas')
+  st.sidebar.markdown('Iscas')
+  st.title('Iscas')
+  st.dataframe(iscas)
+  
   # fim da função
 
   st.title('XP')
