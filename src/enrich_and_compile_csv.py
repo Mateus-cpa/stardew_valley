@@ -405,44 +405,54 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for vestuario in lista_vestuario:
     df_temp = pd.read_csv(f'docs_bronze/{vestuario}.csv', index_col='Unnamed: 0')
-    print(f'colunas de {vestuario}: {df_temp.columns}')
+    df_temp['Tipo'] = vestuario
     dfs_to_concat.append(df_temp)
   df_vestuarios = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   print(df_vestuarios.columns)
-  df_vestuarios = df_vestuarios.drop('Imagem', axis=1')
-  df_vestuarios = separar_quantidades_e_explodir(df_vestuarios,'Ingredientes')
+  df_vestuarios = df_vestuarios[['Nome','Tipo','Descrição','Efeito','Localização','Ingredientes','Preço de Compra','Preço de Venda','Estatísticas','Conquista','Como obter']]
+  #df_vestuarios = separar_quantidades_e_explodir(df_vestuarios,'Ingredientes')
   df_vestuarios.to_csv('docs_silver/vestuarios.csv', encoding='utf-8')
 
   #calendario
-  lista_datas = ['inverno_aniversario',
-                 'inverno_festivais',
-                 'outono_aniversario',
-                 'outono_festivais',
-                 'outono_colheita_unica',
-                 'primavera_aniversario',
+  lista_datas = ['primavera_aniversario',
                  'primavera_festivais',
                  'verao_aniversario',
-                 'verao_festivais']
+                 'verao_festivais',
+                 'outono_aniversario',
+                 'outono_festivais',
+                 'inverno_aniversario',
+                 'inverno_festivais']
   #padronizar colunas
-  dfs_to_concat = [] 
+  dfs_to_concat = []
+  i = 1
   for data in lista_datas:
     df_temp = pd.read_csv(f'docs_bronze/calendario_{data}.csv')
-    #print(f'colunas de {data}: {df_temp.columns}')
-    dfs_to_concat.append(df_temp)
+    df_temp['Mes'] = str(i//2) + '.' + data.split('_')[0]
+    df_temp['Evento'] = data.split('_')[1]
+    df_temp = df_temp.rename(columns={'Aldeões':'Nome','Aldeão':'Nome'})
+    dfs_to_concat.append(df_temp)    
+    i += 0.5
   df_calendario = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_calendario = df_calendario[['Dia','Mes','Evento','Nome']]
   df_calendario.to_csv('docs_silver/calendario.csv', encoding='utf-8')
+
+  #calendário cultivos
 
   #carteira
   carteira_especiais = pd.read_csv(f'docs_bronze\carteira_itens_especiais.csv')
   carteira_livros = pd.read_csv(f'docs_bronze\carteira_livros_poderes_especiais.csv')
   carteira_poderes = pd.read_csv(f'docs_bronze\carteira_poderes_maestria.csv')
   df_carteira = pd.concat([carteira_especiais,carteira_livros,carteira_poderes],ignore_index=True).reset_index(drop=True)
+  df_carteira = df_carteira[['Nome','Uso','Obtenção','Descrição','Localização']]  
   df_carteira.to_csv('docs_silver/carteira.csv', encoding='utf-8')
 
   #caverna
   caverna_cogumelo = pd.read_csv(f'docs_bronze\caverna_cogumelo.csv')
   caverna_morcego = pd.read_csv(f'docs_bronze\caverna_morcego.csv')
   df_caverna = pd.concat([caverna_cogumelo,caverna_morcego],ignore_index=True).reset_index(drop=True)
+  df_caverna = df_caverna[['Nome','Descrição','Também achado','Lucro','Recupera','Usado em','Chance','Renda']]
+  df_caverna = df_caverna.dropna(subset=['Descrição'],ignore_index=True)
+  df_caverna = separar_e_explodir(df=df_caverna,coluna='Nome')
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
   #clima
