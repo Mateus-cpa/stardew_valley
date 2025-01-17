@@ -475,6 +475,7 @@ def concat_dataframes ():
 
   #clima
   df_clima = pd.read_csv('docs_bronze\clima.csv', encoding='utf-8')
+  df_clima = df_clima[['Clima','Descrição']]
   df_clima.to_csv('docs_silver/clima.csv', encoding='utf-8')
 
   #coleta  
@@ -491,9 +492,51 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for coleta in lista_coleta:
     df_temp = pd.read_csv(f'docs_bronze/coleta_{coleta}.csv')
-    print(f'colunas de {coleta}: {df_temp.columns}')
+    df_temp =df_temp.rename(columns={'Usado Em':'Usado em', 'Encontrado':'Encontrado em'})
     dfs_to_concat.append(df_temp)
-  df_coleta = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_coleta = pd.concat(dfs_to_concat*4,ignore_index=True).reset_index(drop=True).sort_values(by='Nome')
+  df_coleta = df_coleta.dropna(subset=['Descrição'],ignore_index=True) #apaga linhas onde Descrição está vazio
+  for i in range(0,len(df_caverna)):  
+    try:
+      if i % 4 == 0:
+        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[0].strip())
+        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[0].strip())
+        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[1].strip())
+    except IndexError:
+      pass
+    except AttributeError:
+      pass
+    try:
+      if i % 4 == 1:
+        df_coleta.loc[i,'Nome'] = df_coleta.loc[i,'Nome'] + '_prata'
+        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[1].strip())
+        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[2].strip())
+        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[3].strip())
+    except IndexError:
+      pass
+    except AttributeError:
+      pass
+    try:    
+      if i % 4 == 2:
+        df_coleta.loc[i,'Nome'] = df_coleta.loc[i,'Nome'] + '_ouro'
+        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[2].strip())
+        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[4].strip())
+        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[5].strip())
+    except IndexError:
+      pass
+    except AttributeError:
+      pass
+    try:
+      if i % 4 == 3:
+        df_coleta.loc[i,'Nome'] = df_coleta.loc[i,'Nome'] + '_iridio'
+        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[3].strip())
+        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[6].strip())
+        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[7].strip())
+    except IndexError:
+      pass   
+    except AttributeError:
+      pass  
+  df_coleta = df_coleta[['Nome','Lucro','Efeito','Energia','Saude','Usado em','origem','Encontrado em','Descrição']]
   df_coleta.to_csv('docs_silver/coleta.csv', encoding='utf-8')
 
   #conjunto
