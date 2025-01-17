@@ -311,19 +311,19 @@ def concat_dataframes ():
   
   #artesanato
   lista_produtos = ['aneis',
-                      'aspersores',
-                      'bombas',
-                      'cercas',
-                      'decoracao',
-                      'diversos',
-                      'equipamento_refino',
-                      'equipamentos_artesanais',
-                      'fertilizantes',
-                      'iluminacao',
-                      'itens_comestiveis',
-                      'mobilia',
-                      'pesca',
-                      'sementes']
+                    'aspersores',
+                    'bombas',
+                    'cercas',
+                    'decoracao',
+                    'diversos',
+                    'equipamento_refino',
+                    'equipamentos_artesanais',
+                    'fertilizantes',
+                    'iluminacao',
+                    'itens_comestiveis',
+                    'mobilia',
+                    'pesca',
+                    'sementes']
   dfs_to_concat = [] 
   for artesanato in lista_produtos:
     df_temp = pd.read_csv(f'docs_bronze/artesanato_{artesanato}.csv')
@@ -401,7 +401,6 @@ def concat_dataframes ():
   lista_vestuario = ['aneis',
                      'calcados',
                      'chapeus']
-  #padronizar colunas
   dfs_to_concat = [] 
   for vestuario in lista_vestuario:
     df_temp = pd.read_csv(f'docs_bronze/{vestuario}.csv', index_col='Unnamed: 0')
@@ -422,7 +421,6 @@ def concat_dataframes ():
                  'outono_festivais',
                  'inverno_aniversario',
                  'inverno_festivais']
-  #padronizar colunas
   dfs_to_concat = []
   i = 1
   for data in lista_datas:
@@ -449,10 +447,30 @@ def concat_dataframes ():
   #caverna
   caverna_cogumelo = pd.read_csv(f'docs_bronze\caverna_cogumelo.csv')
   caverna_morcego = pd.read_csv(f'docs_bronze\caverna_morcego.csv')
-  df_caverna = pd.concat([caverna_cogumelo,caverna_morcego],ignore_index=True).reset_index(drop=True)
-  df_caverna = df_caverna[['Nome','Descrição','Também achado','Lucro','Recupera','Usado em','Chance','Renda']]
-  df_caverna = df_caverna.dropna(subset=['Descrição'],ignore_index=True)
-  df_caverna = separar_e_explodir(df=df_caverna,coluna='Nome')
+  caverna_morcego = caverna_morcego.rename(columns={'Renda':'Lucro'})
+  df_caverna = pd.concat([caverna_cogumelo,caverna_morcego]*4,ignore_index=True).reset_index(drop=True).sort_values(by='Nome')
+  df_caverna = df_caverna.dropna(subset=['Descrição'],ignore_index=True) #apaga linhas onde Descrição está vazio
+  for i in range(0,len(df_caverna)):  
+    if i % 4 == 0:
+      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[0].strip())
+      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[0].strip())
+      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[1].strip())
+    if i % 4 == 1:
+      df_caverna.loc[i,'Nome'] = df_caverna.loc[i,'Nome'] + '_prata'
+      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[1].strip())
+      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[2].strip())
+      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[3].strip())
+    if i % 4 == 2:
+      df_caverna.loc[i,'Nome'] = df_caverna.loc[i,'Nome'] + '_ouro'
+      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[2].strip())
+      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[4].strip())
+      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[5].strip())
+    if i % 4 == 3:
+      df_caverna.loc[i,'Nome'] = df_caverna.loc[i,'Nome'] + '_iridio'
+      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[3].strip())
+      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[6].strip())
+      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[7].strip())
+  df_caverna = df_caverna[['Nome','Lucro','Energia','Saude','Usado em','Chance','Descrição','Também achado']]
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
   #clima
