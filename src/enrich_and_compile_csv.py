@@ -131,8 +131,8 @@ def xp ():
   coleta['XP'] = coleta.item.apply(lambda x: pegar_primeiro_inteiro(x))
   coleta.loc[6:12,'XP'] = 7
   coleta.XP = coleta.XP.astype(int)
-  coleta.item[0:3] = coleta.item[0:3].apply(lambda linha: linha.split('por')[1])
-  coleta.item[5] = coleta.item[5].split('para')[1]
+  coleta.loc[0:3,'item'] = coleta.loc[0:3,'item'].apply(lambda linha: linha.split('por')[1])
+  coleta.loc[5,'item'] = coleta.loc[5,'item'].split('para')[1]
   coleta.drop(4)
   coleta['Profissao'] = 'coleta'
 
@@ -221,6 +221,49 @@ def separar_quantidades_e_explodir (df, coluna):
 
   return df
 
+def tenta_dividir (texto_a_dividir, divisor: str = None,coluna: int = 0):
+  """Função que divide colunas de valor, de saúde e de energia.
+      args:
+      texto_a_dividir: string qu eserá dividido em lista
+      divisor: texto a ser aplicado no split
+      coluna: índice da lista que vai retornar
+  """
+  texto_a_dividir = texto_a_dividir
+  divisor = divisor
+  coluna = coluna
+  try:
+    return texto_a_dividir.split(divisor)[coluna].strip()
+  except IndexError:
+    return texto_a_dividir
+  except AttributeError:
+    return texto_a_dividir
+
+def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_saude):
+  df = df
+  coluna_nome = coluna_nome
+  coluna_valor = coluna_valor
+  coluna_energia_saude = coluna_energia_saude
+  for i in range(0,len(df)):
+    if i % 4 == 0:
+      df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=0)
+      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=0)
+      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=1)
+    if i % 4 == 1:
+      df.loc[i,coluna_nome] = df.loc[i,coluna_nome] + '_prata'
+      df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=1)
+      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=2)
+      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=3)
+    if i % 4 == 2:
+      df.loc[i,coluna_nome] = df.loc[i,coluna_nome] + '_ouro'
+      df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=2)
+      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=4)
+      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=5)
+    if i % 4 == 3:
+      df.loc[i,coluna_nome] = df.loc[i,coluna_nome] + '_iridio'
+      df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=3)
+      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=6)
+      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=7)
+  return df
 
 def concat_dataframes ():
   
@@ -356,28 +399,14 @@ def concat_dataframes ():
   df_arvores = pd.concat([df.reset_index(drop=True) for df in dfs_to_concat]*4,
                          ignore_index=True).sort_values(by='Fruta')
   df_arvores = df_arvores.reset_index(drop=True)
-  for i in range(0,len(df_arvores)):  
-    if i % 4 == 0:
-      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[0].strip())
-      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[0].strip())
-      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[1].strip())
-    if i % 4 == 1:
-      df_arvores.loc[i,'Fruta'] = df_arvores.loc[i,'Fruta'] + '_prata'
-      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[1].strip())
-      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[2].strip())
-      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[3].strip())
-    if i % 4 == 2:
-      df_arvores.loc[i,'Fruta'] = df_arvores.loc[i,'Fruta'] + '_ouro'
-      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[2].strip())
-      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[4].strip())
-      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[5].strip())
-    if i % 4 == 3:
-      df_arvores.loc[i,'Fruta'] = df_arvores.loc[i,'Fruta'] + '_iridio'
-      df_arvores.loc[i,'Preco_venda'] = (df_arvores.loc[i,'Preço de venda'].split('ouros')[3].strip())
-      df_arvores.loc[i,'Energia'] = (df_arvores.loc[i,'Efeito de Cura'].split()[6].strip())
-      df_arvores.loc[i,'Saude'] = (df_arvores.loc[i,'Efeito de Cura'].split()[7].strip())
+  print(df_arvores.columns)
+  df_arvores = divide_valores_por_qualidade(df = df_arvores,
+                                            coluna_nome = 'Fruta',
+                                            coluna_valor = 'Preço de venda',
+                                            coluna_energia_saude = 'Efeito de Cura')  
   df_arvores = df_arvores.rename(columns = {'Preço da Muda': 'preco_muda_pierre',
-                                          'Preço da Muda.1': 'preco_muda_carrinho_viagem'})
+                                          'Preço da Muda.1': 'preco_muda_carrinho_viagem',
+                                          'Preço de venda': 'Preco_venda'})
   df_arvores = df_arvores[['Fruta',
                            'Muda',
                            'Preco_venda',
@@ -450,26 +479,11 @@ def concat_dataframes ():
   caverna_morcego = caverna_morcego.rename(columns={'Renda':'Lucro'})
   df_caverna = pd.concat([caverna_cogumelo,caverna_morcego]*4,ignore_index=True).reset_index(drop=True).sort_values(by='Nome')
   df_caverna = df_caverna.dropna(subset=['Descrição'],ignore_index=True) #apaga linhas onde Descrição está vazio
-  for i in range(0,len(df_caverna)):  
-    if i % 4 == 0:
-      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[0].strip())
-      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[0].strip())
-      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[1].strip())
-    if i % 4 == 1:
-      df_caverna.loc[i,'Nome'] = df_caverna.loc[i,'Nome'] + '_prata'
-      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[1].strip())
-      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[2].strip())
-      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[3].strip())
-    if i % 4 == 2:
-      df_caverna.loc[i,'Nome'] = df_caverna.loc[i,'Nome'] + '_ouro'
-      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[2].strip())
-      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[4].strip())
-      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[5].strip())
-    if i % 4 == 3:
-      df_caverna.loc[i,'Nome'] = df_caverna.loc[i,'Nome'] + '_iridio'
-      df_caverna.loc[i,'Lucro'] = (df_caverna.loc[i,'Lucro'].split('ouros')[3].strip())
-      df_caverna.loc[i,'Energia'] = (df_caverna.loc[i,'Recupera'].split()[6].strip())
-      df_caverna.loc[i,'Saude'] = (df_caverna.loc[i,'Recupera'].split()[7].strip())
+  df_caverna = divide_valores_por_qualidade(df = df_caverna,
+                                            coluna_nome= 'Nome',
+                                            coluna_valor= 'Lucro',
+                                            coluna_energia_saude = 'Recupera')
+  
   df_caverna = df_caverna[['Nome','Lucro','Energia','Saude','Usado em','Chance','Descrição','Também achado']]
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
@@ -494,49 +508,14 @@ def concat_dataframes ():
     df_temp = pd.read_csv(f'docs_bronze/coleta_{coleta}.csv')
     df_temp =df_temp.rename(columns={'Usado Em':'Usado em', 'Encontrado':'Encontrado em'})
     dfs_to_concat.append(df_temp)
-  df_coleta = pd.concat(dfs_to_concat*4,ignore_index=True).reset_index(drop=True).sort_values(by='Nome')
-  df_coleta = df_coleta.dropna(subset=['Descrição'],ignore_index=True) #apaga linhas onde Descrição está vazio
-  for i in range(0,len(df_caverna)):  
-    try:
-      if i % 4 == 0:
-        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[0].strip())
-        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[0].strip())
-        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[1].strip())
-    except IndexError:
-      pass
-    except AttributeError:
-      pass
-    try:
-      if i % 4 == 1:
-        df_coleta.loc[i,'Nome'] = df_coleta.loc[i,'Nome'] + '_prata'
-        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[1].strip())
-        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[2].strip())
-        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[3].strip())
-    except IndexError:
-      pass
-    except AttributeError:
-      pass
-    try:    
-      if i % 4 == 2:
-        df_coleta.loc[i,'Nome'] = df_coleta.loc[i,'Nome'] + '_ouro'
-        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[2].strip())
-        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[4].strip())
-        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[5].strip())
-    except IndexError:
-      pass
-    except AttributeError:
-      pass
-    try:
-      if i % 4 == 3:
-        df_coleta.loc[i,'Nome'] = df_coleta.loc[i,'Nome'] + '_iridio'
-        df_coleta.loc[i,'Lucro'] = (df_coleta.loc[i,'Lucro'].split('ouros')[3].strip())
-        df_coleta.loc[i,'Energia'] = (df_coleta.loc[i,'Efeito'].split()[6].strip())
-        df_coleta.loc[i,'Saude'] = (df_coleta.loc[i,'Efeito'].split()[7].strip())
-    except IndexError:
-      pass   
-    except AttributeError:
-      pass  
-  df_coleta = df_coleta[['Nome','Lucro','Efeito','Energia','Saude','Usado em','origem','Encontrado em','Descrição']]
+  df_coleta = pd.concat(dfs_to_concat*4,ignore_index=True)
+  df_coleta = df_coleta.sort_values(by='Nome').reset_index(drop=True)
+  df_coleta = divide_valores_por_qualidade(df = df_coleta, 
+                                           coluna_nome = 'Nome', 
+                                           coluna_valor = 'Lucro', 
+                                           coluna_energia_saude = 'Efeito')
+  df_coleta = df_coleta[['Nome','Lucro','Energia','Saude','Usado em','origem','Encontrado em','Descrição']]
+  df_coleta = df_coleta.drop(index=[49,50,51,157,158,159]).dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
   df_coleta.to_csv('docs_silver/coleta.csv', encoding='utf-8')
 
   #conjunto
@@ -562,10 +541,14 @@ def concat_dataframes ():
                  'peixes_rio',
                  'pesca_covo']
   #padronizar colunas
-  dfs_to_concat = [] 
+  dfs_to_concat = []
   for conjunto in lista_conjunto:
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
-    #print(f'colunas de {conjunto}: {df_temp.columns}')
+    #transformar linha Recompensa: em coluna
+    #Repetir nome da coluna na priimeira coluna
+    #Mudar o nome das Colunas para ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
+    
+    df_temp = df_temp
     dfs_to_concat.append(df_temp)
   df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_conjuntos.to_csv('docs_silver/conjuntos.csv', encoding='utf-8')
