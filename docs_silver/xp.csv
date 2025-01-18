@@ -52,7 +52,7 @@
 0, cortar uma árvore com um machado (concedido de uma só vez para o último corte que causar a queda da árvore).,1.0,coleta,,
 1, remover o toco da árvore.,1.0,coleta,,
 2, remover Toco grande e tronco grande .,2.0,coleta,,
-3,7 PE por cada item de coleta apanhado do chão.,7.0,coleta,,
+3, cada item de coleta apanhado do chão.,7.0,coleta,,
 4,"Se a profissão Coletor dobrar o item coletado, outros 7 PE são concedidos para o item extra.",7.0,coleta,,
 5, cada Cebolinha colhida na Floresta Cinzaseiva na Primavera .,3.0,coleta,,
 6,Itens de coleta padrão gerados aleatoriamente em Stardew Valley e no Deserto Calico.,7.0,coleta,,
