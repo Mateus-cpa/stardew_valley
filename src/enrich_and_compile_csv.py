@@ -399,7 +399,6 @@ def concat_dataframes ():
   df_arvores = pd.concat([df.reset_index(drop=True) for df in dfs_to_concat]*4,
                          ignore_index=True).sort_values(by='Fruta')
   df_arvores = df_arvores.reset_index(drop=True)
-  print(df_arvores.columns)
   df_arvores = divide_valores_por_qualidade(df = df_arvores,
                                             coluna_nome = 'Fruta',
                                             coluna_valor = 'Preço de venda',
@@ -545,10 +544,15 @@ def concat_dataframes ():
   for conjunto in lista_conjunto:
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
     #transformar linha Recompensa: em coluna
-    #Repetir nome da coluna na priimeira coluna
+    df_temp['Recompensa'] = df_temp.iloc[-1,2]
+    #Repetir nome da coluna na primeira coluna
+    df_temp.iloc[:,0] = df_temp.columns[0]
+    if conjunto == 'a_desaparecida':
+      df_temp.iloc[7,]
     #Mudar o nome das Colunas para ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
+    print(df_temp.columns)
+    df_temp.columns = ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
     
-    df_temp = df_temp
     dfs_to_concat.append(df_temp)
   df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_conjuntos.to_csv('docs_silver/conjuntos.csv', encoding='utf-8')
@@ -818,7 +822,7 @@ def concat_dataframes ():
   #solos_producao
   df_solos_producao = pd.read_csv('docs_bronze\solos_producao.csv', encoding='utf-8')
   # transformar colunas
-  df_solos_producao.to_csv('docs_zilver\solos_producao.csv', encoding='utf-8')
+  df_solos_producao.to_csv('docs_silver\solos_producao.csv', encoding='utf-8')
   
   #taxa_cultivo
   lista_taxas_cultivo = ['fertilizante_qualidade',
