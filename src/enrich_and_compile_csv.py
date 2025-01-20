@@ -542,15 +542,21 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = []
   for conjunto in lista_conjunto:
+    print(f'lendo {conjunto}...')
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
     #transformar linha Recompensa: em coluna
     df_temp['Recompensa'] = df_temp.iloc[-1,2]
-    #Repetir nome da coluna na primeira coluna
-    df_temp.iloc[:,0] = df_temp.columns[0]
     if conjunto == 'a_desaparecida':
-      df_temp.iloc[7,]
-    #Mudar o nome das Colunas para ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
-    print(df_temp.columns)
+      #corrigir posições das linhas 7 e 9 antes de alterar a coluna
+      df_temp.iloc[7,2:3] = df_temp.iloc[7,0:1]
+      df_temp.iloc[9,2:3] = df_temp.iloc[9,0:1]
+      df_temp = df_temp.drop(index=[0,2,6,8]) #retira linhas
+      df_temp['Recompensa'] = None            
+    if conjunto in ['animal','a_desaparecida']: #retira 2 1ªs colunas
+      df_temp = df_temp.iloc[:,2:]
+    #Repetir nome de coluna na primeira coluna
+    df_temp.iloc[:,0] = df_temp.columns[2]
+    print(df_temp)
     df_temp.columns = ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
     
     dfs_to_concat.append(df_temp)
