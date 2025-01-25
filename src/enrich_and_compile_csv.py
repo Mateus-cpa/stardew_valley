@@ -265,6 +265,34 @@ def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_
       df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=7)
   return df
 
+def extrair_valor_recompensa(df):
+    """
+    Extrai o valor da recompensa de um DataFrame.
+
+    Args:
+        df (pd.DataFrame): DataFrame de entrada.
+
+    Returns:
+        str ou None: Valor da recompensa, caso encontrado, caso contrário, None.
+    """
+
+    # Encontrar as colunas que contêm "Recompensa:"
+    colunas_recompensa = df.columns[df.isin(['Recompensa:']).any()]
+
+    # Se nenhuma coluna for encontrada, retornar None
+    if len(colunas_recompensa) == 0:
+        return None
+
+    # Obter a coluna mais à direita
+    coluna_recompensa = colunas_recompensa[-1]
+
+    # Obter o índice da linha onde "Recompensa:" aparece na última coluna encontrada
+    indice_recompensa = df[coluna_recompensa].eq('Recompensa:').idxmax()
+
+    # Retornar o valor à direita da recompensa
+    return df.iloc[indice_recompensa, df.columns.get_loc(coluna_recompensa) + 1]
+
+
 def concat_dataframes ():
   
   #animais
@@ -435,7 +463,6 @@ def concat_dataframes ():
     df_temp['Tipo'] = vestuario
     dfs_to_concat.append(df_temp)
   df_vestuarios = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  print(df_vestuarios.columns)
   df_vestuarios = df_vestuarios[['Nome','Tipo','Descrição','Efeito','Localização','Ingredientes','Preço de Compra','Preço de Venda','Estatísticas','Conquista','Como obter']]
   #df_vestuarios = separar_quantidades_e_explodir(df_vestuarios,'Ingredientes')
   df_vestuarios.to_csv('docs_silver/vestuarios.csv', encoding='utf-8')
@@ -518,10 +545,7 @@ def concat_dataframes ():
   df_coleta.to_csv('docs_silver/coleta.csv', encoding='utf-8')
 
   #conjunto
-  lista_conjunto = ['2500',
-                 '5000',
-                 '10000',
-                 '25000',
+  lista_conjunto = ['2500','5000','10000','25000',
                  'a_desaparecida',
                  'animal',
                  'artesao',
@@ -532,35 +556,45 @@ def concat_dataframes ():
                  'ferreiro',
                  'forragem',
                  'geologo',
-                 'inverno',
-                 'outono',
-                 'peixes_especializados',
-                 'peixes_lago',
-                 'peixes_oceano',
-                 'peixes_rio',
-                 'pesca_covo']
+                 'primavera','verao','outono','inverno',
+                 'peixes_especializados','peixes_lago','peixes_oceano','peixes_rio',
+                 'pesca_covo','pesca_noturna',
+                 'pesquisa_campo',
+                 'plantacoes_primavera','plantacoes_verao','plantacoes_outono','plantacoes_qualidade',
+                 'recursos_exoticos',
+                 'tinta']
   #padronizar colunas
   dfs_to_concat = []
   for conjunto in lista_conjunto:
-    print(f'lendo {conjunto}...')
+    #print(f'lendo {conjunto}...')
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
-    #transformar linha Recompensa: em coluna
-    df_temp['Recompensa'] = df_temp.iloc[-1,2]
     if conjunto == 'a_desaparecida':
       #corrigir posições das linhas 7 e 9 antes de alterar a coluna
       df_temp.iloc[7,2:3] = df_temp.iloc[7,0:1]
       df_temp.iloc[9,2:3] = df_temp.iloc[9,0:1]
       df_temp = df_temp.drop(index=[0,2,6,8]) #retira linhas
-      df_temp['Recompensa'] = None            
+      df_temp['Recompensa'] = None #cria coluna Recompensa
     if conjunto in ['animal','a_desaparecida']: #retira 2 1ªs colunas
       df_temp = df_temp.iloc[:,2:]
+    if len(df_temp.columns) >= 6:
+      df_temp = df_temp.iloc[:,1:]
+    # localiza valor de recompensa no dataframe
+    df_temp['Recompensa'] = extrair_valor_recompensa(df_temp)
     #Repetir nome de coluna na primeira coluna
-    df_temp.iloc[:,0] = df_temp.columns[2]
-    print(df_temp)
+    df_temp.iloc[:,0] = df_temp.columns[1]
+    #retirar a segunda coluna enquanto houver 5 ou mais colunas
+    while len(df_temp.columns) >= 5:
+      column_to_delete = df_temp.columns[1]
+      df_temp = df_temp.drop(columns=column_to_delete)
     df_temp.columns = ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
-    
+    #print(df_temp)
     dfs_to_concat.append(df_temp)
-  df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True)
+  df_conjuntos['Requisitos'] = df_conjuntos.apply(lambda row: row['Requisitos'] if not pd.isna(row['Requisitos']) else row['Descrição_requisitos'], axis=1)
+  #retira linhas onde a coluna Requisitos tenha o valores inválidos
+  df_conjuntos = df_conjuntos[~df_conjuntos.Requisitos.isin(['Recompensa:',''])]
+  df_conjuntos = df_conjuntos.reset_index(drop=True)
+  print(df_conjuntos.info())
   df_conjuntos.to_csv('docs_silver/conjuntos.csv', encoding='utf-8')
 
   #culinaria
