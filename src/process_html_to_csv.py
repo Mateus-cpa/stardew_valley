@@ -754,7 +754,7 @@ def df_conjuntos(html):
     conjunto_plantacoes_verao = lista[9][0]
     conjunto_plantacoes_verao.to_csv('docs_bronze/conjunto_plantacoes_verao.csv')
     conjunto_plantacoes_outono = lista[10][0]
-    conjunto_plantacoes_outono.to_csv('docs_bronze/conjunto_plantacoes_outuno.csv')
+    conjunto_plantacoes_outono.to_csv('docs_bronze/conjunto_plantacoes_outono.csv')
     conjunto_plantacoes_qualidade = lista[11][0]
     conjunto_plantacoes_qualidade.to_csv('docs_bronze/conjunto_plantacoes_qualidade.csv')
     conjunto_animal = lista[12][0]
