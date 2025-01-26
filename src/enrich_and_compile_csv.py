@@ -614,8 +614,19 @@ def concat_dataframes ():
   for culinaria in lista_culinaria:
     df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
     #print(f'colunas de {culinaria}: {df_temp.columns}')
+    df_temp = df_temp.rename(columns={'Necessário para:': 'Necessário para', 
+                                      'Tempo de crescimento:': 'crescimento_produção',
+                                      'Tempo de produção': 'crescimento_produção',
+                                      'Tempo de Produção': 'crescimento_produção',
+                                      'Quantidade Necessária':'Quantidade necessária',
+                                      'Notas':'Descrição',
+                                      'Localização':'Fonte',
+                                      'Preço Unitário/Total': 'Preço de Venda',
+                                      'Fonte da Receita':'Fonte'
+                                      })
     dfs_to_concat.append(df_temp)
   df_culinaria = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_culinaria = df_culinaria.iloc[:,2:]
   df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
 
   #custo_solo
