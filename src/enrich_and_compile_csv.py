@@ -566,7 +566,6 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = []
   for conjunto in lista_conjunto:
-    #print(f'lendo {conjunto}...')
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
     if conjunto == 'a_desaparecida':
       #corrigir posições das linhas 7 e 9 antes de alterar a coluna
@@ -587,14 +586,12 @@ def concat_dataframes ():
       column_to_delete = df_temp.columns[1]
       df_temp = df_temp.drop(columns=column_to_delete)
     df_temp.columns = ['Conjunto','Requisitos','Descrição_requisitos','Recompensa']
-    #print(df_temp)
     dfs_to_concat.append(df_temp)
   df_conjuntos = pd.concat(dfs_to_concat,ignore_index=True)
   df_conjuntos['Requisitos'] = df_conjuntos.apply(lambda row: row['Requisitos'] if not pd.isna(row['Requisitos']) else row['Descrição_requisitos'], axis=1)
   #retira linhas onde a coluna Requisitos tenha o valores inválidos
   df_conjuntos = df_conjuntos[~df_conjuntos.Requisitos.isin(['Recompensa:',''])]
   df_conjuntos = df_conjuntos.reset_index(drop=True)
-  print(df_conjuntos.info())
   df_conjuntos.to_csv('docs_silver/conjuntos.csv', encoding='utf-8')
 
   #culinaria
@@ -627,23 +624,43 @@ def concat_dataframes ():
     dfs_to_concat.append(df_temp)
   df_culinaria = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_culinaria = df_culinaria.iloc[:,2:]
+  df_culinaria['Energia'] = df_culinaria['Energia / Saúde'].apply(lambda row: tenta_dividir(texto_a_dividir=row,
+                                                                                            divisor='  ',
+                                                                                            coluna=0))
+  df_culinaria['Saúde'] = df_culinaria['Energia / Saúde'].apply(lambda row: tenta_dividir(texto_a_dividir=row,
+                                                                                            divisor='  ',
+                                                                                            coluna=1))
+  linhas_a_retirar = (df_culinaria['Fonte'].isna()) & (df_culinaria['Necessário para'].isna())
+  df_culinaria = df_culinaria[~linhas_a_retirar]
+  df_culinaria = df_culinaria.drop(columns='Energia / Saúde')
   df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
 
-  #custo_solo
-  solo_concha = pd.read_csv(f'docs_bronze\custo_solo_foliar_concha.csv', header=0)
-  solo_coral = pd.read_csv(f'docs_bronze\custo_solo_foliar_coral.csv', header=0)
+  #custo_solo_concha
+  solo_concha = pd.read_csv(f'docs_bronze\custo_solo_foliar_concha.csv', header=2,index_col='1')
+  solo_concha = solo_concha.iloc[0:8,:]
+  solo_concha['Tipo'] = 'Concha'
+  solo_concha = solo_concha.rename(columns={'Qualidade da Concha':'Qualidade'})
+  print(f'solo concha \n {solo_concha.columns} \n {solo_concha}')
+  #custo_solo_coral
+  solo_coral = pd.read_csv(f'docs_bronze\custo_solo_foliar_concha.csv', header=11,index_col='10')
+  solo_coral['Tipo'] = 'Coral'
+  solo_coral = solo_coral.rename(columns={'Qualidade do Coral':'Qualidade'})
+  print(f'solo coral \n {solo_coral.columns} \n {solo_coral}')
+  #concatena
   df_solo = pd.concat([solo_concha,solo_coral],ignore_index=True).reset_index(drop=True)
+  df_solo.columns = ['Profissão','Qualidade','Artesanato','Pierre','Apagar','Tipo','Oásis']
+  df_solo = df_solo[['Tipo','Qualidade','Profissão','Artesanato','Pierre','Oásis']]  
   df_solo.to_csv('docs_silver/solo_foliar.csv', encoding='utf-8')  
 
   #casa/estufa
   lista_casa = ['casa_estagios',
-                      'casa_renovacoes',
-                      'estufa']
+                'casa_renovacoes',
+                'estufa','parar']
   #padronizar colunas
   dfs_to_concat = [] 
   for casa in lista_casa:
     df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
-    print(f'colunas de {casa}: {df_temp.columns}')
+    #print(f'colunas de {casa}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
