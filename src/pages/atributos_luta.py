@@ -134,12 +134,12 @@ def main():
   st.title('Iscas')
   st.dataframe(iscas)
   
-  # fim da função
-
-  
+   
 
   st.title('Árvores')
   st.dataframe(arvores)
+
+  # fim da função
 
 if __name__ == '__main__':
     main()
