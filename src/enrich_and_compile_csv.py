@@ -528,7 +528,6 @@ def concat_dataframes ():
                  'primavera',
                  'seiva',
                  'verao']
-  #padronizar colunas
   dfs_to_concat = [] 
   for coleta in lista_coleta:
     df_temp = pd.read_csv(f'docs_bronze/coleta_{coleta}.csv')
@@ -563,7 +562,6 @@ def concat_dataframes ():
                  'plantacoes_primavera','plantacoes_verao','plantacoes_outono','plantacoes_qualidade',
                  'recursos_exoticos',
                  'tinta']
-  #padronizar colunas
   dfs_to_concat = []
   for conjunto in lista_conjunto:
     df_temp = pd.read_csv(f'docs_bronze/conjunto_{conjunto}.csv')
@@ -606,7 +604,6 @@ def concat_dataframes ():
                     'pratos_ingredientes',
                     'produtos_naturais',
                     'receitas']
-  #padronizar colunas
   dfs_to_concat = [] 
   for culinaria in lista_culinaria:
     df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
@@ -640,12 +637,10 @@ def concat_dataframes ():
   solo_concha = solo_concha.iloc[0:8,:]
   solo_concha['Tipo'] = 'Concha'
   solo_concha = solo_concha.rename(columns={'Qualidade da Concha':'Qualidade'})
-  print(f'solo concha \n {solo_concha.columns} \n {solo_concha}')
   #custo_solo_coral
   solo_coral = pd.read_csv(f'docs_bronze\custo_solo_foliar_concha.csv', header=11,index_col='10')
   solo_coral['Tipo'] = 'Coral'
   solo_coral = solo_coral.rename(columns={'Qualidade do Coral':'Qualidade'})
-  print(f'solo coral \n {solo_coral.columns} \n {solo_coral}')
   #concatena
   df_solo = pd.concat([solo_concha,solo_coral],ignore_index=True).reset_index(drop=True)
   df_solo.columns = ['Profissão','Qualidade','Artesanato','Pierre','Apagar','Tipo','Oásis']
@@ -655,18 +650,23 @@ def concat_dataframes ():
   #casa/estufa
   lista_casa = ['casa_estagios',
                 'casa_renovacoes',
-                'estufa','parar']
+                'estufa']
   #padronizar colunas
   dfs_to_concat = [] 
   for casa in lista_casa:
-    df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
-    #print(f'colunas de {casa}: {df_temp.columns}')
+    if casa == 'estufa':
+      df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
+      df_temp = df_temp.T.iloc[2:,:]
+      df_temp.columns = ['Tipo','apagar1','Mudanças','apagar2','Requisito','Custo','Tamanho']
+    else:
+      df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
+    print(f'{casa}:\n{df_temp}')
     dfs_to_concat.append(df_temp)
   df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
   #ferramenta
-  lista_ferramentas = ['enxada',
+  lista_ferramentas = ['parar','enxada',
                       'lixeira',
                       'machado',
                       'picareta',
