@@ -1,0 +1,156 @@
+,Item,Preço
+0,Cadeira de carvalho,350 ouros
+1,Cadeira de nogueira,350 ouros
+2,Cadeira de bétula,350 ouros
+3,Cadeira de mogno,1 000 ouros
+4,Cadeira vermelha de jantar,750 ouros
+5,Cadeira azul de jantar,750 ouros
+6,Cadeira do interior,750 ouros
+7,Cadeira do café da manhã,750 ouros
+8,Cadeira rosa de escritório,500 ouros
+9,Cadeira roxa de escritório,500 ouros
+10,Banco verde de escritório,350 ouros
+11,Banco laranja de escritório,350 ouros
+12,Trono negro,2 000 ouros
+13,Cadeira de jantar (amarela),1 200 ouros
+14,Cadeira de jantar (vermelha),1 200 ouros
+15,Assento verde de pelúcia,750 ouros
+16,Assento rosa de pelúcia,750 ouros
+17,Cadeira de inverno,750 ouros
+18,Cadeira Batuta,750 ouros
+19,Cadeira bonitinha,1 200 ouros
+20,Cadeira de toco,2 000 ouros
+21,Cadeira de metal,800 ouros
+22,Banco verde,350 ouros
+23,Banco azul,350 ouros
+24,Cadeira do rei,3 000 ouros
+25,Banco de carvalho,750 ouros
+26,Banco de nogueira,750 ouros
+27,Banco de bétula,750 ouros
+28,Banco de mogno,2 000 ouros
+29,Banco moderno,2 000 ouros
+30,Poltrona azul,1 000 ouros
+31,Poltrona vermelha,1 000 ouros
+32,Poltrona verde,1 000 ouros
+33,Poltrona amarela,1 000 ouros
+34,Poltrona marrom,1 000 ouros
+35,Sofá azul,1 750 ouros
+36,Sofá vermelho,1 750 ouros
+37,Sofá verde,1 750 ouros
+38,Sofá amarelo,1 750 ouros
+39,Sofá marrom,1 750 ouros
+40,Sofá negro,2 500 ouros
+41,Sofá de feiticeiro,4 000 ouros
+42,Sofá de madeira,3 000 ouros
+43,Cômoda de carvalho,1 000 ouros
+44,Cômoda de nogueira,1 000 ouros
+45,Cômoda de bétula,1 000 ouros
+46,Cômoda de mogno,2 000 ouros
+47,Mesa de centro,1 250 ouros
+48,Placa de pedra,1 000 ouros
+49,Mesa de jantar de inverno,3 500 ouros
+50,Mesa de jantar festiva,3 500 ouros
+51,Mesa de jantar (mogno),3 000 ouros
+52,Mesa de jantar moderna,2 700 ouros
+53,Mesa de carvalho,750 ouros
+54,Mesa de nogueira,750 ouros
+55,Mesa de bétula,750 ouros
+56,Mesa de mogno,1 500 ouros
+57,Mesa de sol,2 500 ouros
+58,Mesa de lua,2 500 ouros
+59,Mesa moderna,1 250 ouros
+60,Mesa de bar,800 ouros
+61,Mesa luxuosa,2 000 ouros
+62,Mesa de vidente,2 250 ouros
+63,Mesa neolítica,1 800 ouros
+64,Mesa de quebra-cabeças,1 500 ouros
+65,Mesa de inverno,1 250 ouros
+66,Mesa de doces,1 000 ouros
+67,Mesa de luau,1 000 ouros
+68,Mesa negra,2 000 ouros
+69,Mesa de centro (carvalho),750 ouros
+70,Mesa de centro (nogueira),750 ouros
+71,Mesa de centro (bétula),750 ouros
+72,Mesa de centro (mogno),1 500 ouros
+73,Mesa de centro moderna,1 000 ouros
+74,Cristaleira,6 000 ouros
+75,Estante de artista,1 200 ouros
+76,Estante luxuosa,2 000 ouros
+77,Estante moderna,1 600 ouros
+78,Estante negra,2 000 ouros
+79,Pilar de cerâmica,250 ouros
+80,Pilar de ouro,450 ouros
+81,Cano industrial,300 ouros
+82,Palmeira,600 ouros
+83,Totem,750 ouros
+84,Pinheiro podado,500 ouros
+85,Árvore podada,500 ouros
+86,Planta pequena,250 ouros
+87,Planta de mesa,250 ouros
+88,Tigela decorativa,250 ouros
+89,Urso Futan,1 500 ouros
+90,Globo,250 ouros
+91,Navio em Miniatura,750 ouros
+92,Pequeno Cristal,750 ouros
+93,Lanterna Decorativa,500 ouros
+94,Planta,250 ouros
+95,Planta,250 ouros
+96,Planta,250 ouros
+97,Planta,250 ouros
+98,Planta,250 ouros
+99,Planta,250 ouros
+100,Planta,250 ouros
+101,Planta,250 ouros
+102,Planta,250 ouros
+103,Planta,250 ouros
+104,Planta,250 ouros
+105,Planta,250 ouros
+106,Planta,250 ouros
+107,Planta,250 ouros
+108,Planta,250 ouros
+109,Mesa de apoio (carvalho),500 ouros
+110,Mesa de apoio (nogueira),500 ouros
+111,Mesa de apoio (bétula),500 ouros
+112,Mesa de apoio (mogno),1 000 ouros
+113,Mesa de apoio moderna,800 ouros
+114,Mesa de apoio da vovó,1 000 ouros
+115,Mesa de apoio de inverno,800 ouros
+116,Árvore da Estrela de Inverno,5 000 ouros
+117,Lâmpada caipira,500 ouros
+118,Lâmpada quadrada,750 ouros
+119,Lâmpada moderna,750 ouros
+120,Lâmpada clássica,1 000 ouros
+121,Tapete vermelho,1 000 ouros
+122,Tapete de retalhos,800 ouros
+123,Tapete negro,2 000 ouros
+124,"""Pináculos""",800 ouros
+125,Cataratas de Calico,750 ouros
+126,Flor bordada,500 ouros
+127,Poster de crânio,500 ouros
+128,"""Sol nº 45""",350 ouros
+129,"""Arvorezinha""",350 ouros
+130,"""Mirtilos""",250 ouros
+131,"""Cidade Azul""",250 ouros
+132,Fotos pequenas,250 ouros
+133,"""Grama dançante""",400 ouros
+134,Janela com tábuas,400 ouros
+135,Janela de navio,700 ouros
+136,Âncora,750 ouros
+137,Mapa Múndi,500 ouros
+138,Janela Ornamental,900 ouros
+139,Janela entalhada,900 ouros
+140,Tapete Marinho,1 250 ouros
+141,Tapete de Juta,350 ouros
+142,Coluna de madeira,1 000 ouros
+143,Pisca-Pisca,400 ouros
+144,Pinheirinho,500 ouros
+145,Bonsai,800 ouros
+146,Janela de Metal,800 ouros
+147,Lamparina,1 000 ouros
+148,Brasão do Mineiro,1 000 ouros
+149,Tapete de Bambu,250 ouros
+150,Lâmpada Ornamental,1 050 ouros
+151,Tapete de Madeira,800 ouros
+152,Escudo de Parede,500 ouros
+153,Decoração de Monstros,1 000 ouros
+154,Bandeirinhas,50 ouros
