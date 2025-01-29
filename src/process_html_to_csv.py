@@ -1246,6 +1246,32 @@ def df_presentes_favoritos (html):
     lista_presentes = lista[0][0]
     lista_presentes.to_csv('docs_bronze/lista_presentes.csv')
 
+def df_construcoes_fazenda (html):
+     
+    with open(html, 'r', encoding= 'utf-8') as f:
+        html = f.read()
+    sopa = bs4(html, 'html.parser')
+    lista = []
+    for tabela in sopa.find_all('table'):
+        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
+    for i in range(len(lista)):
+        for j in range(len(lista[i])):
+            print(f'i = {i}, j = {j}')
+            print(lista[i][j])
+        print('*-* FIM DA TABELA *-*'*5) 
+    loja_carpintaria = lista[0][0]
+    loja_carpintaria.to_csv('docs_bronze/loja_carpintaria.csv')
+    estoque_carpintaria_permanente = lista[1][0]
+    estoque_carpintaria_permanente.to_csv('docs_bronze/estoque_carpintaria_permanente.csv')
+    estoque_carpintaria_rotativo = lista[3][0]
+    estoque_carpintaria_rotativo.to_csv('docs_bronze/estoque_carpintaria_rotativo.csv')
+    construcoes_fazenda_carpintaria = lista[4][0]
+    construcoes_fazenda_carpintaria.to_csv('docs_bronze/construcoes_fazenda_carpintaria.csv')
+    construcoes_fazenda_carpintaria_melhoria = lista[4][0]
+    construcoes_fazenda_carpintaria_melhoria.to_csv('docs_bronze/construcoes_fazenda_carpintaria_melhoria.csv')
+    construcoes_fazenda_carpintaria_renovacoes = lista[4][0]
+    construcoes_fazenda_carpintaria_renovacoes.to_csv('docs_bronze/construcoes_fazenda_carpintaria_renovacoes.csv')
+
 if __name__ == '__main__':
     #import
     from bs4 import BeautifulSoup as bs4
@@ -1315,4 +1341,4 @@ if __name__ == '__main__':
     #'Peixaria', #60
     #'A_Montanha', #61
     #'Guilda_dos_Aventureiros', #62
-    #'Carpintaria', #63
+    df_construcoes_fazenda(html='docs_raw\sopa_Carpintaria.html')
