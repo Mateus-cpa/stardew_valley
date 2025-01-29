@@ -651,7 +651,7 @@ def concat_dataframes ():
   lista_casa = ['casa_estagios',
                 'casa_renovacoes',
                 'estufa']
-  #padronizar colunas
+  #padronizar colunas 
   dfs_to_concat = [] 
   for casa in lista_casa:
     if casa == 'estufa':
