@@ -1,8 +1,19 @@
-,0,1
-0,Carpintaria,Carpintaria
-1,,
-2,,
-3,Aberto:,09:00 até 17:00
-4,Fechado:,"Terça-feira, e depois das 16h de Sexta-feira"
-5,Endereço:,"Rua da Montanha, nº 24"
-6,Ocupantes:,Robin  Demetrius  Sebastian  Maru
+,Imagem,Nome,Descrição,Animais,Custo,Tamanho
+0,,Celeiro,Permite até 4 animais num celeiro.,Vacas,6 000 ouros  Madeira  (350)  Pedra  (150),7x4
+1,,Celeiro Grande,Atualização do celeiro  Permite até 8 animais num celeiro. Permite que animais deem a luz. Libera cabras.,Cabras,12 000 ouros  Madeira  (450)  Pedra  (200),7x4
+2,,Celeiro de Luxo,Atualização do celeiro grande  Permite até 12 animais num celeiro. Vem com um sistema de autoalimentação. Libera ovelhas e porcos.,Ovelhas  Porcos,25 000 ouros  Madeira  (550)  Pedra  (300),7x4
+3,,Galinheiro,Permite até 4 animais num galinheiro.,Galinhas,4 000 ouros  Madeira  (300)  Pedra  (100),6x3
+4,,Galinheiro Grande,Atualização do galinheiro  Permite até 8 animais num galinheiro. Vem com uma chocadeira. Libera patos.,Patos,10 000 ouros  Madeira  (400)  Pedra  (150),6x3
+5,,Galinheiro de Luxo,Atualização do galinheiro grande  Permite até 12 animais num galinheiro. Vem com um sistema de autoalimentação. Libera coelhos.,Coelhos,20 000 ouros  Madeira  (500)  Pedra  (200),6x3
+6,,Moinho,Permite criar farinha a partir de trigo e açúcar de beterrabas.,,2 500 ouros  Madeira  (150)  Pedra  (50)  Tecido  (4),4x2
+7,,Galpão,Uma construção vazia. Ocupe-a com o que quiser! O interior pode ser decorado.,,15 000 ouros  Madeira  (300),7x3
+8,,Galpão Grande,Dobra o tamanho do galpão. O interior pode ser decorado.,,20 000 ouros  Madeira  (550)  Pedra  (300),7x3
+9,,Lago de Peixes,Crie peixes e colete sua produção. Peixes se multiplicam com o tempo.,Peixes,5 000 ouros  Pedra  (200)  Algas marinhas  (5)  Algas verdes  (5),5x5
+10,,Silo,Permite corte e armazenamento de grama como ração.,,100 ouros  Pedra  (100)  Argila  (10)  Barra de cobre  (5),3x3
+11,,Casa de gosmas,Cria até 20  gosmas  . Enche comedouros com água. Gosmas criam  bolas de gosma  .  Vem com um  incubador de gosmas  fixo.,Gosmas,10 000 ouros  Pedra  (500)  Quartzo refinado  (10)  Barra de irídio  (1),11x6
+12,,Estábulo,Permite que você tenha e monte num cavalo. Cavalo incluso.,Cavalo,10 000 ouros  Madeira de lei  (100)  Barra de ferro  (5),4x2
+13,,Poço,Fornece um lugar para repor a água do  regador  .,,1 000 ouros  Pedra  (75),3x3
+14,,Casa,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,1 amigo em um jogo  multijogador,100 ouros,5x3
+15,,Casa,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,1 amigo em um jogo  multijogador,100 ouros,5x3
+16,,Casa,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,1 amigo em um jogo  multijogador,100 ouros,5x3
+17,,Caixa de Remessas,Jogue itens nela para vendê-los à noite.,,250 ouros  Madeira  (150),2x1
