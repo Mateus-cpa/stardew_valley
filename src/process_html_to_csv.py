@@ -577,7 +577,7 @@ def df_estufa(html):
         lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
 
     estufa = lista[0][0]
-    estufa.to_csv('docs_bronze/estufa.csv')
+    estufa.to_csv('docs_bronze/casa_estufa.csv')
 
     pass
 
@@ -1254,11 +1254,11 @@ def df_construcoes_fazenda (html):
     lista = []
     for tabela in sopa.find_all('table'):
         lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
-    for i in range(len(lista)):
+    """for i in range(len(lista)):
         for j in range(len(lista[i])):
             print(f'i = {i}, j = {j}')
             print(lista[i][j])
-        print('*-* FIM DA TABELA *-*'*5) 
+        print('*-* FIM DA TABELA *-*'*5) """
     loja_carpintaria = lista[0][0]
     loja_carpintaria.to_csv('docs_bronze/loja_carpintaria.csv')
     estoque_carpintaria_permanente = lista[1][0]
@@ -1266,11 +1266,11 @@ def df_construcoes_fazenda (html):
     estoque_carpintaria_rotativo = lista[3][0]
     estoque_carpintaria_rotativo.to_csv('docs_bronze/estoque_carpintaria_rotativo.csv')
     construcoes_fazenda_carpintaria = lista[4][0]
-    construcoes_fazenda_carpintaria.to_csv('docs_bronze/construcoes_fazenda_carpintaria.csv')
-    construcoes_fazenda_carpintaria_melhoria = lista[4][0]
-    construcoes_fazenda_carpintaria_melhoria.to_csv('docs_bronze/construcoes_fazenda_carpintaria_melhoria.csv')
-    construcoes_fazenda_carpintaria_renovacoes = lista[4][0]
-    construcoes_fazenda_carpintaria_renovacoes.to_csv('docs_bronze/construcoes_fazenda_carpintaria_renovacoes.csv')
+    construcoes_fazenda_carpintaria.to_csv('docs_bronze/casa_construcoes_fazenda.csv')
+    construcoes_fazenda_carpintaria_melhoria = lista[5][0]
+    construcoes_fazenda_carpintaria_melhoria.to_csv('docs_bronze/casa_construcoes_melhoria.csv')
+    construcoes_fazenda_carpintaria_renovacoes = lista[6][0]
+    construcoes_fazenda_carpintaria_renovacoes.to_csv('docs_bronze/casa_construcoes_renovacoes.csv')
 
 if __name__ == '__main__':
     #import
