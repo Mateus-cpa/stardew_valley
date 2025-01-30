@@ -208,10 +208,26 @@ def separar_e_explodir(df, coluna):
   df = df.drop(coluna, axis=1)
   return df
 
+def tenta_separar_string (linha, divisor: str):
+  try:
+    return linha.split(divisor)
+  except AttributeError:
+    return linha
+
 def separar_quantidades_e_explodir (df, coluna):
-  df[coluna] = df[coluna].apply(lambda linha: linha.split(')'))
+  """
+    Separa as strings de uma coluna em novas linhas com base 
+    em lista de itens e quantidades.
+
+  Args:
+      df: DataFrame Pandas.
+      coluna: Nome da coluna a ser processada.
+
+  Returns:
+      DataFrame com as linhas explodidas.
+  """
+  df[coluna] = df[coluna].apply(lambda linha: tenta_separar_string(linha=linha,divisor=')'))
   df = df.explode(coluna).dropna(subset=coluna)
-  #df = df.reset_index(drop=True)
   df[coluna] = df[coluna].apply(lambda linha: linha.split('(') if '(' in linha else [linha, '0'])
   df[f'{coluna}_item'] = df[coluna].apply(lambda lista: lista[0].strip())
   df[f'{coluna}_qtd'] = df[coluna].apply(lambda lista: lista[1].strip())
@@ -648,21 +664,27 @@ def concat_dataframes ():
   df_solo.to_csv('docs_silver/solo_foliar.csv', encoding='utf-8')  
 
   #casa/estufa
-  lista_casa = ['casa_estagios',
-                'casa_renovacoes',
-                'estufa']
-  #padronizar colunas 
+  lista_casa = ['estagios',
+                'estufa',
+                'construcoes_melhoria',
+                'construcoes_renovacoes',
+                'construcoes_fazenda']
   dfs_to_concat = [] 
   for casa in lista_casa:
+    df_temp = pd.read_csv(f'docs_bronze/casa_{casa}.csv')
     if casa == 'estufa':
-      df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
       df_temp = df_temp.T.iloc[2:,:]
-      df_temp.columns = ['Tipo','apagar1','Mudanças','apagar2','Requisito','Custo','Tamanho']
-    else:
-      df_temp = pd.read_csv(f'docs_bronze/{casa}.csv')
-    print(f'{casa}:\n{df_temp}')
+      df_temp['Nome'] = 'Estufa'
+      df_temp.columns = ['Tipo','Nome','apagar1','Mudanças','apagar2','Requisito','Custo','Tamanho']
+    elif casa == 'construcoes_melhoria':
+      df_temp.columns = ['apagar1','Imagem','Nome','Descrição','Custo']
+    df_temp = df_temp.rename(columns={'Estágio':'Nome'})
+    df_temp['Tipo'] = casa
     dfs_to_concat.append(df_temp)
   df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes','Requisito','Mudanças']]
+  # precisa separar também 'ouros'
+  # df_casa = separar_quantidades_e_explodir(df= df_casa, coluna='Custo')
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
   #ferramenta
