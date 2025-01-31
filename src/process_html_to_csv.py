@@ -827,22 +827,25 @@ def df_ferramentas (html):
 
     lista = []
     for tabela in sopa.find_all('table'):
-        lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
-
-    enxada = lista[0][0]
+        lista.append(pd.read_html(StringIO(str(tabela))))
+    efeitos = lista[0][0]
+    efeitos.to_csv('docs_bronze/ferramentas_efeitos.csv')
+    enxada = lista[1][0]
     enxada.to_csv('docs_bronze/ferramenta_enxada.csv')
-    picareta = lista[1][0]
+    picareta = lista[2][0]
     picareta.to_csv('docs_bronze/ferramenta_picareta.csv')
-    machado = lista[2][0]
+    machado = lista[3][0]
     machado.to_csv('docs_bronze/ferramenta_machado.csv')
-    regador = lista[3][0]
+    regador = lista[4][0]
     regador.to_csv('docs_bronze/ferramenta_regador.csv')
-    lixeira = lista[4][0]
+    lixeira = lista[5][0]
     lixeira.to_csv('docs_bronze/ferramenta_lixeira.csv')
-    vara_pesca = lista[5][0]
+    vara_pesca = lista[6][0]
     vara_pesca.to_csv('docs_bronze/ferramenta_vara_pesca.csv')
+    foice = lista[7][0]
+    foice.to_csv('docs_bronze/ferramenta_foice.csv')
 
-    pass
+    
 
 def df_armas (html):
      
