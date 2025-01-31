@@ -1,0 +1,127 @@
+,Unnamed: 0,Sementes,Estágio 1,Estágio 2,Estágio 3,Colheita,Colheita.1,Vende por,Restaura,Usado em,Estágio 4,Estágio 5
+0,0,Broto de Chá  Receita de Artesanato  : Grátis,,,,,,50 ouros,Não comestível,Chá Verde,,
+1,1,Broto de Chá  Receita de Artesanato  : Grátis,,50 ouros,50 ouros,Não comestível,Chá Verde,,,,,
+2,2,10 Dias,10 Dias,Até o dia 21 da temporada,Total: 20 Dias,Continua a produzir todos os dias entre os dias 22 e 28 de cada Estação.,,,,,,
+3,0,Grão de café  Carrinho de Viagem  2 500 ouros  Espírito da poeira  (1% drop),,,,,,15 ouros  18 ouros  22 ouros  30 ouros,Não comestível,Café,,
+4,1,Grão de café  Carrinho de Viagem  2 500 ouros  Espírito da poeira  (1% drop),,Grão de café  Carrinho de Viagem  2 500 ouros  Espírito da poeira  (1% drop),Não comestível,,,,,,Café,
+5,6,1 Dia,2 Dias,2 Dias,3 Dias,Continua a  produzir a cada 2 dias.,"Carrinho de Viagem  :  -20,74 ouros  /d  Espírito da poeira  :  25,56 ouros  /d",,,,2 Dias,Total: 10 Dias
+6,0,Mudas de feijão  Armazém  60 ouros  Mercado Joja  75 ouros,,,,,,40 ouros  50 ouros  60 ouros  80 ouros,25  11  35  15  45  20  65  29,Pote de feijão  Conjunto Plantações de Primavera,,
+7,1,Mudas de feijão  Armazém  60 ouros  Mercado Joja  75 ouros,,Mudas de feijão  Armazém  60 ouros  Mercado Joja  75 ouros,25  11  35  15  45  20  65  29,,,,,,Pote de feijão  Conjunto Plantações de Primavera,
+8,10,1 Dia,2 Dias,2 Dias,3 Dias,Continua a  produzir a cada 3 dias.,"7,2 ouros  /d",,,,2 Dias,Total: 10 Dias
+9,0,Mudas de lúpulo  Armazém  60 ouros  Mercado Joja  75 ouros,,,,,,25 ouros  31 ouros  37 ouros  50 ouros,45  20  63  28  81  36  117  52,Pale Ale,,
+10,1,Mudas de lúpulo  Armazém  60 ouros  Mercado Joja  75 ouros,Mudas de lúpulo  Armazém  60 ouros  Mercado Joja  75 ouros,45  20  63  28  81  36  117  52,Pale Ale,,,,,,,
+11,10,1 Dia,1 Dia,2 Dias,3 Dias,Continua a  produzir todo dia.,"≈  13,52 ouros  /d",,,,4 Dias,Total: 11 Dias
+12,0,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,,,,,,80 ouros  100 ouros  120 ouros  160 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,,
+13,1,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,,,,,,,
+14,10,1 Dia,1 Dia,2 Dias,3 Dias,Continua a  produzir a cada 3 dias.,"16,8 ouros  /d",,,,3 Dias,Total: 10 Dias
+15,0,Sementes de Abacaxi  Comerciante da Ilha  :  Cogumelo de Magma  (1),,,,,,300 ouros  375 ouros  450 ouros  600 ouros,138  62  193  86  248  111  358  161,Curry Tropical,,
+16,1,Sementes de Abacaxi  Comerciante da Ilha  :  Cogumelo de Magma  (1),,300 ouros,138  62  193  86  248  111  358  161,,,,,,Curry Tropical,
+17,9,1 dia,3 dias,3 dias,4 dias,"≈  32,14 ouros  /d",,,,,3 dias,Total: 14 dias
+18,0,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,,,,,,320 ouros  400 ouros  480 ouros  640 ouros,Não comestível,Prato de outono  Sopa de abóbora  Torta de abóbora  Cabeça de abóbora  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,,
+19,1,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,Não comestível,,,,,,Prato de outono  Sopa de abóbora  Torta de abóbora  Cabeça de abóbora  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,
+20,6,1 Dia,2 Dias,3 Dias,4 Dias,"≈  16,92 ouros  /d",,,,,3 Dias,Total: 13 Dias
+21,0,Sementes de alcachofra  Armazém  30 ouros,,,,,,160 ouros  200 ouros  240 ouros  320 ouros,30  13  42  18  54  24  78  35,Molho de alcachofra  Superprato,,
+22,1,Sementes de alcachofra  Armazém  30 ouros,,Sementes de alcachofra  Armazém  30 ouros,30  13  42  18  54  24  78  35,,,,,,Molho de alcachofra  Superprato,
+23,10,2 Dias,2 Dias,1 Dia,2 Dias,"16,25 ouros  /d",,,,,1 Dia,Total: 8 Dias
+24,0,Sementes de alho  Armazém  40 ouros,,,,,,60 ouros  75 ouros  90 ouros  120 ouros,20  9  28  12  36  16  52  23,Risoto de samambaia  Escargô  Óleo de alho,,
+25,1,Sementes de alho  Armazém  40 ouros,,Sementes de alho  Armazém  40 ouros,20  9  28  12  36  16  52  23,,,,,,Risoto de samambaia  Escargô  Óleo de alho,
+26,10,1 Dia,1 Dia,1 Dia,1 Dia,5 ouros  /d,,,,,Total: 4 Dias,
+27,0,Sementes de amaranto  Armazém  70 ouros  Mercado Joja  87 ouros,,,,,,150 ouros  187 ouros  225 ouros  300 ouros,50  22  70  31  90  40  130  58,Jantar de salmão,,
+28,1,Sementes de amaranto  Armazém  70 ouros  Mercado Joja  87 ouros,,Sementes de amaranto  Armazém  70 ouros  Mercado Joja  87 ouros,50  22  70  31  90  40  130  58,,,,,,Jantar de salmão,
+29,10,1 Dias,2 Dia,2 Dias,2 Dia,"≈  11,43 ouros  /d",,,,,Total: 7 Dias,
+30,0,Sementes antigas  Semente antiga  Carrinho de Viagem  :  100–1 000 ouros,,,,,,,,,,
+31,1,Sementes antigas  Semente antiga  Carrinho de Viagem  :  100–1 000 ouros,,,,,,550 ouros  687 ouros  825 ouros  1 100 ouros,Não comestível,,,
+32,2,Sementes antigas  Semente antiga  Carrinho de Viagem  :  100–1 000 ouros,,550 ouros,Não comestível,,,,,,,
+33,6,2 Dias,7 Dias,7 Dias,7 Dias,Continua a  produzir a cada 7 dias.,"≈  57,14 ouros  /d* (abrangendo Primavera, Verão e Outono)",,,,5 Dias,Total: 28 Dias
+34,0,Broto de arroz  Armazém  :  40 ouros,,,,,,30 ouros  37 ouros  45 ouros  60 ouros,3  1  4  1  5  2  7  3,Arroz,,
+35,1,Broto de arroz  Armazém  :  40 ouros,,30 ouros,3  1  4  1  5  2  7  3,,,,,,Arroz,
+36,9,1 Dia,1-2 Dias,1-2 Dias,3 Dias,"-1,25 ouro  /d  1  ≈  -1,67 ouro  /d  2",,,,,Total: 6-8 Dias,
+37,0,Sementes de batata  Armazém  50 ouros  Mercado Joja  62 ouros,,,,,,80 ouros  100 ouros  120 ouros  160 ouros,25  11  35  15  45  20  65  29,Batata-palha  Conjunto Plantações de Primavera,,
+38,1,Sementes de batata  Armazém  50 ouros  Mercado Joja  62 ouros,,Sementes de batata  Armazém  50 ouros  Mercado Joja  62 ouros,25  11  35  15  45  20  65  29,,,,,,Batata-palha  Conjunto Plantações de Primavera,
+39,10,1 Dia,1 Dia,1 Dia,2 Dias,"5 ouros  /d (sem batatas extra)  7,67 ouros  /d (1.2 batatas/colheita)",,,,,1 Dia,Total: 6 Dias
+40,0,Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,,,,,,60 ouros  75 ouros  90 ouros  120 ouros,20  9  28  12  36  16  52  23,Hambúrguer de sobreviência  Parmesão com berinjela  Conjunto Plantações de Outono,,
+41,1,Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,,Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,20  9  28  12  36  16  52  23,,,,,,Hambúrguer de sobreviência  Parmesão com berinjela  Conjunto Plantações de Outono,
+42,10,1 Dia,1 Dia,1 Dia,1 Dia,Continua a  produzir a cada 5 dias.,"11,2 ouros  /d",,,,1 Dia,Total: 5 Dias
+43,0,Sementes de beterraba  Oásis  20 ouros,,,,,,100 ouros  125 ouros  150 ouros  200 ouros,30  13  42  18  54  24  78  35,Mexido de legumes  Açúcar,,
+44,1,Sementes de beterraba  Oásis  20 ouros,,Sementes de beterraba  Oásis  20 ouros,30  13  42  18  54  24  78  35,,,,,,Mexido de legumes  Açúcar,
+45,10,1 Dia,1 Dia,2 Dias,2 Dias,"≈  13,33 ouros  /d",,,,,Total: 6 Dias,
+46,0,Sementes de Cacto  Oásis  :  150 ouros,,,,,,,,,,
+47,1,Sementes de Cacto  Oásis  :  150 ouros,,,,,,75 ouros  93 ouros  112 ouros  150 ouros,75  33  105  47  135  60  195  87,Conjunto Recursos Exóticos,,
+48,2,Sementes de Cacto  Oásis  :  150 ouros,,75 ouros,75  33  105  47  135  60  195  87,,,,,,Conjunto Recursos Exóticos,
+49,10,2 Dias,2 Dias,2 Dias,3 Dias,Repete a cada 3 Dias,"Estação de plantio: ≈  11,11 ouros  /d  Cada estação seguinte: ≈  24,11 ouros  /d",,,,3 Dias,Total: 12 Dias
+50,0,Sementes de carambola  Oásis  400 ouros,,,,,,750 ouros  937 ouros  1 125 ouros  1 500 ouros,125  56  175  78  225  101  325  146,,,
+51,1,Sementes de carambola  Oásis  400 ouros,,Sementes de carambola  Oásis  400 ouros,125  56  175  78  225  101  325  146,,,,,,,
+52,10,2 Dias,3 Dias,2 Dias,3 Dias,"≈  26,92 ouros  /d",,,,,3 Dias,Total: 13 Dias
+53,0,Carrot Seeds,,,,,,35 ouros  43 ouros  52 ouros  70 ouros,75  33  105  47  135  60  195  87,,,
+54,1,Carrot Seeds,Carrot Seeds,75  33  105  47  135  60  195  87,,,,,,,,
+55,10,1 Dia,1 Dia,1 Dia,Total: 3 Dias,"≈  11,67 ouros  /d",,,,,,
+56,0,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,,,,,,35 ouros  43 ouros  52 ouros  70 ouros,25  11  35  15  45  20  65  29,Sopa de chirívia  Almoço de fazendeiro  Conjunto Plantações de Primavera  Conjunto Plantações de Qualidade,,
+57,1,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,25  11  35  15  45  20  65  29,,,,,,Sopa de chirívia  Almoço de fazendeiro  Conjunto Plantações de Primavera  Conjunto Plantações de Qualidade,
+58,10,1 Dia,1 Dia,1 Dia,1 Dia,"3,75 ouros  /d",,,,,Total: 4 Dias,
+59,0,Sementes de couve chinesa  Armazém  50 ouros  Mercado Joja  62 ouros,,,,,,80 ouros  100 ouros  120 ouros  160 ouros,25  11  35  15  45  20  65  29,Superprato,,
+60,1,Sementes de couve chinesa  Armazém  50 ouros  Mercado Joja  62 ouros,,Sementes de couve chinesa  Armazém  50 ouros  Mercado Joja  62 ouros,25  11  35  15  45  20  65  29,,,,,,Superprato,
+61,10,1 Dia,1 Dia,1 Dia,1 Dia,"7,5 ouros  /d",,,,,Total: 4 Dias,
+62,0,Sementes de Couve-flor  Armazém  80 ouros  Mercado Joja  100 ouros,,,,,,175 ouros  218 ouros  262 ouros  350 ouros,75  33  105  47  135  60  195  87,Couve-flor com queijo  Conjunto Plantações de Primavera,,
+63,1,Sementes de Couve-flor  Armazém  80 ouros  Mercado Joja  100 ouros,,Sementes de Couve-flor  Armazém  80 ouros  Mercado Joja  100 ouros,75  33  105  47  135  60  195  87,,,,,,Couve-flor com queijo  Conjunto Plantações de Primavera,
+64,10,1 Dia,2 Dias,4 Dias,4 Dias,"≈  7,92 ouros  /d",,,,,1 Dias,Total: 12 Dias
+65,0,Sementes de couve  Armazém  70 ouros  Mercado Joja  87 ouros,,,,,,110 ouros  137 ouros  165 ouros  220 ouros,50  22  70  31  90  40  130  58,Refogado  Jantar de salmão,,
+66,1,Sementes de couve  Armazém  70 ouros  Mercado Joja  87 ouros,,Sementes de couve  Armazém  70 ouros  Mercado Joja  87 ouros,50  22  70  31  90  40  130  58,,,,,,Refogado  Jantar de salmão,
+67,10,1 Dia,2 Dias,2 Dias,1 Dia,"≈  6,67 ouros  /d",,,,,Total: 6 Dias,
+68,0,Sementes de fada  Armazém  200 ouros  Mercado Joja  250 ouros,,,,,,290 ouros  362 ouros  435 ouros  580 ouros,45  20  63  28  81  36  117  52,,,
+69,1,Sementes de fada  Armazém  200 ouros  Mercado Joja  250 ouros,,Sementes de fada  Armazém  200 ouros  Mercado Joja  250 ouros,45  20  63  28  81  36  117  52,,,,,,,
+70,10,1 Dia,4 Dias,4 Dias,3 Dias,"7,5 ouros  /d",,,,,Total: 12 Dias,
+71,0,Sementes de Girassol  Armazém  200 ouros  Mercado Joja  125 ouros,,,,,,80 ouros  100 ouros  120 ouros  160 ouros,45  20  63  28  81  36  117  52,Óleo  Conjunto Tinta,,
+72,1,Sementes de Girassol  Armazém  200 ouros  Mercado Joja  125 ouros,,Sementes de Girassol  Armazém  200 ouros  Mercado Joja  125 ouros,45  20  63  28  81  36  117  52,,,,,,Óleo  Conjunto Tinta,
+73,10,1 Dias,2 Dia,3 Dias,2 Dia,"Armazém: ≈  -15 ouros  /d  Joja: ≈  -5,63 ouros  /d",,,,,Total: 8 Dias,
+74,0,Sementes de inhame  Armazém  60 ouros  Mercado Joja  75 ouros,,,,,,160 ouros  200 ouros  240 ouros  320 ouros,45  20  63  28  81  36  117  52,Inhames com cobertura  Prato de outono  Conjunto Plantações de Outono,,
+75,1,Sementes de inhame  Armazém  60 ouros  Mercado Joja  75 ouros,,Sementes de inhame  Armazém  60 ouros  Mercado Joja  75 ouros,45  20  63  28  81  36  117  52,,,,,,Inhames com cobertura  Prato de outono  Conjunto Plantações de Outono,
+76,10,1 Dia,3 Dias,3 Dias,3 Dias,10 ouros  /d,,,,,Total: 10 Dias,
+77,0,Sementes de Jasmim-azul  Armazém  30 ouros  Mercado Joja  37 ouros,,,,,,50 ouros  62 ouros  75 ouros  100 ouros,45  20  63  28  81  36  117  52,Almoço da sorte,,
+78,1,Sementes de Jasmim-azul  Armazém  30 ouros  Mercado Joja  37 ouros,,Sementes de Jasmim-azul  Armazém  30 ouros  Mercado Joja  37 ouros,45  20  63  28  81  36  117  52,,,,,,Almoço da sorte,
+79,10,1 Dia,2 Dias,2 Dias,2 Dias,"≈  2,86 ouros  /d",,,,,Total: 7 Dias,
+80,0,Sementes de Melão  Armazém  80 ouros  Mercado Joja  100 ouros,,,,,,250 ouros  312 ouros  375 ouros  500 ouros,113  50  158  71  203  91  293  131,Bolo rosa  Salada de frutas  Conjunto Plantações de Verão  Conjunto Plantações de Qualidade,,
+81,1,Sementes de Melão  Armazém  80 ouros  Mercado Joja  100 ouros,,Sementes de Melão  Armazém  80 ouros  Mercado Joja  100 ouros,113  50  158  71  203  91  293  131,,,,,,Bolo rosa  Salada de frutas  Conjunto Plantações de Verão  Conjunto Plantações de Qualidade,
+82,10,1 Dia,2 Dias,3 Dias,3 Dias,"≈  14,17 ouros  /d",,,,,3 Dias,Total: 12 Dias
+83,0,Sementes de Miçanga  Armazém  50 ouros  Mercado Joja  62 ouros,,,,,,90 ouros  112 ouros  135 ouros  180 ouros,45  20  63  28  81  36  117  52,,,
+84,1,Sementes de Miçanga  Armazém  50 ouros  Mercado Joja  62 ouros,Sementes de Miçanga  Armazém  50 ouros  Mercado Joja  62 ouros,45  20  63  28  81  36  117  52,,,,,,,,
+85,10,1 Dia,2 Dias,3 Dias,2 Dias,≈  5 ouros  /d,,,,,Total: 8 Dias,
+86,0,Sementes de milho  Armazém  150 ouros  Mercado Joja  187 ouros,,,,,,50 ouros  62 ouros  75 ouros  100 ouros,25  11  35  15  45  20  65  29,Tortilha  Óleo  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,,
+87,1,Sementes de milho  Armazém  150 ouros  Mercado Joja  187 ouros,,Sementes de milho  Armazém  150 ouros  Mercado Joja  187 ouros,25  11  35  15  45  20  65  29,,,,,,Tortilha  Óleo  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,
+88,10,2 Dias,3 Dias,3 Dias,3 Dias,Continua a  produzir a cada 4 dias.,"≈  1,92 ouro  /d (somente no Verão)  ≈  7,41 ouros  /d (abrangendo Verão e Outono)",,,,3 Dias,Total: 14 Dias
+89,0,Sementes de mirtilo  Armazém  80 ouros,,,,,,50 ouros  62 ouros  75 ouros  100 ouros,25  11  35  15  45  20  65  29,Torta de Mirtilo  Salada de frutas  Conjunto Plantações de Verão,,
+90,1,Sementes de mirtilo  Armazém  80 ouros,,Sementes de mirtilo  Armazém  80 ouros,25  11  35  15  45  20  65  29,,,,,,Torta de Mirtilo  Salada de frutas  Conjunto Plantações de Verão,
+91,10,1 Dia,3 Dias,3 Dias,4 Dias,Continua a  produzir a cada 4 dias.,"20,8 ouros  /d",,,,2 Dias,Total: 13 Dias
+92,0,Sementes de morango  Festival do Ovo  100 ouros,,,,,,120 ouros  150 ouros  180 ouros  240 ouros,50  22  70  31  90  40  130  58,,,
+93,1,Sementes de morango  Festival do Ovo  100 ouros,,Sementes de morango  Festival do Ovo  100 ouros,50  22  70  31  90  40  130  58,,,,,,,
+94,10,1 Dia,1 Dia,2 Dias,2 Dias,Continua a  produzir a cada 4 dias.,"Plantado no:  Começo da Primavera: ≈  20,83 ouros  /d  Dia do Festival: ≈  11,67 ouros  /d",,,,2 Dias,Total: 8 Dias
+95,0,Sementes de oxicoco  Armazém  240 ouros  Mercado Joja  300 ouros,,,,,,75 ouros  93 ouros  112 ouros  150 ouros,38  17  53  23  68  30  98  44,Superprato  Molho de oxicoco  Recheio  Doce de oxicoco,,
+96,1,Sementes de oxicoco  Armazém  240 ouros  Mercado Joja  300 ouros,,Sementes de oxicoco  Armazém  240 ouros  Mercado Joja  300 ouros,38  17  53  23  68  30  98  44,,,,,,Superprato  Molho de oxicoco  Recheio  Doce de oxicoco,
+97,10,1 Dia,2 Dias,1 Dia,1 Dia,Continua a  produzir a cada 5 dias.,"≈  18,89 ouros  /d",,,,2 Dias,Total: 7 Dias
+98,0,Sementes de papoula  Armazém  100 ouros  Mercado Joja  125 ouros,,,,,,140 ouros  175 ouros  210 ouros  280 ouros,45  20  63  28  81  36  117  52,Bolinho de papoula  Conjunto de Cozinheiro,,
+99,1,Sementes de papoula  Armazém  100 ouros  Mercado Joja  125 ouros,,Sementes de papoula  Armazém  100 ouros  Mercado Joja  125 ouros,45  20  63  28  81  36  117  52,,,,,,Bolinho de papoula  Conjunto de Cozinheiro,
+100,10,1 Dia,2 Dias,2 Dias,2 Dias,"≈  5,71 ouros  /d",,,,,Total: 7 Dias,
+101,0,Sementes de pimenta  Armazém  40 ouros  Mercado Joja  50 ouros,,,,,,40 ouros  50 ouros  60 ouros  80 ouros,13  5  18  8  23  10  33  14,Enroladinhos de pimenta  Enguia picante  Conjunto Plantações de Verão,,
+102,1,Sementes de pimenta  Armazém  40 ouros  Mercado Joja  50 ouros,Sementes de pimenta  Armazém  40 ouros  Mercado Joja  50 ouros,13  5  18  8  23  10  33  14,Enroladinhos de pimenta  Enguia picante  Conjunto Plantações de Verão,,,,,,,
+103,10,1 Dia,1 Dia,1 Dia,1 Dia,Continua a  produzir a cada 3 dias.,"≈  10,77 ouros  /d",,,,1 Dia,Total: 5 Dias
+104,0,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,,,,,,90 ouros  112 ouros  135 ouros  180 ouros,45  20  63  28  81  36  117  52,Prato vermelho  Salada de rabanete,,
+105,1,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,45  20  63  28  81  36  117  52,,,,,,Prato vermelho  Salada de rabanete,
+106,10,2 Dias,1 Dia,2 Dias,1 Dia,"≈  8,33 ouros  /d",,,,,Total: 6 Dias,
+107,0,Semente rara  Carrinho de Viagem  1 000 ouros,,,,,,3 000 ouros  3 750 ouros  4 500 ouros  6 000 ouros,Não comestível,,,
+108,1,Semente rara  Carrinho de Viagem  1 000 ouros,,3 000 ouros,Não comestível,,,,,,,
+109,2,Semente rara  Carrinho de Viagem  1 000 ouros,,3 750 ouros,,,,,,,,
+110,5,2 Dias,4 Dias,6 Dias,6 Dias,"≈  83,33 ouros  /d*",,,,,6 Dias,Total: 24 Dias
+111,0,Sementes de repolho vermelho  Armazém  100 ouros,,,,,,260 ouros  325 ouros  390 ouros  520 ouros,75  33  105  47  135  60  195  87,Taco de peixe  Prato vermelho  Salada de repolho  Conjunto Tinta,,
+112,1,Sementes de repolho vermelho  Armazém  100 ouros,,Sementes de repolho vermelho  Armazém  100 ouros,75  33  105  47  135  60  195  87,,,,,,Taco de peixe  Prato vermelho  Salada de repolho  Conjunto Tinta,
+113,10,2 Dias,1 Dia,2 Dias,2 Dias,"≈  17,78 ouros  /d",,,,,2 Dias,Total: 9 Dias
+114,0,Sementes de ruibarbo  Oásis  100 ouros,,,,,,220 ouros  275 ouros  330 ouros  440 ouros,Não comestível,Torta de ruibarbo,,
+115,1,Sementes de ruibarbo  Oásis  100 ouros,,Sementes de ruibarbo  Oásis  100 ouros,Não comestível,,,,,,Torta de ruibarbo,
+116,6,2 Dias,2 Dias,2 Dias,3 Dias,"≈  9,23 ouros  /d",,,,,4 Dias,Total: 13 Dias
+117,0,Sementes de tomante  Armazém  50 ouros  Mercado Joja  62 ouros,,,,,,60 ouros  75 ouros  90 ouros  120 ouros,20  9  28  12  36  16  52  23,Mexido de legumes  Pizza  Espaguete  Parmesão com berinjela  Brusqueta  Guisado de peixe  Conjunto Plantações de Verão,,
+118,1,Sementes de tomante  Armazém  50 ouros  Mercado Joja  62 ouros,,Sementes de tomante  Armazém  50 ouros  Mercado Joja  62 ouros,20  9  28  12  36  16  52  23,,,,,,Mexido de legumes  Pizza  Espaguete  Parmesão com berinjela  Brusqueta  Guisado de peixe  Conjunto Plantações de Verão,
+119,10,2 Dias,2 Dias,2 Dias,2 Dias,Continua a  produzir a cada 4 dias.,"≈  9,26 ouros  /d",,,,3 Dias,Total: 11 Dias
+120,0,Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros,,,,,,25 ouros  31 ouros  37 ouros  50 ouros,Não comestível,Conjunto Forragem  Cerveja  Farinha de trigo,,
+121,1,Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros,,Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros,Não comestível,,,,,,Conjunto Forragem  Cerveja  Farinha de trigo,
+122,6,1 Dia,1 Dia,1 Dia,1 Dia,"3,75 ouros  /d",,,,,Total: 4 Dias,
+123,0,Bulbo de Tulipa  Armazém  20 ouros  Mercado Joja  25 ouros,,,,,,30 ouros  37 ouros  45 ouros  60 ouros,45  20  63  28  81  36  117  52,,,
+124,1,Bulbo de Tulipa  Armazém  20 ouros  Mercado Joja  25 ouros,,Bulbo de Tulipa  Armazém  20 ouros  Mercado Joja  25 ouros,45  20  63  28  81  36  117  52,,,,,,,
+125,10,1 Dia,1 Dia,2 Dias,2 Dias,"≈  1,67 ouro  /d",,,,,Total: 6 Dias,
