@@ -171,12 +171,25 @@ def limpar_preco(serie):
       Uma nova Série com os valores limpos e convertidos para float (se possível).
   """
 
-  def tratar_elemento(elemento):
+  def tratar_elemento(elemento, coluna:int = 0):
+      """
+      Trata um elemento individualmente retirando o nome 'ouros', 'ouro' ou 'g'
+      para retornar apenas o vlaor numérico.
+      
+      Args:
+          elemento: Um elemento da Série.
+          coluna: índice da lista que vai retornar
+      
+      Returns:
+          Um valor numérico.
+      """
       elemento = str(elemento).replace('ouros', '').replace('ouro', '').replace(' ', '').replace('g','')
       try:
-          return float(elemento)
+          return float(elemento)[coluna]
       except ValueError:
           return elemento
+      except TypeError:
+          return float(elemento)
 
   return serie.apply(tratar_elemento)
 
@@ -208,13 +221,34 @@ def separar_e_explodir(df, coluna):
   df = df.drop(coluna, axis=1)
   return df
 
-def tenta_separar_string (linha, divisor: str):
-  try:
-    return linha.split(divisor)
-  except AttributeError:
-    return linha
+def tenta_separar_string (linha: str, divisor):
+  """
+    Tenta separar as strings de um texto
+    em lista.
 
-def separar_quantidades_e_explodir (df, coluna):
+  Args:
+      linha (str): Célula de um dataframe.
+      divisor (str ou list): String ou lista de strings 
+      que serão utilizados para dividir o string.
+
+  Returns:
+      Texto transformado em lista de itens dividida.
+  """
+  texto_dividido = []
+  if not isinstance(linha, str):
+    texto_dividido = linha
+  elif not isinstance(divisor, list):
+    divisor = [divisor]
+    for cada_divisor in divisor:
+      if cada_divisor in linha:
+          partes = linha.split(cada_divisor)
+          for parte in partes:
+              parte = parte.strip()
+              texto_dividido.append(parte)
+  return texto_dividido
+  
+
+def separar_quantidades_e_explodir (df, coluna, divisor: str = ')'):
   """
     Separa as strings de uma coluna em novas linhas com base 
     em lista de itens e quantidades.
@@ -226,9 +260,9 @@ def separar_quantidades_e_explodir (df, coluna):
   Returns:
       DataFrame com as linhas explodidas.
   """
-  df[coluna] = df[coluna].apply(lambda linha: tenta_separar_string(linha=linha,divisor=')'))
+  df[coluna] = df[coluna].apply(lambda linha: tenta_separar_string(linha=linha,divisor=divisor)) #separa itens
   df = df.explode(coluna).dropna(subset=coluna)
-  df[coluna] = df[coluna].apply(lambda linha: linha.split('(') if '(' in linha else [linha, '0'])
+  df[coluna] = df[coluna].apply(lambda linha: linha.split('(') if '(' in linha else [linha, '0']) #separa qunatidades
   df[f'{coluna}_item'] = df[coluna].apply(lambda lista: lista[0].strip())
   df[f'{coluna}_qtd'] = df[coluna].apply(lambda lista: lista[1].strip())
   df = df.drop(coluna, axis=1)
@@ -238,20 +272,23 @@ def separar_quantidades_e_explodir (df, coluna):
   return df
 
 def tenta_dividir (texto_a_dividir, divisor: str = None,coluna: int = 0):
-  """Função que divide colunas de valor, de saúde e de energia.
-      args:
-      texto_a_dividir: string qu eserá dividido em lista
+  """Função que divide colunas de requisitos.
+      Args:
+      texto_a_dividir: string que será dividido em lista
       divisor: texto a ser aplicado no split
       coluna: índice da lista que vai retornar
+
+      Returns:
+      texto_a_dividir ou texto dividido em lista
   """
-  texto_a_dividir = texto_a_dividir
-  divisor = divisor
-  coluna = coluna
+  
   try:
     return texto_a_dividir.split(divisor)[coluna].strip()
   except IndexError:
     return texto_a_dividir
   except AttributeError:
+    return texto_a_dividir
+  except ValueError:
     return texto_a_dividir
 
 def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_saude):
@@ -683,28 +720,32 @@ def concat_dataframes ():
     dfs_to_concat.append(df_temp)
   df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes','Requisito','Mudanças']]
-  # precisa separar também 'ouros'
-  # df_casa = separar_quantidades_e_explodir(df= df_casa, coluna='Custo')
+  #df_casa = separar_quantidades_e_explodir(df= df_casa, coluna='Custo', divisor=')')
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
   #ferramenta
-  lista_ferramentas = ['parar','enxada',
-                      'lixeira',
-                      'machado',
-                      'picareta',
-                      'regador',
-                      'vara_pesca']
+  lista_ferramentas = ['efeitos','enxada','foice','lixeira','machado',
+                      'picareta','regador','vara_pesca']
   #padronizar colunas
   dfs_to_concat = [] 
   for ferramenta in lista_ferramentas:
     df_temp = pd.read_csv(f'docs_bronze/ferramenta_{ferramenta}.csv')
-    print(f'colunas de {ferramenta}: {df_temp.columns}')
+    df_temp = df_temp.rename(columns={'Custo':'Preço',
+                                      'Ingredientes':'Materiais',
+                                      'Melhoras':'Efeito',
+                                      'Melhorias':'Efeito',
+                                      'Descrição':'Efeito'})
+    df_temp['Tipo'] = ferramenta
     dfs_to_concat.append(df_temp)
   df_ferramentas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_ferramentas = df_ferramentas[['Tipo','Nome','Efeito','Preço',
+                                   'Materiais','Localização','Requisitos']]
   df_ferramentas.to_csv('docs_silver/ferramentas.csv', encoding='utf-8')
+  
 
   #iscas
   df_iscas = pd.read_csv('docs_bronze\iscas.csv', encoding='utf-8')
+  df_iscas = df_iscas.drop(columns=['Unnamed: 0','Imagem'])
   df_iscas.to_csv('docs_silver/iscas.csv', encoding='utf-8')
 
   #lavoura
@@ -727,13 +768,13 @@ def concat_dataframes ():
                     'semente_carambola',
                     'semente_cenoura',
                     'semente_chirivia',
-                    'semente_cuove_chinesa',
+                    'semente_couve_chinesa',
                     'semente_couve_flor',
                     'semente_couve',
                     'semente_fada',
                     'semente_girassol',
                     'semente_inhame',
-                    'semente_jasmin_azul',
+                    'semente_jasmim_azul',
                     'semente_melao',
                     'semente_micanga',
                     'semente_milho',
@@ -749,12 +790,12 @@ def concat_dataframes ():
                     'semente_tomate',
                     'semente_trigo',
                     'semente_tulipa']
-  #padronizar colunas
   dfs_to_concat = [] 
   for lavoura in lista_lavouras:
-    df_temp = pd.read_csv(f'docs_bronze/lavoura_{ferramenta}.csv')
-    print(f'colunas de {lavoura}: {df_temp.columns}')
-    dfs_to_concat.append(df_temp)
+    df_temp = pd.read_csv(f'docs_bronze/lavoura_{lavoura}.csv')
+    #retirar linhas onde 'Sementes' estiver vazio
+    df_temp = df_temp.dropna(subset=['Sementes'])
+    dfs_to_concat.append(df_temp)    
   df_lavouras = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_lavouras.to_csv('docs_silver/lavouras.csv', encoding='utf-8')
 
