@@ -829,7 +829,7 @@ def df_ferramentas (html):
     for tabela in sopa.find_all('table'):
         lista.append(pd.read_html(StringIO(str(tabela))))
     efeitos = lista[0][0]
-    efeitos.to_csv('docs_bronze/ferramentas_efeitos.csv')
+    efeitos.to_csv('docs_bronze/ferramenta_efeitos.csv')
     enxada = lista[1][0]
     enxada.to_csv('docs_bronze/ferramenta_enxada.csv')
     picareta = lista[2][0]
