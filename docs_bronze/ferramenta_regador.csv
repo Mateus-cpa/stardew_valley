@@ -1,6 +1,6 @@
-,Imagem,Nome,Custo,Ingredientes,Melhorias
-0,,Machado,Ferramenta Inicial,,"10 acertos para derrubar uma árvore, 5 para cortar troncos pequenos."
-1,,Machado de Cobre,2 000 ouros,Barra de cobre  (5),Capaz de cortar troncos grandes.São necessários 8 acertos para derrubar árvores e 4 acertos para cortar troncos pequenos.
-2,,Machado de Aço,5 000 ouros,Barra de ferro  (5),Capaz de cortar grandes torras.São necessários 6 acertos para derrubar árvores e 3 acertos para cortar troncos pequenos.
-3,,Machado de Ouro,10 000 ouros,Barra de ouro  (5),4 acertos para derrubar árvores e 2 acertos para cortar troncos pequenos.
-4,,Machado de Irídio,25 000 ouros,Barra de irídio  (5),2 acertos para derrubar árvores e 1 acerto para cortar troncos pequenos.
+,Imagem,Nome,Preço,Ingredientes,Melhorias
+0,,Regador,Ferramenta inicial,,Tem uma capacidade de água total de  40  cargas antes de ter de ser reabastecido.
+1,,Regador de Cobre,2 000 ouros,Barra de cobre  (5),Capacidade aumentada para  80  cargas.  Aumenta a área máxima de efeito para  3 telhas em uma linha reta  .
+2,,Regador de Aço,5 000 ouros,Barra de ferro  (5),Capacidade aumentada para  100  cargas.  Aumenta a área máxima de efeito para  5 telhas em uma linha reta  .
+3,,Regador de Ouro,10 000 ouros,Barra de ouro  (5),A capacidade aumentou para  185  cargas.  Aumenta a área máxima de efeito para uma  área de 3x3  (9 ladrilhos correspondentes).
+4,,Regador de Irídio,25 000 ouros,Barra de irídio  (5),Capacidade aumentou para  334  cargas.  Aumenta a área máxima de efeito para uma  área de 6x3  (18 ladrilhos correspondentes).

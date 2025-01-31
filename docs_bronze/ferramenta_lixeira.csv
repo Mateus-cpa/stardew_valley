@@ -1,6 +1,6 @@
-,Imagem,Nome,Preço,Ingredientes,Melhorias
-0,,Regador,Ferramenta inicial,,Tem uma capacidade de água total de  40  cargas antes de ter de ser reabastecido.
-1,,Regador de Cobre,2 000 ouros,Barra de cobre  (5),Capacidade aumentada para  80  cargas.  Aumenta a área máxima de efeito para  3 telhas em uma linha reta  .
-2,,Regador de Aço,5 000 ouros,Barra de ferro  (5),Capacidade aumentada para  100  cargas.  Aumenta a área máxima de efeito para  5 telhas em uma linha reta  .
-3,,Regador de Ouro,10 000 ouros,Barra de ouro  (5),A capacidade aumentou para  185  cargas.  Aumenta a área máxima de efeito para uma  área de 3x3  (9 ladrilhos correspondentes).
-4,,Regador de Irídio,25 000 ouros,Barra de irídio  (5),Capacidade aumentou para  334  cargas.  Aumenta a área máxima de efeito para uma  área de 6x3  (18 ladrilhos correspondentes).
+,Ícone,Nome,Custo,Materiais,Melhorias
+0,,Lixeira,Ferramenta Inicial,,Usada para excluir itens do seu inventário.
+1,,Lixeira de Cobre,1 000 ouros,Barra de cobre  (5),"Quando deletar um item, consiga 15% do valor de venda original."
+2,,Lixeira de Aço,2 500 ouros,Barra de ferro  (5),"Quando deletar um item, consiga 30% do valor de venda original."
+3,,Lixeira de Ouro,5 000 ouros,Barra de ouro  (5),"Quando deletar um item, consiga 45% do valor de venda original."
+4,,Lixeira de Irídio,12 500 ouros,Barra de irídio  (5),"Quando deletar um item, consiga 60% do valor de venda original."

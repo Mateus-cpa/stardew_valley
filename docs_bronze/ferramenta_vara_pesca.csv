@@ -1,6 +1,5 @@
-,Ícone,Nome,Custo,Materiais,Melhorias
-0,,Lixeira,Ferramenta Inicial,,Usada para excluir itens do seu inventário.
-1,,Lixeira de Cobre,1 000 ouros,Barra de cobre  (5),"Quando deletar um item, consiga 15% do valor de venda original."
-2,,Lixeira de Aço,2 500 ouros,Barra de ferro  (5),"Quando deletar um item, consiga 30% do valor de venda original."
-3,,Lixeira de Ouro,5 000 ouros,Barra de ouro  (5),"Quando deletar um item, consiga 45% do valor de venda original."
-4,,Lixeira de Irídio,12 500 ouros,Barra de irídio  (5),"Quando deletar um item, consiga 60% do valor de venda original."
+,Imagem,Nome,Preço,Melhorias,Localização,Requisitos
+0,,Vara de Treinamento,25 ouros,,Compre da  Peixaria  do Willy.,
+1,,Vara de bambu,500 ouros,,Dada a você pelo  Willy  .  Compre da  Peixaria  do Willy.,
+2,,Vara de fibra de vidro,1 800 ouros,Uso de  Iscas  .,Compre da  Peixaria  do Willy.,"Nível de Pesca 2  (Quando estiver disponível, o jogador receberá uma carta.)"
+3,,Vara de irídio,7 500 ouros,Uso de  Iscas  e  Anzóis  .,Compre da  Peixaria  do Willy.,"Nível de Pesca 6  (Quando estiver disponível, o jogador receberá uma carta.)"
