@@ -313,6 +313,13 @@ def df_combate(html):
 
     xp_combate = lista[1][0]
     xp_combate.to_csv('docs_bronze/xp_combate.csv')
+def extrair_valor_ouro(ultima_linha):
+    for celula in ultima_linha:
+        if 'ouro' in str(celula):
+            celula = celula.split('ouro')[0].split(' ')[-1]
+            celula = celula.replace('≈',',').replace(',','.').replace('-','')
+            celula = celula.strip()
+            return celula
 
 def df_lavouras(html):
      
@@ -451,6 +458,63 @@ def df_lavouras(html):
     broto_cha = lista[150][0]
     broto_cha['Estação'] = 'Especial'
     broto_cha.to_csv('docs_bronze/lavoura_broto_cha.csv')
+    lista_lavouras = ['broto_cha',
+                    'grao_cafe',
+                    'muda_feijao',
+                    'muda_lupulo',
+                    'muda_uva',
+                    'semente_abacaxi',
+                    'semente_abobora',
+                    'semente_alcachofra',
+                    'semente_alho',
+                    'semente_amaranto',
+                    'semente_antiga',
+                    'semente_arroz',
+                    'semente_batata',
+                    'semente_berinjela',
+                    'semente_beterraba',
+                    'semente_cacto',
+                    'semente_carambola',
+                    'semente_cenoura',
+                    'semente_chirivia',
+                    'semente_couve_chinesa',
+                    'semente_couve_flor',
+                    'semente_couve',
+                    'semente_fada',
+                    'semente_girassol',
+                    'semente_inhame',
+                    'semente_jasmim_azul',
+                    'semente_melao',
+                    'semente_micanga',
+                    'semente_milho',
+                    'semente_mirtilo',
+                    'semente_morango',
+                    'semente_oxicoco',
+                    'semente_papoula',
+                    'semente_pimenta',
+                    'semente_rabanete',
+                    'semente_rara',
+                    'semente_repolho',
+                    'semente_rubiarmo',
+                    'semente_tomate',
+                    'semente_trigo',
+                    'semente_tulipa']
+    for lavoura in lista_lavouras:
+        df = pd.read_csv(f'docs_bronze/lavoura_{lavoura}.csv')
+        df = df.drop(columns=['Unnamed: 0'])
+        try:
+            df['Semente'] = df['Sementes'].apply(lambda linha: linha.split('  ')[0])
+            df['Origem'] = df['Sementes'].apply(lambda linha: linha.split('  ')[1:])
+        except AttributeError:
+            df['Semente'] = df['Sementes']
+            df['Origem'] = None
+        # pegar última linha de 'Vende por'
+        df['Renda média (ouro por dia)'] = extrair_valor_ouro(df.iloc[-1])
+        #preenche espaços em branco pela última linha
+        df.iloc[0,:] = df.iloc[0,:].fillna(df.iloc[-1,:])
+        #df = df[[]]
+        df = df.iloc[0,:]
+        df.to_csv(f'docs_bronze/lavoura_{lavoura}.csv', index=False)
 
 def df_animais(html):
      
