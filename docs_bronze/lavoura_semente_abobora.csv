@@ -1,8 +1,8 @@
-,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Estágio 5,Colheita,Vende por,Restaura,Usado em
-0,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,,,,,,,320 ouros  400 ouros  480 ouros  640 ouros,Não comestível,Prato de outono  Sopa de abóbora  Torta de abóbora  Cabeça de abóbora  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade
-1,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,Não comestível,Prato de outono  Sopa de abóbora  Torta de abóbora  Cabeça de abóbora  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,,,,,
-2,,320 ouros,,,,,,,,
-3,,400 ouros,,,,,,,,
-4,,480 ouros,,,,,,,,
-5,,640 ouros,,,,,,,,
-6,1 Dia,2 Dias,3 Dias,4 Dias,3 Dias,Total: 13 Dias,"≈  16,92 ouros  /d",,,
+,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Estágio 5,Colheita,Vende por,Restaura,Usado em,Estação
+0,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,,,,,,,320 ouros  400 ouros  480 ouros  640 ouros,Não comestível,Prato de outono  Sopa de abóbora  Torta de abóbora  Cabeça de abóbora  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,Outono
+1,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,,Sementes de abóbora  Armazém  100 ouros  Mercado Joja  125 ouros,Não comestível,Prato de outono  Sopa de abóbora  Torta de abóbora  Cabeça de abóbora  Conjunto Plantações de Outono  Conjunto Plantações de Qualidade,,,,,,Outono
+2,,320 ouros,,,,,,,,,Outono
+3,,400 ouros,,,,,,,,,Outono
+4,,480 ouros,,,,,,,,,Outono
+5,,640 ouros,,,,,,,,,Outono
+6,1 Dia,2 Dias,3 Dias,4 Dias,3 Dias,Total: 13 Dias,"≈  16,92 ouros  /d",,,,Outono

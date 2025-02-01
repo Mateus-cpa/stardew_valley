@@ -1,12 +1,12 @@
-,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em
-0,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,,,,,,90 ouros  112 ouros  135 ouros  180 ouros,45  20  63  28  81  36  117  52,Prato vermelho  Salada de rabanete
-1,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,45  20  63  28  81  36  117  52,Prato vermelho  Salada de rabanete,,,,
-2,,90 ouros,,,,,,,
-3,,112 ouros,,,,,,,
-4,,135 ouros,,,,,,,
-5,,180 ouros,,,,,,,
-6,,45,,20,,,,,
-7,,63,,28,,,,,
-8,,81,,36,,,,,
-9,,117,,52,,,,,
-10,2 Dias,1 Dia,2 Dias,1 Dia,Total: 6 Dias,"≈  8,33 ouros  /d",,,
+,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em,Estação
+0,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,,,,,,90 ouros  112 ouros  135 ouros  180 ouros,45  20  63  28  81  36  117  52,Prato vermelho  Salada de rabanete,Verão
+1,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,,Sementes de rabanete  Armazém  40 ouros  Mercado Joja  50 ouros,45  20  63  28  81  36  117  52,Prato vermelho  Salada de rabanete,,,,,Verão
+2,,90 ouros,,,,,,,,Verão
+3,,112 ouros,,,,,,,,Verão
+4,,135 ouros,,,,,,,,Verão
+5,,180 ouros,,,,,,,,Verão
+6,,45,,20,,,,,,Verão
+7,,63,,28,,,,,,Verão
+8,,81,,36,,,,,,Verão
+9,,117,,52,,,,,,Verão
+10,2 Dias,1 Dia,2 Dias,1 Dia,Total: 6 Dias,"≈  8,33 ouros  /d",,,,Verão

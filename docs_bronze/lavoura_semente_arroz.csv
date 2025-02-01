@@ -1,11 +1,11 @@
-,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em
-0,Broto de arroz  Armazém  :  40 ouros,,,,,,30 ouros  37 ouros  45 ouros  60 ouros,3  1  4  1  5  2  7  3,Arroz
-1,Broto de arroz  Armazém  :  40 ouros,,30 ouros,3  1  4  1  5  2  7  3,Arroz,,,,
-2,,37 ouros,,,,,,,
-3,,45 ouros,,,,,,,
-4,,60 ouros,,,,,,,
-5,,3,,1,,,,,
-6,,4,,1,,,,,
-7,,5,,2,,,,,
-8,,7,,3,,,,,
-9,1 Dia,1-2 Dias,1-2 Dias,3 Dias,Total: 6-8 Dias,"-1,25 ouro  /d  1  ≈  -1,67 ouro  /d  2",,,
+,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em,Estação
+0,Broto de arroz  Armazém  :  40 ouros,,,,,,30 ouros  37 ouros  45 ouros  60 ouros,3  1  4  1  5  2  7  3,Arroz,Primavera
+1,Broto de arroz  Armazém  :  40 ouros,,30 ouros,3  1  4  1  5  2  7  3,Arroz,,,,,Primavera
+2,,37 ouros,,,,,,,,Primavera
+3,,45 ouros,,,,,,,,Primavera
+4,,60 ouros,,,,,,,,Primavera
+5,,3,,1,,,,,,Primavera
+6,,4,,1,,,,,,Primavera
+7,,5,,2,,,,,,Primavera
+8,,7,,3,,,,,,Primavera
+9,1 Dia,1-2 Dias,1-2 Dias,3 Dias,Total: 6-8 Dias,"-1,25 ouro  /d  1  ≈  -1,67 ouro  /d  2",,,,Primavera

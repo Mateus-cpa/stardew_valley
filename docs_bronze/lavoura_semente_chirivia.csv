@@ -1,12 +1,12 @@
-,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em
-0,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,,,,,,35 ouros  43 ouros  52 ouros  70 ouros,25  11  35  15  45  20  65  29,Sopa de chirívia  Almoço de fazendeiro  Conjunto Plantações de Primavera  Conjunto Plantações de Qualidade
-1,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,25  11  35  15  45  20  65  29,Sopa de chirívia  Almoço de fazendeiro  Conjunto Plantações de Primavera  Conjunto Plantações de Qualidade,,,,
-2,,35 ouros,,,,,,,
-3,,43 ouros,,,,,,,
-4,,52 ouros,,,,,,,
-5,,70 ouros,,,,,,,
-6,,25,,11,,,,,
-7,,35,,15,,,,,
-8,,45,,20,,,,,
-9,,65,,29,,,,,
-10,1 Dia,1 Dia,1 Dia,1 Dia,Total: 4 Dias,"3,75 ouros  /d",,,
+,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em,Estação
+0,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,,,,,,35 ouros  43 ouros  52 ouros  70 ouros,25  11  35  15  45  20  65  29,Sopa de chirívia  Almoço de fazendeiro  Conjunto Plantações de Primavera  Conjunto Plantações de Qualidade,Primavera
+1,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,,Sementes de chirívia  Armazém  20 ouros  Mercado Joja  25 ouros,25  11  35  15  45  20  65  29,Sopa de chirívia  Almoço de fazendeiro  Conjunto Plantações de Primavera  Conjunto Plantações de Qualidade,,,,,Primavera
+2,,35 ouros,,,,,,,,Primavera
+3,,43 ouros,,,,,,,,Primavera
+4,,52 ouros,,,,,,,,Primavera
+5,,70 ouros,,,,,,,,Primavera
+6,,25,,11,,,,,,Primavera
+7,,35,,15,,,,,,Primavera
+8,,45,,20,,,,,,Primavera
+9,,65,,29,,,,,,Primavera
+10,1 Dia,1 Dia,1 Dia,1 Dia,Total: 4 Dias,"3,75 ouros  /d",,,,Primavera

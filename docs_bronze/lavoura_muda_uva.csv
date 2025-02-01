@@ -1,12 +1,12 @@
-,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Estágio 5,Colheita,Colheita.1,Vende por,Restaura,Usado em
-0,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,,,,,,,,80 ouros  100 ouros  120 ouros  160 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão
-1,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,,,,,,,
-2,,80 ouros,,,,,,,,,
-3,,100 ouros,,,,,,,,,
-4,,120 ouros,,,,,,,,,
-5,,160 ouros,,,,,,,,,
-6,,38,,17,,,,,,,
-7,,53,,23,,,,,,,
-8,,68,,30,,,,,,,
-9,,98,,44,,,,,,,
-10,1 Dia,1 Dia,2 Dias,3 Dias,3 Dias,Total: 10 Dias,Continua a  produzir a cada 3 dias.,"16,8 ouros  /d",,,
+,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Estágio 5,Colheita,Colheita.1,Vende por,Restaura,Usado em,Estação
+0,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,,,,,,,,80 ouros  100 ouros  120 ouros  160 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,Outono
+1,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,,,,,,,,Outono
+2,,80 ouros,,,,,,,,,,Outono
+3,,100 ouros,,,,,,,,,,Outono
+4,,120 ouros,,,,,,,,,,Outono
+5,,160 ouros,,,,,,,,,,Outono
+6,,38,,17,,,,,,,,Outono
+7,,53,,23,,,,,,,,Outono
+8,,68,,30,,,,,,,,Outono
+9,,98,,44,,,,,,,,Outono
+10,1 Dia,1 Dia,2 Dias,3 Dias,3 Dias,Total: 10 Dias,Continua a  produzir a cada 3 dias.,"16,8 ouros  /d",,,,Outono
