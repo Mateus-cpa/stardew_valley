@@ -1,8 +1,14 @@
-,Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em,Estação
-0,Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros,,,,,,25 ouros  31 ouros  37 ouros  50 ouros,Não comestível,Conjunto Forragem  Cerveja  Farinha de trigo,Verão
-1,Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros,,Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros,Não comestível,Conjunto Forragem  Cerveja  Farinha de trigo,,,,,Verão
-2,,25 ouros,,,,,,,,Verão
-3,,31 ouros,,,,,,,,Verão
-4,,37 ouros,,,,,,,,Verão
-5,,50 ouros,,,,,,,,Verão
-6,1 Dia,1 Dia,1 Dia,1 Dia,Total: 4 Dias,"3,75 ouros  /d",,,,Verão
+0
+Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros
+1 Dia
+1 Dia
+1 Dia
+Total: 4 Dias
+"3,75 ouros  /d"
+25 ouros  31 ouros  37 ouros  50 ouros
+Não comestível
+Conjunto Forragem  Cerveja  Farinha de trigo
+Verão
+Sementes de trigo  Armazém  10 ouros  Mercado Joja  12 ouros
+""
+3.75
