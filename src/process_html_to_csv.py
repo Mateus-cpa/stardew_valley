@@ -326,89 +326,130 @@ def df_lavouras(html):
         lista.append(pd.read_html(StringIO(str(tabela)))) #só funciona se ativar .venv
     # primavera
     semente_alho = lista[1][0]
+    semente_alho['Estação'] = 'Primavera'
     semente_alho.to_csv('docs_bronze/lavoura_semente_alho.csv')
     semente_arroz = lista[5][0]
+    semente_arroz['Estação'] = 'Primavera'
     semente_arroz.to_csv('docs_bronze/lavoura_semente_arroz.csv')
     semente_batata = lista[8][0]
+    semente_batata['Estação'] = 'Primavera'
     semente_batata.to_csv('docs_bronze/lavoura_semente_batata.csv')
     semente_cenoura = lista[12][0]
+    semente_cenoura['Estação'] = 'Primavera'
     semente_cenoura.to_csv('docs_bronze/lavoura_semente_cenoura.csv')
     semente_chirivia = lista[16][0]
+    semente_chirivia['Estação'] = 'Primavera'
     semente_chirivia.to_csv('docs_bronze/lavoura_semente_chirivia.csv')
     semente_couve = lista[20][0]
+    semente_couve['Estação'] = 'Primavera'
     semente_couve.to_csv('docs_bronze/lavoura_semente_couve.csv')
     semente_couve_flor = lista[24][0]
+    semente_couve_flor['Estação'] = 'Primavera'
     semente_couve_flor.to_csv('docs_bronze/lavoura_semente_couve_flor.csv')
     grao_cafe = lista[28][0]
+    grao_cafe['Estação'] = 'Primavera'
     grao_cafe.to_csv('docs_bronze/lavoura_grao_cafe.csv')
     semente_jasmim_azul = lista[31][0]
+    semente_jasmim_azul['Estação'] = 'Primavera'
     semente_jasmim_azul.to_csv('docs_bronze/lavoura_semente_jasmim_azul.csv')
     semente_morango = lista[35][0]
+    semente_morango['Estação'] = 'Primavera'
     semente_morango.to_csv('docs_bronze/lavoura_semente_morango.csv')
     semente_rubiarmo = lista[39][0]
+    semente_rubiarmo['Estação'] = 'Primavera'
     semente_rubiarmo.to_csv('docs_bronze/lavoura_semente_rubiarmo.csv')
     semente_tulipa = lista[42][0]
+    semente_tulipa['Estação'] = 'Primavera' 
     semente_tulipa.to_csv('docs_bronze/lavoura_semente_tulipa.csv')
     muda_feijão = lista[46][0]
+    muda_feijão['Estação'] = 'Primavera'
     muda_feijão.to_csv('docs_bronze/lavoura_muda_feijao.csv')
     #verão
     semente_carambola = lista[50][0]
+    semente_carambola['Estação'] = 'Verão'
     semente_carambola.to_csv('docs_bronze/lavoura_semente_carambola.csv')
     semente_micanga = lista[54][0]
+    semente_micanga['Estação'] = 'Verão'
     semente_micanga.to_csv('docs_bronze/lavoura_semente_micanga.csv')
     semente_girassol = lista[58][0]
+    semente_girassol['Estação'] = 'Verão'
     semente_girassol.to_csv('docs_bronze/lavoura_semente_girassol.csv')
     muda_lupulo = lista[62][0]
+    muda_lupulo['Estação'] = 'Verão'
     muda_lupulo.to_csv('docs_bronze/lavoura_muda_lupulo.csv')
     semente_melao = lista[66][0]
+    semente_melao['Estação'] = 'Verão'
     semente_melao.to_csv('docs_bronze/lavoura_semente_melao.csv')
     semente_milho = lista[70][0]
+    semente_milho['Estação'] = 'Verão'
     semente_milho.to_csv('docs_bronze/lavoura_semente_milho.csv')
     semente_mirtilo = lista[74][0]
+    semente_mirtilo['Estação'] = 'Verão'
     semente_mirtilo.to_csv('docs_bronze/lavoura_semente_mirtilo.csv')
     semente_papoula = lista[78][0]
+    semente_papoula['Estação'] = 'Verão'
     semente_papoula.to_csv('docs_bronze/lavoura_semente_papoula.csv')
     semente_pimenta = lista[82][0]
+    semente_pimenta['Estação'] = 'Verão'
     semente_pimenta.to_csv('docs_bronze/lavoura_semente_pimenta.csv')
     semente_rabanete = lista[86][0]
+    semente_rabanete['Estação'] = 'Verão'
     semente_rabanete.to_csv('docs_bronze/lavoura_semente_rabanete.csv')
     semente_repolho = lista[90][0]
+    semente_repolho['Estação'] = 'Verão'
     semente_repolho.to_csv('docs_bronze/lavoura_semente_repolho.csv')
     semente_tomate = lista[94][0]
+    semente_tomate['Estação'] = 'Verão'
     semente_tomate.to_csv('docs_bronze/lavoura_semente_tomate.csv')
     semente_trigo = lista[98][0]
+    semente_trigo['Estação'] = 'Verão'
     semente_trigo.to_csv('docs_bronze/lavoura_semente_trigo.csv')
     #outono
     semente_abobora = lista[101][0]
+    semente_abobora['Estação'] = 'Outono'
     semente_abobora.to_csv('docs_bronze/lavoura_semente_abobora.csv')
     semente_alcachofra = lista[104][0]
+    semente_alcachofra['Estação'] = 'Outono'
     semente_alcachofra.to_csv('docs_bronze/lavoura_semente_alcachofra.csv')
     semente_amaranto = lista[108][0]
+    semente_amaranto['Estação'] = 'Outono'
     semente_amaranto.to_csv('docs_bronze/lavoura_semente_amaranto.csv')
     semente_berinjela = lista[112][0]
+    semente_berinjela['Estação'] = 'Outono'
     semente_berinjela.to_csv('docs_bronze/lavoura_semente_berinjela.csv')
     semente_beterraba = lista[116][0]
+    semente_beterraba['Estação'] = 'Outono'
     semente_beterraba.to_csv('docs_bronze/lavoura_semente_beterraba.csv')
     semente_couve_chinesa = lista[120][0]
+    semente_couve_chinesa['Estação'] = 'Outono'
     semente_couve_chinesa.to_csv('docs_bronze/lavoura_semente_couve_chinesa.csv')
     semente_inhame = lista[124][0]
+    semente_inhame['Estação'] = 'Outono'
     semente_inhame.to_csv('docs_bronze/lavoura_semente_inhame.csv')
     semente_oxicoco = lista[128][0]
+    semente_oxicoco['Estação'] = 'Outono'
     semente_oxicoco.to_csv('docs_bronze/lavoura_semente_oxicoco.csv')
     semente_fada = lista[132][0]
+    semente_fada['Estação'] = 'Outono'
     semente_fada.to_csv('docs_bronze/lavoura_semente_fada.csv')
     muda_uva = lista[136][0]
+    muda_uva['Estação'] = 'Outono'
     muda_uva.to_csv('docs_bronze/lavoura_muda_uva.csv')
     # especial
     semente_rara = lista[140][0]
+    semente_rara['Estação'] = 'Especial'
     semente_rara.to_csv('docs_bronze/lavoura_semente_rara.csv')
     semente_antiga = lista[142][0]
+    semente_antiga['Estação'] = 'Especial'
     semente_antiga.to_csv('docs_bronze/lavoura_semente_antiga.csv')
     semente_cacto = lista[144][0]
+    semente_cacto['Estação'] = 'Especial'
     semente_cacto.to_csv('docs_bronze/lavoura_semente_cacto.csv')
     semente_abacaxi = lista[147][0]
+    semente_abacaxi['Estação'] = 'Especial'
     semente_abacaxi.to_csv('docs_bronze/lavoura_semente_abacaxi.csv')
     broto_cha = lista[150][0]
+    broto_cha['Estação'] = 'Especial'
     broto_cha.to_csv('docs_bronze/lavoura_broto_cha.csv')
 
 def df_animais(html):
