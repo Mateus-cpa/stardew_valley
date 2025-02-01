@@ -793,14 +793,17 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for lavoura in lista_lavouras:
     df_temp = pd.read_csv(f'docs_bronze/lavoura_{lavoura}.csv')
-    #retirar linhas onde 'Sementes' estiver vazio
-    df_temp = df_temp.dropna(subset=['Sementes'])
-    dfs_to_concat.append(df_temp)    
+    dfs_to_concat.append(df_temp.T)    
   df_lavouras = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_lavouras.columns = ['Nome',
+                         'Tempo_crescimento_1_(dias)','Tempo_crescimento_2_(dias)','Tempo_crescimento_3_(dias)',
+                         'Tempo_colheita(dias)','Vende_por','Restaura',
+                         'Usado_em','Estação','Semente','11',
+                         '12','13','14','15']
   df_lavouras.to_csv('docs_silver/lavouras.csv', encoding='utf-8')
 
   #lista_presente
-  df_presentes = pd.read_csv('docs_bronze\lista_presentes.csv', encoding='utf-8')
+  df_presentes = pd.read_csv('parardocs_bronze\lista_presentes.csv', encoding='utf-8')
   df_presentes.to_csv('docs_silver/lista_presentes.csv', encoding='utf-8')
 
   #mercadoria
