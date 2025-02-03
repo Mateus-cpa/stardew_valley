@@ -795,11 +795,11 @@ def concat_dataframes ():
     df_temp = pd.read_csv(f'docs_bronze/lavoura_{lavoura}.csv')
     dfs_to_concat.append(df_temp.T)    
   df_lavouras = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_lavouras.columns = ['Nome',
-                         'Tempo_crescimento_1_(dias)','Tempo_crescimento_2_(dias)','Tempo_crescimento_3_(dias)',
-                         'Tempo_colheita(dias)','Vende_por','Restaura',
-                         'Usado_em','Estação','Semente','11',
-                         '12','13','14','15']
+  #df_lavouras.columns = ['Nome',
+  #                       'Tempo_crescimento_1_(dias)','Tempo_crescimento_2_(dias)','Tempo_crescimento_3_(dias)',
+  #                       'Tempo_colheita(dias)','Vende_por','Restaura',
+  #                       'Usado_em','Estação','Semente','11',
+  #                       '12','13','14','15']
   df_lavouras.to_csv('docs_silver/lavouras.csv', encoding='utf-8')
 
   #lista_presente
