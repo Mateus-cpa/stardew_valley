@@ -1,15 +1,21 @@
 import streamlit as st
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
   # menu
   st.title('Página inicial')
-  st.markdown('Navegue pelo menu à esquerda')
-  
-  
+  st.write('Navegue pelo menu abaixo para acessar as páginas disponíveis')
+
+  st.image(os.path.join('src','pages','static','background-h.jpg'))
+
+  lavoura = st.button("Lavoura")
+  if lavoura:
+     st.navigation([st.Page("lavoura.py")]).run()
+  """
   st.sidebar.markdown('Árvores')
-             
+  
   st.markdown('Animais')
   st.sidebar.markdown('Animais')
   st.title('Animais')
@@ -81,7 +87,7 @@ def main():
   st.title('Árvores')
   
   
-  """pg = st.navigation([st.Page("animais.py"), 
+  pg = st.navigation([st.Page("animais.py"), 
                       st.Page("armas.py"), 
                       st.Page("artefatos.py"), 
                       st.Page("arvores.py"),
@@ -97,10 +103,25 @@ if __name__ == '__main__':
 """
 streamlit run src/pages/dataviz.py
 
+Estrutura:
 your-repository/
 ├── page_1.py
 ├── page_2.py
 └── streamlit_app.py
+
+Comandos principais:
+#
+st.title('My Multi-Page App')
+st.header('Page 1')
+st.subheader('Subheader')
+st.markdown('Markdown: Streamlit is **_really_ cool**.')
+st.code('print("Hello, world!"), language='python')
+st.write('Hello, world!')
+st.caption('This is a small text at the bottom of the page.')
+
+st.divider() # Adiciona uma linha divisória
+
+
 
 
 pg = st.navigation([st.Page("page_1.py"), st.Page("page_2.py")])
