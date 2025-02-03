@@ -1,14 +1,11 @@
-0
-Broto de arroz  Armazém  :  40 ouros
-1-2 Dias
-1-2 Dias
-3 Dias
-Total: 6-8 Dias
-"-1,25 ouro  /d  1  ≈  -1,67 ouro  /d  2"
-30 ouros  37 ouros  45 ouros  60 ouros
-3  1  4  1  5  2  7  3
-Arroz
-Primavera
-Broto de arroz  Armazém  :  40 ouros
-""
-1.25
+Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em,Estação,Semente,Origem,Renda média (ouro por dia)
+Broto de arroz  Armazém  :  40 ouros,1-2 Dias,1-2 Dias,3 Dias,Total: 6-8 Dias,"-1,25 ouro  /d  1  ≈  -1,67 ouro  /d  2",30 ouros  37 ouros  45 ouros  60 ouros,3  1  4  1  5  2  7  3,Arroz,Primavera,Broto de arroz  Armazém  :  40 ouros,,1.25
+Broto de arroz  Armazém  :  40 ouros,,30 ouros,3  1  4  1  5  2  7  3,Arroz,,,,,Primavera,Broto de arroz  Armazém  :  40 ouros,,1.25
+,37 ouros,,,,,,,,Primavera,,,1.25
+,45 ouros,,,,,,,,Primavera,,,1.25
+,60 ouros,,,,,,,,Primavera,,,1.25
+,3,,1,,,,,,Primavera,,,1.25
+,4,,1,,,,,,Primavera,,,1.25
+,5,,2,,,,,,Primavera,,,1.25
+,7,,3,,,,,,Primavera,,,1.25
+1 Dia,1-2 Dias,1-2 Dias,3 Dias,Total: 6-8 Dias,"-1,25 ouro  /d  1  ≈  -1,67 ouro  /d  2",,,,Primavera,1 Dia,,1.25

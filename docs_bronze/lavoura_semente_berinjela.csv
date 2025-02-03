@@ -1,16 +1,12 @@
-0
-Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros
-1 Dia
-1 Dia
-1 Dia
-1 Dia
-Total: 5 Dias
-Continua a  produzir a cada 5 dias.
-"11,2 ouros  /d"
-60 ouros  75 ouros  90 ouros  120 ouros
-20  9  28  12  36  16  52  23
-Hambúrguer de sobreviência  Parmesão com berinjela  Conjunto Plantações de Outono
-Outono
-Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros
-""
-11.2
+Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Estágio 5,Colheita,Colheita.1,Vende por,Restaura,Usado em,Estação,Semente,Origem,Renda média (ouro por dia)
+Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,1 Dia,1 Dia,1 Dia,1 Dia,Total: 5 Dias,Continua a  produzir a cada 5 dias.,"11,2 ouros  /d",60 ouros  75 ouros  90 ouros  120 ouros,20  9  28  12  36  16  52  23,Hambúrguer de sobreviência  Parmesão com berinjela  Conjunto Plantações de Outono,Outono,Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,,11.2
+Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,,Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,20  9  28  12  36  16  52  23,Hambúrguer de sobreviência  Parmesão com berinjela  Conjunto Plantações de Outono,,,,,,,Outono,Sementes de berinjela  Armazém  20 ouros  Mercado Joja  25 ouros,,11.2
+,60 ouros,,,,,,,,,,Outono,,,11.2
+,75 ouros,,,,,,,,,,Outono,,,11.2
+,90 ouros,,,,,,,,,,Outono,,,11.2
+,120 ouros,,,,,,,,,,Outono,,,11.2
+,20,,9,,,,,,,,Outono,,,11.2
+,28,,12,,,,,,,,Outono,,,11.2
+,36,,16,,,,,,,,Outono,,,11.2
+,52,,23,,,,,,,,Outono,,,11.2
+1 Dia,1 Dia,1 Dia,1 Dia,1 Dia,Total: 5 Dias,Continua a  produzir a cada 5 dias.,"11,2 ouros  /d",,,,Outono,1 Dia,,11.2

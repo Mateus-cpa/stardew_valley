@@ -1,16 +1,12 @@
-0
-Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros
-1 Dia
-2 Dias
-3 Dias
-3 Dias
-Total: 10 Dias
-Continua a  produzir a cada 3 dias.
-"16,8 ouros  /d"
-80 ouros  100 ouros  120 ouros  160 ouros
-38  17  53  23  68  30  98  44
-Sementes de verão  Conjunto Recursos de Verão
-Outono
-Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros
-""
-16.8
+Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Estágio 5,Colheita,Colheita.1,Vende por,Restaura,Usado em,Estação,Semente,Origem,Renda média (ouro por dia)
+Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,1 Dia,2 Dias,3 Dias,3 Dias,Total: 10 Dias,Continua a  produzir a cada 3 dias.,"16,8 ouros  /d",80 ouros  100 ouros  120 ouros  160 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,Outono,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,,16.8
+Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,38  17  53  23  68  30  98  44,Sementes de verão  Conjunto Recursos de Verão,,,,,,,,Outono,Mudas de uva  Armazém  60 ouros  Mercado Joja  75 ouros,,16.8
+,80 ouros,,,,,,,,,,Outono,,,16.8
+,100 ouros,,,,,,,,,,Outono,,,16.8
+,120 ouros,,,,,,,,,,Outono,,,16.8
+,160 ouros,,,,,,,,,,Outono,,,16.8
+,38,,17,,,,,,,,Outono,,,16.8
+,53,,23,,,,,,,,Outono,,,16.8
+,68,,30,,,,,,,,Outono,,,16.8
+,98,,44,,,,,,,,Outono,,,16.8
+1 Dia,1 Dia,2 Dias,3 Dias,3 Dias,Total: 10 Dias,Continua a  produzir a cada 3 dias.,"16,8 ouros  /d",,,,Outono,1 Dia,,16.8

@@ -1,14 +1,12 @@
-0
-Sementes de alho  Armazém  40 ouros
-1 Dia
-1 Dia
-1 Dia
-Total: 4 Dias
-5 ouros  /d
-60 ouros  75 ouros  90 ouros  120 ouros
-20  9  28  12  36  16  52  23
-Risoto de samambaia  Escargô  Óleo de alho
-Primavera
-Sementes de alho  Armazém  40 ouros
-""
-5
+Sementes,Estágio 1,Estágio 2,Estágio 3,Estágio 4,Colheita,Vende por,Restaura,Usado em,Estação,Semente,Origem,Renda média (ouro por dia)
+Sementes de alho  Armazém  40 ouros,1 Dia,1 Dia,1 Dia,Total: 4 Dias,5 ouros  /d,60 ouros  75 ouros  90 ouros  120 ouros,20  9  28  12  36  16  52  23,Risoto de samambaia  Escargô  Óleo de alho,Primavera,Sementes de alho  Armazém  40 ouros,,5
+Sementes de alho  Armazém  40 ouros,,Sementes de alho  Armazém  40 ouros,20  9  28  12  36  16  52  23,Risoto de samambaia  Escargô  Óleo de alho,,,,,Primavera,Sementes de alho  Armazém  40 ouros,,5
+,60 ouros,,,,,,,,Primavera,,,5
+,75 ouros,,,,,,,,Primavera,,,5
+,90 ouros,,,,,,,,Primavera,,,5
+,120 ouros,,,,,,,,Primavera,,,5
+,20,,9,,,,,,Primavera,,,5
+,28,,12,,,,,,Primavera,,,5
+,36,,16,,,,,,Primavera,,,5
+,52,,23,,,,,,Primavera,,,5
+1 Dia,1 Dia,1 Dia,1 Dia,Total: 4 Dias,5 ouros  /d,,,,Primavera,1 Dia,,5
