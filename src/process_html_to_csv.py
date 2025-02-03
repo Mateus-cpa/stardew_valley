@@ -512,8 +512,8 @@ def df_lavouras(html):
         df['Renda média (ouro por dia)'] = extrair_valor_ouro(df.iloc[-1])
         #preenche espaços em branco pela última linha
         df.iloc[0,:] = df.iloc[0,:].fillna(df.iloc[-1,:])
-        #df = df[[]]
-        df = df.iloc[0,:]
+        #df = df.iloc[0,:]
+        print(df)
         df.to_csv(f'docs_bronze/lavoura_{lavoura}.csv', index=False)
 
 def df_animais(html):
