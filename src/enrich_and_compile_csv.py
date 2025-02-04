@@ -712,14 +712,14 @@ def concat_dataframes ():
     if casa == 'estufa':
       df_temp = df_temp.T.iloc[2:,:]
       df_temp['Nome'] = 'Estufa'
-      df_temp.columns = ['Tipo','Nome','apagar1','Mudanças','apagar2','Requisito','Custo','Tamanho']
+      df_temp.columns = ['Tipo','Nome','apagar1','Mudanças','apagar2','Requisito','Tamanho','Tipo']
     elif casa == 'construcoes_melhoria':
       df_temp.columns = ['apagar1','Imagem','Nome','Descrição','Custo']
-    df_temp = df_temp.rename(columns={'Estágio':'Nome'})
+    df_temp = df_temp.rename(columns={'Estágio':'Nome','Mudanças':'Descrição'})
     df_temp['Tipo'] = casa
     dfs_to_concat.append(df_temp)
   df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes','Requisito','Mudanças']]
+  df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes','Requisito','Mudanças']].drop_index()
   #df_casa = separar_quantidades_e_explodir(df= df_casa, coluna='Custo', divisor=')')
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
