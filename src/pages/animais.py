@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
+  if st.button('Home'):
+    st.switch_page("dataviz.py")
   # Carregar os dados
   animais = pd.read_csv('docs_silver/animais.csv',encoding='utf-8')
 

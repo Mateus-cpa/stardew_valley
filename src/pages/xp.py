@@ -3,6 +3,9 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
+  if st.button('Home'):
+    st.switch_page("dataviz.py")
+  
   # Carregar os dados
   xp = pd.read_csv('docs_silver/xp.csv',encoding='utf-8')
   

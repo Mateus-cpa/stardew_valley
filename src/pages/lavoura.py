@@ -3,6 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 def main():
+  if st.button('Home'):
+    st.switch_page("dataviz.py")
   # Carregar os dados
   lavoura = pd.read_csv('docs_silver/lavouras.csv',encoding='utf-8')
 
@@ -14,7 +16,7 @@ def main():
 
   st.dataframe(lavoura)
 
-  
+  st.slider
   # fim da função
 
   
