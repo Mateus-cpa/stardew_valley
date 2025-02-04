@@ -54,6 +54,7 @@ Transformação do notebook Jupyter(.ipynb) com o código de scraping em um scri
 ### `FASE 6 - Visualização` :construction_worker:
 - Criação de um dashboard interativo para visualizar os dados de forma clara e concisa.
 - Criação de uma tech tree de produtos.
+- Gerar cartas de cada item do banco de dados.
 
 ### `FASE 7 - ícones` :crystal_ball:
 Importar biblioteca de imagens e ícones.
