@@ -14,21 +14,11 @@ def main():
   st.metric('Tamanho da tabela', lavoura.shape[0])
   st.metric('Quantidade de colunas', lavoura.shape[1])
 
-  st.dataframe(lavoura)
+  st.dataframe(lavoura, use_container_width=True,hide_index=True)
 
-  st.slider
   # fim da função
 
   
 
 if __name__ == '__main__':
     main()
-"""
-streamlit run src/pages/lavoura.py
-
-pg = st.navigation([st.Page("page_1.py"), st.Page("page_2.py")])
-pg.run()
-https://docs.streamlit.io/develop/concepts/multipage-apps/page-and-navigation
-https://docs.streamlit.io/develop/quick-reference/cheat-sheet
-
-"""
