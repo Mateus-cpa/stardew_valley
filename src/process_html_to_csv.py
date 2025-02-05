@@ -502,18 +502,13 @@ def df_lavouras(html):
     for lavoura in lista_lavouras:
         df = pd.read_csv(f'docs_bronze/lavoura_{lavoura}.csv')
         df = df.drop(columns=['Unnamed: 0'])
-        try:
-            df['Semente'] = df['Sementes'].apply(lambda linha: linha.split('  ')[0])
-            df['Origem'] = df['Sementes'].apply(lambda linha: linha.split('  ')[1:])
-        except AttributeError:
-            df['Semente'] = df['Sementes']
-            df['Origem'] = None
+        df.loc[0, 'Semente'] = df.loc[0, 'Sementes'].split('  ')[0]
+        df.loc[0, 'Origem'] = '  '.join(df.loc[0, 'Sementes'].split('  ')[1:])
         # pegar última linha de 'Vende por'
         df['Renda média (ouro por dia)'] = extrair_valor_ouro(df.iloc[-1])
         #preenche espaços em branco pela última linha
         df.iloc[0,:] = df.iloc[0,:].fillna(df.iloc[-1,:])
         #df = df.iloc[0,:]
-        print(df)
         df.to_csv(f'docs_bronze/lavoura_{lavoura}.csv', index=False)
 
 def df_animais(html):
