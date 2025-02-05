@@ -1,30 +1,30 @@
-,Tipo,Nome,Custo,Animais,Descrição,Tamanho,Detalhes,Requisito,Mudanças
-0,estagios,1,10 000 ouros  Madeira  (450),,,,,,"Adiciona uma cozinha, com um balcão de cozinha que permite  cozinhar  , e um frigorífico que funciona como um baú. Itens no frigorífico podem ser usados para cozinhar, mesmo que eles não estejam no inventário do jogador. Adiciona um quarto. Atualiza cama de solteiro para dupla. Permite  casar  ."
-1,estagios,2,65 000 ouros  Madeira de lei  (100),,,,,,"Adiciona dois novos quartos, um vazio, e um com um berço e duas camas de solteiro, permitindo que você tenha filhos. Cozinha e quarto são maiores."
-2,estagios,3,100 000 ouros,,,,,,"Adiciona um porão sob a casa, permitindo o acesso através da cozinha. Os  barris de madeira  no porão podem envelhecer queijo e bebidas para aumentar sua qualidade e valor."
-3,estufa,,7x6 + 3x2,,,Estufa,,Nenhum,Informação
-4,construcoes_melhoria,Atualização da casa 1,10 000 ouros  Madeira  (450),,Aumenta o tamanho da casa e adiciona uma cozinha.,,,,
-5,construcoes_melhoria,Atualização da casa 2,65 000 ouros  Madeira de lei  (100),,"Adiciona dois novos cômodos, um vazio, e um com um berço e duas camas de solteiro, isso permite que você tenha filhos. A cozinha é maior.",,,,
-6,construcoes_melhoria,Atualização da casa 3,100 000 ouros,,"Adiciona um porão sob a casa, permitindo o acesso através da cozinha. O porão permite ao jogador fabricar e armazenar  barris de madeira  que podem envelhecer queijos e produtos alcoólicos para aumentar a qualidade e o valor.",,,,
-7,construcoes_renovacoes,Remover Berço,,,Remove um berço da sua casa.,,Remove o berço necessário para ter um filho.,,
-8,construcoes_renovacoes,Abrir quarto,,,Remove a parede separando seu quarto da sala de entrada.,,A renovação acrescenta um total de mais 12 espaços livres para a casa.,,
-9,construcoes_renovacoes,Adicionar cômodo Sul,,,Adiciona um cômodo ao sul do seu quarto.,,Esse cômodo possui uma área de 11×7.,,
-10,construcoes_renovacoes,Adicionar cômodo de canto,,,Adiciona um cômodo no canto nordeste da casa.,,Esse cômodo possui uma área de 9×5.,,
-11,construcoes_fazenda,Celeiro,6 000 ouros  Madeira  (350)  Pedra  (150),Vacas,Permite até 4 animais num celeiro.,7x4,,,
-12,construcoes_fazenda,Celeiro Grande,12 000 ouros  Madeira  (450)  Pedra  (200),Cabras,Atualização do celeiro  Permite até 8 animais num celeiro. Permite que animais deem a luz. Libera cabras.,7x4,,,
-13,construcoes_fazenda,Celeiro de Luxo,25 000 ouros  Madeira  (550)  Pedra  (300),Ovelhas  Porcos,Atualização do celeiro grande  Permite até 12 animais num celeiro. Vem com um sistema de autoalimentação. Libera ovelhas e porcos.,7x4,,,
-14,construcoes_fazenda,Galinheiro,4 000 ouros  Madeira  (300)  Pedra  (100),Galinhas,Permite até 4 animais num galinheiro.,6x3,,,
-15,construcoes_fazenda,Galinheiro Grande,10 000 ouros  Madeira  (400)  Pedra  (150),Patos,Atualização do galinheiro  Permite até 8 animais num galinheiro. Vem com uma chocadeira. Libera patos.,6x3,,,
-16,construcoes_fazenda,Galinheiro de Luxo,20 000 ouros  Madeira  (500)  Pedra  (200),Coelhos,Atualização do galinheiro grande  Permite até 12 animais num galinheiro. Vem com um sistema de autoalimentação. Libera coelhos.,6x3,,,
-17,construcoes_fazenda,Moinho,2 500 ouros  Madeira  (150)  Pedra  (50)  Tecido  (4),,Permite criar farinha a partir de trigo e açúcar de beterrabas.,4x2,,,
-18,construcoes_fazenda,Galpão,15 000 ouros  Madeira  (300),,Uma construção vazia. Ocupe-a com o que quiser! O interior pode ser decorado.,7x3,,,
-19,construcoes_fazenda,Galpão Grande,20 000 ouros  Madeira  (550)  Pedra  (300),,Dobra o tamanho do galpão. O interior pode ser decorado.,7x3,,,
-20,construcoes_fazenda,Lago de Peixes,5 000 ouros  Pedra  (200)  Algas marinhas  (5)  Algas verdes  (5),Peixes,Crie peixes e colete sua produção. Peixes se multiplicam com o tempo.,5x5,,,
-21,construcoes_fazenda,Silo,100 ouros  Pedra  (100)  Argila  (10)  Barra de cobre  (5),,Permite corte e armazenamento de grama como ração.,3x3,,,
-22,construcoes_fazenda,Casa de gosmas,10 000 ouros  Pedra  (500)  Quartzo refinado  (10)  Barra de irídio  (1),Gosmas,Cria até 20  gosmas  . Enche comedouros com água. Gosmas criam  bolas de gosma  .  Vem com um  incubador de gosmas  fixo.,11x6,,,
-23,construcoes_fazenda,Estábulo,10 000 ouros  Madeira de lei  (100)  Barra de ferro  (5),Cavalo,Permite que você tenha e monte num cavalo. Cavalo incluso.,4x2,,,
-24,construcoes_fazenda,Poço,1 000 ouros  Pedra  (75),,Fornece um lugar para repor a água do  regador  .,3x3,,,
-25,construcoes_fazenda,Casa,100 ouros,1 amigo em um jogo  multijogador,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,5x3,,,
-26,construcoes_fazenda,Casa,100 ouros,1 amigo em um jogo  multijogador,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,5x3,,,
-27,construcoes_fazenda,Casa,100 ouros,1 amigo em um jogo  multijogador,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,5x3,,,
-28,construcoes_fazenda,Caixa de Remessas,250 ouros  Madeira  (150),,Jogue itens nela para vendê-los à noite.,2x1,,,
+,Tipo,Nome,Custo,Animais,Descrição,Tamanho,Detalhes
+0,estagios,1,10 000 ouros  Madeira  (450),,"Adiciona uma cozinha, com um balcão de cozinha que permite  cozinhar  , e um frigorífico que funciona como um baú. Itens no frigorífico podem ser usados para cozinhar, mesmo que eles não estejam no inventário do jogador. Adiciona um quarto. Atualiza cama de solteiro para dupla. Permite  casar  .",,
+1,estagios,2,65 000 ouros  Madeira de lei  (100),,"Adiciona dois novos quartos, um vazio, e um com um berço e duas camas de solteiro, permitindo que você tenha filhos. Cozinha e quarto são maiores.",,
+2,estagios,3,100 000 ouros,,"Adiciona um porão sob a casa, permitindo o acesso através da cozinha. Os  barris de madeira  no porão podem envelhecer queijo e bebidas para aumentar sua qualidade e valor.",,
+3,estufa,Estufa,• Todos os  Conjuntos da Copa  completados  ou  •  35 000 ouros  para a  Joja,,Um lugar para cultivar plantas de qualquer estação o ano todo!,7x6 + 3x2,Informação
+4,construcoes_melhoria,Atualização da casa 1,10 000 ouros  Madeira  (450),,Aumenta o tamanho da casa e adiciona uma cozinha.,,
+5,construcoes_melhoria,Atualização da casa 2,65 000 ouros  Madeira de lei  (100),,"Adiciona dois novos cômodos, um vazio, e um com um berço e duas camas de solteiro, isso permite que você tenha filhos. A cozinha é maior.",,
+6,construcoes_melhoria,Atualização da casa 3,100 000 ouros,,"Adiciona um porão sob a casa, permitindo o acesso através da cozinha. O porão permite ao jogador fabricar e armazenar  barris de madeira  que podem envelhecer queijos e produtos alcoólicos para aumentar a qualidade e o valor.",,
+7,construcoes_renovacoes,Remover Berço,,,Remove um berço da sua casa.,,Remove o berço necessário para ter um filho.
+8,construcoes_renovacoes,Abrir quarto,,,Remove a parede separando seu quarto da sala de entrada.,,A renovação acrescenta um total de mais 12 espaços livres para a casa.
+9,construcoes_renovacoes,Adicionar cômodo Sul,,,Adiciona um cômodo ao sul do seu quarto.,,Esse cômodo possui uma área de 11×7.
+10,construcoes_renovacoes,Adicionar cômodo de canto,,,Adiciona um cômodo no canto nordeste da casa.,,Esse cômodo possui uma área de 9×5.
+11,construcoes_fazenda,Celeiro,6 000 ouros  Madeira  (350)  Pedra  (150),Vacas,Permite até 4 animais num celeiro.,7x4,
+12,construcoes_fazenda,Celeiro Grande,12 000 ouros  Madeira  (450)  Pedra  (200),Cabras,Atualização do celeiro  Permite até 8 animais num celeiro. Permite que animais deem a luz. Libera cabras.,7x4,
+13,construcoes_fazenda,Celeiro de Luxo,25 000 ouros  Madeira  (550)  Pedra  (300),Ovelhas  Porcos,Atualização do celeiro grande  Permite até 12 animais num celeiro. Vem com um sistema de autoalimentação. Libera ovelhas e porcos.,7x4,
+14,construcoes_fazenda,Galinheiro,4 000 ouros  Madeira  (300)  Pedra  (100),Galinhas,Permite até 4 animais num galinheiro.,6x3,
+15,construcoes_fazenda,Galinheiro Grande,10 000 ouros  Madeira  (400)  Pedra  (150),Patos,Atualização do galinheiro  Permite até 8 animais num galinheiro. Vem com uma chocadeira. Libera patos.,6x3,
+16,construcoes_fazenda,Galinheiro de Luxo,20 000 ouros  Madeira  (500)  Pedra  (200),Coelhos,Atualização do galinheiro grande  Permite até 12 animais num galinheiro. Vem com um sistema de autoalimentação. Libera coelhos.,6x3,
+17,construcoes_fazenda,Moinho,2 500 ouros  Madeira  (150)  Pedra  (50)  Tecido  (4),,Permite criar farinha a partir de trigo e açúcar de beterrabas.,4x2,
+18,construcoes_fazenda,Galpão,15 000 ouros  Madeira  (300),,Uma construção vazia. Ocupe-a com o que quiser! O interior pode ser decorado.,7x3,
+19,construcoes_fazenda,Galpão Grande,20 000 ouros  Madeira  (550)  Pedra  (300),,Dobra o tamanho do galpão. O interior pode ser decorado.,7x3,
+20,construcoes_fazenda,Lago de Peixes,5 000 ouros  Pedra  (200)  Algas marinhas  (5)  Algas verdes  (5),Peixes,Crie peixes e colete sua produção. Peixes se multiplicam com o tempo.,5x5,
+21,construcoes_fazenda,Silo,100 ouros  Pedra  (100)  Argila  (10)  Barra de cobre  (5),,Permite corte e armazenamento de grama como ração.,3x3,
+22,construcoes_fazenda,Casa de gosmas,10 000 ouros  Pedra  (500)  Quartzo refinado  (10)  Barra de irídio  (1),Gosmas,Cria até 20  gosmas  . Enche comedouros com água. Gosmas criam  bolas de gosma  .  Vem com um  incubador de gosmas  fixo.,11x6,
+23,construcoes_fazenda,Estábulo,10 000 ouros  Madeira de lei  (100)  Barra de ferro  (5),Cavalo,Permite que você tenha e monte num cavalo. Cavalo incluso.,4x2,
+24,construcoes_fazenda,Poço,1 000 ouros  Pedra  (75),,Fornece um lugar para repor a água do  regador  .,3x3,
+25,construcoes_fazenda,Casa,100 ouros,1 amigo em um jogo  multijogador,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,5x3,
+26,construcoes_fazenda,Casa,100 ouros,1 amigo em um jogo  multijogador,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,5x3,
+27,construcoes_fazenda,Casa,100 ouros,1 amigo em um jogo  multijogador,Um lar para um amigo! Financiada pelo fundo agrícola da vila.,5x3,
+28,construcoes_fazenda,Caixa de Remessas,250 ouros  Madeira  (150),,Jogue itens nela para vendê-los à noite.,2x1,
