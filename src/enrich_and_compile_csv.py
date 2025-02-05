@@ -292,6 +292,18 @@ def tenta_dividir (texto_a_dividir, divisor: str = None,coluna: int = 0):
     return texto_a_dividir
 
 def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_saude):
+  """
+  Função que divide dataframe quadruplicado para qualidficar separadamente 
+  as 4 qualidades: normal, prata, ouro e irídio.
+
+  Args:
+      df: DataFrame Pandas.
+      coluna_nome: Nome da coluna onde os nome a serão substituídos por, incluindo as qualidades.
+      coluna_valor: Nome da coluna de valor em ouros (4 valores) para ser dividido nas 4 qualidades.
+      coluna_energia_saude: Nome da coluna com 8 valores a ser dividido nas 4 qualidades.
+  
+  Returns: df com as colunas divididas em 4 qualidades + 2 colunas 'Energia' e 'Saude'.
+  """
   df = df
   coluna_nome = coluna_nome
   coluna_valor = coluna_valor
@@ -708,18 +720,18 @@ def concat_dataframes ():
                 'construcoes_fazenda']
   dfs_to_concat = [] 
   for casa in lista_casa:
-    df_temp = pd.read_csv(f'docs_bronze/casa_{casa}.csv')
+    df_temp = pd.read_csv(f'docs_bronze/casa_{casa}.csv', index_col='Unnamed: 0')
     if casa == 'estufa':
-      df_temp = df_temp.T.iloc[2:,:]
+      df_temp = pd.read_csv(f'docs_bronze/casa_{casa}.csv', header=1)
+      df_temp = df_temp.iloc[:,2].to_frame().T #seleciona a linha 2
       df_temp['Nome'] = 'Estufa'
-      df_temp.columns = ['Tipo','Nome','apagar1','Mudanças','apagar2','Requisito','Tamanho','Tipo']
-    elif casa == 'construcoes_melhoria':
-      df_temp.columns = ['apagar1','Imagem','Nome','Descrição','Custo']
-    df_temp = df_temp.rename(columns={'Estágio':'Nome','Mudanças':'Descrição'})
+    df_temp = df_temp.rename({'Estágio':'Nome','Mudanças':'Descrição',
+                              1:'Descrição',2:'Detalhes',3:'Custo',5:'Tamanho',
+                              'Name':'Nome','Description':'Descrição','Cost':'Custo'},axis=1)
     df_temp['Tipo'] = casa
     dfs_to_concat.append(df_temp)
-  df_casa = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes','Requisito','Mudanças']].drop_index()
+  df_casa = pd.concat(dfs_to_concat, ignore_index=True).reset_index(drop=True)
+  df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes']]
   #df_casa = separar_quantidades_e_explodir(df= df_casa, coluna='Custo', divisor=')')
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
@@ -793,17 +805,30 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for lavoura in lista_lavouras:
     df_temp = pd.read_csv(f'docs_bronze/lavoura_{lavoura}.csv')
-    dfs_to_concat.append(df_temp.T)    
-  df_lavouras = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  #df_lavouras.columns = ['Nome',
-  #                       'Tempo_crescimento_1_(dias)','Tempo_crescimento_2_(dias)','Tempo_crescimento_3_(dias)',
-  #                       'Tempo_colheita(dias)','Vende_por','Restaura',
-  #                       'Usado_em','Estação','Semente','11',
-  #                       '12','13','14','15']
+    df_temp = df_temp.dropna(subset=['Semente'],ignore_index=True)
+    dfs_to_concat.append(df_temp)    
+  df_lavouras = pd.concat(dfs_to_concat*4,ignore_index=True).sort_values(by='Semente').reset_index(drop=True)
+  df_lavouras.columns = ['Apagar',
+                         'Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)','Crescimento estágio 3 (dias)',
+                         'Tempo colheita (dias)','Tempo colheita continuado',
+                         'Vende_por','Restaura',
+                         'Usado em','Estação','Semente','Origem',
+                         'Renda média (ouro por dia)',
+                         'Crescimento estágio 4 (dias)','Crescimento estágio 5 (dias)']
+  df_lavouras = divide_valores_por_qualidade(df = df_lavouras,coluna_nome='Semente',
+                                             coluna_valor='Vende_por',coluna_energia_saude='Restaura')
+  df_lavouras = df_lavouras[['Semente','Estação','Vende_por','Saude','Energia',
+                             'Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)',
+                             'Crescimento estágio 3 (dias)','Crescimento estágio 4 (dias)',
+                             'Crescimento estágio 5 (dias)',
+                             'Tempo colheita (dias)','Tempo colheita continuado',
+                             'Renda média (ouro por dia)',
+                             'Origem','Usado em']]
   df_lavouras.to_csv('docs_silver/lavouras.csv', encoding='utf-8')
 
   #lista_presente
-  df_presentes = pd.read_csv('parardocs_bronze\lista_presentes.csv', encoding='utf-8')
+  df_presentes = pd.read_csv('docs_bronze\lista_presentes.csv', encoding='utf-8', 
+                             index_col='Unnamed: 0')
   df_presentes.to_csv('docs_silver/lista_presentes.csv', encoding='utf-8')
 
   #mercadoria
@@ -985,170 +1010,3 @@ if __name__ == '__main__':
   limpar_csv('docs_bronze/xp_coleta.csv')
   xp()
   concat_dataframes()
-
-
-"""
-def fertilizante ():
-  for i in ['Normal','Fertilizante Básico','Fertilizante de Qualidade']:
-    grafico = sns.barplot(data=df_solos[df_solos['Melhoramento']==i],
-                x='nivel_habilidade_cultivo',
-                y='percentual',
-                hue='qualidade_produto',
-                estimator='sum',
-                #dodge=False,
-                errorbar=None)
-    grafico.set_title(f'Qualidade do cultivo: {i}')
-    grafico.set_xlabel('Nível de habilidade Cultivo')
-    grafico.set_ylabel('Percentual')
-    #tamanho do gráfico
-    grafico.figure.set_size_inches(10, 5)
-    plt.show()
-
-  #coleta
-  #listar variaveis do código do tipo dataframe
-  variaveis = dir()
-  qtd_variaveis = 0
-  variavel_dataframe = ['selecione um dataframe']
-  #print(f'todas variáveis: {variaveis}')
-  for variavel in variaveis:
-      if (type(eval(variavel)) == pd.core.frame.DataFrame and not variavel.startswith('_')):
-          #print(variavel)
-          variavel_dataframe.append(eval(variavel))
-          qtd_variaveis += 1
-
-  print(f'Quantidade de variáveis: {qtd_variaveis}')
-
-#criar um menu seletor de dataframe a partir de variavel_dataframe para mostrar
-
-# initial_value = variavel_dataframe[0]  # Or another valid value
-
-menu = widgets.Dropdown(options=variavel_dataframe)
-
-menu.observe(visualiza)
-display(menu)
-
-
-
-
-
-
-
-
-
-
-def processar_dataframe(df):
-    
-    #Processa um DataFrame, separando as informações nas colunas 'Efeito' e 'Lucro'
-    #e criando novas colunas com base nas qualidades especificadas.
-
-    #Args:
-    #    df (pd.DataFrame): O DataFrame a ser processado.
-   # 
-
-
-    #imprimir nome do dataframe
-    for name, value in globals().items():
-        if value is df:
-            print(f'iniciar {name}')
-
-     # Separar texto das colunas em itens de lista e transformar em inteiro
-    try: #alguns dataframes não tem efeito
-      df['Efeito'] = df['Efeito'].apply(lambda x: x.split())
-      df['Lucro'] = df['Lucro'].apply(lambda x: x.split())
-    except KeyError:
-      pass
-    except AttributeError:
-      pass
-
-
-    qualidades = ['prata', 'ouro', 'iridio']
-    colunas_efeito = [[2, 3], [4, 5], [6, 7]]
-    colunas_lucro = [2, 4, 6]
-
-    dfs = []
-    for i, qualidade in enumerate(qualidades):
-        df_temp = df.copy()
-        df_temp['Qualidade'] = qualidade
-        for linha in df_temp.index:
-            try:
-              if len(df_temp.loc[linha,'Lucro']) > 2:
-                df_temp.loc[linha, 'Lucro'] = df_temp.loc[linha, 'Lucro'][colunas_lucro[i]]
-                try: #há dataframes sem Efeito
-                  df_temp.loc[linha, 'Energia'] = df_temp.loc[linha, 'Efeito'][colunas_efeito[i][0]]
-                  df_temp.loc[linha, 'Saude'] = df_temp.loc[linha, 'Efeito'][colunas_efeito[i][1]]
-                except KeyError:
-                  pass
-                except IndexError:
-                  pass
-            except TypeError:
-              pass
-            except AttributeError:
-              pass
-        dfs.append(df_temp)
-
-    # Tratar dado de normal separadamente
-    df_temp = df.copy()
-    df_temp['Qualidade'] = 'normal'
-
-    for linha in df_temp.index:
-      try:
-        df_temp.loc[linha, 'Energia'] = df_temp.loc[linha, 'Efeito'][0]
-        df_temp.loc[linha, 'Saude'] = df_temp.loc[linha, 'Efeito'][1]
-        df_temp.drop(columns=['Efeito'], inplace=True)
-      except KeyError:
-        df_temp.loc[linha, 'Energia'] = 0
-        df_temp.loc[linha, 'Saude'] = 0
-      try:
-        df_temp.loc[linha, 'Lucro'] = df_temp.loc[linha, 'Lucro'][0]
-      except TypeError:
-        pass
-    dfs.append(df_temp)
-
-    #imprimir nome do dataframe
-    for name, value in globals().items():
-        if value is df:
-            print(f'df {name} finalizado com sucesso')
-
-    # Concatenar e remover coluna 'Efeito'
-    df = pd.concat(dfs)
-
-    return df
-
-dfs_coleta = [seiva_coleta, primavera_coleta, verao_coleta, outono_coleta,
-              inverno_coleta, praia_coleta, cavernas_coleta,
-              deserto_coleta, ilha_gengibre_coleta]
-
-for i, df in enumerate(dfs_coleta):
-    dfs_coleta[i] = processar_dataframe(df)
-
-# concatenar dataframes da lista dfs_coleta
-dfs_coleta = pd.concat(dfs_coleta,ignore_index=True)
-
-#apagar dataframes originais da memória
-del seiva_coleta
-del primavera_coleta
-del verao_coleta
-del outono_coleta
-del inverno_coleta
-del praia_coleta
-del cavernas_coleta
-del deserto_coleta
-del ilha_gengibre_coleta
-
-dfs_coleta
-#se funcionar, substituirá a célula abaixo
-
-
-    # retira número inteiro na coluna item para colocar na coluna XP
-    def extrair_numero(x):
-        try:
-            return int(x.split()[0])
-        except ValueError:
-            return None
-
-    xp_coleta['XP'] = xp_coleta.item.apply(lambda x: extrair_numero(x))
-    xp_coleta.iloc[6:13,1] = 7
-
-
-"""
-
