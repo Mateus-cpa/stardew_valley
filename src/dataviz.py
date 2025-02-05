@@ -40,6 +40,8 @@ def main():
       st.switch_page("pages/iscas.py")
   if st.button('Lavoura'):
      st.switch_page("pages/lavoura.py")
+  if st.button('Lista de presentes'):
+     st.switch_page("pages/lista_presentes.py")
   if st.button('produtos'):
      st.switch_page("pages/produtos.py")
   if st.button('Profissões'):
