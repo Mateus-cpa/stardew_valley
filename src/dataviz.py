@@ -42,12 +42,32 @@ def main():
      st.switch_page("pages/lavoura.py")
   if st.button('Lista de presentes'):
      st.switch_page("pages/lista_presentes.py")
+  if st.button('Máquina'):
+     st.switch_page("pages/maquina.py")
+  if st.button('Mercadorias'):
+      st.switch_page("pages/mercadorias.py")
+  if st.button('Minerais'):
+     st.switch_page("pages/minerais.py")
+  if st.button('Missões'):
+     st.switch_page("pages/missoes.py")
+  if st.button('Mobílias'):
+     st.switch_page("pages/mobilias.py")
+  if st.button('Nós de Minério'):
+     st.switch_page("pages/nos_minerio.py")
+  if st.button('Peixes'):
+     st.switch_page("pages/peixes.py")
+  if st.button('Pescas'):
+     st.switch_page("pages/pescas.py")
+  if st.button('Produção de Solos'):
+      st.switch_page("pages/producao_solos.py")
   if st.button('produtos'):
      st.switch_page("pages/produtos.py")
   if st.button('Profissões'):
      st.switch_page("pages/profissoes.py")
   if st.button('Solo foliar'):
      st.switch_page("pages/solo_foliar.py")
+  if st.button('Taxa de cultivo'):
+      st.switch_page("pages/taxa_cultivo.py")
   if st.button('Vestuário'):
      st.switch_page("pages/vestuarios.py")
   if st.button('XP'):
