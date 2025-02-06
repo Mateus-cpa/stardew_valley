@@ -1,13 +1,28 @@
-,Unnamed: 0,Imagem,Nome,Descrição,Ingredientes,Fonte da Receita,0,1
-0,0,,Apiário,Ponha-o no quintal e obtenha um mel delicioso! (Exceto no inverno).,Madeira  (40)  Carvão  (8)  Barra de ferro  (1)  Xarope de ácer  (1),Cultivo  Nível 3,,
-1,0,,Barril de madeira,Use na adega para envelhecer produtos como vinho e queijo.,Madeira  (20)  Madeira de lei  (1),Casa da Fazenda  atualização da adega,,
-2,0,,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,Madeira  (30)  Barra de cobre  (1)  Barra de ferro  (1)  Resina de carvalho  (1),Cultivo  Nível 8,,
-3,0,,Gerador de óleo,Faz óleo gourmet de trufas.,Gosma  (50)  Madeira de lei  (20)  Barra de ouro  (1),Cultivo  Nível 8,,
-4,0,,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,Madeira  (50)  Pedra  (40)  Carvão  (8),Cultivo  Nível 4,,
-5,0,,,,,,,190 ouros
-6,1,,,,,,,237 ouros
-7,2,,,,,,,285 ouros
-8,3,,,,,,,380 ouros
-9,0,,Prensa de queijo,Transforma leite em queijo.,Madeira  (45)  Pedra  (45)  Madeira de lei  (10)  Barra de cobre  (1),Cultivo  Nível 6,,
-10,0,,Máquina de maionese,Transforma ovos em maionese.,Madeira  (15)  Pedra  (15)  Cristal de terra  (1)  Barra de cobre  (1),Cultivo  Nível 2,,
-11,0,,Tear,Transforma lã crua em roupas finas.,Madeira  (60)  Fibra  (30)  Alcatrão de pinho  (1),Cultivo  Nível 7,,
+,Nome,Descrição,Fonte da Receita,Ingredientes_item,Ingredientes_qtd
+0,Apiário,Ponha-o no quintal e obtenha um mel delicioso! (Exceto no inverno).,Cultivo  Nível 3,Madeira,40
+0,Apiário,Ponha-o no quintal e obtenha um mel delicioso! (Exceto no inverno).,Cultivo  Nível 3,Carvão,8
+0,Apiário,Ponha-o no quintal e obtenha um mel delicioso! (Exceto no inverno).,Cultivo  Nível 3,Barra de ferro,1
+0,Apiário,Ponha-o no quintal e obtenha um mel delicioso! (Exceto no inverno).,Cultivo  Nível 3,Xarope de ácer,1
+1,Barril de madeira,Use na adega para envelhecer produtos como vinho e queijo.,Casa da Fazenda  atualização da adega,Madeira,20
+1,Barril de madeira,Use na adega para envelhecer produtos como vinho e queijo.,Casa da Fazenda  atualização da adega,Madeira de lei,1
+2,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,Cultivo  Nível 8,Madeira,30
+2,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,Cultivo  Nível 8,Barra de cobre,1
+2,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,Cultivo  Nível 8,Barra de ferro,1
+2,Barril,Ponha uma fruta ou vegetal aqui. Uma hora ele vai se transformar numa bebida.,Cultivo  Nível 8,Resina de carvalho,1
+3,Gerador de óleo,Faz óleo gourmet de trufas.,Cultivo  Nível 8,Gosma,50
+3,Gerador de óleo,Faz óleo gourmet de trufas.,Cultivo  Nível 8,Madeira de lei,20
+3,Gerador de óleo,Faz óleo gourmet de trufas.,Cultivo  Nível 8,Barra de ouro,1
+4,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,Cultivo  Nível 4,Madeira,50
+4,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,Cultivo  Nível 4,Pedra,40
+4,Jarra de conserva,Transforma legumes em picles e frutas em geléia.,Cultivo  Nível 4,Carvão,8
+5,Prensa de queijo,Transforma leite em queijo.,Cultivo  Nível 6,Madeira,45
+5,Prensa de queijo,Transforma leite em queijo.,Cultivo  Nível 6,Pedra,45
+5,Prensa de queijo,Transforma leite em queijo.,Cultivo  Nível 6,Madeira de lei,10
+5,Prensa de queijo,Transforma leite em queijo.,Cultivo  Nível 6,Barra de cobre,1
+6,Máquina de maionese,Transforma ovos em maionese.,Cultivo  Nível 2,Madeira,15
+6,Máquina de maionese,Transforma ovos em maionese.,Cultivo  Nível 2,Pedra,15
+6,Máquina de maionese,Transforma ovos em maionese.,Cultivo  Nível 2,Cristal de terra,1
+6,Máquina de maionese,Transforma ovos em maionese.,Cultivo  Nível 2,Barra de cobre,1
+7,Tear,Transforma lã crua em roupas finas.,Cultivo  Nível 7,Madeira,60
+7,Tear,Transforma lã crua em roupas finas.,Cultivo  Nível 7,Fibra,30
+7,Tear,Transforma lã crua em roupas finas.,Cultivo  Nível 7,Alcatrão de pinho,1
