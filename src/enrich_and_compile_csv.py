@@ -446,7 +446,7 @@ def concat_dataframes ():
 
   
   #artesanato
-  lista_produtos = ['aneis',
+  lista_artesanatos = ['aneis',
                     'aspersores',
                     'bombas',
                     'cercas',
@@ -461,7 +461,7 @@ def concat_dataframes ():
                     'pesca',
                     'sementes']
   dfs_to_concat = [] 
-  for artesanato in lista_produtos:
+  for artesanato in lista_artesanatos:
     df_temp = pd.read_csv(f'docs_bronze/artesanato_{artesanato}.csv')
     df_temp['Tipo'] = artesanato
     dfs_to_concat.append(df_temp)
@@ -469,7 +469,7 @@ def concat_dataframes ():
   df_artesanatos = df_artesanatos.drop(columns=['Unnamed: 0','Imagem'])
   df_artesanatos = separar_quantidades_e_explodir(df_artesanatos,'Ingredientes')
   df_artesanatos = df_artesanatos[['Nome','Descrição','Tipo','Ingredientes_item','Ingredientes_qtd','Fonte da Receita','Origem da Receita','Dura Por','Energia','Saúde']]
-  df_artesanatos.to_csv('docs_silver/produtos.csv', encoding='utf-8')
+  df_artesanatos.to_csv('docs_silver/artesanato.csv', encoding='utf-8')
 
   
   #arvores
@@ -831,7 +831,7 @@ def concat_dataframes ():
                              index_col='Unnamed: 0')
   df_presentes.to_csv('docs_silver/lista_presentes.csv', encoding='utf-8')
 
-  #mercadoria
+  #máquinas
   lista_maquinas = ['apiario',
                     'barril_madeira',
                     'barril',
@@ -841,17 +841,18 @@ def concat_dataframes ():
                     'prensa_queijo',
                     'maquina_maionese',
                     'tear']
-  #padronizar colunas
-  dfs_to_concat = [] 
+  dfs_to_concat = []
   for maquina in lista_maquinas:
     df_temp = pd.read_csv(f'docs_bronze/mercadoria_{maquina}.csv')
-    print(f'colunas de {maquina}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_maquina = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_maquina = df_maquina[['Nome','Descrição','Ingredientes','Fonte da Receita']]
+  df_maquina = df_maquina.dropna(subset=['Nome'],ignore_index=True)
+  df_maquina = separar_quantidades_e_explodir(df_maquina,'Ingredientes')
   df_maquina.to_csv('docs_silver/maquinas.csv', encoding='utf-8')
 
 
-  #produtos
+  #mercadorias
   lista_mercadorias = ['mel',
                       'produto_barril_madeira',
                       'produto_barril',
@@ -865,9 +866,17 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for mercadoria in lista_mercadorias:
     df_temp = pd.read_csv(f'docs_bronze/mercadoria_{mercadoria}.csv')
-    print(f'colunas de {mercadoria}: {df_temp.columns}')
-    dfs_to_concat.append(df_temp)
+    df_temp = df_temp.rename(columns={'Energia':'Energia/Saúde',
+                                      'Energia/Saúde/Bônus':'Energia/Saúde',
+                                      'Preço de Venda Base': 'Venda (ouros)',
+                                      'Valor de venda':'Venda (ouros)',
+                                      'Preço da Venda':'Venda (ouros)',
+                                      'Image':'Imagem',
+                                      'Name':'Nome',
+                                      'Ingrediente':'Ingredientes'}),
+    dfs_to_concat.append(df_temp)  
   df_mercadorias = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_mercadorias = df_mercadorias.drop(columns=['Unnamed: 0','Imagem',0,1])
   df_mercadorias.to_csv('docs_silver/mercadorias.csv', encoding='utf-8')
 
   #minerais
@@ -878,7 +887,7 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = [] 
   for mineral in lista_minerais:
-    df_temp = pd.read_csv(f'docs_bronze/mineral_{mercadoria}.csv')
+    df_temp = pd.read_csv(f'docs_bronze/mineral_{mineral}.csv')
     print(f'colunas de {mineral}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_minerais = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
