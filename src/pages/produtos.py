@@ -14,7 +14,7 @@ def main():
   st.metric('Tamanho da tabela', produtos.shape[0])
   st.metric('Quantidade de colunas', produtos.shape[1])
 
-  st.dataframe(produtos)
+  st.dataframe(produtos, use_container_width=True,hide_index=True)
 
   # fim da função
 
