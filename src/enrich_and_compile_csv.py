@@ -868,15 +868,26 @@ def concat_dataframes ():
     df_temp = pd.read_csv(f'docs_bronze/mercadoria_{mercadoria}.csv')
     df_temp = df_temp.rename(columns={'Energia':'Energia/Saúde',
                                       'Energia/Saúde/Bônus':'Energia/Saúde',
+                                      'Restaura':'Energia/Saúde',
                                       'Preço de Venda Base': 'Venda (ouros)',
                                       'Valor de venda':'Venda (ouros)',
                                       'Preço da Venda':'Venda (ouros)',
+                                      'Preço de venda':'Venda (ouros)',
                                       'Image':'Imagem',
                                       'Name':'Nome',
-                                      'Ingrediente':'Ingredientes'}),
-    dfs_to_concat.append(df_temp)  
+                                      'Ingrediente':'Ingredientes'})
+    dfs_to_concat.append(df_temp)
   df_mercadorias = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_mercadorias = df_mercadorias.drop(columns=['Unnamed: 0','Imagem',0,1])
+  df_mercadorias = df_mercadorias.drop(columns=['Unnamed: 0','Imagem','0','1'])
+  df_mercadorias = df_mercadorias.sort_values(by='Nome').reset_index(drop=True)
+  #preencher valores nulos de outras colunas onde houver mesmos valores na coluna 'Nome'
+  for nome in df_mercadorias['Nome'].unique():
+    if nome == 'Óleo':
+      pass
+    else:
+      df_mercadorias.loc[df_mercadorias['Nome'] == nome] = df_mercadorias.loc[df_mercadorias['Nome'] == nome].fillna(method='bfill')
+      df_mercadorias.loc[df_mercadorias['Nome'] == nome] = df_mercadorias.loc[df_mercadorias['Nome'] == nome].drop_duplicates(subset='Nome',keep='first')
+  df_mercadorias = df_mercadorias.dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
   df_mercadorias.to_csv('docs_silver/mercadorias.csv', encoding='utf-8')
 
   #minerais
@@ -884,13 +895,14 @@ def concat_dataframes ():
                     'gemas',
                     'geodos',
                     'origem_geodos']
-  #padronizar colunas
   dfs_to_concat = [] 
   for mineral in lista_minerais:
-    df_temp = pd.read_csv(f'docs_bronze/mineral_{mineral}.csv')
-    print(f'colunas de {mineral}: {df_temp.columns}')
-    dfs_to_concat.append(df_temp)
+    df_temp = pd.read_csv(f'docs_bronze/minerais_{mineral}.csv')
+    df_temp = df_temp.rename(columns={'Usado Em':'Usado em'})
+    dfs_to_concat.append(df_temp)  
   df_minerais = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_minerais['Preço de Venda'] = limpar_preco(serie=df_minerais['Preço de Venda'])
+  df_minerais = df_minerais.drop(columns=['Unnamed: 0','Imagem'])
   df_minerais.to_csv('docs_silver/minerais.csv', encoding='utf-8')
 
   #missao
@@ -902,10 +914,17 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = [] 
   for missao in lista_missoes:
-    df_temp = pd.read_csv(f'docs_bronze/missao{missao}.csv')
-    print(f'colunas de {missao}: {df_temp.columns}')
+    df_temp = pd.read_csv(f'docs_bronze/missoes{missao}.csv')
+    df_temp = df_temp.rename(columns={'Texto da Missão':'Descrição',
+                                      'Missão Relacionada':'Requisitos',
+                                      'Requerimentos':'Requisitos',
+                                      '0':'Nome da Missão',
+                                      '1':'Descrição',
+                                      'Missão Relacionada':'Nome da Missão'})
+    df_temp['Tipo'] = missao[1:].replace('_',' ').capitalize()
     dfs_to_concat.append(df_temp)
   df_missoes = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_missoes = df_missoes.drop(columns=['Unnamed: 0','Imagem'])
   df_missoes.to_csv('docs_silver/missoes.csv', encoding='utf-8')
 
   #mobilia
@@ -922,8 +941,8 @@ def concat_dataframes ():
                     'diversos1',
                     'diversos2',
                     'estantes',
-                    'itens_especiais1'
-                    'itens_especiais2'
+                    'itens_especiais1',
+                    'itens_especiais2',
                     'janelas',
                     'lampadas',
                     'lareiras',
@@ -948,13 +967,15 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for mobilia in lista_mobilias:
     df_temp = pd.read_csv(f'docs_bronze/mobilia_{mobilia}.csv')
-    print(f'colunas de {mobilia}: {df_temp.columns}')
+    df_temp['Tipo'] = mobilia
+    #df_temp = df_temp.rename(columns={'Preço de Venda':'Preço de Venda (ouros)'})
     dfs_to_concat.append(df_temp)
   df_mobilias = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_mobilias = df_mobilias.drop(columns=['Unnamed: 0','Imagem'])
   df_mobilias.to_csv('docs_silver/mobilias.csv', encoding='utf-8')
 
   #nos_minerio
-  df_minerios_nos = pd.read_csv(f'docs_bronze/nos_minerio.csv')
+  df_minerios_nos = pd.read_csv(f'docs_bronze/nos_minerio[].csv')
   df_minerios_nos.to_csv('docs_silver/minerios_nos.csv', encoding='utf-8')
 
   #peixes
