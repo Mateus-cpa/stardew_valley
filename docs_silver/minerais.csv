@@ -1,0 +1,58 @@
+,Nome,Descrição,Preço de Venda,Localização,Usado em
+0,Quartzo,Um cristal transparente encontrado em cavernas e minas.,25.0,As Minas  (Níveis 1-120)  Lata de lixo,Conjunto de Geólogo  Quartzo refinado
+1,Cristal de terra,Substância resinosa encontrada perto da superfície.,50.0,As Minas  (Níveis 1-39)  Cavador  (10%)  Baús de Tesouro  Peneira de cobre  Geodo  Omnigeodo  Lata de lixo,Conjunto de Geólogo  Máquina de maionese
+2,Lágrima congelada,Um cristal que dizem ser as lágrimas congeladas de um ieti.,75.0,As Minas  (Níveis 40-79)  Baús de Tesouro  Peneira de cobre  Geodo congelado  Omnigeodo  Espírito da poeira  (2%)  Lata de lixo,Conjunto de Geólogo  Anel de guerreiro  Sebastian  ama.
+3,Quartzo de fogo,Um cristal brilhante geralmente encontrado perto do magma.,100.0,As Minas  (Níveis 80-120)  Baús de Tesouro  Peneira de cobre  Geodo de magma  Omnigeodo  Lata de lixo,Conjunto de Geólogo  Prensa de Gosmas  Quartzo refinado
+4,Esmeralda,Uma pedra preciosa com uma cor brilhante e verde.,250.0,Nó de Esmeralda  Nó de Gemas  Peneira de cobre  Lata de lixo  Baús de Tesouro  Festival da Estrela Invernal,"Clint  ,  Anão  ,  Emily  ,  Penny  amam."
+5,Água-marinha,Uma pedra brilhante cor d'água.,180.0,Nó de Água-marinha  Nó de Gemas  Peneira de cobre  Lata de lixo  Baús de Tesouro,"Conjunto Tinta  Clint  ,  Anão  ,  Emily  amam.  Braseiro de mármore"
+6,Rubi,Uma pedra preciosa cobiçada por sua cor e lustre maravilhosos.,250.0,Nó de Rubi  Nó de Gemas  Peneira de cobre  Lata de lixo  Baús de Tesouro  Festival da Estrela Invernal,"Clint  ,  Anão  ,  Emily  amam."
+7,Ametista,Uma variante roxa do quartzo.,100.0,Nó de Ametista  Nó de Gemas  Gosmas  Peneira de cobre  Lata de lixo  Baús de Tesouro,"Abigail  ,  Clint  ,  Anão  ,  Emily  amam."
+8,Topázio,"Muito comum, mas ainda admirado por sua beleza.",80.0,Nó de Topázio  Nó de Gemas  Peneira de cobre  Lata de lixo  Baús de Tesouro,"Clint  ,  Anão  ,  Emily  amam."
+9,Jade,Uma pedra ornamental de cor verde-pálida.,200.0,Nó de Jade  Nó de Gemas  Peneira de cobre  Lata de lixo  Baús de Tesouro  Festival da Estrela Invernal,"Clint  ,  Anão  ,  Emily  amam."
+10,Diamante,Uma joia rara e valiosa.,750.0,Nó de Diamante  Nó de Gemas  Peneira de cobre  Lata de lixo  Baús de Tesouro,"Anel de Ioba  Evelyn  ,  Gus  ,  Jodi  ,  Krobus  ,  Marnie  ,  Maru  ,  Penny  ,  Willy  amam."
+11,Fragmento prismático,Uma substância muito rara e poderosa de origem desconhecida.,2000.0,Nó de Irídio  Pedra Mística  Omnigeodo  (0  .  4%)  Bruto das sombras  (0  .  05%)  Xamã das sombras  (0  .  05%)  Múmia  (0  .  1%)  Serpente  (0  .  1%)  Baús de Tesouro  Qualquer  monstro  depois de atingir o fundo das  minas  (0  .  05%),"Todos os  Aldeões  , exceto  Haley  , amam.  Obter a  Espada da galáxia  no  Deserto  Transformar crianças em pombas no  Altar Negro do Egoísmo"
+12,Geodo,Um ferreiro pode quebrar isto para você.,50.0,As Minas  (Leveis 1-39)  Drops do  Cavador  Cavando  na  Fazenda  Festival da Estrela Invernal,
+13,Geodo congelado,Um ferreiro pode quebrar isto para você.,100.0,As Minas  (Leveis 41-79)  Baús de Tesouro  Cavando  na  Fazenda  (  Inverno  )  Festival da Estrela Invernal,
+14,Geodo de magma,Um ferreiro pode quebrar isto para você.,150.0,As Minas  (Leveis 81-120)  Baús de Tesouro  Festival da Estrela Invernal,
+15,Omnigeodo,Um ferreiro pode quebrar isto para você. Estes geodos contém vários minerais.,0.0,As Minas  Caverna da Caveira  Peneira de cobre  No Oásis  (nas Quartas)  Krobus  (nas Terças),
+16,Olho de tigre,Uma camada de ouro brilhante dá a esta joia um lustre brilhante.,275.0,Geodo de magma  Omnigeodo,Sam  ama
+17,Opala,Sua estrutura interna faz com que emita um arco-íris.,150.0,Geodo congelado  Omnigeodo,
+18,Opala de fogo,"Uma variedade rara de opala, conhecida por suas partes vermelhas.",350.0,Geodo de magma  Omnigeodo,
+19,Alamita,Sua distinta fluorescência torna este mineral um favorito dos colecionadores de minerais.,150.0,Geodo  Omnigeodo,
+20,Quatrônio,Uma estrutura metálica e escura procurada por sua estrutura cúbica.,300.0,Geodo de magma  Omnigeodo  Gosma preta,
+21,Barita,As melhores amostras lembram uma rosa no deserto.,50.0,Geodo de magma  Omnigeodo,
+22,Aerinita,Estes cristais são curiosamente leves.,125.0,Geodo congelado  Omnigeodo,
+23,Calcita,Este cristal amarelo está salpicado de nódulos brilhantes.,75.0,Geodo  Omnigeodo,
+24,Dolomita,"Pode ocorrer em recifes, geralmente em um vulcão aquático.",300.0,Geodo de magma  Omnigeodo,
+25,Esperita,Os cristais geram um brilho verde quando estimulados.,100.0,Geodo congelado  Omnigeodo,
+26,Fluorapatita,Pequenas quantidades podem ser encontradas em dentes humanos.,200.0,Geodo congelado  Omnigeodo,
+27,Geminita,Ocorre em agrupamentos brilhantes.,150.0,Geodo congelado  Omnigeodo,
+28,Helvita,Ocorre em colunas triangulares.,450.0,Geodo de magma  Omnigeodo,
+29,Jamborita,Os cristais estão tão juntos que chega a embaçar os olhos.,150.0,Geodo  Omnigeodo,
+30,Jagoíta,A grande quantidade de cristais deixa a estrutura muito brilhante.,115.0,Geodo  Omnigeodo,
+31,Cianita,As faces geométricas são lisas como vidro.,250.0,Geodo congelado  Omnigeodo,
+32,Lunarita,Os buracos brancos e redondos estão agrupados bem próximos.,200.0,Geodo congelado  Omnigeodo,
+33,Malachita,Uma pedra ornamental muito popular e utilizada em escultura para fazer tinta verde.,100.0,Geodo  Omnigeodo,
+34,Netunita,Um cristal muito preto. Reflete uma quantidade anormal de luz.,400.0,Geodo de magma  Omnigeodo  Gosma preta,
+35,Pedra de limão,Dizem que o cristal em pó é uma delícia dos anões.,200.0,Geodo de magma  Omnigeodo,Anão  ama
+36,Necoíta,Os fragmentos delicados formam um pequeno plano rosa.,80.0,Geodo  Omnigeodo,
+37,Auripigmento,"Apesar de sua alta toxicidade, este mineral é amplamente usado em indústrias e em remédios populares.",80.0,Geodo  Omnigeodo,
+38,Gosma petrificada,Este rapazinho deve ter 100.000 anos.,120.0,Geodo  Omnigeodo  Bola de gosma,
+39,Ovo-trovão,"De acordo com a lenda, espíritos zangados lançavam pedras uns nos outros.",100.0,Geodo  Omnigeodo,
+40,Pirita,"Conhecida comumente como ""Ouro dos Tolos"".",120.0,Geodo congelado  Omnigeodo,
+41,Pedra do Oceano,Uma velha lenda diz que estas pedras são mosaicos das antigas sereias.,220.0,Geodo congelado  Omnigeodo,
+42,Cristal-fantasma,Há uma aura fria em volta deste cristal.,200.0,Geodo congelado  Omnigeodo,
+43,Jaspe,"Quando polida, esta joia emite um brilho maravilhoso. Estimada por civilizações antigas por milhares de anos.",150.0,Geodo de magma  Omnigeodo,
+44,Celestina,Algumas formas de vida antiga eram feitas desta substância.,125.0,Geodo  Omnigeodo,
+45,Mármore,Um material muito popular para esculturas e construções.,110.0,Geodo congelado  Omnigeodo,Braseiro de mármore
+46,Arenito,"Um tipo muito comum de pedra, com linhas vermelhas e marrons.",60.0,Geodo  Omnigeodo,
+47,Granito,Um mineral salpicado e frequentemente usado em construções.,75.0,Geodo  Omnigeodo,
+48,Basalto,Se forma perto do magma quente.,175.0,Geodo de magma  Omnigeodo,
+49,Calcário,Um tipo muito comum de pedra. Não é muito valioso.,15.0,Geodo  Omnigeodo,
+50,Pedra-sabão,"Por causa de sua consistência macia, esta pedra é popular para esculturas.",120.0,Geodo congelado  Omnigeodo,
+51,Hematita,Um mineral de ferro com propriedades magnéticas interessantes.,150.0,Geodo congelado  Omnigeodo,
+52,Lamito,Uma pedra com poros pequenos feita de argila antiga ou lama.,25.0,Geodo  Omnigeodo,
+53,Obsidiana,Vidro vulcânico que se forma quando o magma esfria rapidamente.,200.0,Geodo de magma  Omnigeodo,Sebastian  ama
+54,Ardósia,"Extremamente resistente à água, tornando-o um excelente material para coberturas.",85.0,Geodo  Omnigeodo,
+55,Pedra de fada,Um velho minerador sugere que estas pedras são feitas dos ossos fossilizados de fadas.,250.0,Geodo congelado  Omnigeodo,
+56,Fragmentos de estrela,Ninguém sabe de onde vieram. Alguns cientistas dizem que a estrutura microscópica mostra uma irregularidade fora do comum.,500.0,Geodo de magma  Omnigeodo,
