@@ -1,0 +1,622 @@
+,Nome,Loja,Preço,Tipo,Dia,Anos,Tamanho,valor,moeda
+0,Aquário Pequeno,peixaria(ouros),500 ouros,aquarios,,,,500,ouros
+1,Aquário Moderno,peixaria(ouros),500 ouros,aquarios,,,,500,ouros
+2,Aquário Grande,peixaria(ouros),2 000 ouros,aquarios,,,,2,000
+3,Aquário de Luxo,peixaria(ouros),5 000 ouros,aquarios,,,,5,000
+4,Santuário Aquático,peixaria(ouros),,aquarios,,,,,
+5,Aquário Pequeno,catalogo(ouros),0 ouro,aquarios,,,,0,ouro
+6,Aquário Moderno,catalogo(ouros),0 ouro,aquarios,,,,0,ouro
+7,Aquário Grande,catalogo(ouros),0 ouro,aquarios,,,,0,ouro
+8,Aquário de Luxo,catalogo(ouros),0 ouro,aquarios,,,,0,ouro
+9,Santuário Aquático,catalogo(ouros),,aquarios,,,,,
+10,Aquário Pequeno,qi(diamantes),,aquarios,,,,,
+11,Aquário Moderno,qi(diamantes),,aquarios,,,,,
+12,Aquário Grande,qi(diamantes),,aquarios,,,,,
+13,Aquário de Luxo,qi(diamantes),,aquarios,,,,,
+14,Santuário Aquático,qi(diamantes),20.0,aquarios,,,,20.0,
+15,Banco de bétula,carpintaria(ouros),750 ouros,bancos,,,,750,ouros
+16,Banco de carvalho,carpintaria(ouros),750 ouros,bancos,,,,750,ouros
+17,Banco de nogueira,carpintaria(ouros),750 ouros,bancos,,,,750,ouros
+18,Banco de mogno,carpintaria(ouros),2 000 ouros,bancos,,,,2,000
+19,Banco moderno,carpintaria(ouros),2 000 ouros,bancos,,,,2,000
+20,Bandeira de Gelo,Festival do Gelo,800 ouros,bandeiras,,,,800,ouros
+21,Bandeira de Medusa-da-Lua,Dança das Medusas-da-Lua,800 ouros,bandeiras,,,,800,ouros
+22,Bandeira Cores Pastel,Festival do Ovo,1 000 ouros,bandeiras,,,,1,000
+23,Bandeira de inverno,Festival da Estrela Invernal,1 000 ouros,bandeiras,,,,1,000
+24,Bandeira de Nuvens,Barco de Decoração  no  Mercado Noturno,1 000 ouros,bandeiras,,,,1,000
+25,Cadeira de carvalho,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+26,Cadeira de nogueira,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+27,Cadeira de bétula,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+28,Cadeira de mogno,carpintaria(ouros),1 000 ouros,cadeiras,,,,1,000
+29,Cadeira vermelha de jantar,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+30,Cadeira azul de jantar,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+31,Cadeira do interior,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+32,Cadeira do café da manhã,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+33,Cadeira rosa de escritório,carpintaria(ouros),500 ouros,cadeiras,,,,500,ouros
+34,Cadeira roxa de escritório,carpintaria(ouros),500 ouros,cadeiras,,,,500,ouros
+35,Banco verde de escritório,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+36,Banco laranja de escritório,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+37,Trono negro,carpintaria(ouros),2 000 ouros,cadeiras,,,,2,000
+38,Cadeira de jantar (amarela),carpintaria(ouros),1 200 ouros,cadeiras,,,,1,200
+39,Cadeira de jantar (vermelha),carpintaria(ouros),1 200 ouros,cadeiras,,,,1,200
+40,Assento verde de pelúcia,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+41,Assento rosa de pelúcia,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+42,Cadeira de inverno,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+43,Cadeira Batuta,carpintaria(ouros),750 ouros,cadeiras,,,,750,ouros
+44,Cadeira bonitinha,carpintaria(ouros),1 200 ouros,cadeiras,,,,1,200
+45,Cadeira de toco,carpintaria(ouros),2 000 ouros,cadeiras,,,,2,000
+46,Cadeira de metal,carpintaria(ouros),800 ouros,cadeiras,,,,800,ouros
+47,Banco verde,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+48,Banco azul,carpintaria(ouros),350 ouros,cadeiras,,,,350,ouros
+49,Cadeira do rei,carpintaria(ouros),3 000 ouros,cadeiras,,,,3,000
+50,Cadeira de cristal,carpintaria(ouros),N/A  (Recompensa do  Museu  ),cadeiras,,,,,
+51,Cadeira Tropical,carpintaria(ouros),N/A  (Disponível no  Comerciante da Ilha  ),cadeiras,,,,,
+52,Cama,Carpintaria,500 ouros,camas,,,,500,ouros
+53,Cama,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+54,Cama de Criança,Carpintaria,2 000 ouros,camas,,,,2,000
+55,Cama de Criança,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+56,Cama de Casal,Carpintaria,2 000 ouros,camas,,,,2,000
+57,Cama de Casal,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+58,Cama de Casal de Luxo Vermelha,"Carpintaria  Disponível apenas após completar o  Pedido Especial ""  Projeto da Robin  """,6 000 ouros,camas,,,,6,000
+59,Cama de Casal de Pescador,Peixaria,25 000 ouros,camas,,,,25,000
+60,Cama de Casal de Bétula,Comerciante do Deserto,Pérola  (1),camas,,,,1,Pérola
+61,Cama de Casal de Pirata,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+62,Cama de Casal de Pirata,Penny  (Evento de 14  ),,camas,,,,,
+63,Cama de Casal Estrelada,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+64,Cama de Casal Estrelada,Penny  (Evento de 14  ),,camas,,,,,
+65,Cama de Casal de Morango,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+66,Cama de Casal de Morango,Penny  (Evento de 14  ),,camas,,,,,
+67,Cama de Casal Exótica,Sala de Nozes do Sr. Qi,50,camas,,,,5,0
+68,Cama de Casal Moderna,Cassino,8 000,camas,,,,8,000
+69,Cama de Casal Moderna,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+70,Cama Tropical,Comerciante da Ilha,Gengibre  (20),camas,,,,20,Gengibre
+71,Cama Tropical,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+72,Cama de Casal Tropical,Comerciante da Ilha,Banana  (5),camas,,,,5,Banana
+73,Cama de Casal Tropical,Catálogo de Mobília,0 ouro,camas,,,,0,ouro
+74,Cama de Casal Selvagem,Comerciante da Ilha,Fragmento de Brasa  (100),camas,,,,,
+75,Catálogo,Armazém do Pierre,30 000 ouros,catalogo,,,,30,000
+76,Catálogo de Mobília,Carpintaria,200 000 ouros,catalogo,,,,200,000
+77,Cômoda de bétula,,5 000 ouros,comodas,,,,5,000
+78,Cômoda de carvalho,,5 000 ouros,comodas,,,,5,000
+79,Cômoda de nogueira,,5 000 ouros,comodas,,,,5,000
+80,Cômoda de mogno,,7 500 ouros,comodas,,,,7,500
+81,Âncora,carpintaria(ouros),750 ouros,decoracao_parede,,,,750,ouros
+82,Calendário,carpintaria(ouros),2 000 ouros,decoracao_parede,,,,2,000
+83,Bandeirinhas,carpintaria(ouros),50 ouros,decoracao_parede,,,,50,ouros
+84,Escudo de Parede,carpintaria(ouros),500 ouros,decoracao_parede,,,,500,ouros
+85,Luz Joja-Cola,carpintaria(ouros),500 ouros  (apenas no  Mercado Joja  ),decoracao_parede,,,,500,ouros
+86,Fotos pequenas,carpintaria(ouros),250 ouros,decoracao_parede,,,,250,ouros
+87,Brasão do Mineiro,carpintaria(ouros),1 000 ouros,decoracao_parede,,,,1,000
+88,Decoração de Monstros,carpintaria(ouros),1 000 ouros,decoracao_parede,,,,1,000
+89,Poster de crânio,carpintaria(ouros),500 ouros,decoracao_parede,,,,500,ouros
+90,Ursinho Tímido,carpintaria(ouros),,decoracao_parede,,,,,
+91,Mapa Múndi,carpintaria(ouros),500 ouros,decoracao_parede,,,,500,ouros
+92,Decalque do Céu Noturno,carpintaria(ouros),,decoracao_parede,,,,,
+93,Decalque do Céu Noturno #2,carpintaria(ouros),,decoracao_parede,,,,,
+94,Decalque do Céu Noturno #3,carpintaria(ouros),,decoracao_parede,,,,,
+95,Âncora,carrinho_viagem(ouros),,decoracao_parede,,,,,
+96,Calendário,carrinho_viagem(ouros),,decoracao_parede,,,,,
+97,Bandeirinhas,carrinho_viagem(ouros),,decoracao_parede,,,,,
+98,Escudo de Parede,carrinho_viagem(ouros),,decoracao_parede,,,,,
+99,Luz Joja-Cola,carrinho_viagem(ouros),250–2 500 ouros,decoracao_parede,,,,25,0
+100,Fotos pequenas,carrinho_viagem(ouros),250–2 500 ouros,decoracao_parede,,,,25,0
+101,Brasão do Mineiro,carrinho_viagem(ouros),,decoracao_parede,,,,,
+102,Decoração de Monstros,carrinho_viagem(ouros),,decoracao_parede,,,,,
+103,Poster de crânio,carrinho_viagem(ouros),250–2 500 ouros,decoracao_parede,,,,25,0
+104,Ursinho Tímido,carrinho_viagem(ouros),250–2 500 ouros,decoracao_parede,,,,25,0
+105,Mapa Múndi,carrinho_viagem(ouros),,decoracao_parede,,,,,
+106,Decalque do Céu Noturno,carrinho_viagem(ouros),,decoracao_parede,,,,,
+107,Decalque do Céu Noturno #2,carrinho_viagem(ouros),,decoracao_parede,,,,,
+108,Decalque do Céu Noturno #3,carrinho_viagem(ouros),,decoracao_parede,,,,,
+109,Âncora,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+110,Calendário,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+111,Bandeirinhas,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+112,Escudo de Parede,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+113,Luz Joja-Cola,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+114,Fotos pequenas,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+115,Brasão do Mineiro,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+116,Decoração de Monstros,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+117,Poster de crânio,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+118,Ursinho Tímido,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+119,Mapa Múndi,catalogo(ouros),0 ouro,decoracao_parede,,,,0,ouro
+120,Decalque do Céu Noturno,catalogo(ouros),,decoracao_parede,,,,,
+121,Decalque do Céu Noturno #2,catalogo(ouros),,decoracao_parede,,,,,
+122,Decalque do Céu Noturno #3,catalogo(ouros),,decoracao_parede,,,,,
+123,Cristaleira,carpintaria(ouros),6 000 ouros,diversos,,,,6,000
+124,Pilar de cerâmica,carpintaria(ouros),250 ouros,diversos,,,,250,ouros
+125,Pilar de ouro,carpintaria(ouros),450 ouros,diversos,,,,450,ouros
+126,Cano industrial,carpintaria(ouros),300 ouros,diversos,,,,300,ouros
+127,Totem,carpintaria(ouros),750 ouros,diversos,,,,750,ouros
+128,Tigela decorativa,carpintaria(ouros),250 ouros,diversos,,,,250,ouros
+129,Lanterna Decorativa,carpintaria(ouros),500 ouros,diversos,,,,500,ouros
+130,Globo,carpintaria(ouros),750 ouros,diversos,,,,750,ouros
+131,Navio em Miniatura,carpintaria(ouros),750 ouros,diversos,,,,750,ouros
+132,Pequeno Cristal,carpintaria(ouros),750 ouros,diversos,,,,750,ouros
+133,Urso Futan,carpintaria(ouros),1 500 ouros,diversos,,,,1,500
+134,Lixeira Decorativa,carpintaria(ouros),,diversos,,,,,
+135,Estante de artista,carpintaria(ouros),1 200 ouros,estantes,,,,1,200
+136,Estante moderna,carpintaria(ouros),1 600 ouros,estantes,,,,1,600
+137,Estante luxuosa,carpintaria(ouros),2 000 ouros,estantes,,,,2,000
+138,Estante negra,carpintaria(ouros),2 000 ouros,estantes,,,,2,000
+139,Tronco Básico,Carpintaria  por  250 ouros,,itens_especiais,,,,,
+140,Seção de Tronco,Carpintaria  por  350 ouros  Mercado Noturno  por  200 ouros  (  17 de Inverno  apenas),,itens_especiais,,,,,
+141,Fardo de Feno Ornamental,Rancho da Marnie  por  250 ouros,,itens_especiais,,,,,
+142,Doce Verde Grande,Mercado Noturno  por  200 ouros,,itens_especiais,,,,,
+143,Doce Vermelho Grande,Mercado Noturno  por  200 ouros,,itens_especiais,,,,,
+144,Doces Verdes,Mercado Noturno  por  200 ouros,,itens_especiais,,,,,
+145,Doces Vermelhos,Mercado Noturno  por  200 ouros,,itens_especiais,,,,,
+146,Doces Misturados,Mercado Noturno  por  200 ouros,,itens_especiais,,,,,
+147,Flamingo de Jardim,Festival do Ovo  por  400 ouros,,itens_especiais,,,,,
+148,Coelho de pelúcia,Festival do Ovo  por  2 000 ouros,,itens_especiais,,,,,
+149,Decoração Sazonal,Dança das Flores  por  350 ouros  Mercado Noturno  por  500 ouros,,itens_especiais,,,,,
+150,Barril de flores,Dança das Flores  por  250 ouros  Artesanato  (receita para comprar na  Dança das Flores  por  1 000 ouros  ),,itens_especiais,,,,,
+151,Conjunto de chá,Presente no  Festival da Estrela Invernal,,itens_especiais,,,,,
+152,Bloco de bateria,Artesanato  (receita recebida da  Robin  no seu evento de 6  )  Recompensa do  Museu  (  Tambor antigo  ),,itens_especiais,,,,,
+153,Bloco de flauta,Artesanato  (receita recebida da  Robin  no seu evento de 6  )  Recompensa do  Museu  (  Flauta de ossos  ),,itens_especiais,,,,,
+154,Máquina de Café,"Pedido Especial ""  Presentes para o George  """,,itens_especiais,,,,,
+155,Computador da Fazenda,"Artesanato  (receita recebida após concluir os Pedidos Especiais ""  Superpopulação Aquática  ""  ou ""  Equilíbrio do Bioma  "")",,itens_especiais,,,,,
+156,Mini-Jukebox,Gus  (Evento de 5  )  Artesanato  (receita recebida do  Gus  no seu evento de 5  ),,itens_especiais,,,,,
+157,Telefone,Carpintaria  por  2 000 ouros,,itens_especiais,,,,,
+158,Máquina de Costura,"Pedido Especial ""  Rejuvenescimento por Pedras  """,,itens_especiais,,,,,
+159,Lápide,Véspera dos Espíritos  por  350 ouros  Mercado Noturno  por  200 ouros  (apenas em  15 de Inverno  ),,itens_especiais,,,,,
+160,Estátua maligna,Artesanato  (receita para comprar na loja do  Krobus  por  1 000 ouros  ),,itens_especiais,,,,,
+161,Sinal da Embarcação,Loja do  Krobus  por  350 ouros,,itens_especiais,,,,,
+162,Moledro,Loja do  Anão  por  200 ouros,,itens_especiais,,,,,
+163,Sapo de Pedra,Mercado Noturno  por  500 ouros  (apenas em  15 de Inverno  ),,itens_especiais,,,,,
+164,Junimo de Pedra,Recado Secreto #14,,itens_especiais,,,,,
+165,Coruja de Pedra,Mercado Noturno  por  500 ouros  (apenas em  17 de Inverno  ),,itens_especiais,,,,,
+166,Coruja de pedra,Evento Aleatório  Raro,,itens_especiais,,,,,
+167,Papagaio de Pedra,Mercado Noturno  por  500 ouros  (apenas em  16 de Inverno  ),,itens_especiais,,,,,
+168,Armadura,Mercado Noturno  por  200 ouros  (apenas em  16 de Inverno  ),,itens_especiais,,,,,
+169,??Foroguemon??,Encontrado em um local  secreto  .,,itens_especiais,,,,,
+170,??HMTGF??,Encontrado em um local  secreto  .,,itens_especiais,,,,,
+171,??Limão Rosa??,Encontrado em um local  secreto  .,,itens_especiais,,,,,
+172,Lewis de Ouro Maciço,Recado Secreto #19,,itens_especiais,,,,,
+173,Estátua da Riqueza Eterna,Cassino  por  1 000 000 ouros,,itens_especiais,,,,,
+174,Estátua da perfeição,Recompensa da  Avaliação do Vovô,,itens_especiais,,,,,
+175,Estátua da verdadeira perfeição,Recompensa por atingir 100% de  Perfeição,,itens_especiais,,,,,
+176,Máquina de refrigerante,Complete o  Formulário de Melhorias Comunitárias Joja,,itens_especiais,,,,,
+177,Troféu Vale do Orvalho,Reconstrua o  Centro Comunitário,,itens_especiais,,,,,
+178,Arcade Júnimo Kart,"Vença o ""Modo de Progresso"" do  JunimoKart",,itens_especiais,,,,,
+179,Arcade do Rei da Pradaria,Vença a  Jornada do Rei da Pradaria,,itens_especiais,,,,,
+180,Janela básica,carpintaria(ouros),300 ouros,janelas,,,,300,ouros
+181,Janela pequena,carpintaria(ouros),300 ouros,janelas,,,,300,ouros
+182,Janela com tábuas,carpintaria(ouros),400 ouros,janelas,,,,400,ouros
+183,Janela entalhada,carpintaria(ouros),900 ouros,janelas,,,,900,ouros
+184,Janela de Metal,carpintaria(ouros),800 ouros,janelas,,,,800,ouros
+185,Janela Ornamental,carpintaria(ouros),900 ouros,janelas,,,,900,ouros
+186,Janela de navio,carpintaria(ouros),700 ouros,janelas,,,,700,ouros
+187,Janela básica,pierre(ouros),,janelas,,,,,
+188,Janela pequena,pierre(ouros),,janelas,,,,,
+189,Janela com tábuas,pierre(ouros),,janelas,,,,,
+190,Janela entalhada,pierre(ouros),,janelas,,,,,
+191,Janela de Metal,pierre(ouros),,janelas,,,,,
+192,Janela Ornamental,pierre(ouros),1 000 ouros,janelas,,,,1,000
+193,Janela de navio,pierre(ouros),,janelas,,,,,
+194,Lâmpada caipira,carpintaria(ouros),500 ouros,lampadas,,,,500,ouros
+195,Lâmpada moderna,carpintaria(ouros),750 ouros,lampadas,,,,750,ouros
+196,Lâmpada quadrada,carpintaria(ouros),750 ouros,lampadas,,,,750,ouros
+197,Lâmpada clássica,carpintaria(ouros),1 000 ouros,lampadas,,,,1,000
+198,Lamparina,carpintaria(ouros),1 000 ouros,lampadas,,,,1,000
+199,Lâmpada Ornamental,carpintaria(ouros),1 050 ouros,lampadas,,,,1,050
+200,Arandela,carpintaria(ouros),,lampadas,,,,,
+201,Lâmpada caipira,carrinho_viagem(ouros),250–2 500 ouros,lampadas,,,,25,0
+202,Lâmpada moderna,carrinho_viagem(ouros),250–2 500 ouros,lampadas,,,,25,0
+203,Lâmpada quadrada,carrinho_viagem(ouros),250–2 500 ouros,lampadas,,,,25,0
+204,Lâmpada clássica,carrinho_viagem(ouros),250–2 500 ouros,lampadas,,,,25,0
+205,Lamparina,carrinho_viagem(ouros),,lampadas,,,,,
+206,Lâmpada Ornamental,carrinho_viagem(ouros),,lampadas,,,,,
+207,Arandela,carrinho_viagem(ouros),,lampadas,,,,,
+208,Lâmpada caipira,oasis,,lampadas,,,,,
+209,Lâmpada moderna,oasis,,lampadas,,,,,
+210,Lâmpada quadrada,oasis,,lampadas,,,,,
+211,Lâmpada clássica,oasis,,lampadas,,,,,
+212,Lamparina,oasis,,lampadas,,,,,
+213,Lâmpada Ornamental,oasis,,lampadas,,,,,
+214,Arandela,oasis,500 ouros,lampadas,,,,500,ouros
+215,Lareira de Tijolos,carpintaria(ouros),1 000 ouros,lareiras,,,,1,000
+216,Lareira de Pedra,carpintaria(ouros),1 500 ouros,lareiras,,,,1,500
+217,Lareira Elegante,carpintaria(ouros),,lareiras,,,,,
+218,Lareira de Irídio,carpintaria(ouros),,lareiras,,,,,
+219,Lareira Monstruosa,carpintaria(ouros),,lareiras,,,,,
+220,Fogão-Lareira,carpintaria(ouros),3 000 ouros,lareiras,,,,3,000
+221,Lareira de Tijolos,outros,Catálogo de Mobília,lareiras,,,,,
+222,Lareira de Pedra,outros,Catálogo de Mobília,lareiras,,,,,
+223,Lareira Elegante,outros,Catálogo de Mobília  Penny  (Evento de 14  ),lareiras,,,,,
+224,Lareira de Irídio,outros,Mercado Noturno  por  15 000 ouros,lareiras,,,,,
+225,Lareira Monstruosa,outros,Krobus  por  20 000 ouros,lareiras,,,,,
+226,Fogão-Lareira,outros,Casa da Fazenda da Ilha,lareiras,,,,,
+227,Mesa de jantar moderna,carpintaria(ouros),2 700 ouros,mesas_longas,,,,2,700
+228,Mesa de jantar (mogno),carpintaria(ouros),3 000 ouros,mesas_longas,,,,3,000
+229,Mesa de jantar festiva,carpintaria(ouros),3 500 ouros,mesas_longas,,,,3,500
+230,Mesa de jantar de inverno,carpintaria(ouros),3 500 ouros,mesas_longas,,,,3,500
+231,Mesa de jantar moderna,festivais(ouros),,mesas_longas,,,,,
+232,Mesa de jantar (mogno),festivais(ouros),,mesas_longas,,,,,
+233,Mesa de jantar festiva,festivais(ouros),3 000 ouros,mesas_longas,,,,3,000
+234,Mesa de jantar de inverno,festivais(ouros),3 000 ouros,mesas_longas,,,,3,000
+235,Mesa de carvalho,carpintaria(ouros),750 ouros,mesas,,,,750,ouros
+236,Mesa de centro (carvalho),carpintaria(ouros),750 ouros,mesas,,,,750,ouros
+237,Mesa de apoio (carvalho),carpintaria(ouros),500 ouros,mesas,,,,500,ouros
+238,Mesa de bétula,carpintaria(ouros),750 ouros,mesas,,,,750,ouros
+239,Mesa de centro (bétula),carpintaria(ouros),750 ouros,mesas,,,,750,ouros
+240,Mesa de apoio (bétula),carpintaria(ouros),500 ouros,mesas,,,,500,ouros
+241,Mesa de mogno,carpintaria(ouros),1 500 ouros,mesas,,,,1,500
+242,Mesa de centro (mogno),carpintaria(ouros),1 500 ouros,mesas,,,,1,500
+243,Mesa de apoio (mogno),carpintaria(ouros),1 000 ouros,mesas,,,,1,000
+244,Mesa de nogueira,carpintaria(ouros),750 ouros,mesas,,,,750,ouros
+245,Mesa de centro (nogueira),carpintaria(ouros),750 ouros,mesas,,,,750,ouros
+246,Mesa de apoio (nogueira),carpintaria(ouros),500 ouros,mesas,,,,500,ouros
+247,Mesa moderna,carpintaria(ouros),1 250 ouros,mesas,,,,1,250
+248,Mesa de centro moderna,carpintaria(ouros),1 000 ouros,mesas,,,,1,000
+249,Mesa de apoio moderna,carpintaria(ouros),800 ouros,mesas,,,,800,ouros
+250,Mesa de quebra-cabeças,carpintaria(ouros),1 500 ouros,mesas,,,,1,500
+251,Mesa de lua,carpintaria(ouros),2 500 ouros,mesas,,,,2,500
+252,Mesa luxuosa,carpintaria(ouros),2 000 ouros,mesas,,,,2,000
+253,Mesa de vidente,carpintaria(ouros),2 250 ouros,mesas,,,,2,250
+254,Mesa de apoio da vovó,carpintaria(ouros),1 000 ouros,mesas,,,,1,000
+255,Mesa de bar,carpintaria(ouros),800 ouros,mesas,,,,800,ouros
+256,Mesa de luau,carpintaria(ouros),1 000 ouros,mesas,,,,1,000
+257,Mesa negra,carpintaria(ouros),2 000 ouros,mesas,,,,2,000
+258,Mesa de doces,carpintaria(ouros),1 000 ouros,mesas,,,,1,000
+259,Mesa de sol,carpintaria(ouros),2 500 ouros,mesas,,,,2,500
+260,Mesa de inverno,carpintaria(ouros),1 250 ouros,mesas,,,,1,250
+261,Mesa de apoio de inverno,carpintaria(ouros),800 ouros  (  1 000 ouros  no  Festival do Gelo  ),mesas,,,,800,ouros
+262,Mesa neolítica,carpintaria(ouros),1 800 ouros,mesas,,,,1,800
+263,Mesa de centro,carpintaria(ouros),1 250 ouros,mesas,,,,1,250
+264,Placa de pedra,carpintaria(ouros),1 000 ouros,mesas,,,,1,000
+265,Estátua de urso,Recompensa do  Museu  (50 itens),,outras_decoracoes,,,,,
+266,Estátua de galinha,Recompensa do  Museu  (  Estátua de galinha  ),,outras_decoracoes,,,,,
+267,Urso Futan grande,Recompensa do  Museu  (30 itens)  Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+268,Vaso de obsidiana,Recompensa do  Museu  (31  Minerais  ),,outras_decoracoes,,,,,
+269,Pedra cantante,Recompensa do  Museu  (21  Minerais  ),,outras_decoracoes,,,,,
+270,Estátua de esqueleto,Recompensa do  Museu  (15  Artefatos  ),,outras_decoracoes,,,,,
+271,Esqueleto de preguiça  (E/M/D),Recompensa do  Museu  (  7 peças de osso  ),,outras_decoracoes,,,,,
+272,Geodo,Recompensa do  Museu  (11  Minerais  ),,outras_decoracoes,,,,,
+273,Gaiola de Borboletas,Comerciante do Deserto  por  Asa de morcego  (200),,outras_decoracoes,,,,,
+274,Escultura da Leah,Leah  (Evento de 6  ),,outras_decoracoes,,,,,
+275,Caixa de Som do Sam,Sam  (Evento de 14  ),,outras_decoracoes,,,,,
+276,Coelho Futan,Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+277,Pequena Pelúcia de Junimo,Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+278,Estátua de Serpente Verde,Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+279,Estátua de Serpente Roxa,Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+280,Estátua de Bobo,Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+281,Estátua de Wumbus,Jogo do Guindaste no  Cinema,,outras_decoracoes,,,,,
+282,Pelúcia Junimo,Encontrado em uma localização  secreta  .,,outras_decoracoes,,,,,
+283,Estátua do Gourmand,Pesca  na  Caverna do Pirata,,outras_decoracoes,,,,,
+284,Krobus de Irídio,Pesca  no ponto mais ao sul da  Floresta Cinzaseiva,,outras_decoracoes,,,,,
+285,Estátua de Esquilo,Pesca  na seção mais ao norte do rio na  Ilha Gengibre,,outras_decoracoes,,,,,
+286,'Águia Vermelha',,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"1, 4, 7, etc.",,1,200
+287,'Retrato de uma Sereia',,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"1, 4, 7, etc.",,1,200
+288,'Reino do Sol',,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"1, 4, 7, etc.",,1,200
+289,'Nuvens',,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"2, 5, 8, etc.",,1,200
+290,'1000 Anos no Futuro',,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"2, 5, 8, etc.",,1,200
+291,'Três Árvores',,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"2, 5, 8, etc.",,1,200
+292,'A Serpente',,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"3, 6, 9, etc.",,1,200
+293,'Peixe Tropical #173',,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"3, 6, 9, etc.",,1,200
+294,'Terra do Barro',,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"3, 6, 9, etc.",,1,200
+295,"""Uma Noite em Ecolina""",carpintaria(ouros),,pinturas,,,,,
+296,"""Colinas de Jade""",carpintaria(ouros),,pinturas,,,,,
+297,"""Colinas de Jade Extendidas""",carpintaria(ouros),,pinturas,,,,,
+298,"""Oferta Queimada""",carpintaria(ouros),,pinturas,,,,,
+299,"""Rodovia 89""",carpintaria(ouros),,pinturas,,,,,
+300,"""Movimento Primordial""",carpintaria(ouros),,pinturas,,,,,
+301,"""Pináculos""",carpintaria(ouros),800 ouros,pinturas,,,,800,ouros
+302,"""Rainha do Mar de Joias""",carpintaria(ouros),,pinturas,,,,,
+303,"""Caminhos""",carpintaria(ouros),,pinturas,,,,,
+304,"""O Muzamaro""",carpintaria(ouros),,pinturas,,,,,
+305,"""Vila de Baunilha""",carpintaria(ouros),,pinturas,,,,,
+306,"""Paraíso VGA""",carpintaria(ouros),,pinturas,,,,,
+307,"""Sonhos Congelados""",carpintaria(ouros),,pinturas,,,,,
+308,"""Barco""",carpintaria(ouros),,pinturas,,,,,
+309,Pintura de Vegetação,carpintaria(ouros),,pinturas,,,,,
+310,"""Básicos da Física""",carpintaria(ouros),,pinturas,,,,,
+311,"""Mestrepipa 95""",carpintaria(ouros),,pinturas,,,,,
+312,"""Sol nº 44""",carpintaria(ouros),,pinturas,,,,,
+313,Cataratas de Calico,carpintaria(ouros),750 ouros,pinturas,,,,750,ouros
+314,"""Sol nº 45""",carpintaria(ouros),350 ouros,pinturas,,,,350,ouros
+315,"""Cidade Azul""",carpintaria(ouros),250 ouros,pinturas,,,,250,ouros
+316,"""Mirtilos""",carpintaria(ouros),250 ouros,pinturas,,,,250,ouros
+317,"""Arvorezinha""",carpintaria(ouros),350 ouros,pinturas,,,,350,ouros
+318,Flor bordada,carpintaria(ouros),500 ouros,pinturas,,,,500,ouros
+319,"""Grama dançante""",carpintaria(ouros),400 ouros,pinturas,,,,400,ouros
+320,Minha Primeira Pintura,carpintaria(ouros),,pinturas,,,,,
+321,Pinturas Coloridas,carpintaria(ouros),500 ouros,pinturas,,,,500,ouros
+322,"""Paisagem""",carpintaria(ouros),,pinturas,,,,,
+323,Foto do Vulcão,carpintaria(ouros),,pinturas,,,,,
+324,"""Uma Noite em Ecolina""",cassino(qicoin),,pinturas,,,,,
+325,"""Colinas de Jade""",cassino(qicoin),,pinturas,,,,,
+326,"""Colinas de Jade Extendidas""",cassino(qicoin),,pinturas,,,,,
+327,"""Oferta Queimada""",cassino(qicoin),4 000,pinturas,,,,4,000
+328,"""Rodovia 89""",cassino(qicoin),4 000,pinturas,,,,4,000
+329,"""Movimento Primordial""",cassino(qicoin),5 000,pinturas,,,,5,000
+330,"""Pináculos""",cassino(qicoin),3 000,pinturas,,,,3,000
+331,"""Rainha do Mar de Joias""",cassino(qicoin),,pinturas,,,,,
+332,"""Caminhos""",cassino(qicoin),,pinturas,,,,,
+333,"""O Muzamaro""",cassino(qicoin),,pinturas,,,,,
+334,"""Vila de Baunilha""",cassino(qicoin),,pinturas,,,,,
+335,"""Paraíso VGA""",cassino(qicoin),,pinturas,,,,,
+336,"""Sonhos Congelados""",cassino(qicoin),,pinturas,,,,,
+337,"""Barco""",cassino(qicoin),,pinturas,,,,,
+338,Pintura de Vegetação,cassino(qicoin),,pinturas,,,,,
+339,"""Básicos da Física""",cassino(qicoin),,pinturas,,,,,
+340,"""Mestrepipa 95""",cassino(qicoin),,pinturas,,,,,
+341,"""Sol nº 44""",cassino(qicoin),,pinturas,,,,,
+342,Cataratas de Calico,cassino(qicoin),,pinturas,,,,,
+343,"""Sol nº 45""",cassino(qicoin),,pinturas,,,,,
+344,"""Cidade Azul""",cassino(qicoin),,pinturas,,,,,
+345,"""Mirtilos""",cassino(qicoin),,pinturas,,,,,
+346,"""Arvorezinha""",cassino(qicoin),,pinturas,,,,,
+347,Flor bordada,cassino(qicoin),,pinturas,,,,,
+348,"""Grama dançante""",cassino(qicoin),,pinturas,,,,,
+349,Minha Primeira Pintura,cassino(qicoin),,pinturas,,,,,
+350,Pinturas Coloridas,cassino(qicoin),,pinturas,,,,,
+351,"""Paisagem""",cassino(qicoin),,pinturas,,,,,
+352,Foto do Vulcão,cassino(qicoin),,pinturas,,,,,
+353,"""Uma Noite em Ecolina""",carrinho_viagem(ouros),,pinturas,,,,,
+354,"""Colinas de Jade""",carrinho_viagem(ouros),,pinturas,,,,,
+355,"""Colinas de Jade Extendidas""",carrinho_viagem(ouros),,pinturas,,,,,
+356,"""Oferta Queimada""",carrinho_viagem(ouros),,pinturas,,,,,
+357,"""Rodovia 89""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+358,"""Movimento Primordial""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+359,"""Pináculos""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+360,"""Rainha do Mar de Joias""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+361,"""Caminhos""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+362,"""O Muzamaro""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+363,"""Vila de Baunilha""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+364,"""Paraíso VGA""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+365,"""Sonhos Congelados""",carrinho_viagem(ouros),,pinturas,,,,,
+366,"""Barco""",carrinho_viagem(ouros),,pinturas,,,,,
+367,Pintura de Vegetação,carrinho_viagem(ouros),,pinturas,,,,,
+368,"""Básicos da Física""",carrinho_viagem(ouros),,pinturas,,,,,
+369,"""Mestrepipa 95""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+370,"""Sol nº 44""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+371,Cataratas de Calico,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+372,"""Sol nº 45""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+373,"""Cidade Azul""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+374,"""Mirtilos""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+375,"""Arvorezinha""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+376,Flor bordada,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+377,"""Grama dançante""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+378,Minha Primeira Pintura,carrinho_viagem(ouros),,pinturas,,,,,
+379,Pinturas Coloridas,carrinho_viagem(ouros),,pinturas,,,,,
+380,"""Paisagem""",carrinho_viagem(ouros),,pinturas,,,,,
+381,Foto do Vulcão,carrinho_viagem(ouros),,pinturas,,,,,
+382,"""Uma Noite em Ecolina""",pierre(ouros),,pinturas,,,,,
+383,"""Colinas de Jade""",pierre(ouros),,pinturas,,,,,
+384,"""Colinas de Jade Extendidas""",pierre(ouros),,pinturas,,,,,
+385,"""Oferta Queimada""",pierre(ouros),,pinturas,,,,,
+386,"""Rodovia 89""",pierre(ouros),,pinturas,,,,,
+387,"""Movimento Primordial""",pierre(ouros),,pinturas,,,,,
+388,"""Pináculos""",pierre(ouros),,pinturas,,,,,
+389,"""Rainha do Mar de Joias""",pierre(ouros),,pinturas,,,,,
+390,"""Caminhos""",pierre(ouros),,pinturas,,,,,
+391,"""O Muzamaro""",pierre(ouros),,pinturas,,,,,
+392,"""Vila de Baunilha""",pierre(ouros),,pinturas,,,,,
+393,"""Paraíso VGA""",pierre(ouros),,pinturas,,,,,
+394,"""Sonhos Congelados""",pierre(ouros),2 000 ouros,pinturas,,,,2,000
+395,"""Barco""",pierre(ouros),,pinturas,,,,,
+396,Pintura de Vegetação,pierre(ouros),,pinturas,,,,,
+397,"""Básicos da Física""",pierre(ouros),,pinturas,,,,,
+398,"""Mestrepipa 95""",pierre(ouros),,pinturas,,,,,
+399,"""Sol nº 44""",pierre(ouros),,pinturas,,,,,
+400,Cataratas de Calico,pierre(ouros),,pinturas,,,,,
+401,"""Sol nº 45""",pierre(ouros),,pinturas,,,,,
+402,"""Cidade Azul""",pierre(ouros),,pinturas,,,,,
+403,"""Mirtilos""",pierre(ouros),,pinturas,,,,,
+404,"""Arvorezinha""",pierre(ouros),,pinturas,,,,,
+405,Flor bordada,pierre(ouros),,pinturas,,,,,
+406,"""Grama dançante""",pierre(ouros),,pinturas,,,,,
+407,Minha Primeira Pintura,pierre(ouros),,pinturas,,,,,
+408,Pinturas Coloridas,pierre(ouros),500 ouros,pinturas,,,,500,ouros
+409,"""Paisagem""",pierre(ouros),,pinturas,,,,,
+410,Foto do Vulcão,pierre(ouros),Manga  (5),pinturas,,,,5,Manga
+411,"""Uma Noite em Ecolina""",oasis(ouros),,pinturas,,,,,
+412,"""Colinas de Jade""",oasis(ouros),,pinturas,,,,,
+413,"""Colinas de Jade Extendidas""",oasis(ouros),5 000 ouros,pinturas,,,,5,000
+414,"""Oferta Queimada""",oasis(ouros),,pinturas,,,,,
+415,"""Rodovia 89""",oasis(ouros),,pinturas,,,,,
+416,"""Movimento Primordial""",oasis(ouros),,pinturas,,,,,
+417,"""Pináculos""",oasis(ouros),,pinturas,,,,,
+418,"""Rainha do Mar de Joias""",oasis(ouros),,pinturas,,,,,
+419,"""Caminhos""",oasis(ouros),,pinturas,,,,,
+420,"""O Muzamaro""",oasis(ouros),,pinturas,,,,,
+421,"""Vila de Baunilha""",oasis(ouros),,pinturas,,,,,
+422,"""Paraíso VGA""",oasis(ouros),,pinturas,,,,,
+423,"""Sonhos Congelados""",oasis(ouros),,pinturas,,,,,
+424,"""Barco""",oasis(ouros),,pinturas,,,,,
+425,Pintura de Vegetação,oasis(ouros),,pinturas,,,,,
+426,"""Básicos da Física""",oasis(ouros),,pinturas,,,,,
+427,"""Mestrepipa 95""",oasis(ouros),,pinturas,,,,,
+428,"""Sol nº 44""",oasis(ouros),,pinturas,,,,,
+429,Cataratas de Calico,oasis(ouros),,pinturas,,,,,
+430,"""Sol nº 45""",oasis(ouros),,pinturas,,,,,
+431,"""Cidade Azul""",oasis(ouros),,pinturas,,,,,
+432,"""Mirtilos""",oasis(ouros),,pinturas,,,,,
+433,"""Arvorezinha""",oasis(ouros),,pinturas,,,,,
+434,Flor bordada,oasis(ouros),,pinturas,,,,,
+435,"""Grama dançante""",oasis(ouros),,pinturas,,,,,
+436,Minha Primeira Pintura,oasis(ouros),,pinturas,,,,,
+437,Pinturas Coloridas,oasis(ouros),,pinturas,,,,,
+438,"""Paisagem""",oasis(ouros),,pinturas,,,,,
+439,Foto do Vulcão,oasis(ouros),,pinturas,,,,,
+440,Girassóis secos,carpintaria(ouros),100  (Apenas na  Feira do Vale do Orvalho  ),plantas_decorativas_chao,,,,10,0
+441,Bonsai,carpintaria(ouros),800 ouros,plantas_decorativas_chao,,,,800,ouros
+442,Pinheirinho,carpintaria(ouros),500 ouros,plantas_decorativas_chao,,,,500,ouros
+443,Coluna de madeira,carpintaria(ouros),1 000 ouros,plantas_decorativas_chao,,,,1,000
+444,Planta pequena,carpintaria(ouros),250 ouros,plantas_decorativas_chao,,,,250,ouros
+445,Planta de mesa,carpintaria(ouros),250 ouros,plantas_decorativas_chao,,,,250,ouros
+446,Árvore de Luxo,carpintaria(ouros),,plantas_decorativas_chao,,,,,
+447,Árvore Exótica,carpintaria(ouros),,plantas_decorativas_chao,,,,,
+448,Girassóis secos,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+449,Bonsai,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+450,Pinheirinho,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+451,Coluna de madeira,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+452,Planta pequena,carrinho_viagem(ouros),250–2 500 ouros,plantas_decorativas_chao,,,,25,0
+453,Planta de mesa,carrinho_viagem(ouros),250–2 500 ouros,plantas_decorativas_chao,,,,25,0
+454,Árvore de Luxo,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+455,Árvore Exótica,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+456,Palmeira,carpintaria(ouros),600 ouros,plantas_decorativas_chao,,,,600,ouros
+457,Árvore podada,carpintaria(ouros),500 ouros,plantas_decorativas_chao,,,,500,ouros
+458,Pinheiro podado,carpintaria(ouros),500 ouros,plantas_decorativas_chao,,,,500,ouros
+459,Árvore da Estrela de Inverno,carpintaria(ouros),5 000 ouros,plantas_decorativas_chao,,,,5,000
+460,Cacto Longo,carpintaria(ouros),,plantas_decorativas_chao,,,,,
+461,Longa Palmeira,carpintaria(ouros),,plantas_decorativas_chao,,,,,
+462,Palmeira,carrinho_viagem(ouros),250–2 500 ouros,plantas_decorativas_chao,,,,25,0
+463,Árvore podada,carrinho_viagem(ouros),250–2 500 ouros,plantas_decorativas_chao,,,,25,0
+464,Pinheiro podado,carrinho_viagem(ouros),250–2 500 ouros,plantas_decorativas_chao,,,,25,0
+465,Árvore da Estrela de Inverno,carrinho_viagem(ouros),250–2 500 ouros,plantas_decorativas_chao,,,,25,0
+466,Cacto Longo,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+467,Longa Palmeira,carrinho_viagem(ouros),,plantas_decorativas_chao,,,,,
+468,Pisca-Pisca,Carpintaria,400 ouros,plantas_decorativas_penduradas,,,,400,ouros
+469,Decalque de Folhas,Carpintaria,400 ouros,plantas_decorativas_penduradas,,,,400,ouros
+470,Decalque de Folhas,Luau,400 ouros,plantas_decorativas_penduradas,,,,400,ouros
+471,Decalque de selva,Luau,800 ouros,plantas_decorativas_penduradas,,,,800,ouros
+472,Decalque de Cacto,Oásis,700 ouros,plantas_decorativas_penduradas,,,,700,ouros
+473,Decalque de Flor Pequeno,Dança das Flores,800 ouros,plantas_decorativas_penduradas,,,,800,ouros
+474,Decalque de Flor,Dança das Flores,800 ouros,plantas_decorativas_penduradas,,,,800,ouros
+475,Decalque de Palmeira,Luau,1 000 ouros,plantas_decorativas_penduradas,,,,1,000
+476,Ornamento de Palmeira,Comerciante da Ilha,Abacaxi  (1),plantas_decorativas_penduradas,,,,1,Abacaxi
+477,Cesta Pendurada,Jogo do Guindaste no  Cinema,,plantas_decorativas_penduradas,,,,,
+478,Cesta de Parede,Pesca  no lago do  Bosque Secreto,,plantas_decorativas_penduradas,,,,,
+479,sazonal0,Pierre  no  Festival do Ovo,350 ouros,plantas_decorativas_sazonais,,,,350,ouros
+480,sazonal1,Pierre  no  Festival do Ovo,350 ouros,plantas_decorativas_sazonais,,,,350,ouros
+481,sazonal2,Pierre  na  Dança das Flores,350 ouros,plantas_decorativas_sazonais,,,,350,ouros
+482,sazonal3,Sandy  no  Oásis,100 ouros,plantas_decorativas_sazonais,,,,100,ouros
+483,sazonal4,Robin  na  Carpintaria,400 ouros,plantas_decorativas_sazonais,,,,400,ouros
+484,sazonal5,Pierre  na  Dança das Flores,350 ouros,plantas_decorativas_sazonais,,,,350,ouros
+485,Poltrona azul,,1 000 ouros,poltronas,,,,1,000
+486,Poltrona marrom,,1 000 ouros,poltronas,,,,1,000
+487,Poltrona verde,,1 000 ouros,poltronas,,,,1,000
+488,Poltrona vermelha,,1 000 ouros,poltronas,,,,1,000
+489,Poltrona amarela,,1 000 ouros,poltronas,,,,1,000
+490,'O Uivo na Chuva',,,posteres,,,,,
+491,'Jornada do Rei da Pradaria: O Filme',,,posteres,,,,,
+492,'Mysterium',,,posteres,,,,,
+493,'Maravilhas Naturais: Explorando Nosso Mundo Vibrante',,,posteres,,,,,
+494,Sofá azul,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
+495,Sofá marrom,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
+496,Sofá verde,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
+497,Sofá vermelho,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
+498,Sofá amarelo,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
+499,Sofá negro,carpintaria(ouros),2 500 ouros,sofas,,,,2,500
+500,Sofá de madeira,carpintaria(ouros),3 000 ouros,sofas,,,,3,000
+501,Sofá de feiticeiro,carpintaria(ouros),4 000 ouros,sofas,,,,4,000
+502,Sofá Marrom Grande,carpintaria(ouros),3 000 ouros  (apenas no  Oásis  ),sofas,,,,3,000
+503,Tapete de Bambu,carpintaria(ouros),250 ouros,tapetes,,,1 x 2,250,ouros
+504,Tapete de Juta,carpintaria(ouros),350 ouros,tapetes,,,2 x 2,350,ouros
+505,Tapete de Madeira,carpintaria(ouros),800 ouros,tapetes,,,2 x 2,800,ouros
+506,Tapete Marinho,carpintaria(ouros),1 250 ouros,tapetes,,,3 x 2,1,250
+507,Tapete negro,carpintaria(ouros),2 000 ouros,tapetes,,,3 x 2,2,000
+508,Tapete vermelho,carpintaria(ouros),1 000 ouros,tapetes,,,3 x 2,1,000
+509,Tapete Vermelho Grande,carpintaria(ouros),,tapetes,,,4 x 3,,
+510,Tapete de Monstro,carpintaria(ouros),,tapetes,,,2 x 2,,
+511,Tapete Verde Claro,carpintaria(ouros),,tapetes,,,3 x 2,,
+512,Tapete de Flores,carpintaria(ouros),,tapetes,,,6 x 4,,
+513,Tapete Verde Grande,carpintaria(ouros),,tapetes,,,4 x 3,,
+514,Tapete Rústico,carpintaria(ouros),,tapetes,,,4 x 3,,
+515,Tapete Grande de Cabana,carpintaria(ouros),,tapetes,,,4 x 3,,
+516,Tapete verde de cabana,carpintaria(ouros),,tapetes,,,3 x 2,,
+517,Tapete vermelho de cabana,carpintaria(ouros),,tapetes,,,3 x 2,,
+518,Tapete místico,carpintaria(ouros),,tapetes,,,3 x 2,,
+519,Tapete de Ossos,carpintaria(ouros),,tapetes,,,3 x 2,,
+520,Tapete Nevado,carpintaria(ouros),,tapetes,,,3 x 2,,
+521,Tapete de Pirata,carpintaria(ouros),,tapetes,,,3 x 2,,
+522,Tapete de retalhos,carpintaria(ouros),800 ouros,tapetes,,,3 x 2,800,ouros
+523,Tapete Salada de Frutas,carpintaria(ouros),,tapetes,,,3 x 2,,
+524,Tapete Oceânico,carpintaria(ouros),,tapetes,,,3 x 2,,
+525,Tapete Gelado,carpintaria(ouros),,tapetes,,,4 x 3,,
+526,Tapete Doidinho,carpintaria(ouros),,tapetes,,,5 x 4,,
+527,Tapete Moderno,carpintaria(ouros),,tapetes,,,5 x 4,,
+528,Divisores de Chão,carpintaria(ouros),,tapetes,,,1 x 1,,
+529,Tapete de Bambu,carrinho_viagem(ouros),,tapetes,,,1 x 2,,
+530,Tapete de Juta,carrinho_viagem(ouros),,tapetes,,,2 x 2,,
+531,Tapete de Madeira,carrinho_viagem(ouros),,tapetes,,,2 x 2,,
+532,Tapete Marinho,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+533,Tapete negro,carrinho_viagem(ouros),250–2 500 ouros,tapetes,,,3 x 2,25,0
+534,Tapete vermelho,carrinho_viagem(ouros),250–2 500 ouros,tapetes,,,3 x 2,25,0
+535,Tapete Vermelho Grande,carrinho_viagem(ouros),,tapetes,,,4 x 3,,
+536,Tapete de Monstro,carrinho_viagem(ouros),,tapetes,,,2 x 2,,
+537,Tapete Verde Claro,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+538,Tapete de Flores,carrinho_viagem(ouros),,tapetes,,,6 x 4,,
+539,Tapete Verde Grande,carrinho_viagem(ouros),,tapetes,,,4 x 3,,
+540,Tapete Rústico,carrinho_viagem(ouros),,tapetes,,,4 x 3,,
+541,Tapete Grande de Cabana,carrinho_viagem(ouros),,tapetes,,,4 x 3,,
+542,Tapete verde de cabana,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+543,Tapete vermelho de cabana,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+544,Tapete místico,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+545,Tapete de Ossos,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+546,Tapete Nevado,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+547,Tapete de Pirata,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+548,Tapete de retalhos,carrinho_viagem(ouros),250–2 500 ouros,tapetes,,,3 x 2,25,0
+549,Tapete Salada de Frutas,carrinho_viagem(ouros),,tapetes,,,3 x 2,,
+550,Tapete Oceânico,carrinho_viagem(ouros),250–2 500 ouros,tapetes,,,3 x 2,25,0
+551,Tapete Gelado,carrinho_viagem(ouros),,tapetes,,,4 x 3,,
+552,Tapete Doidinho,carrinho_viagem(ouros),,tapetes,,,5 x 4,,
+553,Tapete Moderno,carrinho_viagem(ouros),,tapetes,,,5 x 4,,
+554,Divisores de Chão,carrinho_viagem(ouros),,tapetes,,,1 x 1,,
+555,Tapete de Bambu,pierre(ouros),,tapetes,,,1 x 2,,
+556,Tapete de Juta,pierre(ouros),,tapetes,,,2 x 2,,
+557,Tapete de Madeira,pierre(ouros),,tapetes,,,2 x 2,,
+558,Tapete Marinho,pierre(ouros),,tapetes,,,3 x 2,,
+559,Tapete negro,pierre(ouros),,tapetes,,,3 x 2,,
+560,Tapete vermelho,pierre(ouros),,tapetes,,,3 x 2,,
+561,Tapete Vermelho Grande,pierre(ouros),1 000 ouros,tapetes,,,4 x 3,1,000
+562,Tapete de Monstro,pierre(ouros),,tapetes,,,2 x 2,,
+563,Tapete Verde Claro,pierre(ouros),500,tapetes,,,3 x 2,50,0
+564,Tapete de Flores,pierre(ouros),,tapetes,,,6 x 4,,
+565,Tapete Verde Grande,pierre(ouros),,tapetes,,,4 x 3,,
+566,Tapete Rústico,pierre(ouros),,tapetes,,,4 x 3,,
+567,Tapete Grande de Cabana,pierre(ouros),,tapetes,,,4 x 3,,
+568,Tapete verde de cabana,pierre(ouros),,tapetes,,,3 x 2,,
+569,Tapete vermelho de cabana,pierre(ouros),,tapetes,,,3 x 2,,
+570,Tapete místico,pierre(ouros),,tapetes,,,3 x 2,,
+571,Tapete de Ossos,pierre(ouros),,tapetes,,,3 x 2,,
+572,Tapete Nevado,pierre(ouros),,tapetes,,,3 x 2,,
+573,Tapete de Pirata,pierre(ouros),,tapetes,,,3 x 2,,
+574,Tapete de retalhos,pierre(ouros),,tapetes,,,3 x 2,,
+575,Tapete Salada de Frutas,pierre(ouros),,tapetes,,,3 x 2,,
+576,Tapete Oceânico,pierre(ouros),,tapetes,,,3 x 2,,
+577,Tapete Gelado,pierre(ouros),4 000 ouros,tapetes,,,4 x 3,4,000
+578,Tapete Doidinho,pierre(ouros),4 000 ouros,tapetes,,,5 x 4,4,000
+579,Tapete Moderno,pierre(ouros),4 000 ouros,tapetes,,,5 x 4,4,000
+580,Divisores de Chão,pierre(ouros),,tapetes,,,1 x 1,,
+581,Tapete de Bambu,oasis,,tapetes,,,1 x 2,,
+582,Tapete de Juta,oasis,,tapetes,,,2 x 2,,
+583,Tapete de Madeira,oasis,,tapetes,,,2 x 2,,
+584,Tapete Marinho,oasis,,tapetes,,,3 x 2,,
+585,Tapete negro,oasis,,tapetes,,,3 x 2,,
+586,Tapete vermelho,oasis,,tapetes,,,3 x 2,,
+587,Tapete Vermelho Grande,oasis,,tapetes,,,4 x 3,,
+588,Tapete de Monstro,oasis,,tapetes,,,2 x 2,,
+589,Tapete Verde Claro,oasis,,tapetes,,,3 x 2,,
+590,Tapete de Flores,oasis,,tapetes,,,6 x 4,,
+591,Tapete Verde Grande,oasis,2 500 ouros,tapetes,,,4 x 3,2,500
+592,Tapete Rústico,oasis,2 500 ouros,tapetes,,,4 x 3,2,500
+593,Tapete Grande de Cabana,oasis,2 000 ouros,tapetes,,,4 x 3,2,000
+594,Tapete verde de cabana,oasis,,tapetes,,,3 x 2,,
+595,Tapete vermelho de cabana,oasis,,tapetes,,,3 x 2,,
+596,Tapete místico,oasis,,tapetes,,,3 x 2,,
+597,Tapete de Ossos,oasis,,tapetes,,,3 x 2,,
+598,Tapete Nevado,oasis,,tapetes,,,3 x 2,,
+599,Tapete de Pirata,oasis,,tapetes,,,3 x 2,,
+600,Tapete de retalhos,oasis,,tapetes,,,3 x 2,,
+601,Tapete Salada de Frutas,oasis,,tapetes,,,3 x 2,,
+602,Tapete Oceânico,oasis,Acará-Disco Azul  (3),tapetes,,,3 x 2,,
+603,Tapete Gelado,oasis,,tapetes,,,4 x 3,,
+604,Tapete Doidinho,oasis,,tapetes,,,5 x 4,,
+605,Tapete Moderno,oasis,,tapetes,,,5 x 4,,
+606,Divisores de Chão,oasis,,tapetes,,,1 x 1,,
+607,Tocha Simples,Luau,700 ouros,tochas,,,,700,ouros
+608,Tocha Simples,Barco de Decoração no  Mercado Noturno,800 ouros,tochas,,,,800,ouros
+609,Tocha Simples,Catálogo de Mobília,0 ouro,tochas,,,,0,ouro
+610,Tocha de Toco,Barco de Decoração no  Mercado Noturno,800 ouros,tochas,,,,800,ouros
+611,Tocha de Toco,Catálogo de Mobília,0 ouro,tochas,,,,0,ouro
+612,Tocha da Selva,Comerciante da Ilha,Fragmento de Brasa  (5),tochas,,,,,
+613,TV de quarto,carpintaria(ouros),700 ouros,tvs,,,,700,ouros
+614,TV barata,carpintaria(ouros),750 ouros,tvs,,,,750,ouros
+615,TV de plasma,carpintaria(ouros),4 500 ouros,tvs,,,,4,500
+616,TV Tropical,carpintaria(ouros),,tvs,,,,,
+617,TV de quarto,comerciante_ilhas(inhame_coco),,tvs,,,,,
+618,TV barata,comerciante_ilhas(inhame_coco),,tvs,,,,,
+619,TV de plasma,comerciante_ilhas(inhame_coco),,tvs,,,,,
+620,TV Tropical,comerciante_ilhas(inhame_coco),Inhame-coco  (30),tvs,,,,,

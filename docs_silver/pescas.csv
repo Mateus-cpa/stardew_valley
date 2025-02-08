@@ -1,0 +1,120 @@
+,Unnamed: 0,Item,Número no Baú,Nível de pesca necessário,Outros requisitos,Imagem,Nome,Descrição,Ingredientes,Energia / Saúde,Bônus,Duração do Bônus,Fonte da Receita,Preço de Venda,Preço,Melhorias,Localização,Requisitos,Zona de Pesca,Nível de Pesca,fFishSize,fFishSize.1,Qualidade Base do Peixe (% de chance),Qualidade Base do Peixe (% de chance).1,Qualidade Base do Peixe (% de chance).2,Tamanho do Peixe Perfeito (cm),Tamanho do Peixe Perfeito (cm).1
+0,0.0,Baú do tesouro,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+1,1.0,Minério de irídio,1-2,,Deve lançar à distância máxima,,,,,,,,,,,,,,,,,,,,,,
+2,2.0,Minério de ouro,1-24,,Deve lançar à Distância máxima ou um pouco inferior à Distância máxima,,,,,,,,,,,,,,,,,,,,,,
+3,3.0,Minério de ferro,1-24,,,,,,,,,,,,,,,,,,,,,,,,
+4,4.0,Minério de cobre,1-24,,,,,,,,,,,,,,,,,,,,,,,,
+5,5.0,Madeira,1-24,,,,,,,,,,,,,,,,,,,,,,,,
+6,6.0,Pedra,1-24,,,,,,,,,,,,,,,,,,,,,,,,
+7,7.0,Carvão,1-24,,,,,,,,,,,,,,,,,,,,,,,,
+8,8.0,Isca artificial,1,6+,Deve lançar à Distância máxima ou um pouco inferior à Distância máxima,,,,,,,,,,,,,,,,,,,,,,
+9,9.0,Isca,1-15,,,,,,,,,,,,,,,,,,,,,,,,
+10,10.0,Livro Perdido,1,,Somente se você já encontrou 1 ou mais livros perdidos e se a coleção de livros do  Museu  não estiver completa,,,,,,,,,,,,,,,,,,,,,,
+11,11.0,Esqueleto de cauda,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+12,12.0,Fóssil de náutilo,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+13,13.0,Fóssil de anfíbio,1-2,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+14,14.0,Boneco antigo,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+15,15.0,Joias Élficas,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+16,16.0,Palha para mastigar,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+17,17.0,Leque ornamental,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+18,18.0,Ovo de dinossauro,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+19,19.0,Disco raro,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+20,20.0,Espada antiga,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+21,21.0,Colher enferrujada,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+22,22.0,Esporão enferrujado,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+23,23.0,Engrenagem velha,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+24,24.0,Estátua de galinha,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+25,25.0,Semente antiga,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+26,26.0,Ferramenta pré-histórica,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+27,27.0,Estrela-do-mar ressecada,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+28,28.0,Âncora,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+29,29.0,Cacos de vidro,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+30,30.0,Flauta de ossos,1,2+,Somente se você já encontrou 1 ou mais artefatos,,,,,,,,,,,,,,,,,,,,,,
+31,31.0,Boneco estranho,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+32,32.0,Boneco estranho,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+33,33.0,Geodo,1-6,,,,,,,,,,,,,,,,,,,,,,,,
+34,34.0,Geodo congelado,1-6,,,,,,,,,,,,,,,,,,,,,,,,
+35,35.0,Geodo de magma,1-6,,Deve lançar à Distância máxima ou um pouco inferior à Distância máxima,,,,,,,,,,,,,,,,,,,,,,
+36,36.0,Quartzo de fogo,1-4,2+,Deve lançar à Distância máxima ou um pouco inferior à Distância máxima,,,,,,,,,,,,,,,,,,,,,,
+37,37.0,Rubi,1-4,2+,Deve lançar à Distância máxima ou um pouco inferior à Distância máxima,,,,,,,,,,,,,,,,,,,,,,
+38,38.0,Esmeralda,1-4,2+,Deve lançar à Distância máxima ou um pouco inferior à Distância máxima,,,,,,,,,,,,,,,,,,,,,,
+39,39.0,Lágrima congelada,1-4,2+,,,,,,,,,,,,,,,,,,,,,,,
+40,40.0,Jade,1-4,2+,,,,,,,,,,,,,,,,,,,,,,,
+41,41.0,Água-marinha,1-4,2+,,,,,,,,,,,,,,,,,,,,,,,
+42,42.0,Cristal de terra,1-4,2+,,,,,,,,,,,,,,,,,,,,,,,
+43,43.0,Ametista,1-4,2+,,,,,,,,,,,,,,,,,,,,,,,
+44,44.0,Topázio,1-4,2+,,,,,,,,,,,,,,,,,,,,,,,
+45,45.0,Diamante,1-2,2+,,,,,,,,,,,,,,,,,,,,,,,
+46,46.0,Fragmento prismático,1,6+,,,,,,,,,,,,,,,,,,,,,,,
+47,47.0,Sementes mistas,1-3,,,,,,,,,,,,,,,,,,,,,,,,
+48,48.0,Gládio de Netuno,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+49,49.0,Tridente quebrado,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+50,50.0,Anel de brilho pequeno,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+51,51.0,Pequeno anel com ímã,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+52,52.0,Anel de ametista,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+53,53.0,Anel de topázio,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+54,54.0,Anel de água-marinha,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+55,55.0,Anel de jade,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+56,56.0,Anel de esmeralda,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+57,57.0,Anel de rubi,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+58,58.0,Anel de irídio,1,2+,,,,,,,,,,,,,,,,,,,,,,,
+59,59.0,Tênis,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+60,60.0,Botas de borracha,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+61,61.0,Botas de couro,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+62,62.0,Botas de trabalho,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+63,63.0,Botas de combate,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+64,64.0,Botas de tundra,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+65,65.0,Botas térmicas,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+66,66.0,Botas negras,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+67,67.0,Botas de Salamandra,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+68,68.0,Sapatos de gênio,1 pair,2+,,,,,,,,,,,,,,,,,,,,,,,
+69,0.0,,,,,,Sopa de peixe,Para se esquentar após uma noite fria no mar.,Concha  (1)  Leite  (1),225  101,Pesca  (+1),16min47s,Willy  (Correio - 3+  ),135 ouros,,,,,,,,,,,,,
+70,1.0,,,,,,Prato do mar,Mantém você quente no vento frio do mar.,Sardinha  (2)  Batata-palha  (1),150  67,Pesca  (+3),5min35s,Pesca  Nível 3,220 ouros,,,,,,,,,,,,,
+71,2.0,,,,,,Escargô,Lesmas cobertas de manteiga e cozidas com perfeição.,Lesma  (1)  Alho  (1),225  101,Pesca  (+2),16min47s,Willy  (Correio- 5+  ),125 ouros,,,,,,,,,,,,,
+72,3.0,,,,,,Guisado de peixe,Tem cheiro de mar. Mas o gosto é melhor.,Lagostim  (1)  Mexilhão  (1)  Caramujo  (1)  Tomate  (1),225  101,Pesca  (+3),16min47s,Willy  (Correio - 7+  ),175 ouros,,,,,,,,,,,,,
+73,4.0,,,,,,Taco de peixe,Tem um cheiro delicioso.,Atum  (1)  Tortilha  (1)  Repolho roxo  (1)  Maionese  (1),165  74,Pesca  (+2),7min,Linus  (Correio - 7+  ),500 ouros,,,,,,,,,,,,,
+74,5.0,,,,,,Bisque de lagosta,Esta sopa delicada é uma receita secreta de família do Willy.,Lagosta  (1)  Leite  (1),225  101,Pesca  (+3)  Energia Máxima  (+50),16min47s,"Rainha do Molho  14 Inverno, Ano 2  Willy  (Correio - 9+  )",205 ouros,,,,,,,,,,,,,
+75,8.0,,,,,,Pão de ácer,Uma rosquinha doce coberta com ácer.,Xarope de ácer  (1)  Açúcar  (1)  Farinha de trigo  (1),225  101,Cultivo  (+1)  Pesca  (+1)  Mineração  (+1),16min47s,"Rainha do Molho  14 Verão, Ano 2",300 ouros,,,,,,,,,,,,,
+76,11.0,,,,,,Sopa de truta,Bem salgada.,Truta arco-íris  (1)  Algas verdes  (1),100  45,Pesca  (+1),4min39s,"Rainha do Molho  14 Outono, Ano 1",100 ouros,,,,,,,,,,,,,
+77,14.0,,,,,,Pudim de espuma do mar,Este pudim salgado vai realmente levar você à mentalidade marítima!,Linguado  (1)  Carpa da meia-noite  (1)  Tinta de Lula  (1),175  78,Pesca  (+4),3min30s,Pesca  (Nível 9),300 ouros,,,,,,,,,,,,,
+78,0.0,,,,,,Vara de Treinamento,,,,,,,,25 ouros,,Compre da  Peixaria  do Willy.,,,,,,,,,,
+79,1.0,,,,,,Vara de bambu,,,,,,,,500 ouros,,Dada a você pelo  Willy  .  Compre da  Peixaria  do Willy.,,,,,,,,,,
+80,2.0,,,,,,Vara de fibra de vidro,,,,,,,,1 800 ouros,Uso de  Iscas  .,Compre da  Peixaria  do Willy.,"Nível de Pesca 2  (Quando estiver disponível, o jogador receberá uma carta.)",,,,,,,,,
+81,3.0,,,,,,Vara de irídio,,,,,,,,7 500 ouros,Uso de  Iscas  e  Anzóis  .,Compre da  Peixaria  do Willy.,"Nível de Pesca 6  (Quando estiver disponível, o jogador receberá uma carta.)",,,,,,,,,
+82,,,,,,,,,,,,,,,,,,,Zona de Pesca,Nível de Pesca,Min.,Máx.,Normal,Prata,Ouro,Sardinha,Arenque
+83,0.0,,,,,,,,,,,,,,,,,,1,0-1,4,22,100,0,0,5 - 10,23 - 28
+84,1.0,,,,,,,,,,,,,,,,,,1,2-3,7,22,100,0,0,5 - 10,23 - 28
+85,2.0,,,,,,,,,,,,,,,,,,1,4-5,11,22,100,0,0,8 - 10,25 - 28
+86,3.0,,,,,,,,,,,,,,,,,,1,6-7,14,22,100,0,0,8 - 10,25 - 28
+87,4.0,,,,,,,,,,,,,,,,,,1,8-9,18,22,100,0,0,8 - 10,28
+88,5.0,,,,,,,,,,,,,,,,,,1,10-11,22,26,100,0,0,10,28 - 30
+89,6.0,,,,,,,,,,,,,,,,,,1,12-13,25,31,100,0,0,10 - 13,30
+90,7.0,,,,,,,,,,,,,,,,,,1,14-15,29,35,67,33,0,13,30 - 33
+91,8.0,,,,,,,,,,,,,,,,,,1,16,32,40,10,90,0,13 - 15,30 - 33
+92,9.0,,,,,,,,,,,,,,,,,,2,0-1,7,44,73,27,0,5 - 15,23 - 36
+93,10.0,,,,,,,,,,,,,,,,,,2,2-3,14,44,67,33,0,8 - 15,25 - 36
+94,11.0,,,,,,,,,,,,,,,,,,2,4-5,22,44,56,44,0,10 - 15,28 - 36
+95,12.0,,,,,,,,,,,,,,,,,,2,6-7,29,44,33,67,0,13 - 15,30 - 36
+96,13.0,,,,,,,,,,,,,,,,,,2,8-9,36,44,0,100,0,13 - 15,33 - 36
+97,14.0,,,,,,,,,,,,,,,,,,2,10-11,43,53,0,100,0,15 - 18,36 - 38
+98,15.0,,,,,,,,,,,,,,,,,,2,12-13,50,62,0,100,0,18 - 20,38 - 41
+99,16.0,,,,,,,,,,,,,,,,,,2,14-15,58,70,0,67,33,20 - 23,38 - 43
+100,17.0,,,,,,,,,,,,,,,,,,2,16,65,79,0,10,90,23 - 25,41 - 46
+101,18.0,,,,,,,,,,,,,,,,,,3,0-1,11,66,42,57,1,8 - 23,25 - 41
+102,19.0,,,,,,,,,,,,,,,,,,3,2-3,22,66,27,71,1,10 - 23,28 - 41
+103,20.0,,,,,,,,,,,,,,,,,,3,4-5,32,66,3,95,2,13 - 23,30 - 41
+104,21.0,,,,,,,,,,,,,,,,,,3,6-7,43,66,0,98,2,15 - 23,36 - 41
+105,22.0,,,,,,,,,,,,,,,,,,3,8-9,54,66,0,95,5,18 - 23,38- 41
+106,23.0,,,,,,,,,,,,,,,,,,3,10-11,65,79,0,10,90,23 - 25,41- 46
+107,24.0,,,,,,,,,,,,,,,,,,3,12-13,76,92,0,0,100,25 - 30,46 - 51
+108,25.0,,,,,,,,,,,,,,,,,,3,14-15,86,100,0,0,100,28 - 33,48 - 53
+109,26.0,,,,,,,,,,,,,,,,,,3,16,97,100,0,0,100,33,53
+110,27.0,,,,,,,,,,,,,,,,,,5,0-1,18,100,20,39,41,8 - 33,28 - 53
+111,28.0,,,,,,,,,,,,,,,,,,5,2-3,36,100,0,49,51,13 - 33,33 - 53
+112,29.0,,,,,,,,,,,,,,,,,,5,4-5,54,100,0,32,68,18 - 33,38 - 53
+113,30.0,,,,,,,,,,,,,,,,,,5,6-7,72,100,0,0,100,23 - 33,43 - 53
+114,31.0,,,,,,,,,,,,,,,,,,5,8-9,90,100,0,0,100,28 - 33,48 - 53
+115,32.0,,,,,,,,,,,,,,,,,,5,10-11,100,100,0,0,100,33,53
+116,33.0,,,,,,,,,,,,,,,,,,5,12-13,100,100,0,0,100,33,53
+117,34.0,,,,,,,,,,,,,,,,,,5,14-15,100,100,0,0,100,33,53
+118,35.0,,,,,,,,,,,,,,,,,,5,16,100,100,0,0,100,33,53
