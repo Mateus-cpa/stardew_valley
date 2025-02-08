@@ -1304,6 +1304,8 @@ def df_mobilia(html):
     plantas_decorativas_chao2.to_csv('docs_bronze/mobilia_plantas_decorativas_chao2.csv')
     plantas_decorativas_penduradas = lista[28][0]
     plantas_decorativas_penduradas.to_csv('docs_bronze/mobilia_plantas_decorativas_penduradas.csv')
+    plantas_decorativas_sazonais = lista[29][0]
+    plantas_decorativas_sazonais.to_csv('docs_bronze/mobilia_plantas_decorativas_sazonais.csv')
     pinturas = lista[30][0]
     pinturas.to_csv('docs_bronze/mobilia_pinturas.csv')
     pinturas_mercado_noturno = lista[32][0]
