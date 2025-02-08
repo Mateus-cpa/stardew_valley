@@ -1316,6 +1316,8 @@ def df_mobilia(html):
     bandeiras.to_csv('docs_bronze/mobilia_bandeiras.csv')
     decoracao_parede = lista[38][0]
     decoracao_parede.to_csv('docs_bronze/mobilia_decoracao_parede.csv')
+    decoracao_parede2 = lista[39][0]
+    decoracao_parede2.to_csv('docs_bronze/mobilia_decoracao_parede2.csv')
     aquarios = lista[40][1]
     aquarios.to_csv('docs_bronze/mobilia_aquarios.csv')
     tochas = lista[40][2]
