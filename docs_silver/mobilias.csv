@@ -285,159 +285,159 @@
 283,Estátua do Gourmand,Pesca  na  Caverna do Pirata,,outras_decoracoes,,,,,
 284,Krobus de Irídio,Pesca  no ponto mais ao sul da  Floresta Cinzaseiva,,outras_decoracoes,,,,,
 285,Estátua de Esquilo,Pesca  na seção mais ao norte do rio na  Ilha Gengibre,,outras_decoracoes,,,,,
-286,'Águia Vermelha',,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"1, 4, 7, etc.",,1,200
-287,'Retrato de uma Sereia',,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"1, 4, 7, etc.",,1,200
-288,'Reino do Sol',,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"1, 4, 7, etc.",,1,200
-289,'Nuvens',,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"2, 5, 8, etc.",,1,200
-290,'1000 Anos no Futuro',,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"2, 5, 8, etc.",,1,200
-291,'Três Árvores',,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"2, 5, 8, etc.",,1,200
-292,'A Serpente',,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"3, 6, 9, etc.",,1,200
-293,'Peixe Tropical #173',,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"3, 6, 9, etc.",,1,200
-294,'Terra do Barro',,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"3, 6, 9, etc.",,1,200
-295,"""Uma Noite em Ecolina""",carpintaria(ouros),,pinturas,,,,,
-296,"""Colinas de Jade""",carpintaria(ouros),,pinturas,,,,,
-297,"""Colinas de Jade Extendidas""",carpintaria(ouros),,pinturas,,,,,
-298,"""Oferta Queimada""",carpintaria(ouros),,pinturas,,,,,
-299,"""Rodovia 89""",carpintaria(ouros),,pinturas,,,,,
-300,"""Movimento Primordial""",carpintaria(ouros),,pinturas,,,,,
-301,"""Pináculos""",carpintaria(ouros),800 ouros,pinturas,,,,800,ouros
-302,"""Rainha do Mar de Joias""",carpintaria(ouros),,pinturas,,,,,
-303,"""Caminhos""",carpintaria(ouros),,pinturas,,,,,
-304,"""O Muzamaro""",carpintaria(ouros),,pinturas,,,,,
-305,"""Vila de Baunilha""",carpintaria(ouros),,pinturas,,,,,
-306,"""Paraíso VGA""",carpintaria(ouros),,pinturas,,,,,
-307,"""Sonhos Congelados""",carpintaria(ouros),,pinturas,,,,,
-308,"""Barco""",carpintaria(ouros),,pinturas,,,,,
+286,Águia Vermelha,,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"1, 4, 7, etc.",,1,200
+287,Retrato de uma Sereia,,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"1, 4, 7, etc.",,1,200
+288,Reino do Sol,,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"1, 4, 7, etc.",,1,200
+289,Nuvens,,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"2, 5, 8, etc.",,1,200
+290,1000 Anos no Futuro,,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"2, 5, 8, etc.",,1,200
+291,Três Árvores,,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"2, 5, 8, etc.",,1,200
+292,A Serpente,,1 200 ouros,pinturas_mercado_noturno,15 de Inverno,"3, 6, 9, etc.",,1,200
+293,Peixe Tropical #173,,1 200 ouros,pinturas_mercado_noturno,16 de Inverno,"3, 6, 9, etc.",,1,200
+294,Terra do Barro,,1 200 ouros,pinturas_mercado_noturno,17 de Inverno,"3, 6, 9, etc.",,1,200
+295,Uma Noite em Ecolina,carpintaria(ouros),,pinturas,,,,,
+296,Colinas de Jade,carpintaria(ouros),,pinturas,,,,,
+297,Colinas de Jade Extendidas,carpintaria(ouros),,pinturas,,,,,
+298,Oferta Queimada,carpintaria(ouros),,pinturas,,,,,
+299,Rodovia 89,carpintaria(ouros),,pinturas,,,,,
+300,Movimento Primordial,carpintaria(ouros),,pinturas,,,,,
+301,Pináculos,carpintaria(ouros),800 ouros,pinturas,,,,800,ouros
+302,Rainha do Mar de Joias,carpintaria(ouros),,pinturas,,,,,
+303,Caminhos,carpintaria(ouros),,pinturas,,,,,
+304,O Muzamaro,carpintaria(ouros),,pinturas,,,,,
+305,Vila de Baunilha,carpintaria(ouros),,pinturas,,,,,
+306,Paraíso VGA,carpintaria(ouros),,pinturas,,,,,
+307,Sonhos Congelados,carpintaria(ouros),,pinturas,,,,,
+308,Barco,carpintaria(ouros),,pinturas,,,,,
 309,Pintura de Vegetação,carpintaria(ouros),,pinturas,,,,,
-310,"""Básicos da Física""",carpintaria(ouros),,pinturas,,,,,
-311,"""Mestrepipa 95""",carpintaria(ouros),,pinturas,,,,,
-312,"""Sol nº 44""",carpintaria(ouros),,pinturas,,,,,
+310,Básicos da Física,carpintaria(ouros),,pinturas,,,,,
+311,Mestrepipa 95,carpintaria(ouros),,pinturas,,,,,
+312,Sol nº 44,carpintaria(ouros),,pinturas,,,,,
 313,Cataratas de Calico,carpintaria(ouros),750 ouros,pinturas,,,,750,ouros
-314,"""Sol nº 45""",carpintaria(ouros),350 ouros,pinturas,,,,350,ouros
-315,"""Cidade Azul""",carpintaria(ouros),250 ouros,pinturas,,,,250,ouros
-316,"""Mirtilos""",carpintaria(ouros),250 ouros,pinturas,,,,250,ouros
-317,"""Arvorezinha""",carpintaria(ouros),350 ouros,pinturas,,,,350,ouros
+314,Sol nº 45,carpintaria(ouros),350 ouros,pinturas,,,,350,ouros
+315,Cidade Azul,carpintaria(ouros),250 ouros,pinturas,,,,250,ouros
+316,Mirtilos,carpintaria(ouros),250 ouros,pinturas,,,,250,ouros
+317,Arvorezinha,carpintaria(ouros),350 ouros,pinturas,,,,350,ouros
 318,Flor bordada,carpintaria(ouros),500 ouros,pinturas,,,,500,ouros
-319,"""Grama dançante""",carpintaria(ouros),400 ouros,pinturas,,,,400,ouros
+319,Grama dançante,carpintaria(ouros),400 ouros,pinturas,,,,400,ouros
 320,Minha Primeira Pintura,carpintaria(ouros),,pinturas,,,,,
 321,Pinturas Coloridas,carpintaria(ouros),500 ouros,pinturas,,,,500,ouros
-322,"""Paisagem""",carpintaria(ouros),,pinturas,,,,,
+322,Paisagem,carpintaria(ouros),,pinturas,,,,,
 323,Foto do Vulcão,carpintaria(ouros),,pinturas,,,,,
-324,"""Uma Noite em Ecolina""",cassino(qicoin),,pinturas,,,,,
-325,"""Colinas de Jade""",cassino(qicoin),,pinturas,,,,,
-326,"""Colinas de Jade Extendidas""",cassino(qicoin),,pinturas,,,,,
-327,"""Oferta Queimada""",cassino(qicoin),4 000,pinturas,,,,4,000
-328,"""Rodovia 89""",cassino(qicoin),4 000,pinturas,,,,4,000
-329,"""Movimento Primordial""",cassino(qicoin),5 000,pinturas,,,,5,000
-330,"""Pináculos""",cassino(qicoin),3 000,pinturas,,,,3,000
-331,"""Rainha do Mar de Joias""",cassino(qicoin),,pinturas,,,,,
-332,"""Caminhos""",cassino(qicoin),,pinturas,,,,,
-333,"""O Muzamaro""",cassino(qicoin),,pinturas,,,,,
-334,"""Vila de Baunilha""",cassino(qicoin),,pinturas,,,,,
-335,"""Paraíso VGA""",cassino(qicoin),,pinturas,,,,,
-336,"""Sonhos Congelados""",cassino(qicoin),,pinturas,,,,,
-337,"""Barco""",cassino(qicoin),,pinturas,,,,,
+324,Uma Noite em Ecolina,cassino(qicoin),,pinturas,,,,,
+325,Colinas de Jade,cassino(qicoin),,pinturas,,,,,
+326,Colinas de Jade Extendidas,cassino(qicoin),,pinturas,,,,,
+327,Oferta Queimada,cassino(qicoin),4 000,pinturas,,,,4,000
+328,Rodovia 89,cassino(qicoin),4 000,pinturas,,,,4,000
+329,Movimento Primordial,cassino(qicoin),5 000,pinturas,,,,5,000
+330,Pináculos,cassino(qicoin),3 000,pinturas,,,,3,000
+331,Rainha do Mar de Joias,cassino(qicoin),,pinturas,,,,,
+332,Caminhos,cassino(qicoin),,pinturas,,,,,
+333,O Muzamaro,cassino(qicoin),,pinturas,,,,,
+334,Vila de Baunilha,cassino(qicoin),,pinturas,,,,,
+335,Paraíso VGA,cassino(qicoin),,pinturas,,,,,
+336,Sonhos Congelados,cassino(qicoin),,pinturas,,,,,
+337,Barco,cassino(qicoin),,pinturas,,,,,
 338,Pintura de Vegetação,cassino(qicoin),,pinturas,,,,,
-339,"""Básicos da Física""",cassino(qicoin),,pinturas,,,,,
-340,"""Mestrepipa 95""",cassino(qicoin),,pinturas,,,,,
-341,"""Sol nº 44""",cassino(qicoin),,pinturas,,,,,
+339,Básicos da Física,cassino(qicoin),,pinturas,,,,,
+340,Mestrepipa 95,cassino(qicoin),,pinturas,,,,,
+341,Sol nº 44,cassino(qicoin),,pinturas,,,,,
 342,Cataratas de Calico,cassino(qicoin),,pinturas,,,,,
-343,"""Sol nº 45""",cassino(qicoin),,pinturas,,,,,
-344,"""Cidade Azul""",cassino(qicoin),,pinturas,,,,,
-345,"""Mirtilos""",cassino(qicoin),,pinturas,,,,,
-346,"""Arvorezinha""",cassino(qicoin),,pinturas,,,,,
+343,Sol nº 45,cassino(qicoin),,pinturas,,,,,
+344,Cidade Azul,cassino(qicoin),,pinturas,,,,,
+345,Mirtilos,cassino(qicoin),,pinturas,,,,,
+346,Arvorezinha,cassino(qicoin),,pinturas,,,,,
 347,Flor bordada,cassino(qicoin),,pinturas,,,,,
-348,"""Grama dançante""",cassino(qicoin),,pinturas,,,,,
+348,Grama dançante,cassino(qicoin),,pinturas,,,,,
 349,Minha Primeira Pintura,cassino(qicoin),,pinturas,,,,,
 350,Pinturas Coloridas,cassino(qicoin),,pinturas,,,,,
-351,"""Paisagem""",cassino(qicoin),,pinturas,,,,,
+351,Paisagem,cassino(qicoin),,pinturas,,,,,
 352,Foto do Vulcão,cassino(qicoin),,pinturas,,,,,
-353,"""Uma Noite em Ecolina""",carrinho_viagem(ouros),,pinturas,,,,,
-354,"""Colinas de Jade""",carrinho_viagem(ouros),,pinturas,,,,,
-355,"""Colinas de Jade Extendidas""",carrinho_viagem(ouros),,pinturas,,,,,
-356,"""Oferta Queimada""",carrinho_viagem(ouros),,pinturas,,,,,
-357,"""Rodovia 89""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-358,"""Movimento Primordial""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-359,"""Pináculos""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-360,"""Rainha do Mar de Joias""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-361,"""Caminhos""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-362,"""O Muzamaro""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-363,"""Vila de Baunilha""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-364,"""Paraíso VGA""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-365,"""Sonhos Congelados""",carrinho_viagem(ouros),,pinturas,,,,,
-366,"""Barco""",carrinho_viagem(ouros),,pinturas,,,,,
+353,Uma Noite em Ecolina,carrinho_viagem(ouros),,pinturas,,,,,
+354,Colinas de Jade,carrinho_viagem(ouros),,pinturas,,,,,
+355,Colinas de Jade Extendidas,carrinho_viagem(ouros),,pinturas,,,,,
+356,Oferta Queimada,carrinho_viagem(ouros),,pinturas,,,,,
+357,Rodovia 89,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+358,Movimento Primordial,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+359,Pináculos,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+360,Rainha do Mar de Joias,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+361,Caminhos,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+362,O Muzamaro,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+363,Vila de Baunilha,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+364,Paraíso VGA,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+365,Sonhos Congelados,carrinho_viagem(ouros),,pinturas,,,,,
+366,Barco,carrinho_viagem(ouros),,pinturas,,,,,
 367,Pintura de Vegetação,carrinho_viagem(ouros),,pinturas,,,,,
-368,"""Básicos da Física""",carrinho_viagem(ouros),,pinturas,,,,,
-369,"""Mestrepipa 95""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-370,"""Sol nº 44""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+368,Básicos da Física,carrinho_viagem(ouros),,pinturas,,,,,
+369,Mestrepipa 95,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+370,Sol nº 44,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
 371,Cataratas de Calico,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-372,"""Sol nº 45""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-373,"""Cidade Azul""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-374,"""Mirtilos""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-375,"""Arvorezinha""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+372,Sol nº 45,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+373,Cidade Azul,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+374,Mirtilos,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+375,Arvorezinha,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
 376,Flor bordada,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
-377,"""Grama dançante""",carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
+377,Grama dançante,carrinho_viagem(ouros),250–2 500 ouros,pinturas,,,,25,0
 378,Minha Primeira Pintura,carrinho_viagem(ouros),,pinturas,,,,,
 379,Pinturas Coloridas,carrinho_viagem(ouros),,pinturas,,,,,
-380,"""Paisagem""",carrinho_viagem(ouros),,pinturas,,,,,
+380,Paisagem,carrinho_viagem(ouros),,pinturas,,,,,
 381,Foto do Vulcão,carrinho_viagem(ouros),,pinturas,,,,,
-382,"""Uma Noite em Ecolina""",pierre(ouros),,pinturas,,,,,
-383,"""Colinas de Jade""",pierre(ouros),,pinturas,,,,,
-384,"""Colinas de Jade Extendidas""",pierre(ouros),,pinturas,,,,,
-385,"""Oferta Queimada""",pierre(ouros),,pinturas,,,,,
-386,"""Rodovia 89""",pierre(ouros),,pinturas,,,,,
-387,"""Movimento Primordial""",pierre(ouros),,pinturas,,,,,
-388,"""Pináculos""",pierre(ouros),,pinturas,,,,,
-389,"""Rainha do Mar de Joias""",pierre(ouros),,pinturas,,,,,
-390,"""Caminhos""",pierre(ouros),,pinturas,,,,,
-391,"""O Muzamaro""",pierre(ouros),,pinturas,,,,,
-392,"""Vila de Baunilha""",pierre(ouros),,pinturas,,,,,
-393,"""Paraíso VGA""",pierre(ouros),,pinturas,,,,,
-394,"""Sonhos Congelados""",pierre(ouros),2 000 ouros,pinturas,,,,2,000
-395,"""Barco""",pierre(ouros),,pinturas,,,,,
+382,Uma Noite em Ecolina,pierre(ouros),,pinturas,,,,,
+383,Colinas de Jade,pierre(ouros),,pinturas,,,,,
+384,Colinas de Jade Extendidas,pierre(ouros),,pinturas,,,,,
+385,Oferta Queimada,pierre(ouros),,pinturas,,,,,
+386,Rodovia 89,pierre(ouros),,pinturas,,,,,
+387,Movimento Primordial,pierre(ouros),,pinturas,,,,,
+388,Pináculos,pierre(ouros),,pinturas,,,,,
+389,Rainha do Mar de Joias,pierre(ouros),,pinturas,,,,,
+390,Caminhos,pierre(ouros),,pinturas,,,,,
+391,O Muzamaro,pierre(ouros),,pinturas,,,,,
+392,Vila de Baunilha,pierre(ouros),,pinturas,,,,,
+393,Paraíso VGA,pierre(ouros),,pinturas,,,,,
+394,Sonhos Congelados,pierre(ouros),2 000 ouros,pinturas,,,,2,000
+395,Barco,pierre(ouros),,pinturas,,,,,
 396,Pintura de Vegetação,pierre(ouros),,pinturas,,,,,
-397,"""Básicos da Física""",pierre(ouros),,pinturas,,,,,
-398,"""Mestrepipa 95""",pierre(ouros),,pinturas,,,,,
-399,"""Sol nº 44""",pierre(ouros),,pinturas,,,,,
+397,Básicos da Física,pierre(ouros),,pinturas,,,,,
+398,Mestrepipa 95,pierre(ouros),,pinturas,,,,,
+399,Sol nº 44,pierre(ouros),,pinturas,,,,,
 400,Cataratas de Calico,pierre(ouros),,pinturas,,,,,
-401,"""Sol nº 45""",pierre(ouros),,pinturas,,,,,
-402,"""Cidade Azul""",pierre(ouros),,pinturas,,,,,
-403,"""Mirtilos""",pierre(ouros),,pinturas,,,,,
-404,"""Arvorezinha""",pierre(ouros),,pinturas,,,,,
+401,Sol nº 45,pierre(ouros),,pinturas,,,,,
+402,Cidade Azul,pierre(ouros),,pinturas,,,,,
+403,Mirtilos,pierre(ouros),,pinturas,,,,,
+404,Arvorezinha,pierre(ouros),,pinturas,,,,,
 405,Flor bordada,pierre(ouros),,pinturas,,,,,
-406,"""Grama dançante""",pierre(ouros),,pinturas,,,,,
+406,Grama dançante,pierre(ouros),,pinturas,,,,,
 407,Minha Primeira Pintura,pierre(ouros),,pinturas,,,,,
 408,Pinturas Coloridas,pierre(ouros),500 ouros,pinturas,,,,500,ouros
-409,"""Paisagem""",pierre(ouros),,pinturas,,,,,
+409,Paisagem,pierre(ouros),,pinturas,,,,,
 410,Foto do Vulcão,pierre(ouros),Manga  (5),pinturas,,,,5,Manga
-411,"""Uma Noite em Ecolina""",oasis(ouros),,pinturas,,,,,
-412,"""Colinas de Jade""",oasis(ouros),,pinturas,,,,,
-413,"""Colinas de Jade Extendidas""",oasis(ouros),5 000 ouros,pinturas,,,,5,000
-414,"""Oferta Queimada""",oasis(ouros),,pinturas,,,,,
-415,"""Rodovia 89""",oasis(ouros),,pinturas,,,,,
-416,"""Movimento Primordial""",oasis(ouros),,pinturas,,,,,
-417,"""Pináculos""",oasis(ouros),,pinturas,,,,,
-418,"""Rainha do Mar de Joias""",oasis(ouros),,pinturas,,,,,
-419,"""Caminhos""",oasis(ouros),,pinturas,,,,,
-420,"""O Muzamaro""",oasis(ouros),,pinturas,,,,,
-421,"""Vila de Baunilha""",oasis(ouros),,pinturas,,,,,
-422,"""Paraíso VGA""",oasis(ouros),,pinturas,,,,,
-423,"""Sonhos Congelados""",oasis(ouros),,pinturas,,,,,
-424,"""Barco""",oasis(ouros),,pinturas,,,,,
+411,Uma Noite em Ecolina,oasis(ouros),,pinturas,,,,,
+412,Colinas de Jade,oasis(ouros),,pinturas,,,,,
+413,Colinas de Jade Extendidas,oasis(ouros),5 000 ouros,pinturas,,,,5,000
+414,Oferta Queimada,oasis(ouros),,pinturas,,,,,
+415,Rodovia 89,oasis(ouros),,pinturas,,,,,
+416,Movimento Primordial,oasis(ouros),,pinturas,,,,,
+417,Pináculos,oasis(ouros),,pinturas,,,,,
+418,Rainha do Mar de Joias,oasis(ouros),,pinturas,,,,,
+419,Caminhos,oasis(ouros),,pinturas,,,,,
+420,O Muzamaro,oasis(ouros),,pinturas,,,,,
+421,Vila de Baunilha,oasis(ouros),,pinturas,,,,,
+422,Paraíso VGA,oasis(ouros),,pinturas,,,,,
+423,Sonhos Congelados,oasis(ouros),,pinturas,,,,,
+424,Barco,oasis(ouros),,pinturas,,,,,
 425,Pintura de Vegetação,oasis(ouros),,pinturas,,,,,
-426,"""Básicos da Física""",oasis(ouros),,pinturas,,,,,
-427,"""Mestrepipa 95""",oasis(ouros),,pinturas,,,,,
-428,"""Sol nº 44""",oasis(ouros),,pinturas,,,,,
+426,Básicos da Física,oasis(ouros),,pinturas,,,,,
+427,Mestrepipa 95,oasis(ouros),,pinturas,,,,,
+428,Sol nº 44,oasis(ouros),,pinturas,,,,,
 429,Cataratas de Calico,oasis(ouros),,pinturas,,,,,
-430,"""Sol nº 45""",oasis(ouros),,pinturas,,,,,
-431,"""Cidade Azul""",oasis(ouros),,pinturas,,,,,
-432,"""Mirtilos""",oasis(ouros),,pinturas,,,,,
-433,"""Arvorezinha""",oasis(ouros),,pinturas,,,,,
+430,Sol nº 45,oasis(ouros),,pinturas,,,,,
+431,Cidade Azul,oasis(ouros),,pinturas,,,,,
+432,Mirtilos,oasis(ouros),,pinturas,,,,,
+433,Arvorezinha,oasis(ouros),,pinturas,,,,,
 434,Flor bordada,oasis(ouros),,pinturas,,,,,
-435,"""Grama dançante""",oasis(ouros),,pinturas,,,,,
+435,Grama dançante,oasis(ouros),,pinturas,,,,,
 436,Minha Primeira Pintura,oasis(ouros),,pinturas,,,,,
 437,Pinturas Coloridas,oasis(ouros),,pinturas,,,,,
-438,"""Paisagem""",oasis(ouros),,pinturas,,,,,
+438,Paisagem,oasis(ouros),,pinturas,,,,,
 439,Foto do Vulcão,oasis(ouros),,pinturas,,,,,
 440,Girassóis secos,carpintaria(ouros),100  (Apenas na  Feira do Vale do Orvalho  ),plantas_decorativas_chao,,,,10,0
 441,Bonsai,carpintaria(ouros),800 ouros,plantas_decorativas_chao,,,,800,ouros
@@ -489,10 +489,10 @@
 487,Poltrona verde,,1 000 ouros,poltronas,,,,1,000
 488,Poltrona vermelha,,1 000 ouros,poltronas,,,,1,000
 489,Poltrona amarela,,1 000 ouros,poltronas,,,,1,000
-490,'O Uivo na Chuva',,,posteres,,,,,
-491,'Jornada do Rei da Pradaria: O Filme',,,posteres,,,,,
-492,'Mysterium',,,posteres,,,,,
-493,'Maravilhas Naturais: Explorando Nosso Mundo Vibrante',,,posteres,,,,,
+490,O Uivo na Chuva,,,posteres,,,,,
+491,Jornada do Rei da Pradaria: O Filme,,,posteres,,,,,
+492,Mysterium,,,posteres,,,,,
+493,Maravilhas Naturais: Explorando Nosso Mundo Vibrante,,,posteres,,,,,
 494,Sofá azul,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
 495,Sofá marrom,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
 496,Sofá verde,carpintaria(ouros),1 750 ouros,sofas,,,,1,750
