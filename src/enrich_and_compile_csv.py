@@ -101,6 +101,29 @@ def pegar_inteiro_cond(x):
         pass
   return cond
 
+def extrair_valor_moeda(preco):
+  """
+  Extrai o valor e a moeda de uma coluna de preço, caso não seja float
+  Args:
+      preco: Uma string com o preço.
+  Returns:
+      Uma tupla com o valor e a moeda.
+      Ex: ('100', 'ouros')
+          ('5', 'Bananas')
+
+  """
+  try:
+    match = re.match(r'(\d+)\s*(\w+)', preco)  
+    if match:
+        return match.group(1), match.group(2)
+    match = re.match(r'(\w+)\s*\((\d+)\)', preco)
+    if match:
+        return match.group(2), match.group(1)
+    return None, None
+  except TypeError:
+    return preco, None
+
+
 def xp ():
   #combate
   combate = pd.read_csv('docs_bronze/xp_combate.csv', encoding='utf-8')
@@ -291,7 +314,7 @@ def tenta_dividir (texto_a_dividir, divisor: str = None,coluna: int = 0):
   except ValueError:
     return texto_a_dividir
 
-def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_saude):
+def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_saude = None):
   """
   Função que divide dataframe quadruplicado para qualidficar separadamente 
   as 4 qualidades: normal, prata, ouro e irídio.
@@ -300,7 +323,7 @@ def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_
       df: DataFrame Pandas.
       coluna_nome: Nome da coluna onde os nome a serão substituídos por, incluindo as qualidades.
       coluna_valor: Nome da coluna de valor em ouros (4 valores) para ser dividido nas 4 qualidades.
-      coluna_energia_saude: Nome da coluna com 8 valores a ser dividido nas 4 qualidades.
+      coluna_energia_saude (opcional): Nome da coluna com 8 valores a ser dividido nas 4 qualidades.
   
   Returns: df com as colunas divididas em 4 qualidades + 2 colunas 'Energia' e 'Saude'.
   """
@@ -311,23 +334,27 @@ def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_
   for i in range(0,len(df)):
     if i % 4 == 0:
       df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=0)
-      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=0)
-      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=1)
+      if coluna_energia_saude:
+        df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=0)
+        df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=1)
     if i % 4 == 1:
       df.loc[i,coluna_nome] = df.loc[i,coluna_nome] + '_prata'
       df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=1)
-      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=2)
-      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=3)
+      if coluna_energia_saude:
+        df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=2)
+        df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=3)
     if i % 4 == 2:
       df.loc[i,coluna_nome] = df.loc[i,coluna_nome] + '_ouro'
       df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=2)
-      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=4)
-      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=5)
+      if coluna_energia_saude:
+        df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=4)
+        df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=5)
     if i % 4 == 3:
       df.loc[i,coluna_nome] = df.loc[i,coluna_nome] + '_iridio'
       df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=3)
-      df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=6)
-      df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=7)
+      if coluna_energia_saude:
+        df.loc[i,'Energia'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=6)
+        df.loc[i,'Saude'] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_energia_saude],coluna=7)
   return df
 
 def extrair_valor_recompensa(df):
@@ -900,9 +927,10 @@ def concat_dataframes ():
     df_temp = pd.read_csv(f'docs_bronze/minerais_{mineral}.csv')
     df_temp = df_temp.rename(columns={'Usado Em':'Usado em'})
     dfs_to_concat.append(df_temp)  
+  dfs_to_concat.append(pd.read_csv('docs_bronze/nos_minerio.csv').rename(columns={'Local':'Localização'}))
   df_minerais = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_minerais['Preço de Venda'] = limpar_preco(serie=df_minerais['Preço de Venda'])
-  df_minerais = df_minerais.drop(columns=['Unnamed: 0','Imagem'])
+  df_minerais = df_minerais.drop(columns=['Unnamed: 0','Imagem','imagem'])
   df_minerais.to_csv('docs_silver/minerais.csv', encoding='utf-8')
 
   #missao
@@ -957,6 +985,7 @@ def concat_dataframes ():
                     'plantas_decorativas_chao1',
                     'plantas_decorativas_chao2',
                     'plantas_decorativas_penduradas',
+                    'plantas_decorativas_sazonais',
                     'poltronas',
                     'posteres',
                     'sofas',
@@ -966,32 +995,111 @@ def concat_dataframes ():
   #padronizar colunas
   dfs_to_concat = [] 
   for mobilia in lista_mobilias:
-    df_temp = pd.read_csv(f'docs_bronze/mobilia_{mobilia}.csv')
+    if mobilia == 'tapetes':
+      df_temp = pd.read_csv(f'docs_bronze/mobilia_{mobilia}.csv', header=2)
+      df_temp.columns = ['index','Nome','carpintaria(ouros)','carrinho_viagem(ouros)','pierre(ouros)','oasis','Tamanho']
+      df_temp = df_temp.melt(id_vars=['Nome','Tamanho'], 
+                             value_vars=['carpintaria(ouros)', 'carrinho_viagem(ouros)', 'pierre(ouros)', 'oasis'],
+                             var_name='Loja', value_name='Preço')
+    else:
+      df_temp = pd.read_csv(f'docs_bronze/mobilia_{mobilia}.csv')
+    if mobilia == 'aquarios':
+          df_temp.columns = ['index','Nome', 'peixaria(ouros)', 'catalogo(ouros)', 'qi(diamantes)']
+          df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['peixaria(ouros)', 'catalogo(ouros)', 'qi(diamantes)'], 
+                                var_name='Loja', value_name='Preço')
+    if mobilia in ['sofas','cadeiras1','cadeiras2','cadeiras3',
+                      'bancos','mesas1','mesas2','mesas3','estantes',
+                      'diversos1','diversos2']:
+      df_temp['Loja'] = 'carpintaria(ouros)'
+    if mobilia == 'mesas_longas':
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'festivais(ouros)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)', 'festivais(ouros)'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'lareiras':
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'outros']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)', 'outros'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'lampadas':
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'carrinho_viagem(ouros)','oasis']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)','carrinho_viagem(ouros)','oasis'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'janelas':
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'pierre(ouros)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)', 'pierre(ouros)'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'tvs':
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'comerciante_ilhas(inhame_coco)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)', 'comerciante_ilhas(inhame_coco)'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia in ['plantas_decorativas_chao1','plantas_decorativas_chao2']:
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'carrinho_viagem(ouros)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)', 'carrinho_viagem(ouros)'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'plantas_decorativas_sazonais':
+      df_temp = df_temp[['Também vendido por','Preço']].rename(columns={'Também vendido por':'Loja'})
+      df_temp['Nome'] = 'sazonal' + df_temp.index.astype(str)
+    if mobilia == 'pinturas':
+      df_temp = pd.read_csv(f'docs_bronze/mobilia_{mobilia}.csv', header=2)
+      df_temp.columns = ['index','Nome','carpintaria(ouros)','cassino(qicoin)','carrinho_viagem(ouros)','pierre(ouros)','oasis(ouros)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)','cassino(qicoin)','carrinho_viagem(ouros)','pierre(ouros)','oasis(ouros)'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'decoracao_parede':
+      df_temp.columns = ['index','Nome', 'carpintaria(ouros)', 'carrinho_viagem(ouros)','catalogo(ouros)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['carpintaria(ouros)','carrinho_viagem(ouros)','catalogo(ouros)'],
+                            var_name='Loja', value_name='Preço')
+    if mobilia == 'decoracao_parede2':
+      df_temp.columns = ['Nome',
+                         'pierre_festival_ovo(ouros)',
+                         'pierre_festival_medusas_lua(ouros)',
+                         'pierre_festival_estrela_invernal(ouros)',
+                         'catalogo(ouros)']
+      df_temp = df_temp.melt(id_vars=['Nome'], value_vars=['pierre_festival_ovo(ouros)',
+                         'pierre_festival_medusas_lua(ouros)',
+                         'pierre_festival_estrela_invernal(ouros)',
+                         'catalogo(ouros)'],
+                            var_name='Loja', value_name='Preço')
     df_temp['Tipo'] = mobilia
-    #df_temp = df_temp.rename(columns={'Preço de Venda':'Preço de Venda (ouros)'})
+    df_temp = df_temp.rename(columns={'Item':'Nome',
+                                      'Origem':'Loja',
+                                      'Como obter':'Loja',
+                                      'Onde obter':'Loja',
+                                      'Preço de Compra':'Preço'})
     dfs_to_concat.append(df_temp)
   df_mobilias = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  # Aplicar a função para extrair valor e moeda
+  df_mobilias[['valor', 'moeda']] = df_mobilias['Preço'].apply(lambda x: pd.Series(extrair_valor_moeda(x)))
+  #falta separar preço na coluna preço e loja pelo termo 'por'
+  #nome composto 'Fragmento de Fogo' não separou corretamente
+  #retirar espaço no meio dos números de valores acima de 1000
+  #editar colunas de loja para não precisar colocar nome da moeda  
   df_mobilias = df_mobilias.drop(columns=['Unnamed: 0','Imagem'])
+  df_mobilias['Tipo'] = df_mobilias['Tipo'].apply(lambda row: row.replace('1','').replace('2','').replace('3',''))
+  df_mobilias['Nome'] = df_mobilias['Nome'].apply(lambda row: row.replace("'","").replace('"',''))
   df_mobilias.to_csv('docs_silver/mobilias.csv', encoding='utf-8')
-
-  #nos_minerio
-  df_minerios_nos = pd.read_csv(f'docs_bronze/nos_minerio[].csv')
-  df_minerios_nos.to_csv('docs_silver/minerios_nos.csv', encoding='utf-8')
 
   #peixes
   lista_peixes = ['covo',
-                    'itens_pescaveis',
-                    'lendarios',
-                    'lendarios_ii',
-                    'mercado_noturno',
-                    'receitas_pesca']
+                  'itens_pescaveis',
+                  'lendarios',
+                  'lendarios_ii',
+                  'mercado_noturno']
   #padronizar colunas
   dfs_to_concat = [] 
   for peixe in lista_peixes:
-    df_temp = pd.read_csv(f'docs_bronze/peixes_{peixe}.csv')
-    print(f'colunas de {peixe}: {df_temp.columns}')
+    if peixe == 'covo':
+      df_temp = pd.read_csv(f'docs_bronze/peixes_{peixe}.csv', header=1)
+    else:
+      df_temp = pd.read_csv(f'docs_bronze/peixes_{peixe}.csv')
+    df_temp = df_temp.dropna(subset=['Descrição'],ignore_index=True)
+    df_temp['Tipo'] = peixe
     dfs_to_concat.append(df_temp)
-  df_peixes = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_peixes = pd.concat(dfs_to_concat*4,ignore_index=True).reset_index(drop=True)
+  df_peixes = df_peixes.drop(columns=['Unnamed: 0','Imagem','Image'])
+  df_peixes = df_peixes.rename(columns={'Preço de Venda':'Venda'})
+  df_peixes = df_peixes.sort_values(by='Nome').reset_index(drop=True)
+  df_peixes = divide_valores_por_qualidade(df = df_peixes,
+                                           coluna_nome='Nome',
+                                           coluna_valor[erro]=['Preço','Marinheiro','Não-marinheiro'])
   df_peixes.to_csv('docs_silver/peixes.csv', encoding='utf-8')
 
   #pesca
