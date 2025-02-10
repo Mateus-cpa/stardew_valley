@@ -6,15 +6,15 @@ def main():
   if st.button('Home'):
     st.switch_page("dataviz.py")
   # Carregar os dados
-  mercadorias = pd.read_csv('docs_silver/mercadorias.csv',encoding='utf-8')
+  taxa_cultivo = pd.read_csv('docs_silver/taxas_cultivo.csv',encoding='utf-8')
 
 
   # Título
-  st.title('Mercadorias')
-  st.metric('Tamanho da tabela', mercadorias.shape[0])
-  st.metric('Quantidade de colunas', mercadorias.shape[1])
+  st.title('Taxas de cultivo')
+  st.metric('Tamanho da tabela', taxa_cultivo.shape[0])
+  st.metric('Quantidade de colunas', taxa_cultivo.shape[1])
 
-  st.dataframe(mercadorias, use_container_width=True,hide_index=True)
+  st.dataframe(taxa_cultivo, use_container_width=True,hide_index=True)
 
   # fim da função
 

@@ -6,7 +6,7 @@ def main():
   if st.button('Home'):
     st.switch_page("dataviz.py")
   # Carregar os dados
-  producao_solos = pd.read_csv('docs_silver/producao_solos.csv',encoding='utf-8')
+  producao_solos = pd.read_csv('docs_silver/solos_producao.csv',encoding='utf-8')
 
 
   # Título
