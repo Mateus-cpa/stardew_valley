@@ -1103,7 +1103,7 @@ def df_fertilizantes (html):
     taxa_cultivo_fertilizante_basico = lista[2][0]
     taxa_cultivo_fertilizante_basico.to_csv('docs_bronze/taxa_cultivo_fertilizante_basico.csv')
     taxa_cultivo_fertilizante_qualidade = lista[3][0]
-    taxa_cultivo_fertilizante_qualidade.to_csv('docs_bronze/taxa_cultivo_.fertilizande_qualidade.csv')
+    taxa_cultivo_fertilizante_qualidade.to_csv('docs_bronze/taxa_cultivo_fertilizante_qualidade.csv')
     taxa_cultivo_fertilizante_premium = lista[4][0]
     taxa_cultivo_fertilizante_premium.to_csv('docs_bronze/taxa_cultivo_fertilizante_premium.csv')
     custo_solo_foliar_concha = lista[6][0]
