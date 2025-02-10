@@ -327,10 +327,6 @@ def divide_valores_por_qualidade (df, coluna_nome, coluna_valor, coluna_energia_
   
   Returns: df com as colunas divididas em 4 qualidades + 2 colunas 'Energia' e 'Saude'.
   """
-  df = df
-  coluna_nome = coluna_nome
-  coluna_valor = coluna_valor
-  coluna_energia_saude = coluna_energia_saude
   for i in range(0,len(df)):
     if i % 4 == 0:
       df.loc[i,coluna_valor] = tenta_dividir(texto_a_dividir=df.loc[i,coluna_valor],divisor='ouros',coluna=0)
@@ -1099,7 +1095,7 @@ def concat_dataframes ():
   df_peixes = df_peixes.sort_values(by='Nome').reset_index(drop=True)
   df_peixes = divide_valores_por_qualidade(df = df_peixes,
                                            coluna_nome='Nome',
-                                           coluna_valor[erro]=['Preço','Marinheiro','Não-marinheiro'])
+                                           coluna_valor=['Preço','Marinheiro','Não-marinheiro'])
   df_peixes.to_csv('docs_silver/peixes.csv', encoding='utf-8')
 
   #pesca
@@ -1111,14 +1107,14 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for pesca in lista_pescas:
     df_temp = pd.read_csv(f'docs_bronze/pesca_{pesca}.csv')
-    print(f'colunas de {pesca}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_pescas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_pescas = df_pescas.drop(columns=['Unnamed: 0'])
   df_pescas.to_csv('docs_silver/pescas.csv', encoding='utf-8')
 
   #solos_producao
   df_solos_producao = pd.read_csv('docs_bronze\solos_producao.csv', encoding='utf-8')
-  # transformar colunas
+  df_solos_producao = df_solos_producao.drop(columns=['Unnamed: 0'])
   df_solos_producao.to_csv('docs_silver\solos_producao.csv', encoding='utf-8')
   
   #taxa_cultivo
@@ -1130,9 +1126,9 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for taxa in lista_taxas_cultivo:
     df_temp = pd.read_csv(f'docs_bronze/taxa_cultivo_{taxa}.csv')
-    print(f'colunas de {taxa}: {df_temp.columns}')
     dfs_to_concat.append(df_temp)
   df_taxas_cultivo = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
+  df_taxas_cultivo = df_taxas_cultivo.drop(columns=['Unnamed: 0'])
   df_taxas_cultivo.to_csv('docs_silver/taxas_cultivo.csv', encoding='utf-8')
 
   
