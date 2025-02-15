@@ -761,7 +761,6 @@ def concat_dataframes ():
   #ferramenta
   lista_ferramentas = ['efeitos','enxada','foice','lixeira','machado',
                       'picareta','regador','vara_pesca']
-  #padronizar colunas
   dfs_to_concat = [] 
   for ferramenta in lista_ferramentas:
     df_temp = pd.read_csv(f'docs_bronze/ferramenta_{ferramenta}.csv')
@@ -885,7 +884,6 @@ def concat_dataframes ():
                       'produto_prensa_queijo',
                       'produto_maquina_maionese',
                       'produto_tear']
-  #padronizar colunas
   dfs_to_concat = [] 
   for mercadoria in lista_mercadorias:
     df_temp = pd.read_csv(f'docs_bronze/mercadoria_{mercadoria}.csv')
@@ -935,7 +933,6 @@ def concat_dataframes ():
                     '_lista',
                     '_pedidos_especiais',
                     '']
-  #padronizar colunas
   dfs_to_concat = [] 
   for missao in lista_missoes:
     df_temp = pd.read_csv(f'docs_bronze/missoes{missao}.csv')
@@ -988,7 +985,6 @@ def concat_dataframes ():
                     'tapetes',
                     'tochas',
                     'tvs']
-  #padronizar colunas
   dfs_to_concat = [] 
   for mobilia in lista_mobilias:
     if mobilia == 'tapetes':
@@ -1079,7 +1075,6 @@ def concat_dataframes ():
                   'lendarios',
                   'lendarios_ii',
                   'mercado_noturno']
-  #padronizar colunas
   dfs_to_concat = [] 
   for peixe in lista_peixes:
     if peixe == 'covo':
@@ -1093,24 +1088,24 @@ def concat_dataframes ():
   df_peixes = df_peixes.drop(columns=['Unnamed: 0','Imagem','Image'])
   df_peixes = df_peixes.rename(columns={'Preço de Venda':'Venda'})
   df_peixes = df_peixes.sort_values(by='Nome').reset_index(drop=True)
-  df_peixes = divide_valores_por_qualidade(df = df_peixes,
+  df_peixes = divide_valores_por_qualidade(df = df_peixes, #falta explodir Marinheiro e Não-marinheiro junto ver multiplicação
                                            coluna_nome='Nome',
                                            coluna_valor=['Preço','Marinheiro','Não-marinheiro'])
   df_peixes.to_csv('docs_silver/peixes.csv', encoding='utf-8')
 
-  #pesca
-  lista_pescas = ['bau',
-                  'comida',
-                  'varas_pesca',
-                  'zona']
-  #padronizar colunas
-  dfs_to_concat = [] 
-  for pesca in lista_pescas:
-    df_temp = pd.read_csv(f'docs_bronze/pesca_{pesca}.csv')
-    dfs_to_concat.append(df_temp)
-  df_pescas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
-  df_pescas = df_pescas.drop(columns=['Unnamed: 0'])
-  df_pescas.to_csv('docs_silver/pescas.csv', encoding='utf-8')
+  #pesca #baús
+  pescas_bau = pd.read_csv(f'docs_bronze/pesca_bau.csv')
+  #df_temp = df_temp.rename(columns={'Preço de Venda':'Preço'})
+  pescas_bau.to_csv('docs_silver/pescas_bau.csv', encoding='utf-8')
+  pescas_zona = pd.read_csv(f'docs_bronze/pesca_zona.csv')
+  pescas_zona.columns = ['Apagar', 'Zona de Pesca', 'Nível de Pesca', 
+                         'Tamanho mínimo de peixe','Tamanho máximo de peixe',
+                         '% Qualidade Normal','% Qualidade Prata', '% Qualidade Ouro',
+                         'Tamanho do Sardinha Perfeita (cm)',
+                         'Tamanho do Arenque Perfeito (cm)']
+  pescas_zona = pescas_zona.drop(index=0)
+  pescas_zona = pescas_zona.drop(columns=['Apagar'])
+  pescas_zona.to_csv('docs_silver/pescas_zona.csv', encoding='utf-8')
 
   #solos_producao
   df_solos_producao = pd.read_csv('docs_bronze\solos_producao.csv', encoding='utf-8')
@@ -1118,20 +1113,30 @@ def concat_dataframes ():
   df_solos_producao.to_csv('docs_silver\solos_producao.csv', encoding='utf-8')
   
   #taxa_cultivo
-  lista_taxas_cultivo = ['fertilizante_qualidade',
+  lista_taxas_cultivo = ['solo_normal',
                         'fertilizante_basico',
-                        'fertilizante_premium',
-                        'solo_normal']
-  #padronizar colunas
+                        'fertilizante_qualidade',
+                        'fertilizante_premium']
   dfs_to_concat = [] 
+  i = 1
   for taxa in lista_taxas_cultivo:
     df_temp = pd.read_csv(f'docs_bronze/taxa_cultivo_{taxa}.csv')
+    df_temp['Tipo'] = str(i) + '.' + taxa
     dfs_to_concat.append(df_temp)
+    i += 1
   df_taxas_cultivo = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_taxas_cultivo = df_taxas_cultivo.drop(columns=['Unnamed: 0'])
+  #ordenar por nível de cultivo e secundariamente por tipo
+  df_taxas_cultivo = df_taxas_cultivo.sort_values(by=['Tipo']).sort_values(by=['Nível de Cultivo']).reset_index(drop=True)
+  df_taxas_cultivo = df_taxas_cultivo[['Nível de Cultivo', 'Tipo', 'Preço médio',
+                                       '% Qualidade Normal', '% Qualidade Prata',
+                                       '% Qualidade Ouro', '% Qualidade Irídio']]
   df_taxas_cultivo.to_csv('docs_silver/taxas_cultivo.csv', encoding='utf-8')
 
-  
+  # Lojas e estoques
+
+  #comidas
+
   pass
 
 
