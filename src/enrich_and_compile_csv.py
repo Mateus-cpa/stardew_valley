@@ -418,7 +418,9 @@ def concat_dataframes ():
   df_animais['Venda_5_coracoes'] = limpar_preco(df_animais['Venda_5_coracoes'])
   df_animais['Produz'] = df_animais['Produz'].apply(lambda linha: linha.replace('Avestruz','avestruz').replace('Dourado','dourado'))
   df_animais = separar_e_explodir(df_animais,'Produz')
-  df_animais = df_animais[['Nome','Custo','Requisitos','Produz_item','Produz_valor','Venda_5_coracoes']]  
+  df_animais = df_animais[['Nome','Custo','Requisitos','Produz_item','Produz_valor','Venda_5_coracoes']]
+  df_animais['Rendimento de venda'] = df_animais['Venda_5_coracoes'] / df_animais['Custo']
+  df_animais['Rendimento de produção'] = df_animais['Custo'] / df_animais['Produz_valor']
   df_animais.to_csv('docs_silver/animais.csv', encoding='utf-8')
 
   #armas
