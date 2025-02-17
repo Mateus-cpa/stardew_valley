@@ -8,7 +8,7 @@ def main():
     st.title('Página inicial')
     st.write('Navegue pelo menu abaixo para acessar as páginas disponíveis')
 
-#criar container e alinhas os botões em 3 colunas
+#criar container e alinhas os botões em 4 colunas
     col1, col2, col3, col4 = st.columns(4)
     with col1:
         if st.button('Animais'):
