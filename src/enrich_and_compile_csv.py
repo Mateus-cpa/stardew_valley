@@ -244,6 +244,19 @@ def separar_e_explodir(df, coluna):
   df = df.drop(coluna, axis=1)
   return df
 
+def dano_medio(linha):
+  try:
+    partes = linha.split('-')
+    if len(partes) == 2:
+      resultado = (int(partes[0]) + int(partes[1])) / 2
+      return resultado
+    else:
+      return None
+  except ValueError:
+    return None
+  except IndexError:
+    return None
+
 def tenta_separar_string (linha: str, divisor):
   """
     Tenta separar as strings de um texto
@@ -434,22 +447,23 @@ def concat_dataframes ():
   for arma in lista_armas:
     df_temp = pd.read_csv(f'docs_bronze/armas_{arma}.csv')
     df_temp['Tipo'] = arma
-    if arma == 'municoes':
-      df_temp = df_temp.rename(columns={'Faixa de Dano Padrão': 'Dano', 
-                                        'Item': 'Nome',
-                                        'Chance de  Acerto Crítico': 'Chance de Acerto Crítico'})
+    if arma == 'municoes': 
       df_temp['Descrição'] = df_temp['Multiplicador de Munição'].apply(lambda x: 'Base de dano: ' + str(x))
-      df_temp['Nome'] = df_temp['Nome'].apply(lambda linha: str(linha.replace('Todas as  ','').replace('  • Todos os ',', ').replace('"','')))
+      df_temp['Item'] = df_temp['Item'].apply(lambda linha: str(linha.replace('Todas as  ','').replace('  • Todos os ',', ').replace('"','')))
       df_temp.pop('Multiplicador de Munição')
     if arma == 'impossiveis':
       df_temp = df_temp.rename(columns={'Preço de venda':'Preço de Venda'})
-    
+    df_temp = df_temp.rename(columns={'Faixa de Dano Padrão': 'Dano', 
+                                        'Item': 'Nome',
+                                        'Chance de  Acerto Crítico': 'Chance de Acerto Crítico'})
     dfs_to_concat.append(df_temp)
   df_armas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_armas['Preço de Compra'] = limpar_preco(df_armas['Preço de Compra'])
   df_armas['Preço de Venda'] = limpar_preco(df_armas['Preço de Venda'])
   df_armas = df_armas.drop(columns=['Unnamed: 0','Imagem'])
-  df_armas = df_armas[['Nome','Tipo','Nível','Descrição','Dano','Chance de Acerto Crítico','Estatísticas','Localização','Preço de Compra','Preço de Venda','Chance de  Acerto Crítico']]
+  df_armas = df_armas[['Nome','Tipo','Nível','Descrição','Dano','Chance de Acerto Crítico','Estatísticas','Localização','Preço de Compra','Preço de Venda']]
+  df_armas['Dano médio'] = df_armas.Dano.apply(dano_medio)
+  df_armas['Valor por dano'] = df_armas['Preço de Compra'] / df_armas['Dano médio']
   df_armas.to_csv('docs_silver/armas.csv', encoding='utf-8')
 
 
