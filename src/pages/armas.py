@@ -29,15 +29,16 @@ def main():
     # Slider para selecionar a quantidade de linhas a serem exibidas
     num_linhas = st.slider('Quantidade de linhas a serem exibidas', min_value=1, max_value=armas.shape[0], value=armas.shape[0])
     ascending = st.checkbox('Crescente', value=False)
+    df_armas_filtrada = armas.sort_values(by='Dano médio', ascending=ascending).head(num_linhas)
 
     col5, col6 = st.columns(2)
 
     with col5:
-        st.metric('Dano médio', round(armas['Dano médio'].head(num_linhas).mean(), 2))
+        st.metric('Dano médio', round(df_armas_filtrada['Dano médio'].mean(), 2))
         
         # Gráfico de dano
         fig, ax = plt.subplots()
-        armas.sort_values(by='Dano médio', ascending=ascending).head(num_linhas).plot(kind='bar', ax=ax, x='Nome', y='Dano médio', grid=True)
+        df_armas_filtrada.plot(kind='bar', ax=ax, x='Nome', y='Dano médio', grid=True)
         st.pyplot(fig)
 
     with col6:
@@ -49,7 +50,7 @@ def main():
         st.pyplot(fig)
 
     # Exibir dataframe com a quantidade de linhas selecionada
-    st.dataframe(armas.head(num_linhas), hide_index=True)
+    st.dataframe(df_armas_filtrada, hide_index=True)
 
 if __name__ == '__main__':
     main()
