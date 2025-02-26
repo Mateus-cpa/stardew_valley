@@ -6,14 +6,21 @@ def main():
     st.switch_page("dataviz.py")
   # Carregar os dados
   artefatos = pd.read_csv('docs_silver/artefatos.csv',encoding='utf-8')
+  artefatos = artefatos.iloc[:,1:5]
 
 
   # Título
   st.title('Artefatos')
-  st.metric('Tamanho da tabela', artefatos.shape[0])
-  st.metric('Quantidade de colunas', artefatos.shape[1])
+  col1, col2, col3 = st.columns(3)
 
-  st.dataframe(artefatos)
+  with col1:
+    st.metric('Tamanho da tabela', artefatos.shape[0])
+  with col2:
+    st.metric('Quantidade de colunas', artefatos.shape[1])
+  with col3:
+    st.metric('Valor médio de recompensa', round(artefatos.Preço.mean(),2))
+
+  st.dataframe(artefatos, hide_index=True)
 
   # fim da função
 

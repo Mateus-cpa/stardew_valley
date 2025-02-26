@@ -479,7 +479,7 @@ def concat_dataframes ():
   artefatos = pd.read_csv('docs_bronze/artefatos.csv')
   lista_artefatos = [artefatos,artefato_tesouro]
   artefatos = pd.concat(lista_artefatos,join='outer',ignore_index=True)
-  artefatos = artefatos.drop(columns='')
+  artefatos = artefatos.iloc[:,2:]
   artefatos['Preço'] = limpar_preco(artefatos['Preço'])
   artefatos.to_csv('docs_silver/artefatos.csv',encoding='utf-8')
 
