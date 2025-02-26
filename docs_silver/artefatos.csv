@@ -1,44 +1,44 @@
-,Unnamed: 0,Imagem,Nome,Descrição,Preço,Local
-0,0.0,,Pergaminho dos anões,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui possui um laço vermelho.,1.0,Nível da Mina 1-20  Slime Verde (Floresta Secreta)
-1,1.0,,Pergaminho dos anões II,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui possui um laço verde.,1.0,Morcego de Gelo (Nível da Mina 40-65)  Espirito da Terra (Nível da Mina 40-79)  Slime Azul (Floresta Secreta ou Minas)
-2,2.0,,Pergaminho dos anões III,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui está enrolado em um laço azul.,1.0,Nível da Mina 40+  Morcego de Gelo (Nível da Mina 40-65)  Morcego de Fogo (Nível da Mina 81+)  Slime Azul (Floresta Secreta ou Minas)  Caverna da Caveira
-3,3.0,,Pergaminho dos anões IV,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui está enrolado com um laço dourado.,1.0,Qualquer Monstro (Minas)  Usando uma enxada no solo (Nível da Mina 81+)  Larva Mutante (Toca do Inseto Mutante)
-4,4.0,,Ânfora quebrada,Um vaso antigo feito de cerâmica. Utilizado para transportar bens secos e molhados.,40.0,Cidade (4%)
-5,5.0,,Ponta de flecha,Uma ponta de flecha bruta utilizada para caça.,40.0,Montanha (2%)  Floresta (2%)  Ponto de Ônibus (2%)
-6,6.0,,Boneco antigo,"Um boneco antigo coberto de sujeira. Este boneco pode ter sido usado como brinquedo, decoração, ou escora em algum ritual.",60.0,Montanha (4%)  Floresta (3%)  Ponto de Ônibus (3%)  Cidade (1%)  Baú de Pescaria  Minas (?%)  Festival da Estrela Invernal
-7,7.0,,Joias Élficas,"Sujas, mas ainda assim lindas. Do lado, há um manuscrito cursivo que alguns acham ser a língua dos elfos. Nenhum resto mortal élfico foi encontrado.",200.0,Floresta (1%)  Baú de Pescaria
-8,8.0,,Palha para mastigar,Os antigos mastigavam-nas para manter seus dentes limpos.,50.0,Montanha (2%)  Floresta (2%)  Cidade (1%)  Baú de Pescaria
-9,9.0,,Leque ornamental,Este lindo leque provavelmente pertencia a uma nobre. Os historiadores acreditam que o vale era um local popular na sexta era para os abastados.,300.0,Praia (2%)  Floresta (1%)  Cidade (0.8%)  Baú de Pescaria
-10,10.0,,Ovo de dinossauro,Um ovo de dinossauro gigante... O casco inteiro ainda está intacto!,350.0,Montanha (0.8%)  Baú de Pescaria
-11,11.0,,Disco raro,"Um disco pesado e negro com pedras vermelhas e peculiares. Ao segurá-lo, você se enche com um sentimento de pavor.",300.0,"Morcegos  ,  Bruto das sombras  , ou  Xamã das sombras  Baú de Pescaria"
-12,12.0,,Espada antiga,"São os restos de uma espada antiga. A maior parte da lâmina enferrujou, mas o punho é muito bem desenhado.",100.0,Floresta (1%)  Montanha (0.8%)  Baú de Pescaria
-13,13.0,,Colher enferrujada,Uma colher comum que provavelmente tem mais de dez anos. Não é muito interessante.,25.0,Cidade (5%)  Baú de Pescaria  Minas (Solo)
-14,14.0,,Esporão enferrujado,Um esporão velho que ficava preso às botas de um vaqueiro. As pessoas devem criar animais nesta área há gerações.,25.0,Baú de Pesca  Fazenda (?%)
-15,15.0,,Engrenagem velha,Uma engrenagem bem-preservada que deve ter sido parte de uma máquina antiga. Pode ser tecnologia dos anões.,25.0,"Montanha (5%)  Mina ~14-25 em locais de terra  Baú de Pesca (0,16%-0,18%)"
-16,16.0,,Estátua de galinha,É uma estátua de galinha com base de bronze. Os antigos moradores deste lugar deviam adorar galinhas.,50.0,"Baú de pesca (0,16%-0,18%)  Floresta (?%)  Fazenda (?%)"
-17,17.0,,Semente antiga,É uma velha semente ressecada de uma planta antiga. Aparenta ter morrido há muito tempo atrás...,5.0,"Floresta (1%)  Montanha (1%)  Baú de Pesca  Drop de monstros (  Insetos  ,  Larvas  ,  Moscas  : 0,5%)"
-18,18.0,,Ferramenta pré-histórica,Uma ferramenta antiga e meio torta.,50.0,Parada de Ônibus (4%)  Montanha (3%)  Floresta (3%)  Baú de pesca
-19,19.0,,Estrela-do-mar ressecada,Uma estrela-do-mar do oceano primordial. Parece estar incrivelmente bem conservada!,40.0,Praia (10%)  Baú de Pesca
-20,20.0,,Âncora,Deve ter pertencido aos piratas de antigamente.,100.0,Praia (5%)  Baú de Pesca (Desconhecido)
-21,21.0,,Cacos de vidro,Uma mistura de cacos de vidro arredondados por séculos de ondas do mar. Podem ter pertencido a um mosaico ou colar.,20.0,Praia (10%)  Baú de Pesca
-22,22.0,,Flauta de ossos,Instrumento pré-histórico feito dos ossos de um animal. Sua música dá medo.,100.0,Montanha (1%)  Floresta (1%)  Cidade (0.5%)  Baú de Pesca
-23,23.0,,Biface pré-histórico,"Uma das mais antigas ferramentas utilizadas por seres humanos. Esta ferramenta ""primitiva"" foi criada ao bater uma pedra com outra para gerar uma lâmina afinada.",50.0,Montanha (5%)  Floresta (5%)  Parada de Ônibus (5%)
-24,24.0,,Elmo anão,Um dos elmos comumente utilizado por anões. A armadura de metal espessa protege dos detritos que caem das estalactites.,100.0,Mina (1%)  Omnigeodo  (1.2%)
-25,25.0,,Dispositivo de anão,"Tecnologia avançada conhecida pelos anões há muito tempo. Ainda está brilhando e assobiando, você é incapaz de entender como funciona.",200.0,Mina (0.1%)  Omnigeodo  (1.2%)
-26,26.0,,Tambor antigo,É um tambor feito de madeira e pele animal. Posso uma reverberação lenta e baixa.,100.0,Parada de Ônibus (1%)  Floresta (1%)  Cidade (0.5%)  Omnigeodo  (1.2%)
-27,27.0,,Máscara dourada,Uma máscara dourada e assustadora utilizada em um ritual antigo de mágica. Um buraco na testa com contém uma joia grande e roxa.,500.0,Deserto (4%)
-28,28.0,,Relíquia dourada,Uma placa dourada com hieroglifos e figuras gravadas na frente.,250.0,Deserto (8%)
-29,29.0,,Boneco estranho,???,1000.0,Todo Local (0.1%)  Caverna da caveira (Escavando/explodindo a terra)  Minas (Usando enxada na terra)  Baú de Pesca  Recado Secreto #17
-30,30.0,,Boneco estranho,???,1000.0,Todo Local (0.1%)  Caverna da caveira (Cavando/explodindo a terra)  Minas (Usando enxada na terra)  Baú de Pesca  Recado Secreto #18
-31,31.0,,Escápula pré-histórica,"Também conhecida como ""omoplata""... Não se sabe a qual espécie ela pertenceu.",100.0,Cidade (1%)  Floresta (?%)
-32,32.0,,Tíbia pré-histórica,Um osso da perna grosso e resistente.,100.0,Floresta (1%)  Ferrovia (?%)
-33,33.0,,Caveira pré-histórica,Definitivamente o crânio de um mamífero.,100.0,Montanha (1%)
-34,34.0,,Mão de esqueleto,É maravilhoso como essas pecinhas duraram tanto.,100.0,Praia (1%)  Backwoods (?%)
-35,35.0,,Costela pré-história,As pequenas marcas de uma goiva sugerem que esta costela já foi o jantar de alguém.,100.0,Cidade (1%)
-36,36.0,,Vértebra pré-histórica,Um segmento da espinha de alguma criatura pré-histórica.,100.0,Parada de Ônibus (1%)
-37,37.0,,Esqueleto de cauda,É muito curta para uma cauda.,100.0,Mina (1%)  Baú de Pesca
-38,38.0,,Fóssil de náutilo,Deve ter desbotado décadas atrás de um recife de coral antigo.,80.0,Praia (3%)  Baú de Pesca
-39,39.0,,Fóssil de anfíbio,Suas pernas relativamente curtas sugerem uma espécie de sapo primordial.,150.0,Floresta (1%)  Montanha (1%)  Baú de Pesca
-40,40.0,,Fóssil de Palma,"Fósseis de palma são relativamente comuns, mas este é um espécime particularmente bem conservado.",100.0,Floresta (1%)  Praia (1%)  Deserto (1%)
-41,41.0,,Trilobita,Um parente há muito tempo extinto do caranguejo.,50.0,Floresta (3%)  Praia (3%)  Montanha (3%)
-42,,,Tesouro de Artefato,Um ferreiro pode abrir isso para você. Estes tesouros contém relíquias antigas e raridades.,,Comerciante do Deserto  Espólio de  Caveira Assombrada
+,Nome,Descrição,Preço,Local,
+0,Pergaminho dos anões,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui possui um laço vermelho.,1.0,Nível da Mina 1-20  Slime Verde (Floresta Secreta),
+1,Pergaminho dos anões II,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui possui um laço verde.,1.0,Morcego de Gelo (Nível da Mina 40-65)  Espirito da Terra (Nível da Mina 40-79)  Slime Azul (Floresta Secreta ou Minas),
+2,Pergaminho dos anões III,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui está enrolado em um laço azul.,1.0,Nível da Mina 40+  Morcego de Gelo (Nível da Mina 40-65)  Morcego de Fogo (Nível da Mina 81+)  Slime Azul (Floresta Secreta ou Minas)  Caverna da Caveira,
+3,Pergaminho dos anões IV,Um pergaminho amarelado escrito na linguagem dos anões. Este aqui está enrolado com um laço dourado.,1.0,Qualquer Monstro (Minas)  Usando uma enxada no solo (Nível da Mina 81+)  Larva Mutante (Toca do Inseto Mutante),
+4,Ânfora quebrada,Um vaso antigo feito de cerâmica. Utilizado para transportar bens secos e molhados.,40.0,Cidade (4%),
+5,Ponta de flecha,Uma ponta de flecha bruta utilizada para caça.,40.0,Montanha (2%)  Floresta (2%)  Ponto de Ônibus (2%),
+6,Boneco antigo,"Um boneco antigo coberto de sujeira. Este boneco pode ter sido usado como brinquedo, decoração, ou escora em algum ritual.",60.0,Montanha (4%)  Floresta (3%)  Ponto de Ônibus (3%)  Cidade (1%)  Baú de Pescaria  Minas (?%)  Festival da Estrela Invernal,
+7,Joias Élficas,"Sujas, mas ainda assim lindas. Do lado, há um manuscrito cursivo que alguns acham ser a língua dos elfos. Nenhum resto mortal élfico foi encontrado.",200.0,Floresta (1%)  Baú de Pescaria,
+8,Palha para mastigar,Os antigos mastigavam-nas para manter seus dentes limpos.,50.0,Montanha (2%)  Floresta (2%)  Cidade (1%)  Baú de Pescaria,
+9,Leque ornamental,Este lindo leque provavelmente pertencia a uma nobre. Os historiadores acreditam que o vale era um local popular na sexta era para os abastados.,300.0,Praia (2%)  Floresta (1%)  Cidade (0.8%)  Baú de Pescaria,
+10,Ovo de dinossauro,Um ovo de dinossauro gigante... O casco inteiro ainda está intacto!,350.0,Montanha (0.8%)  Baú de Pescaria,
+11,Disco raro,"Um disco pesado e negro com pedras vermelhas e peculiares. Ao segurá-lo, você se enche com um sentimento de pavor.",300.0,"Morcegos  ,  Bruto das sombras  , ou  Xamã das sombras  Baú de Pescaria",
+12,Espada antiga,"São os restos de uma espada antiga. A maior parte da lâmina enferrujou, mas o punho é muito bem desenhado.",100.0,Floresta (1%)  Montanha (0.8%)  Baú de Pescaria,
+13,Colher enferrujada,Uma colher comum que provavelmente tem mais de dez anos. Não é muito interessante.,25.0,Cidade (5%)  Baú de Pescaria  Minas (Solo),
+14,Esporão enferrujado,Um esporão velho que ficava preso às botas de um vaqueiro. As pessoas devem criar animais nesta área há gerações.,25.0,Baú de Pesca  Fazenda (?%),
+15,Engrenagem velha,Uma engrenagem bem-preservada que deve ter sido parte de uma máquina antiga. Pode ser tecnologia dos anões.,25.0,"Montanha (5%)  Mina ~14-25 em locais de terra  Baú de Pesca (0,16%-0,18%)",
+16,Estátua de galinha,É uma estátua de galinha com base de bronze. Os antigos moradores deste lugar deviam adorar galinhas.,50.0,"Baú de pesca (0,16%-0,18%)  Floresta (?%)  Fazenda (?%)",
+17,Semente antiga,É uma velha semente ressecada de uma planta antiga. Aparenta ter morrido há muito tempo atrás...,5.0,"Floresta (1%)  Montanha (1%)  Baú de Pesca  Drop de monstros (  Insetos  ,  Larvas  ,  Moscas  : 0,5%)",
+18,Ferramenta pré-histórica,Uma ferramenta antiga e meio torta.,50.0,Parada de Ônibus (4%)  Montanha (3%)  Floresta (3%)  Baú de pesca,
+19,Estrela-do-mar ressecada,Uma estrela-do-mar do oceano primordial. Parece estar incrivelmente bem conservada!,40.0,Praia (10%)  Baú de Pesca,
+20,Âncora,Deve ter pertencido aos piratas de antigamente.,100.0,Praia (5%)  Baú de Pesca (Desconhecido),
+21,Cacos de vidro,Uma mistura de cacos de vidro arredondados por séculos de ondas do mar. Podem ter pertencido a um mosaico ou colar.,20.0,Praia (10%)  Baú de Pesca,
+22,Flauta de ossos,Instrumento pré-histórico feito dos ossos de um animal. Sua música dá medo.,100.0,Montanha (1%)  Floresta (1%)  Cidade (0.5%)  Baú de Pesca,
+23,Biface pré-histórico,"Uma das mais antigas ferramentas utilizadas por seres humanos. Esta ferramenta ""primitiva"" foi criada ao bater uma pedra com outra para gerar uma lâmina afinada.",50.0,Montanha (5%)  Floresta (5%)  Parada de Ônibus (5%),
+24,Elmo anão,Um dos elmos comumente utilizado por anões. A armadura de metal espessa protege dos detritos que caem das estalactites.,100.0,Mina (1%)  Omnigeodo  (1.2%),
+25,Dispositivo de anão,"Tecnologia avançada conhecida pelos anões há muito tempo. Ainda está brilhando e assobiando, você é incapaz de entender como funciona.",200.0,Mina (0.1%)  Omnigeodo  (1.2%),
+26,Tambor antigo,É um tambor feito de madeira e pele animal. Posso uma reverberação lenta e baixa.,100.0,Parada de Ônibus (1%)  Floresta (1%)  Cidade (0.5%)  Omnigeodo  (1.2%),
+27,Máscara dourada,Uma máscara dourada e assustadora utilizada em um ritual antigo de mágica. Um buraco na testa com contém uma joia grande e roxa.,500.0,Deserto (4%),
+28,Relíquia dourada,Uma placa dourada com hieroglifos e figuras gravadas na frente.,250.0,Deserto (8%),
+29,Boneco estranho,???,1000.0,Todo Local (0.1%)  Caverna da caveira (Escavando/explodindo a terra)  Minas (Usando enxada na terra)  Baú de Pesca  Recado Secreto #17,
+30,Boneco estranho,???,1000.0,Todo Local (0.1%)  Caverna da caveira (Cavando/explodindo a terra)  Minas (Usando enxada na terra)  Baú de Pesca  Recado Secreto #18,
+31,Escápula pré-histórica,"Também conhecida como ""omoplata""... Não se sabe a qual espécie ela pertenceu.",100.0,Cidade (1%)  Floresta (?%),
+32,Tíbia pré-histórica,Um osso da perna grosso e resistente.,100.0,Floresta (1%)  Ferrovia (?%),
+33,Caveira pré-histórica,Definitivamente o crânio de um mamífero.,100.0,Montanha (1%),
+34,Mão de esqueleto,É maravilhoso como essas pecinhas duraram tanto.,100.0,Praia (1%)  Backwoods (?%),
+35,Costela pré-história,As pequenas marcas de uma goiva sugerem que esta costela já foi o jantar de alguém.,100.0,Cidade (1%),
+36,Vértebra pré-histórica,Um segmento da espinha de alguma criatura pré-histórica.,100.0,Parada de Ônibus (1%),
+37,Esqueleto de cauda,É muito curta para uma cauda.,100.0,Mina (1%)  Baú de Pesca,
+38,Fóssil de náutilo,Deve ter desbotado décadas atrás de um recife de coral antigo.,80.0,Praia (3%)  Baú de Pesca,
+39,Fóssil de anfíbio,Suas pernas relativamente curtas sugerem uma espécie de sapo primordial.,150.0,Floresta (1%)  Montanha (1%)  Baú de Pesca,
+40,Fóssil de Palma,"Fósseis de palma são relativamente comuns, mas este é um espécime particularmente bem conservado.",100.0,Floresta (1%)  Praia (1%)  Deserto (1%),
+41,Trilobita,Um parente há muito tempo extinto do caranguejo.,50.0,Floresta (3%)  Praia (3%)  Montanha (3%),
+42,Tesouro de Artefato,Um ferreiro pode abrir isso para você. Estes tesouros contém relíquias antigas e raridades.,,Comerciante do Deserto  Espólio de  Caveira Assombrada,0.0
