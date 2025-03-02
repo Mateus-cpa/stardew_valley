@@ -1,33 +1,33 @@
-Fruta,Muda,Preco_venda,Energia,Saude,Vendido por,Usado em,Estágio 1,Estágio 2,Estágio 3,Estágio 4,"Estágio 5 - Primavera, Verão, Outono, Inverno",Colheita,preco_muda_pierre,preco_muda_carrinho_viagem,preco_medio_muda_carrinho_viagem
-Banana,Muda de Bananeira,150,75,33,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,
-Banana_prata,Muda de Bananeira,187,105,47,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,
-Banana_ouro,Muda de Bananeira,225,135,60,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,
-Banana_iridio,Muda de Bananeira,300,195,87,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,
-Cereja,Muda de cerejeira,80,38,17,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,3400.0
-Cereja_prata,Muda de cerejeira,100,53,23,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,3400.0
-Cereja_ouro,Muda de cerejeira,120,68,30,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,3400.0
-Cereja_iridio,Muda de cerejeira,160,98,44,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,3400.0
-Damasco,Muda de damasqueiro,50,38,17,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,2000.0
-Damasco_prata,Muda de damasqueiro,62,53,23,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,2000.0
-Damasco_ouro,Muda de damasqueiro,75,68,30,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,2000.0
-Damasco_iridio,Muda de damasqueiro,100,98,44,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,2000.0
-Laranja,Muda de laranjeira,100,38,17,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,4000.0
-Laranja_prata,Muda de laranjeira,125,53,23,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,4000.0
-Laranja_ouro,Muda de laranjeira,150,68,30,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,4000.0
-Laranja_iridio,Muda de laranjeira,200,98,44,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,4000.0
-Manga,Muda de Mangueira,150,75,33,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,
-Manga_prata,Muda de Mangueira,187,105,47,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,
-Manga_ouro,Muda de Mangueira,225,135,60,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,
-Manga_iridio,Muda de Mangueira,300,195,87,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,
-Maçã,Muda de macieira,100,38,17,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,4000.0
-Maçã_prata,Muda de macieira,125,53,23,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,4000.0
-Maçã_ouro,Muda de macieira,150,68,30,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,4000.0
-Maçã_iridio,Muda de macieira,200,98,44,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,4000.0
-Pêssego,Muda de pessegueiro,140,38,17,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,6000.0
-Pêssego_prata,Muda de pessegueiro,175,53,23,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,6000.0
-Pêssego_ouro,Muda de pessegueiro,210,68,30,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,6000.0
-Pêssego_iridio,Muda de pessegueiro,280,98,44,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,6000.0
-Romã,Muda de romanzeira,140,38,17,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,6000.0
-Romã_prata,Muda de romanzeira,175,53,23,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,6000.0
-Romã_ouro,Muda de romanzeira,210,68,30,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,6000.0
-Romã_iridio,Muda de romanzeira,280,98,44,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,6000.0
+Fruta,Muda,Preco_venda,Energia,Saude,Vendido por,Usado em,Estágio 1,Estágio 2,Estágio 3,Estágio 4,"Estágio 5 - Primavera, Verão, Outono, Inverno",Colheita,preco_muda_pierre,preco_muda_carrinho_viagem,preco_medio_muda_carrinho_viagem,preco_minimo_muda_carrinho_viagem,preco_maximo_muda_carrinho_viagem
+Banana,Muda de Bananeira,150,75,33,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,,,
+Banana_prata,Muda de Bananeira,187,105,47,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,,,
+Banana_ouro,Muda de Bananeira,225,135,60,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,,,
+Banana_iridio,Muda de Bananeira,300,195,87,Comerciante da Ilha  por  Dente de Dragão  (5),Obelisco da Ilha  Pudim de Banana,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,,,,,
+Cereja,Muda de cerejeira,80,38,17,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,0.0,2550.0,4250.0
+Cereja_prata,Muda de cerejeira,100,53,23,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,0.0,2550.0,4250.0
+Cereja_ouro,Muda de cerejeira,120,68,30,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,0.0,2550.0,4250.0
+Cereja_iridio,Muda de cerejeira,160,98,44,,Conjunto Artesão,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,3400.0,2550–4250,0.0,2550.0,4250.0
+Damasco,Muda de damasqueiro,50,38,17,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,0.0,1500.0,2500.0
+Damasco_prata,Muda de damasqueiro,62,53,23,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,0.0,1500.0,2500.0
+Damasco_ouro,Muda de damasqueiro,75,68,30,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,0.0,1500.0,2500.0
+Damasco_iridio,Muda de damasqueiro,100,98,44,,"Conjunto Artesão  Salada de frutas  Missão ""Frutas frescas""",7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Primavera,2000.0,1500–2500,0.0,1500.0,2500.0
+Laranja,Muda de laranjeira,100,38,17,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,0.0,3000.0,5000.0
+Laranja_prata,Muda de laranjeira,125,53,23,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,0.0,3000.0,5000.0
+Laranja_ouro,Muda de laranjeira,150,68,30,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,0.0,3000.0,5000.0
+Laranja_iridio,Muda de laranjeira,200,98,44,,Conjunto Artesão  Gus  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,4000.0,3000–5000,0.0,3000.0,5000.0
+Manga,Muda de Mangueira,150,75,33,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,,,
+Manga_prata,Muda de Mangueira,187,105,47,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,,,
+Manga_ouro,Muda de Mangueira,225,135,60,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,,,
+Manga_iridio,Muda de Mangueira,300,195,87,Comerciante da Ilha  por  Mexilhão  (75),Leo  (Presente amado)  Arroz Doce de Manga,7 dias,7 dias,7 dias,7 dias,Total: 28 dias,Verão,,,,,
+Maçã,Muda de macieira,100,38,17,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,0.0,3000.0,5000.0
+Maçã_prata,Muda de macieira,125,53,23,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,0.0,3000.0,5000.0
+Maçã_ouro,Muda de macieira,150,68,30,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,0.0,3000.0,5000.0
+Maçã_iridio,Muda de macieira,200,98,44,,Conjunto Artesão  Doce de oxicoco  Conjunto Forragem,7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,4000.0,3000–5000,0.0,3000.0,5000.0
+Pêssego,Muda de pessegueiro,140,38,17,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,0.0,4500.0,7500.0
+Pêssego_prata,Muda de pessegueiro,175,53,23,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,0.0,4500.0,7500.0
+Pêssego_ouro,Muda de pessegueiro,210,68,30,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,0.0,4500.0,7500.0
+Pêssego_iridio,Muda de pessegueiro,280,98,44,,Conjunto Artesão  Robin  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Verão,6000.0,4500–7500,0.0,4500.0,7500.0
+Romã,Muda de romanzeira,140,38,17,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,0.0,4500.0,7500.0
+Romã_prata,Muda de romanzeira,175,53,23,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,0.0,4500.0,7500.0
+Romã_ouro,Muda de romanzeira,210,68,30,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,0.0,4500.0,7500.0
+Romã_iridio,Muda de romanzeira,280,98,44,,Conjunto Artesão  Conjunto de Encantador  Elliott  (Presente amado),7 Dias,7 Dias,7 Dias,7 Dias,Total: 28 Dias,Outono,6000.0,4500–7500,0.0,4500.0,7500.0
