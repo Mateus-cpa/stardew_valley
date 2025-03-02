@@ -197,7 +197,7 @@ def limpar_preco(serie):
   def tratar_elemento(elemento, coluna:int = 0):
       """
       Trata um elemento individualmente retirando o nome 'ouros', 'ouro' ou 'g'
-      para retornar apenas o vlaor numérico.
+      para retornar apenas o valor numérico.
       
       Args:
           elemento: Um elemento da Série.
@@ -215,6 +215,27 @@ def limpar_preco(serie):
           return float(elemento)
 
   return serie.apply(tratar_elemento)
+
+def preco_medio(elemento: str, separador: str = '–'):
+  """Calcula o preço médio de uma string que representa uma faixa de preço separado por '-'.
+
+  Args:
+      elemento: Um elemento de preço.
+
+  Returns:
+      O preço médio do elemento.
+  """
+  try:
+    if isinstance(elemento, float):
+      return elemento
+    elemento = str(elemento).replace(' ', '').replace(' ', '')
+    partes = elemento.split(separador)
+    if len(partes) == 2:
+      return (int(partes[0]) + int(partes[1])) / 2
+    else:
+      return None
+  except ValueError:
+    return None
 
 def separar_e_explodir(df, coluna):
   """
@@ -538,6 +559,9 @@ def concat_dataframes ():
   df_arvores = df_arvores.rename(columns = {'Preço da Muda': 'preco_muda_pierre',
                                           'Preço da Muda.1': 'preco_muda_carrinho_viagem',
                                           'Preço de venda': 'Preco_venda'})
+  df_arvores.preco_muda_pierre = limpar_preco(df_arvores.preco_muda_pierre)
+  df_arvores.preco_muda_carrinho_viagem = limpar_preco(df_arvores.preco_muda_carrinho_viagem)
+  df_arvores['preco_medio_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(preco_medio)
   df_arvores = df_arvores[['Fruta',
                            'Muda',
                            'Preco_venda',
@@ -552,7 +576,8 @@ def concat_dataframes ():
                            'Estágio 5 - Primavera, Verão, Outono, Inverno',
                            'Colheita',
                            'preco_muda_pierre',
-                           'preco_muda_carrinho_viagem']]
+                           'preco_muda_carrinho_viagem',
+                           'preco_medio_muda_carrinho_viagem']]
   df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8', index=False)
 
 
