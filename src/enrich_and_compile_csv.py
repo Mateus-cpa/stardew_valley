@@ -216,26 +216,35 @@ def limpar_preco(serie):
 
   return serie.apply(tratar_elemento)
 
-def preco_medio(elemento: str, separador: str = '–'):
-  """Calcula o preço médio de uma string que representa uma faixa de preço separado por '-'.
+def precos_carrinho_viagem(elemento: str, 
+                           separador: str = '–', 
+                           medio: bool = False, 
+                           minimo: bool = False, 
+                           maximo: bool = False):
+  """Calcula o preço médio, mínimo e máximo de uma string que representa uma faixa de preço separado por '-'.
 
   Args:
       elemento: Um elemento de preço.
 
   Returns:
-      O preço médio do elemento.
+      Uma tupla com o preço médio, mínimo e máximo do elemento.
   """
-  try:
-    if isinstance(elemento, float):
-      return elemento
+  
+  if isinstance(elemento, float):
+    return elemento
+  else:
     elemento = str(elemento).replace(' ', '').replace(' ', '')
     partes = elemento.split(separador)
     if len(partes) == 2:
-      return (int(partes[0]) + int(partes[1])) / 2
-    else:
-      return None
-  except ValueError:
-    return None
+      valor_minimo = float(partes[0])
+      valor_maximo = float(partes[1])
+      valor_medio = (minimo + maximo) / 2
+      if medio:
+        return valor_medio
+      if minimo:  
+        return valor_minimo
+      if maximo:
+        return valor_maximo
 
 def separar_e_explodir(df, coluna):
   """
@@ -561,7 +570,9 @@ def concat_dataframes ():
                                           'Preço de venda': 'Preco_venda'})
   df_arvores.preco_muda_pierre = limpar_preco(df_arvores.preco_muda_pierre)
   df_arvores.preco_muda_carrinho_viagem = limpar_preco(df_arvores.preco_muda_carrinho_viagem)
-  df_arvores['preco_medio_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(preco_medio)
+  df_arvores['preco_medio_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, medio=True)
+  df_arvores['preco_minimo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, minimo=True)
+  df_arvores['preco_maximo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, maximo=True)
   df_arvores = df_arvores[['Fruta',
                            'Muda',
                            'Preco_venda',
@@ -577,7 +588,9 @@ def concat_dataframes ():
                            'Colheita',
                            'preco_muda_pierre',
                            'preco_muda_carrinho_viagem',
-                           'preco_medio_muda_carrinho_viagem']]
+                           'preco_medio_muda_carrinho_viagem',
+                           'preco_minimo_muda_carrinho_viagem',
+                           'preco_maximo_muda_carrinho_viagem']]
   df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8', index=False)
 
 
