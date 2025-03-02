@@ -218,7 +218,6 @@ def limpar_preco(serie):
 
 def precos_carrinho_viagem(elemento: str, 
                            separador: str = '–', 
-                           medio: bool = False, 
                            minimo: bool = False, 
                            maximo: bool = False):
   """Calcula o preço médio, mínimo e máximo de uma string que representa uma faixa de preço separado por '-'.
@@ -238,9 +237,6 @@ def precos_carrinho_viagem(elemento: str,
     if len(partes) == 2:
       valor_minimo = float(partes[0])
       valor_maximo = float(partes[1])
-      valor_medio = (minimo + maximo) / 2
-      if medio:
-        return valor_medio
       if minimo:  
         return valor_minimo
       if maximo:
@@ -570,7 +566,6 @@ def concat_dataframes ():
                                           'Preço de venda': 'Preco_venda'})
   df_arvores.preco_muda_pierre = limpar_preco(df_arvores.preco_muda_pierre)
   df_arvores.preco_muda_carrinho_viagem = limpar_preco(df_arvores.preco_muda_carrinho_viagem)
-  df_arvores['preco_medio_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, medio=True)
   df_arvores['preco_minimo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, minimo=True)
   df_arvores['preco_maximo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, maximo=True)
   df_arvores = df_arvores[['Fruta',
@@ -588,7 +583,6 @@ def concat_dataframes ():
                            'Colheita',
                            'preco_muda_pierre',
                            'preco_muda_carrinho_viagem',
-                           'preco_medio_muda_carrinho_viagem',
                            'preco_minimo_muda_carrinho_viagem',
                            'preco_maximo_muda_carrinho_viagem']]
   df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8', index=False)
