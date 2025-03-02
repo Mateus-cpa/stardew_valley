@@ -568,6 +568,8 @@ def concat_dataframes ():
   df_arvores.preco_muda_carrinho_viagem = limpar_preco(df_arvores.preco_muda_carrinho_viagem)
   df_arvores['preco_minimo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, minimo=True)
   df_arvores['preco_maximo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, maximo=True)
+  df_arvores['Rentabilidade'] = np.where(df_arvores['preco_muda_pierre'] != None,
+                                        df_arvores['Preco_venda'] / df_arvores['preco_muda_pierre'],None)
   df_arvores = df_arvores[['Fruta',
                            'Muda',
                            'Preco_venda',
@@ -584,7 +586,8 @@ def concat_dataframes ():
                            'preco_muda_pierre',
                            'preco_muda_carrinho_viagem',
                            'preco_minimo_muda_carrinho_viagem',
-                           'preco_maximo_muda_carrinho_viagem']]
+                           'preco_maximo_muda_carrinho_viagem',
+                           'Rentabilidade']]
   df_arvores.to_csv('docs_silver/arvores.csv', encoding='utf-8', index=False)
 
 
@@ -1193,6 +1196,7 @@ def concat_dataframes ():
 if __name__ == '__main__':
   import pandas as pd
   import re
+  import numpy as np
   profissoes()
   limpar_csv('docs_bronze/xp_coleta.csv')
   xp()
