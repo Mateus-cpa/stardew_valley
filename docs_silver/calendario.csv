@@ -8,7 +8,7 @@
 6,26,0.primavera,aniversario,Pierre
 7,27,0.primavera,aniversario,Emily
 8,13,0.0.primavera,festivais,Festival do Ovo
-9,"15, 16 e 17",0.0.primavera,festivais,Festival do Deserto
+9,"['15', '16', '17']",0.0.primavera,festivais,Festival do Deserto
 10,24,0.0.primavera,festivais,Dança das Flores
 11,4,1.0.verao,aniversario,Jas
 12,8,1.0.verao,aniversario,Gus
@@ -20,7 +20,7 @@
 18,24,1.0.verao,aniversario,Willy
 19,26,1.0.verao,aniversario,Leo
 20,11,1.0.verao,festivais,Luau
-21,20-21,1.0.verao,festivais,Competição de Truta
+21,"[20, 21]",1.0.verao,festivais,Competição de Truta
 22,28,1.0.verao,festivais,Dança das Medusas-da-Lua
 23,2,1.0.outono,aniversario,Penny
 24,5,1.0.outono,aniversario,Elliott
@@ -42,5 +42,5 @@
 40,23,2.0.inverno,aniversario,Leah
 41,26,2.0.inverno,aniversario,Clint
 42,08,2.0.inverno,festivais,Festival do Gelo
-43,15-17,2.0.inverno,festivais,Mercado Noturno
+43,"[15, 16, 17]",2.0.inverno,festivais,Mercado Noturno
 44,25,2.0.inverno,festivais,Festival da Estrela Invernal
