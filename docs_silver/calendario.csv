@@ -7,40 +7,45 @@
 5,20,0.primavera,aniversario,Shane
 6,26,0.primavera,aniversario,Pierre
 7,27,0.primavera,aniversario,Emily
-8,13,0.0.primavera,festivais,Festival do Ovo
-9,"['15', '16', '17']",0.0.primavera,festivais,Festival do Deserto
-10,24,0.0.primavera,festivais,Dança das Flores
-11,4,1.0.verao,aniversario,Jas
-12,8,1.0.verao,aniversario,Gus
-13,10,1.0.verao,aniversario,Maru
-14,13,1.0.verao,aniversario,Alex
-15,17,1.0.verao,aniversario,Sam
-16,19,1.0.verao,aniversario,Demetrius
-17,22,1.0.verao,aniversario,Anão
-18,24,1.0.verao,aniversario,Willy
-19,26,1.0.verao,aniversario,Leo
-20,11,1.0.verao,festivais,Luau
-21,"[20, 21]",1.0.verao,festivais,Competição de Truta
-22,28,1.0.verao,festivais,Dança das Medusas-da-Lua
-23,2,1.0.outono,aniversario,Penny
-24,5,1.0.outono,aniversario,Elliott
-25,11,1.0.outono,aniversario,Jodi
-26,13,1.0.outono,aniversario,Abigail
-27,15,1.0.outono,aniversario,Sandy
-28,18,1.0.outono,aniversario,Marnie
-29,21,1.0.outono,aniversario,Robin
-30,24,1.0.outono,aniversario,George
-31,16,1.0.outono,festivais,Feira do Vale do Orvalho
-32,27,1.0.outono,festivais,Véspera dos Espíritos
-33,1,2.0.inverno,aniversario,Krobus
-34,3,2.0.inverno,aniversario,Linus
-35,7,2.0.inverno,aniversario,Caroline
-36,10,2.0.inverno,aniversario,Sebastian
-37,14,2.0.inverno,aniversario,Harvey
-38,17,2.0.inverno,aniversario,Feiticeiro
-39,20,2.0.inverno,aniversario,Evelyn
-40,23,2.0.inverno,aniversario,Leah
-41,26,2.0.inverno,aniversario,Clint
-42,08,2.0.inverno,festivais,Festival do Gelo
-43,"[15, 16, 17]",2.0.inverno,festivais,Mercado Noturno
-44,25,2.0.inverno,festivais,Festival da Estrela Invernal
+8,13,0.primavera,festivais,Festival do Ovo
+9,15,0.primavera,festivais,Festival do Deserto
+10,16,0.primavera,festivais,Festival do Deserto
+11,17,0.primavera,festivais,Festival do Deserto
+12,24,0.primavera,festivais,Dança das Flores
+13,4,1.verao,aniversario,Jas
+14,8,1.verao,aniversario,Gus
+15,10,1.verao,aniversario,Maru
+16,13,1.verao,aniversario,Alex
+17,17,1.verao,aniversario,Sam
+18,19,1.verao,aniversario,Demetrius
+19,22,1.verao,aniversario,Anão
+20,24,1.verao,aniversario,Willy
+21,26,1.verao,aniversario,Leo
+22,11,1.verao,festivais,Luau
+23,20,1.verao,festivais,Competição de Truta
+24,21,1.verao,festivais,Competição de Truta
+25,28,1.verao,festivais,Dança das Medusas-da-Lua
+26,2,1.outono,aniversario,Penny
+27,5,1.outono,aniversario,Elliott
+28,11,1.outono,aniversario,Jodi
+29,13,1.outono,aniversario,Abigail
+30,15,1.outono,aniversario,Sandy
+31,18,1.outono,aniversario,Marnie
+32,21,1.outono,aniversario,Robin
+33,24,1.outono,aniversario,George
+34,16,1.outono,festivais,Feira do Vale do Orvalho
+35,27,1.outono,festivais,Véspera dos Espíritos
+36,1,2.inverno,aniversario,Krobus
+37,3,2.inverno,aniversario,Linus
+38,7,2.inverno,aniversario,Caroline
+39,10,2.inverno,aniversario,Sebastian
+40,14,2.inverno,aniversario,Harvey
+41,17,2.inverno,aniversario,Feiticeiro
+42,20,2.inverno,aniversario,Evelyn
+43,23,2.inverno,aniversario,Leah
+44,26,2.inverno,aniversario,Clint
+45,08,2.inverno,festivais,Festival do Gelo
+46,15,2.inverno,festivais,Mercado Noturno
+47,16,2.inverno,festivais,Mercado Noturno
+48,17,2.inverno,festivais,Mercado Noturno
+49,25,2.inverno,festivais,Festival da Estrela Invernal
