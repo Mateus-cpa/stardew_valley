@@ -309,6 +309,26 @@ def tenta_separar_string (linha: str, divisor):
               texto_dividido.append(parte)
   return texto_dividido
   
+def separar_dias(valor):
+  import ast
+  """
+    Separa as strings de um valor em novas linhas com base em separadores de datas.
+
+    Args: 
+      valor: string a ser processada.
+
+    Returns:
+      Lista com as datas separadas.
+  """
+  if '-' in str(valor):#por intervalo de datas com '-'
+    partes = valor.split('-')
+    lista = list(range(int(partes[0]),int(partes[1])+1)) #adiciona intermediários
+  elif ',' in str(valor):  #lista de datas com ','
+    lista = str(valor).replace(',', '').replace('e','').split(' ')
+    lista = list(filter(None, lista))
+  else:
+    lista = valor
+  return lista
 
 def separar_quantidades_e_explodir (df, coluna, divisor: str = ')'):
   """
@@ -568,8 +588,12 @@ def concat_dataframes ():
   df_arvores.preco_muda_carrinho_viagem = limpar_preco(df_arvores.preco_muda_carrinho_viagem)
   df_arvores['preco_minimo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, minimo=True)
   df_arvores['preco_maximo_muda_carrinho_viagem'] = df_arvores.preco_muda_carrinho_viagem.apply(precos_carrinho_viagem, maximo=True)
-  df_arvores['Rentabilidade'] = np.where(df_arvores['preco_muda_pierre'] != None,
-                                        df_arvores['Preco_venda'] / df_arvores['preco_muda_pierre'],None)
+  df_arvores['Preco_venda'] = df_arvores['Preco_venda'].astype(float)
+  for linha in df_arvores.index:
+    try:
+      df_arvores.loc[linha,'Rentabilidade'] = round(df_arvores.loc[linha,'Preco_venda'] / df_arvores.loc[linha,'preco_muda_pierre'] * 1000,2)
+    except ZeroDivisionError:
+      df_arvores.loc[linha,'Rentabilidade'] = 0
   df_arvores = df_arvores[['Fruta',
                            'Muda',
                            'Preco_venda',
@@ -626,6 +650,12 @@ def concat_dataframes ():
     i += 0.5
   df_calendario = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_calendario = df_calendario[['Dia','Mes','Evento','Nome']]
+  df_calendario['Dia'] = df_calendario['Dia'].apply(separar_dias)
+  df_calendario = df_calendario.explode('Dia').reset_index(drop=True)
+  df_calendario['Mes'] = df_calendario['Mes'].apply(lambda linha: linha.
+                                                    replace('0.0.','0.').
+                                                    replace('1.0.','1.').
+                                                    replace('2.0.','2.'))
   df_calendario.to_csv('docs_silver/calendario.csv', encoding='utf-8')
 
   #calendário cultivos
@@ -1196,7 +1226,8 @@ def concat_dataframes ():
 if __name__ == '__main__':
   import pandas as pd
   import re
-  import numpy as np
+  
+
   profissoes()
   limpar_csv('docs_bronze/xp_coleta.csv')
   xp()
