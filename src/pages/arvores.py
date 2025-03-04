@@ -38,13 +38,18 @@ def main():
       st.metric('Média de preço mínimo da muda no Carrinho de viagem', 0)
       st.metric('Média de preço máximo da muda no Carrinho de viagem', 0)
 
-  #Dataframe
-  st.dataframe(arvores, hide_index=True)
+
 
   #Gráfico
+  st.markdown('## Rentabilidade das frutas pelo valor da muda')
+  st.write('valor da fruta / valor da muda * 1.000')
+  # plotar o gráfico de barras
   st.bar_chart(arvores,
-               x='Fruta', y='Preco_venda',
+               x='Muda', y='Rentabilidade',
                horizontal=True,)
+  
+  #Dataframe
+  st.dataframe(arvores.drop(columns=[]), hide_index=True)
   
   # fim da função
 

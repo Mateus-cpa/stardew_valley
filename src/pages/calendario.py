@@ -11,8 +11,9 @@ def main():
 
   # Título
   st.title('Calendário')
-  st.metric('Tamanho da tabela', calendario.shape[0])
-  st.metric('Quantidade de colunas', calendario.shape[1])
+  col1, col2 = st.columns(2)
+  col1.metric('Tamanho da tabela', calendario.shape[0])
+  col2.metric('Quantidade de colunas', calendario.shape[1])
 
   st.dataframe(calendario)
 
