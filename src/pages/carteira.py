@@ -21,7 +21,7 @@ def main():
   if carteira.shape[0] > 3:
     st.dataframe(carteira, hide_index=True)
 
-  for i in range(0,3): #mostrar se até 3 resultados
+  for i in range(0,3): #mostrar se até 3 resultados e se tiver valor
     if carteira.shape[0] == i+1:
       st.subheader(f'{carteira['Nome'].values[i]}')
       if not pd.isna(carteira.loc[i,'Uso']):
