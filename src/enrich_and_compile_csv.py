@@ -828,7 +828,7 @@ def concat_dataframes ():
     if casa == 'estufa':
       df_temp = pd.read_csv(f'docs_bronze/casa_{casa}.csv', header=1)
       df_temp = df_temp.iloc[:,2].to_frame().T #seleciona a linha 2
-      df_temp['Nome'] = 'Estufa'
+      df_temp['Nome'] = 'Estufa'    
     df_temp = df_temp.rename({'Estágio':'Nome','Mudanças':'Descrição',
                               1:'Descrição',2:'Detalhes',3:'Custo',5:'Tamanho',
                               'Name':'Nome','Description':'Descrição','Cost':'Custo'},axis=1)
@@ -837,6 +837,8 @@ def concat_dataframes ():
   df_casa = pd.concat(dfs_to_concat, ignore_index=True).reset_index(drop=True)
   df_casa = df_casa[['Tipo','Nome','Custo','Animais','Descrição','Tamanho','Detalhes']]
   #df_casa = separar_quantidades_e_explodir(df= df_casa, coluna='Custo', divisor=')')
+  #onde Tipo = estagios, adicionar 'Estágio ' ao nome
+  df_casa.loc[df_casa.Tipo == 'estagios','Nome'] = 'Estágio ' + df_casa.loc[df_casa.Tipo == 'estagios','Nome'].astype(str) 
   df_casa.to_csv('docs_silver/casa.csv', encoding='utf-8')
 
   #ferramenta
