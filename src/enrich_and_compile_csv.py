@@ -671,15 +671,18 @@ def concat_dataframes ():
   #caverna
   caverna_cogumelo = pd.read_csv(f'docs_bronze\caverna_cogumelo.csv')
   caverna_morcego = pd.read_csv(f'docs_bronze\caverna_morcego.csv')
-  caverna_morcego = caverna_morcego.rename(columns={'Renda':'Lucro'})
+  caverna_morcego = caverna_morcego.rename(columns={'Renda':'Lucro', 'Chance':'Chance_%'})
   df_caverna = pd.concat([caverna_cogumelo,caverna_morcego]*4,ignore_index=True).reset_index(drop=True).sort_values(by='Nome')
   df_caverna = df_caverna.dropna(subset=['Descrição'],ignore_index=True) #apaga linhas onde Descrição está vazio
   df_caverna = divide_valores_por_qualidade(df = df_caverna,
                                             coluna_nome= 'Nome',
                                             coluna_valor= 'Lucro',
                                             coluna_energia_saude = 'Recupera')
-  
-  df_caverna = df_caverna[['Nome','Lucro','Energia','Saude','Usado em','Chance','Descrição','Também achado']]
+  df_caverna['Energia'] = df_caverna['Energia'].apply(lambda linha: linha.replace('−', '-') if isinstance(linha, str) else linha)
+  df_caverna["nome_original"] = df_caverna['Nome'].apply(lambda linha: linha.split('_')[0]) 
+  df_caverna['Chance_%'] = df_caverna['Chance_%'].apply(lambda linha: linha.replace('%', '') if isinstance(linha, str) else linha)
+  df_caverna = df_caverna[['nome_original','Nome','Lucro','Energia','Saude','Chance_%','Usado em','Descrição','Também achado']]
+
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
   #clima
