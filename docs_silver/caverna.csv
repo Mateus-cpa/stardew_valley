@@ -1,61 +1,61 @@
-,Nome,Lucro,Energia,Saude,Usado em,Chance,Descrição,Também achado
-0,Ameixa selvagem,80,25,11,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,20%,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
-1,Ameixa selvagem_prata,100,35,15,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,20%,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
-2,Ameixa selvagem_ouro,120,45,20,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,20%,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
-3,Ameixa selvagem_iridio,160,65,29,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,20%,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
-4,Amora,20,25,11,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,20%,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
-5,Amora_prata,25,35,15,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,20%,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
-6,Amora_ouro,30,45,20,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,20%,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
-7,Amora_iridio,40,65,29,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,20%,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
-8,Amora-silvestre,5,25,11,Vinho  Geléia,20%,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
-9,Amora-silvestre_prata,6,35,15,Vinho  Geléia,20%,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
-10,Amora-silvestre_ouro,7,45,20,Vinho  Geléia,20%,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
-11,Amora-silvestre_iridio,10,65,29,Vinho  Geléia,20%,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
-12,Café de jardim,80,25,11,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,20%,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
-13,Café de jardim_prata,100,35,15,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,20%,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
-14,Café de jardim_ouro,120,45,20,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,20%,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
-15,Café de jardim_iridio,160,65,29,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,20%,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
-16,Cantarelo,160,75,33,Elixir da vida,7.3%,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
-17,Cantarelo_prata,200,105,47,Elixir da vida,7.3%,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
-18,Cantarelo_ouro,240,135,60,Elixir da vida,7.3%,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
-19,Cantarelo_iridio,320,195,87,Elixir da vida,7.3%,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
-20,Cereja,80,38,17,Conjunto Artesão  Vinho  Geléia,3.6%,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
-21,Cereja_prata,100,53,23,Conjunto Artesão  Vinho  Geléia,3.6%,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
-22,Cereja_ouro,120,68,30,Conjunto Artesão  Vinho  Geléia,3.6%,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
-23,Cereja_iridio,160,98,44,Conjunto Artesão  Vinho  Geléia,3.6%,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
-24,Cogumelo comum,40,38,17,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,69.8%,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-25,Cogumelo comum_prata,50,53,23,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,69.8%,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-26,Cogumelo comum_ouro,60,68,30,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,69.8%,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-27,Cogumelo comum_iridio,80,98,44,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,69.8%,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-28,Cogumelo roxo,250,125,56,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),2.5%,Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-29,Cogumelo roxo_prata,312,175,78,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),2.5%,Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-30,Cogumelo roxo_ouro,375,225,101,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),2.5%,Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-31,Cogumelo roxo_iridio,500,325,146,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),2.5%,Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-32,Cogumelo vermelho,75,−50,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,12.3%,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-33,Cogumelo vermelho_prata,93,−70,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,12.3%,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-34,Cogumelo vermelho_ouro,112,−90,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,12.3%,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-35,Cogumelo vermelho_iridio,150,−130,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,12.3%,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
-36,Damasco,50,38,17,Conjunto Artesão  Salada de frutas  Vinho  Geléia,3.6%,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
-37,Damasco_prata,62,53,23,Conjunto Artesão  Salada de frutas  Vinho  Geléia,3.6%,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
-38,Damasco_ouro,75,68,30,Conjunto Artesão  Salada de frutas  Vinho  Geléia,3.6%,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
-39,Damasco_iridio,100,98,44,Conjunto Artesão  Salada de frutas  Vinho  Geléia,3.6%,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
-40,Laranja,100,38,17,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),3.6%,"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
-41,Laranja_prata,125,53,23,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),3.6%,"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
-42,Laranja_ouro,150,68,30,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),3.6%,"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
-43,Laranja_iridio,200,98,44,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),3.6%,"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
-44,Maçã,140,38,17,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,2%,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
-45,Maçã_prata,175,53,23,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,2%,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
-46,Maçã_ouro,210,68,30,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,2%,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
-47,Maçã_iridio,280,98,44,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,2%,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
-48,Morel,150,20,9,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,8.1%,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
-49,Morel_prata,187,28,12,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,8.1%,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
-50,Morel_ouro,225,36,16,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,8.1%,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
-51,Morel_iridio,300,52,23,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,8.1%,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
-52,Pêssego,140,38,17,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),3.6%,Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
-53,Pêssego_prata,175,53,23,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),3.6%,Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
-54,Pêssego_ouro,210,68,30,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),3.6%,Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
-55,Pêssego_iridio,280,98,44,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),3.6%,Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
-56,Romã,140,38,17,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),3.6%,Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
-57,Romã_prata,175,53,23,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),3.6%,Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
-58,Romã_ouro,210,68,30,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),3.6%,Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
-59,Romã_iridio,280,98,44,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),3.6%,Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
+,nome_original,Nome,Lucro,Energia,Saude,Chance_%,Usado em,Descrição,Também achado
+0,Ameixa selvagem,Ameixa selvagem,80,25,11,20,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
+1,Ameixa selvagem,Ameixa selvagem_prata,100,35,15,20,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
+2,Ameixa selvagem,Ameixa selvagem_ouro,120,45,20,20,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
+3,Ameixa selvagem,Ameixa selvagem_iridio,160,65,29,20,Conjunto Recursos de Outono  Sementes de outono  Pudim de ameixa  Vinho  Geléia,"Ácida e suculenta, com um expressivo aroma.",Coleta  (  Outono  )  Sementes de outono
+4,Amora,Amora,20,25,11,20,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
+5,Amora,Amora_prata,25,35,15,20,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
+6,Amora,Amora_ouro,30,45,20,20,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
+7,Amora,Amora_iridio,40,65,29,20,Conjunto Recursos de Outono  Sementes de outono  Mexido de amoras  Vinho  Geléia,Uma delícia do começo do outono.,Coleta  (  Outono  )  Sementes de outono
+8,Amora-silvestre,Amora-silvestre,5,25,11,20,Vinho  Geléia,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
+9,Amora-silvestre,Amora-silvestre_prata,6,35,15,20,Vinho  Geléia,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
+10,Amora-silvestre,Amora-silvestre_ouro,7,45,20,20,Vinho  Geléia,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
+11,Amora-silvestre,Amora-silvestre_iridio,10,65,29,20,Vinho  Geléia,Uma cereja de primavera com o sabor da floresta.,Coleta  (  Primavera  )
+12,Café de jardim,Café de jardim,80,25,11,20,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
+13,Café de jardim,Café de jardim_prata,100,35,15,20,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
+14,Café de jardim,Café de jardim_ouro,120,45,20,20,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
+15,Café de jardim,Café de jardim_iridio,160,65,29,20,Conjunto Recursos de Verão  Sementes de verão  Vinho  Geléia,Possui um cheiro bem forte.,Coleta  (  Verão  )  Sementes de verão
+16,Cantarelo,Cantarelo,160,75,33,,Elixir da vida,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
+17,Cantarelo,Cantarelo_prata,200,105,47,,Elixir da vida,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
+18,Cantarelo,Cantarelo_ouro,240,135,60,,Elixir da vida,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
+19,Cantarelo,Cantarelo_iridio,320,195,87,,Elixir da vida,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.,Bosque Secreto  (  Outono  )
+20,Cereja,Cereja,80,38,17,3.6,Conjunto Artesão  Vinho  Geléia,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
+21,Cereja,Cereja_prata,100,53,23,3.6,Conjunto Artesão  Vinho  Geléia,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
+22,Cereja,Cereja_ouro,120,68,30,3.6,Conjunto Artesão  Vinho  Geléia,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
+23,Cereja,Cereja_iridio,160,98,44,3.6,Conjunto Artesão  Vinho  Geléia,"É popular, e amadurece mais cedo que a maioria das frutas.",Muda de cerejeira  (  Primavera  )
+24,Cogumelo comum,Cogumelo comum,40,38,17,,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+25,Cogumelo comum,Cogumelo comum_prata,50,53,23,,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+26,Cogumelo comum,Cogumelo comum_ouro,60,68,30,,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+27,Cogumelo comum,Cogumelo comum_iridio,80,98,44,,Conjunto Recursos de Outono  Cogumelo frito  Sopa Tom Kha  Refogado  Sementes de outono,Com ligeiro sabor de nozes e boa textura.,"Coleta  (  Outono  )  Sementes de outono  Bosque Secreto  (  Outono  )  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+28,Cogumelo roxo,Cogumelo roxo,250,125,56,,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+29,Cogumelo roxo,Cogumelo roxo_prata,312,175,78,,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+30,Cogumelo roxo,Cogumelo roxo_ouro,375,225,101,,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+31,Cogumelo roxo,Cogumelo roxo_iridio,500,325,146,,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),Um cogumelo raro encontrado nas profundezas das cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+32,Cogumelo vermelho,Cogumelo vermelho,75,-50,0,,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+33,Cogumelo vermelho,Cogumelo vermelho_prata,93,-70,0,,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+34,Cogumelo vermelho,Cogumelo vermelho_ouro,112,-90,0,,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+35,Cogumelo vermelho,Cogumelo vermelho_iridio,150,-130,0,,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,Um cogumelo pintado geralmente achado em cavernas.,"As Minas  Cortando a  Árvore de cogumelo  Extraindo  da  Árvore de cogumelo  (  Primavera  ,  Verão  &  Outono  )"
+36,Damasco,Damasco,50,38,17,3.6,Conjunto Artesão  Salada de frutas  Vinho  Geléia,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
+37,Damasco,Damasco_prata,62,53,23,3.6,Conjunto Artesão  Salada de frutas  Vinho  Geléia,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
+38,Damasco,Damasco_ouro,75,68,30,3.6,Conjunto Artesão  Salada de frutas  Vinho  Geléia,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
+39,Damasco,Damasco_iridio,100,98,44,3.6,Conjunto Artesão  Salada de frutas  Vinho  Geléia,Uma frutinha macia com uma semente muito dura.,Muda de damasqueiro  (  Primavera  )
+40,Laranja,Laranja,100,38,17,3.6,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
+41,Laranja,Laranja_prata,125,53,23,3.6,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
+42,Laranja,Laranja_ouro,150,68,30,3.6,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
+43,Laranja,Laranja_iridio,200,98,44,3.6,Conjunto Artesão  Vinho  Geléia  Gus  (Presente Amado),"Suculenta, azedinha, e pulsando com um doce aroma de verão.",Muda de laranjeira  (  Verão  )
+44,Maçã,Maçã,140,38,17,2,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
+45,Maçã,Maçã_prata,175,53,23,2,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
+46,Maçã,Maçã_ouro,210,68,30,2,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
+47,Maçã,Maçã_iridio,280,98,44,2,Conjunto Artesão  Vinho  Geléia  Doce de oxicoco  Conjunto Forragem,Fruta crocante utilizada para suco e sidra.,Muda de macieira  (  Outono  )
+48,Morel,Morel,150,20,9,,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
+49,Morel,Morel_prata,187,28,12,,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
+50,Morel,Morel_ouro,225,36,16,,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
+51,Morel,Morel_iridio,300,52,23,,Cogumelo frito  Conjunto Recursos Exóticos  Elixir da vida,Cobiçado por seu sabor único e que lembra nozes.,Bosque Secreto  (  Primavera  )
+52,Pêssego,Pêssego,140,38,17,3.6,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
+53,Pêssego,Pêssego_prata,175,53,23,3.6,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
+54,Pêssego,Pêssego_ouro,210,68,30,3.6,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
+55,Pêssego,Pêssego_iridio,280,98,44,3.6,Conjunto Artesão  Vinho  Geléia  Robin  (Presente Amado),Possui uma textura de veludo.,Muda de pessegueiro  (  Verão  )
+56,Romã,Romã,140,38,17,3.6,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
+57,Romã,Romã_prata,175,53,23,3.6,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
+58,Romã,Romã_ouro,210,68,30,3.6,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
+59,Romã,Romã_iridio,280,98,44,3.6,Conjunto Artesão  Conjunto de Encantador  Vinho  Geléia  Elliott  (Presente Amado),Dentro do fruto há grupos de sementes suculentas.,Muda de romanzeira  (  Outono  )
