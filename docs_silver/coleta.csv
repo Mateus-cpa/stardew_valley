@@ -1,159 +1,153 @@
 ,Nome,Lucro,Energia,Saude,Usado em,origem,Encontrado em,Descrição
-0,Algas marinhas,20,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
-1,Algas marinhas_prata,25,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
-2,Algas marinhas_ouro,30,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
-3,Algas marinhas_iridio,40,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
-4,Alho-poró,60,40,18,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
-5,Alho-poró_prata,75,56,25,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
-6,Alho-poró_ouro,90,72,32,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
-7,Alho-poró_iridio,120,104,46,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
-8,Ameixa selvagem,80,25,11,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
-9,Ameixa selvagem_prata,100,35,15,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
-10,Ameixa selvagem_ouro,120,45,20,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
-11,Ameixa selvagem_iridio,160,65,29,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
-12,Amora,20,25,11,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
-13,Amora_prata,25,35,15,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
-14,Amora_ouro,30,45,20,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
-15,Amora_iridio,40,65,29,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
-16,Amora-silvestre,5,25,11,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
-17,Amora-silvestre_prata,6,35,15,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
-18,Amora-silvestre_ouro,7,45,20,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
-19,Amora-silvestre_iridio,10,65,29,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
-20,Avelã,90,30,13,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
-21,Avelã_prata,112,42,18,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
-22,Avelã_ouro,135,54,24,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
-23,Avelã_iridio,180,78,35,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
-24,Azevinho,80,−37,0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
-25,Azevinho_prata,100,−52,0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
-26,Azevinho_ouro,120,−67,0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
-27,Azevinho_iridio,160,−97,0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
-28,Berbigão,50,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
-29,Berbigão_prata,62,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
-30,Berbigão_ouro,75,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
-31,Berbigão_iridio,100,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
-32,Broto de samambaia,90,25,11,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
-33,Broto de samambaia_prata,112,35,15,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
-34,Broto de samambaia_ouro,135,45,20,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
-35,Broto de samambaia_iridio,180,65,29,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
-36,Café de jardim,80,25,11,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
-37,Café de jardim_prata,100,35,15,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
-38,Café de jardim_ouro,120,45,20,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
-39,Café de jardim_iridio,160,65,29,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
-40,Cantarelo,160,75,33,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
-41,Cantarelo_prata,200,105,47,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
-42,Cantarelo_ouro,240,135,60,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
-43,Cantarelo_iridio,320,195,87,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
-44,Cebolinha,8,13,5,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
-45,Cebolinha_prata,10,18,8,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
-46,Cebolinha_ouro,12,23,10,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
-47,Cebolinha_iridio,16,33,14,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
-48,Cenoura subterrânea,25,30,13,Hambúrguer de sobreviência  Refeição de mineiro  Prato de raízes  Refogado  Conjunto Recursos Exóticos,cavernas,As Minas,Uma cenoura rica em amido encontrada em cavernas. Ajuda os mineradores a trabalhar mais.
-49,Coco,100,Não,comestível,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
-50,Coco_prata,125,Não comestível,Não comestível,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
-51,Coco_ouro,150,Não comestível,Não comestível,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
-52,Coco_iridio,200,Não comestível,Não comestível,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
-53,Cogumelo comum,40,38,17,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-54,Cogumelo comum_prata,50,53,23,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-55,Cogumelo comum_ouro,60,68,30,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-56,Cogumelo comum_iridio,80,98,44,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-57,Cogumelo comum,40,38,17,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-58,Cogumelo comum_prata,50,53,23,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-59,Cogumelo comum_ouro,60,68,30,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-60,Cogumelo comum_iridio,80,98,44,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
-61,Cogumelo de Magma,400,175,78,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
-62,Cogumelo de Magma_prata,500,245,110,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
-63,Cogumelo de Magma_ouro,600,315,141,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
-64,Cogumelo de Magma_iridio,800,455,204,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
-65,Cogumelo roxo,250,125,56,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
-66,Cogumelo roxo_prata,312,175,78,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
-67,Cogumelo roxo_ouro,375,225,101,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
-68,Cogumelo roxo_iridio,500,325,146,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
-69,Cogumelo vermelho,75,−50,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-70,Cogumelo vermelho_prata,93,−70,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-71,Cogumelo vermelho_ouro,112,−90,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-72,Cogumelo vermelho_iridio,150,−130,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-73,Cogumelo vermelho,75,−50,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-74,Cogumelo vermelho_prata,93,−70,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-75,Cogumelo vermelho_ouro,112,−90,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-76,Cogumelo vermelho_iridio,150,−130,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-77,Cogumelo vermelho,75,−50,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-78,Cogumelo vermelho_prata,93,−70,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-79,Cogumelo vermelho_ouro,112,−90,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-80,Cogumelo vermelho_iridio,150,−130,0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
-81,Concha,50,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
-82,Concha_prata,62,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
-83,Concha_ouro,75,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
-84,Concha_iridio,100,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
-85,Concha arco-íris,300,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
-86,Concha arco-íris_prata,375,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
-87,Concha arco-íris_ouro,450,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
-88,Concha arco-íris_iridio,600,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
-89,Concha de náutilo,120,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
-90,Concha de náutilo_prata,150,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
-91,Concha de náutilo_ouro,180,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
-92,Concha de náutilo_iridio,240,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
-93,Coral,80,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
-94,Coral_prata,100,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
-95,Coral_ouro,120,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
-96,Coral_iridio,160,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
-97,Dente-de-leão,40,25,11,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
-98,Dente-de-leão_prata,50,35,15,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
-99,Dente-de-leão_ouro,60,45,20,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
-100,Dente-de-leão_iridio,80,65,29,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
-101,Ervilha-de-cheiro,50,0,0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
-102,Ervilha-de-cheiro_prata,62,0,0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
-103,Ervilha-de-cheiro_ouro,75,0,0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
-104,Ervilha-de-cheiro_iridio,100,0,0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
-105,Flor de açafrão,60,0,0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
-106,Flor de açafrão_prata,75,0,0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
-107,Flor de açafrão_ouro,90,0,0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
-108,Flor de açafrão_iridio,120,0,0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
-109,Fruta de cristal,150,63,28,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
-110,Fruta de cristal_prata,187,88,39,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
-111,Fruta de cristal_ouro,225,113,50,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
-112,Fruta de cristal_iridio,300,163,73,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
-113,Fruto do cacto,75,75,33,Conjunto Recursos Exóticos  Geléia  Vinho,deserto,Deserto de Calico,O doce fruto da espinhosa pera do cacto.
-114,Fruto do cacto_prata,93,105,47,Conjunto Recursos Exóticos  Geléia  Vinho,deserto,Deserto de Calico,O doce fruto da espinhosa pera do cacto.
-115,Fruto do cacto_ouro,112,135,60,Conjunto Recursos Exóticos  Geléia  Vinho,deserto,Deserto de Calico,O doce fruto da espinhosa pera do cacto.
-116,Fruto do cacto_iridio,150,195,87,Conjunto Recursos Exóticos  Geléia  Vinho,deserto,Deserto de Calico,O doce fruto da espinhosa pera do cacto.
-117,Gengibre,60,25,11,Picles  Ginger Ale  Cura o bônus negativo  enjoado,ilha gengibre,"Por toda a  Ilha Gengibre  , especialmente nas partes Oeste e Norte da Ilha.",É dito que esta raíz forte e picante pode aumentar a vitalidade.
-118,Gengibre_prata,,25  11,25  11,Picles  Ginger Ale  Cura o bônus negativo  enjoado,ilha gengibre,"Por toda a  Ilha Gengibre  , especialmente nas partes Oeste e Norte da Ilha.",É dito que esta raíz forte e picante pode aumentar a vitalidade.
-119,Gengibre_ouro,60 ouros,25  11,25  11,Picles  Ginger Ale  Cura o bônus negativo  enjoado,ilha gengibre,"Por toda a  Ilha Gengibre  , especialmente nas partes Oeste e Norte da Ilha.",É dito que esta raíz forte e picante pode aumentar a vitalidade.
-120,Gengibre_iridio,60 ouros,25  11,25  11,Picles  Ginger Ale  Cura o bônus negativo  enjoado,ilha gengibre,"Por toda a  Ilha Gengibre  , especialmente nas partes Oeste e Norte da Ilha.",É dito que esta raíz forte e picante pode aumentar a vitalidade.
-121,Inhame de neve,100,30,13,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
-122,Inhame de neve_prata,125,42,18,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
-123,Inhame de neve_ouro,150,54,24,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
-124,Inhame de neve_iridio,200,78,35,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
-125,Mexilhão,30,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
-126,Mexilhão_prata,37,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
-127,Mexilhão_ouro,45,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
-128,Mexilhão_iridio,60,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
-129,Morel,150,20,9,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
-130,Morel_prata,187,28,12,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
-131,Morel_ouro,225,36,16,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
-132,Morel_iridio,300,52,23,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
-133,Narciso,30,0,0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
-134,Narciso_prata,37,0,0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
-135,Narciso_ouro,45,0,0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
-136,Narciso_iridio,60,0,0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
-137,Ostra,40,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
-138,Ostra_prata,50,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
-139,Ostra_ouro,60,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
-140,Ostra_iridio,80,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
-141,Ouriço-do-mar,160,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
-142,Ouriço-do-mar_prata,200,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
-143,Ouriço-do-mar_ouro,240,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
-144,Ouriço-do-mar_iridio,320,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
-145,Raiz de inverno,70,25,11,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
-146,Raiz de inverno_prata,87,35,15,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
-147,Raiz de inverno_ouro,105,45,20,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
-148,Raiz de inverno_iridio,140,65,29,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
-149,Raiz-forte,50,13,5,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
-150,Raiz-forte_prata,62,18,8,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
-151,Raiz-forte_ouro,75,23,10,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
-152,Raiz-forte_iridio,100,33,14,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
-153,Seiva,2,-5,0,Fertilizante básico  Fertilizante de qualidade  Boia-armadilha  Tocha,seiva,Vila Pelicanos,Um fluído obtido em árvores.
-154,Uva,80,38,17,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
-155,Uva_prata,100,53,23,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
-156,Uva_ouro,120,68,30,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
-157,Uva_iridio,160,98,44,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
+0,Algas marinhas,20.0,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
+1,Algas marinhas_prata,25.0,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
+2,Algas marinhas_ouro,30.0,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
+3,Algas marinhas_iridio,40.0,,,Rolinhos de arroz  Lago de Peixes,praia,A Praia,Podem ser utilizadas na cozinha.
+4,Alho-poró,60.0,40.0,18.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
+5,Alho-poró_prata,75.0,56.0,25.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
+6,Alho-poró_ouro,90.0,72.0,32.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
+7,Alho-poró_iridio,120.0,104.0,46.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera  George  (Presente Amado),primavera,Vila Pelicanos,Um delicioso parente da cebola.
+8,Ameixa selvagem,80.0,25.0,11.0,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
+9,Ameixa selvagem_prata,100.0,35.0,15.0,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
+10,Ameixa selvagem_ouro,120.0,45.0,20.0,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
+11,Ameixa selvagem_iridio,160.0,65.0,29.0,Sementes de outono  Pudim de ameixa  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos,"Ácida e suculenta, com um expressivo aroma."
+12,Amora,20.0,25.0,11.0,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
+13,Amora_prata,25.0,35.0,15.0,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
+14,Amora_ouro,30.0,45.0,20.0,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
+15,Amora_iridio,40.0,65.0,29.0,Sementes de outono  Mexido de amoras  Conjunto Recursos de Outono  Geléia  Vinho,outono,Vila Pelicanos  Nos arbustos durante  a estação da amora  (  Outono  8 - 11),Uma delícia do começo do outono.
+16,Amora-silvestre,5.0,25.0,11.0,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
+17,Amora-silvestre_prata,6.0,35.0,15.0,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
+18,Amora-silvestre_ouro,7.0,45.0,20.0,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
+19,Amora-silvestre_iridio,10.0,65.0,29.0,Geléia  Vinho,primavera,Nos arbustos durante  a estação da amora-silvestre  (  Primavera  15 - 18).,Uma cereja de primavera com o sabor da floresta.
+20,Avelã,90.0,30.0,13.0,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
+21,Avelã_prata,112.0,42.0,18.0,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
+22,Avelã_ouro,135.0,54.0,24.0,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
+23,Avelã_iridio,180.0,78.0,35.0,Sementes de outono  Avelãs torradas  Recheio  Conjunto Recursos de Outono,outono,Vila Pelicanos,Que avelã grande!
+24,Azevinho,80.0,-37.0,0.0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
+25,Azevinho_prata,100.0,-52.0,0.0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
+26,Azevinho_ouro,120.0,-67.0,0.0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
+27,Azevinho_iridio,160.0,-97.0,0.0,,inverno,Vila Pelicanos  Bosque Secreto,As folhas e sementes vermelhas brilhantes são uma decoração de inverno popular.
+28,Berbigão,50.0,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
+29,Berbigão_prata,62.0,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
+30,Berbigão_ouro,75.0,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
+31,Berbigão_iridio,100.0,,,Conjunto Covo,praia,A Praia,Uma concha de água salgada muito comum.
+32,Broto de samambaia,90.0,25.0,11.0,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
+33,Broto de samambaia_prata,112.0,35.0,15.0,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
+34,Broto de samambaia_ouro,135.0,45.0,20.0,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
+35,Broto de samambaia_iridio,180.0,65.0,29.0,Risoto de samambaia  Conjunto de Cozinheiro  Picles  Suco,verao,Bosque Secreto,Os brotinhos são uma especiaria deliciosa.
+36,Café de jardim,80.0,25.0,11.0,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
+37,Café de jardim_prata,100.0,35.0,15.0,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
+38,Café de jardim_ouro,120.0,45.0,20.0,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
+39,Café de jardim_iridio,160.0,65.0,29.0,Sementes de verão  Conjunto Recursos de Verão  Geléia  Vinho,verao,Vila Pelicanos,Possui um cheiro bem forte.
+40,Cantarelo,160.0,75.0,33.0,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
+41,Cantarelo_prata,200.0,105.0,47.0,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
+42,Cantarelo_ouro,240.0,135.0,60.0,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
+43,Cantarelo_iridio,320.0,195.0,87.0,Elixir da vida,outono,Bosque Secreto,Um cogumelo delicioso com um cheiro de frutas e um sabor ligeiramente apimentado.
+44,Cebolinha,8.0,13.0,5.0,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
+45,Cebolinha_prata,10.0,18.0,8.0,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
+46,Cebolinha_ouro,12.0,23.0,10.0,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
+47,Cebolinha_iridio,16.0,33.0,14.0,,primavera,Floresta Cinzaseiva  Vila Pelicanos,Cresce muito durante a primavera.
+48,Cenoura subterrânea,25.0,30.0,13.0,Hambúrguer de sobreviência  Refeição de mineiro  Prato de raízes  Refogado  Conjunto Recursos Exóticos,cavernas,As Minas,Uma cenoura rica em amido encontrada em cavernas. Ajuda os mineradores a trabalhar mais.
+49,Coco,100.0,0.0,0.0,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
+50,Coco_prata,125.0,0.0,0.0,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
+51,Coco_ouro,150.0,0.0,0.0,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
+52,Coco_iridio,200.0,0.0,0.0,Sopa Tom Kha  Curry Tropical  Conjunto Recursos Exóticos  Geléia  Vinho  Haley  (Presente Amado)  Linus  (Presente Amado),deserto,Deserto de Calico,Uma semente da palma do coco. Possui muitas aplicações culinárias.
+53,Cogumelo comum,40.0,38.0,17.0,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+54,Cogumelo comum_prata,50.0,53.0,23.0,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+55,Cogumelo comum_ouro,60.0,68.0,30.0,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+56,Cogumelo comum_iridio,80.0,98.0,44.0,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+57,Cogumelo comum,40.0,38.0,17.0,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+58,Cogumelo comum_prata,50.0,53.0,23.0,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+59,Cogumelo comum_ouro,60.0,68.0,30.0,Sementes de outono  Cogumelo frito  Sopa Tom Kha  Refogado  Conjunto Recursos de Outono,outono,Vila Pelicanos  Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+60,Cogumelo comum_iridio,80.0,98.0,44.0,Cogumelo frito  Refogado  Sopa Tom Kha  Conjunto Recursos de Outono,primavera,Bosque Secreto,Com ligeiro sabor de nozes e boa textura.
+61,Cogumelo de Magma,400.0,175.0,78.0,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
+62,Cogumelo de Magma_prata,500.0,245.0,110.0,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
+63,Cogumelo de Magma_ouro,600.0,315.0,141.0,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
+64,Cogumelo de Magma_iridio,800.0,455.0,204.0,,ilha gengibre,Por toda a  Caverna do Vulcão  .,Um tipo muito raro de cogumelo que vive perto de lava.
+65,Cogumelo roxo,250.0,125.0,56.0,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
+66,Cogumelo roxo_prata,312.0,175.0,78.0,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
+67,Cogumelo roxo_ouro,375.0,225.0,101.0,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
+68,Cogumelo roxo_iridio,500.0,325.0,146.0,Conjunto Recursos Exóticos  Conjunto Pesquisa de campo  Elixir da vida  Feiticeiro  (Presente Amado),cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo raro encontrado nas profundezas das cavernas.
+69,Cogumelo vermelho,75.0,-50.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+70,Cogumelo vermelho_prata,93.0,-70.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+71,Cogumelo vermelho_ouro,112.0,-90.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+72,Cogumelo vermelho_iridio,150.0,-130.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+73,Cogumelo vermelho,75.0,-50.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+74,Cogumelo vermelho_prata,93.0,-70.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+75,Cogumelo vermelho_ouro,112.0,-90.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+76,Cogumelo vermelho_iridio,150.0,-130.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+77,Cogumelo vermelho,75.0,-50.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+78,Cogumelo vermelho_prata,93.0,-70.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,verao,As Minas  Bosque Secreto  Grande Árvore de Cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+79,Cogumelo vermelho_ouro,112.0,-90.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,cavernas,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+80,Cogumelo vermelho_iridio,150.0,-130.0,0.0,Conjunto Tinta  Conjunto Recursos Exóticos  Elixir da vida,outono,As Minas  Bosque Secreto  Árvore de cogumelo,Um cogumelo pintado geralmente achado em cavernas.
+81,Concha,50.0,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
+82,Concha_prata,62.0,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
+83,Concha_ouro,75.0,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
+84,Concha_iridio,100.0,,,Solo Foliar  Sopa de peixe  Conjunto Covo,praia,A Praia,Alguém já viveu aqui.
+85,Concha arco-íris,300.0,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
+86,Concha arco-íris_prata,375.0,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
+87,Concha arco-íris_ouro,450.0,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
+88,Concha arco-íris_iridio,600.0,,,"Missão ""O Misterioso Qi""",praia,A Praia  (  Verão  ),É uma concha muito bonita.
+89,Concha de náutilo,120.0,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
+90,Concha de náutilo_prata,150.0,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
+91,Concha de náutilo_ouro,180.0,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
+92,Concha de náutilo_iridio,240.0,,,Conjunto Pesquisa de campo,praia,A Praia  (  Inverno  ),Uma concha antiga.
+93,Coral,80.0,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
+94,Coral_prata,100.0,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
+95,Coral_ouro,120.0,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
+96,Coral_iridio,160.0,,,Solo Foliar Premium  Totem de teletransporte: Praia,praia,A Praia,Uma colônia de pequenas criaturas que se aglomeram para formarem lindas estruturas.
+97,Dente-de-leão,40.0,25.0,11.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
+98,Dente-de-leão_prata,50.0,35.0,15.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
+99,Dente-de-leão_ouro,60.0,45.0,20.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
+100,Dente-de-leão_iridio,80.0,65.0,29.0,Salada  Sementes de primavera  Conjunto Recursos de Primavera,primavera,Vila Pelicanos,"Não é a flor mais bonita, mas as folhas dão uma ótima salada."
+101,Ervilha-de-cheiro,50.0,0.0,0.0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
+102,Ervilha-de-cheiro_prata,62.0,0.0,0.0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
+103,Ervilha-de-cheiro_ouro,75.0,0.0,0.0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
+104,Ervilha-de-cheiro_iridio,100.0,0.0,0.0,Sementes de verão  Conjunto Recursos de Verão  Sandy  (Presente Amado),verao,Vila Pelicanos,Uma fragrante flor de verão.
+105,Flor de açafrão,60.0,0.0,0.0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
+106,Flor de açafrão_prata,75.0,0.0,0.0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
+107,Flor de açafrão_ouro,90.0,0.0,0.0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
+108,Flor de açafrão_iridio,120.0,0.0,0.0,Sementes de inverno  Conjunto Recursos de Inverno  Sandy  (Presente Amado),inverno,Vila Pelicanos,Uma flor que pode desabrochar no inverno.
+109,Fruta de cristal,150.0,63.0,28.0,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
+110,Fruta de cristal_prata,187.0,88.0,39.0,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
+111,Fruta de cristal_ouro,225.0,113.0,50.0,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
+112,Fruta de cristal_iridio,300.0,163.0,73.0,Sementes de inverno  Conjunto Recursos de Inverno  Geléia  Vinho,inverno,Vila Pelicanos  Itens deixados por  monstros das  Minas  (andares 40-80),Uma fruta delicada que surge da neve.
+113,Fruto do cacto,75.0,75.0,33.0,Conjunto Recursos Exóticos  Geléia  Vinho,deserto,Deserto de Calico,O doce fruto da espinhosa pera do cacto.
+114,Gengibre,60.0,25.0,11.0,Picles  Ginger Ale  Cura o bônus negativo  enjoado,ilha gengibre,"Por toda a  Ilha Gengibre  , especialmente nas partes Oeste e Norte da Ilha.",É dito que esta raíz forte e picante pode aumentar a vitalidade.
+115,Inhame de neve,100.0,30.0,13.0,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
+116,Inhame de neve_prata,125.0,42.0,18.0,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
+117,Inhame de neve_ouro,150.0,54.0,24.0,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
+118,Inhame de neve_iridio,200.0,78.0,35.0,Sementes de inverno  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra,Este pequeno inhame estava se escondendo na neve.
+119,Mexilhão,30.0,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
+120,Mexilhão_prata,37.0,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
+121,Mexilhão_ouro,45.0,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
+122,Mexilhão_iridio,60.0,,,Guisado de peixe  Conjunto Covo,praia,A Praia,Um bivalve muito comum que geralmente vive em grupo.
+123,Morel,150.0,20.0,9.0,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
+124,Morel_prata,187.0,28.0,12.0,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
+125,Morel_ouro,225.0,36.0,16.0,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
+126,Morel_iridio,300.0,52.0,23.0,Cogumelo frito  Elixir da vida  Conjunto Recursos Exóticos,primavera,Bosque Secreto,Cobiçado por seu sabor único e que lembra nozes.
+127,Narciso,30.0,0.0,0.0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
+128,Narciso_prata,37.0,0.0,0.0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
+129,Narciso_ouro,45.0,0.0,0.0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
+130,Narciso_iridio,60.0,0.0,0.0,Sementes de primavera  Conjunto Recursos de Primavera  Sandy  (Presente Amado),primavera,Vila Pelicanos,Uma tradicional flor da primavera. Dá um ótimo presente.
+131,Ostra,40.0,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
+132,Ostra_prata,50.0,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
+133,Ostra_ouro,60.0,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
+134,Ostra_iridio,80.0,,,Conjunto Covo,praia,A Praia,"Filtra água constantemente para se alimentar. Durante o processo, remove toxinas perigosas para o meio ambiente."
+135,Ouriço-do-mar,160.0,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
+136,Ouriço-do-mar_prata,200.0,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
+137,Ouriço-do-mar_ouro,240.0,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
+138,Ouriço-do-mar_iridio,320.0,,,Conjunto Tinta,praia,A Praia,Uma criatura lenta e espinhosa que alguns consideram uma iguaria.
+139,Raiz de inverno,70.0,25.0,11.0,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
+140,Raiz de inverno_prata,87.0,35.0,15.0,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
+141,Raiz de inverno_ouro,105.0,45.0,20.0,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
+142,Raiz de inverno_iridio,140.0,65.0,29.0,Sementes de inverno  Prato de raízes  Conjunto Recursos de Inverno,inverno,Vila Pelicanos  Arar a terra  Itens deixados por  monstros das  Minas  (andares 40-80),Um tubérculo rico em amido.
+143,Raiz-forte,50.0,13.0,5.0,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
+144,Raiz-forte_prata,62.0,18.0,8.0,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
+145,Raiz-forte_ouro,75.0,23.0,10.0,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
+146,Raiz-forte_iridio,100.0,33.0,14.0,Sementes de primavera  Conjunto Recursos de Primavera  Krobus  (Presente Amado),primavera,Vila Pelicanos  Bosque Secreto,Uma raiz picante encontrada na primavera.
+147,Seiva,2.0,-5.0,0.0,Fertilizante básico  Fertilizante de qualidade  Boia-armadilha  Tocha,seiva,Vila Pelicanos,Um fluído obtido em árvores.
+148,Uva,80.0,38.0,17.0,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
+149,Uva_prata,100.0,53.0,23.0,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
+150,Uva_ouro,120.0,68.0,30.0,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
+151,Uva_iridio,160.0,98.0,44.0,Sementes de verão  Conjunto Recursos de Verão  Vincent  (Presente Amado)  Geléia  Vinho,verao,Vila Pelicanos,Um doce cacho de uvas.
