@@ -123,7 +123,6 @@ def extrair_valor_moeda(preco):
   except TypeError:
     return preco, None
 
-
 def xp ():
   #combate
   combate = pd.read_csv('docs_bronze/xp_combate.csv', encoding='utf-8')
@@ -682,7 +681,6 @@ def concat_dataframes ():
   df_caverna["nome_original"] = df_caverna['Nome'].apply(lambda linha: linha.split('_')[0]) 
   df_caverna['Chance_%'] = df_caverna['Chance_%'].apply(lambda linha: linha.replace('%', '') if isinstance(linha, str) else linha)
   df_caverna = df_caverna[['nome_original','Nome','Lucro','Energia','Saude','Chance_%','Usado em','Descrição','Também achado']]
-
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
   #clima
@@ -712,7 +710,10 @@ def concat_dataframes ():
                                            coluna_valor = 'Lucro', 
                                            coluna_energia_saude = 'Efeito')
   df_coleta = df_coleta[['Nome','Lucro','Energia','Saude','Usado em','origem','Encontrado em','Descrição']]
-  df_coleta = df_coleta.drop(index=[49,50,51,157,158,159]).dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
+  df_coleta = df_coleta.drop(index=[49,50,51,117,118,119,121,122,123,157,158,159]).dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
+  df_coleta['Energia'] = df_coleta['Energia'].apply(lambda linha: float(linha.replace('−', '-').replace('Não comestível','0').replace('Não','0')) if isinstance(linha, str) else float(linha))
+  df_coleta['Saude'] = df_coleta['Saude'].apply(lambda linha: float(linha.replace('−', '-').replace('Não comestível','0').replace('comestível','0')) if isinstance(linha, str) else float(linha))
+  df_coleta['Lucro'] = limpar_preco(df_coleta['Lucro'])
   df_coleta.to_csv('docs_silver/coleta.csv', encoding='utf-8')
 
   #conjunto
