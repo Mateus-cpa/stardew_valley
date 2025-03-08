@@ -782,6 +782,7 @@ def concat_dataframes ():
     df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
     df_temp = df_temp.rename(columns={'Necessário para:': 'Necessário para', 
                                       'Tempo de crescimento:': 'crescimento_produção',
+                                      'Tempo de crescimento': 'crescimento_produção',                                     
                                       'Tempo de produção': 'crescimento_produção',
                                       'Tempo de Produção': 'crescimento_produção',
                                       'Quantidade Necessária':'Quantidade necessária',
