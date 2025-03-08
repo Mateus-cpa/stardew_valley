@@ -780,7 +780,6 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for culinaria in lista_culinaria:
     df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
-    #print(f'colunas de {culinaria}: {df_temp.columns}')
     df_temp = df_temp.rename(columns={'Necessário para:': 'Necessário para', 
                                       'Tempo de crescimento:': 'crescimento_produção',
                                       'Tempo de produção': 'crescimento_produção',
@@ -789,8 +788,9 @@ def concat_dataframes ():
                                       'Notas':'Descrição',
                                       'Localização':'Fonte',
                                       'Preço Unitário/Total': 'Preço de Venda',
-                                      'Fonte da Receita':'Fonte'
-                                      })
+                                      'Fonte da Receita':'Fonte',
+                                      'Nome':'Ingrediente'})
+    df_temp['Tipo'] = culinaria
     dfs_to_concat.append(df_temp)
   df_culinaria = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_culinaria = df_culinaria.iloc[:,2:]
@@ -800,9 +800,14 @@ def concat_dataframes ():
   df_culinaria['Saúde'] = df_culinaria['Energia / Saúde'].apply(lambda row: tenta_dividir(texto_a_dividir=row,
                                                                                             divisor='  ',
                                                                                             coluna=1))
+  df_culinaria['Preço de Venda Condicional'] = df_culinaria['Preço de Venda'].apply(lambda linha: linha.split('/')[1].strip().split('(')[0] if '/' in str(linha) else None)
+  df_culinaria['Preço de Venda Condicional'] = limpar_preco(df_culinaria['Preço de Venda Condicional'])
+  df_culinaria['Condição de preço condicional'] = df_culinaria['Preço de Venda'].apply(lambda linha: linha.split('/')[1].strip().split('(')[1].replace(')','') if '(' in str(linha) else None)
+  df_culinaria['Preço de Venda'] = df_culinaria['Preço de Venda'].apply(lambda linha: linha.split('/')[0].strip() if '/' in str(linha) else linha)
+  df_culinaria['Preço de Venda'] = limpar_preco(df_culinaria['Preço de Venda'])
   linhas_a_retirar = (df_culinaria['Fonte'].isna()) & (df_culinaria['Necessário para'].isna())
   df_culinaria = df_culinaria[~linhas_a_retirar]
-  df_culinaria = df_culinaria.drop(columns='Energia / Saúde')
+  df_culinaria = df_culinaria.drop(columns=['Energia / Saúde','Quantidade necessária'])
   df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
 
   #custo_solo_concha
