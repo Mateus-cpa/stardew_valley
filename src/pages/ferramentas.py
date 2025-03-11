@@ -11,9 +11,13 @@ def main():
 
   # Título
   st.title('Ferramentas')
+  
+  # Filtro
+  st.text_input('Filtro por um termo')
+
   st.metric('Tamanho da tabela', ferramentas.shape[0])
   st.metric('Quantidade de colunas', ferramentas.shape[1])
-
+  
   st.dataframe(ferramentas)
 
   # fim da função
