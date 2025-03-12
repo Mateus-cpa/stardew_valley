@@ -867,6 +867,7 @@ def concat_dataframes ():
   df_ferramentas = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
   df_ferramentas = df_ferramentas[['Tipo','Nome','Efeito','Preço',
                                    'Materiais','Localização','Requisitos']]
+  df_ferramentas['Preço'] = limpar_preco(df_ferramentas['Preço'])
   df_ferramentas.to_csv('docs_silver/ferramentas.csv', encoding='utf-8')
   
 
