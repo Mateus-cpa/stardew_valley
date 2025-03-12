@@ -13,10 +13,14 @@ def main():
   st.title('Ferramentas')
   
   # Filtro
-  st.text_input('Filtro por um termo')
+  filtro_texto = st.text_input('Filtro por um termo')
+  if filtro_texto:
+     ferramentas = ferramentas[ferramentas.astype(str).apply(lambda x: x.str.contains(filtro_texto, case=False, na=False)).any(axis=1)].reset_index(drop=True)
 
-  st.metric('Tamanho da tabela', ferramentas.shape[0])
-  st.metric('Quantidade de colunas', ferramentas.shape[1])
+  col1, col2, col3 = st.columns(3)
+
+  col2.metric('Quantidade de resultados', ferramentas.shape[0])
+
   
   st.dataframe(ferramentas)
 
