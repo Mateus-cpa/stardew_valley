@@ -30,7 +30,22 @@ def main():
   #KPIs
   col2.metric('Quantidade de resultados', ferramentas.shape[0])
 
-  st.dataframe(ferramentas, hide_index=True)
+  # dataframe
+  if len(ferramentas) > 4:
+     st.dataframe(ferramentas, hide_index=True)
+  else:
+     for i in ferramentas.index:
+        st.subheader(f'{ferramentas.iloc[i,1]}')
+        if not pd.isna(ferramentas.iloc[i,2]):
+          st.write(f'Efeito: {ferramentas.iloc[i,2]}')
+        if not pd.isna(ferramentas.iloc[i,3]):
+          st.write(f'Preço (ouros): {ferramentas.iloc[i,3]}')
+        if not pd.isna(ferramentas.iloc[i,4]):
+          st.write(f'Materiais: {ferramentas.iloc[i,4]}')
+        if not pd.isna(ferramentas.iloc[i,5]):
+          st.write(f'Localização: {ferramentas.iloc[i,5]}')
+        if not pd.isna(ferramentas.iloc[i,6]):
+          st.write(f'Requisitos: {ferramentas.iloc[i,6]}')
 
   # fim da função
 
