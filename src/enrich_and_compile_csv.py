@@ -123,6 +123,7 @@ def extrair_valor_moeda(preco):
   except TypeError:
     return preco, None
 
+
 def xp ():
   #combate
   combate = pd.read_csv('docs_bronze/xp_combate.csv', encoding='utf-8')
@@ -681,6 +682,7 @@ def concat_dataframes ():
   df_caverna["nome_original"] = df_caverna['Nome'].apply(lambda linha: linha.split('_')[0]) 
   df_caverna['Chance_%'] = df_caverna['Chance_%'].apply(lambda linha: linha.replace('%', '') if isinstance(linha, str) else linha)
   df_caverna = df_caverna[['nome_original','Nome','Lucro','Energia','Saude','Chance_%','Usado em','Descrição','Também achado']]
+
   df_caverna.to_csv('docs_silver/caverna.csv', encoding='utf-8')
 
   #clima
@@ -710,10 +712,11 @@ def concat_dataframes ():
                                            coluna_valor = 'Lucro', 
                                            coluna_energia_saude = 'Efeito')
   df_coleta = df_coleta[['Nome','Lucro','Energia','Saude','Usado em','origem','Encontrado em','Descrição']]
-  df_coleta = df_coleta.drop(index=[49,50,51,117,118,119,121,122,123,157,158,159]).dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
-  df_coleta['Energia'] = df_coleta['Energia'].apply(lambda linha: float(linha.replace('−', '-').replace('Não comestível','0').replace('Não','0')) if isinstance(linha, str) else float(linha))
-  df_coleta['Saude'] = df_coleta['Saude'].apply(lambda linha: float(linha.replace('−', '-').replace('Não comestível','0').replace('comestível','0')) if isinstance(linha, str) else float(linha))
+  df_coleta = df_coleta.drop(index=[49,50,51,121,122,123,157,158,159]).dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
   df_coleta['Lucro'] = limpar_preco(df_coleta['Lucro'])
+  df_coleta['Energia'] = df_coleta['Energia'].apply(lambda linha: linha.replace('−', '-') if isinstance(linha, str) else linha)
+  df_coleta['Energia'] = df_coleta['Energia'].apply(lambda linha: 0 if (linha == 'Não comestível' or linha == 'Não') else linha)
+  df_coleta['Saude'] = df_coleta['Saude'].apply(lambda linha: 0 if (linha == 'Não comestível' or linha == 'comestível')  else linha)
   df_coleta.to_csv('docs_silver/coleta.csv', encoding='utf-8')
 
   #conjunto
@@ -780,17 +783,17 @@ def concat_dataframes ():
   dfs_to_concat = [] 
   for culinaria in lista_culinaria:
     df_temp = pd.read_csv(f'docs_bronze/culinaria_{culinaria}.csv')
+    #print(f'colunas de {culinaria}: {df_temp.columns}')
     df_temp = df_temp.rename(columns={'Necessário para:': 'Necessário para', 
                                       'Tempo de crescimento:': 'crescimento_produção',
-                                      'Tempo de crescimento': 'crescimento_produção',                                     
                                       'Tempo de produção': 'crescimento_produção',
                                       'Tempo de Produção': 'crescimento_produção',
                                       'Quantidade Necessária':'Quantidade necessária',
                                       'Notas':'Descrição',
                                       'Localização':'Fonte',
                                       'Preço Unitário/Total': 'Preço de Venda',
-                                      'Fonte da Receita':'Fonte',
-                                      'Nome':'Ingrediente'})
+                                      'Fonte da Receita':'Fonte'
+                                      })
     df_temp['Tipo'] = culinaria
     dfs_to_concat.append(df_temp)
   df_culinaria = pd.concat(dfs_to_concat,ignore_index=True).reset_index(drop=True)
@@ -809,6 +812,7 @@ def concat_dataframes ():
   linhas_a_retirar = (df_culinaria['Fonte'].isna()) & (df_culinaria['Necessário para'].isna())
   df_culinaria = df_culinaria[~linhas_a_retirar]
   df_culinaria = df_culinaria.drop(columns=['Energia / Saúde','Quantidade necessária'])
+
   df_culinaria.to_csv('docs_silver/culinaria.csv', encoding='utf-8')
 
   #custo_solo_concha
@@ -874,6 +878,7 @@ def concat_dataframes ():
   #iscas
   df_iscas = pd.read_csv('docs_bronze\iscas.csv', encoding='utf-8')
   df_iscas = df_iscas.drop(columns=['Unnamed: 0','Imagem'])
+  df_iscas['Compra'] = limpar_preco(df_iscas['Compra'])
   df_iscas.to_csv('docs_silver/iscas.csv', encoding='utf-8')
 
   #lavoura
