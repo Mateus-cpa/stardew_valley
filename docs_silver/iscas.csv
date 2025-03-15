@@ -1,4 +1,4 @@
-,Nome,Descrição,Notas,Compra,Produção
+,Nome,Descrição,Notas,Custo (Ouros),Custo (produtos)
 0,Isca,"Faz com que os peixes mordam mais rápido. Primeiro, deve ser anexado a uma vara de pescar.",Isca padrão diminui o tempo que os peixes levam para morder e diminui a chance de conseguir itens  lixo  .,5.0,Carne de inseto  (1)
 1,Ímã,"Aumenta a chance de encontrar tesouros ao pescar. No entanto, os peixes não são loucos pelo sabor.","Aumenta em 100% a chance do tesouro (30% de chance em vez da base 15%). Apesar da descrição, a taxa de fisgada é a mesma da isca padrão.",1000.0,Barra de ferro  (1)
 2,Isca selvagem,Uma receita única da Linus. Apela a todos os peixes.,Diminui o tempo necessário para que os peixes mordam um pouco mais do que a isca padrão e tem a chance de pescar 2 peixes de uma vez. A receita é obtida a partir de  Linus  ao ganhar quatro corações e se aproximar de sua barraca por volta das 8:00 da noite.,,Fibra  (10)  Gosma  (5)  Carne de inseto  (5)
