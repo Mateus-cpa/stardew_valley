@@ -11,10 +11,31 @@ def main():
 
   # Título
   st.title('Iscas')
-  st.metric('Tamanho da tabela', iscas.shape[0])
-  st.metric('Quantidade de colunas', iscas.shape[1])
+  
+  col1, col2 = st.columns(2)
+  
+  # Filtro
+  filtro_texto = col1.text_input('Filtro por um termo')
+  if filtro_texto:
+     iscas = iscas[iscas.astype(str).apply(lambda x: x.str.contains(filtro_texto, case=False, na=False)).any(axis=1)].reset_index(drop=True)
+  #KPIs 
+  col2.metric('Quantidade de resultados', iscas.shape[0])
+  
+  # dataframe
+  if len(iscas) > 2:
+     st.dataframe(iscas, hide_index=True)
+  else:
+     for i in iscas.index:
+      st.subheader(f'{iscas.iloc[i,0]}')
+      if not pd.isna(iscas.iloc[i,1]):
+        st.write(f'**Descrição**: {iscas.iloc[i,1]}')
+      if not pd.isna(iscas.iloc[i,2]):
+        st.write(f'**Notas**: {iscas.iloc[i,2]}')
+      if not pd.isna(iscas.iloc[i,3]):
+        st.write(f'**Custo (ouros)**: {iscas.iloc[i,3]}')
+      if not pd.isna(iscas.iloc[i,4]):
+        st.write(f'**Custo (produtos)**: {iscas.iloc[i,4]}')
 
-  st.dataframe(iscas, hide_index=True)
 
   # fim da função
 
