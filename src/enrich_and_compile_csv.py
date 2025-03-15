@@ -950,6 +950,8 @@ def concat_dataframes ():
   df_lavouras['Energia'] = df_lavouras['Energia'].apply(lambda linha: linha.replace('−', '-') if isinstance(linha, str) else linha)
   df_lavouras['Energia'] = df_lavouras['Energia'].apply(lambda linha: 0 if (linha == 'Não comestível' or linha == 'Não') else linha)
   df_lavouras['Saude'] = df_lavouras['Saude'].apply(lambda linha: 0 if (linha == 'Não comestível' or linha == 'comestível')  else linha)
+  #limpar dias em estágios de crescimento
+  
   df_lavouras.to_csv('docs_silver/lavouras.csv', encoding='utf-8')
 
   #lista_presente
