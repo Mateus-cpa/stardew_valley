@@ -879,6 +879,7 @@ def concat_dataframes ():
   df_iscas = pd.read_csv('docs_bronze\iscas.csv', encoding='utf-8')
   df_iscas = df_iscas.drop(columns=['Unnamed: 0','Imagem'])
   df_iscas['Compra'] = limpar_preco(df_iscas['Compra'])
+  df_iscas = df_iscas.rename(columns={'Compra':'Custo (Ouros)','Produção':'Custo (produtos)'})
   df_iscas.to_csv('docs_silver/iscas.csv', encoding='utf-8')
 
   #lavoura
