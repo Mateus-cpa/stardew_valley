@@ -56,5 +56,8 @@ Transformação do notebook Jupyter(.ipynb) com o código de scraping em um scri
 - Criação de uma tech tree de produtos.
 - Gerar cartas de cada item do banco de dados.
 
-### `FASE 7 - ícones` :crystal_ball:
+### `FASE 7 - Deploy` :crystal_ball:
+Publicar deploy com Docker
+
+### `FASE 8 - ícones` :crystal_ball:
 Importar biblioteca de imagens e ícones.
