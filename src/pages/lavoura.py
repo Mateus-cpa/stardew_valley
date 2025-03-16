@@ -28,7 +28,7 @@ def main():
   col2.metric('Valor Venda (média)', round(lavoura['Vende_por'].mean(),2))
   col3.metric('Saúde (média)', round(lavoura['Saude'].mean(),2))
   col4.metric('Energia(média)', round(lavoura['Energia'].mean(),2))
-
+  col1.metric('Renda média (ouro por dia)', round(lavoura['Renda média (ouro por dia)'].mean(),2))
   
   st.write(lavoura, use_container_width=True,hide_index=True)
   
@@ -76,13 +76,22 @@ def main():
     ).properties(
         title='Energia média por estação',
         width=alt.Step(80))  # Largura das barras
+    # gráfico de barra poe estação da coluna Renda média (ouro por dia)
+    grafico5 = alt.Chart(lavoura).mark_bar().encode(
+        x=alt.X('Estação:N', title='Estação'),
+        y=alt.Y('mean(Renda média (ouro por dia)):Q', title='Renda média'),
+        color=alt.Color('Cor:N', scale=None),
+        tooltip=['Estação', 'mean(Renda média (ouro por dia))']
+    ).properties(
+        title='Preço médio por estação',
+        width=alt.Step(80))  # Largura das barras
     # Exibe o gráfico no Streamlit
     col1, col2 = st.columns(2)
     col1.altair_chart(grafico, use_container_width=True)
     col2.altair_chart(grafico2, use_container_width=True)
     col1.altair_chart(grafico3, use_container_width=True)
     col2.altair_chart(grafico4, use_container_width=True)
-    
+    col1.altair_chart(grafico5, use_container_width=True)
   #gráficos scatter com else (filtro ativo)
   
   # fim da função
