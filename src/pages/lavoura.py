@@ -8,7 +8,7 @@ def main():
   # Carregar os dados
   lavoura = pd.read_csv('docs_silver/lavouras.csv',encoding='utf-8').iloc[:,1:]
   lavoura['Semente_original'] = lavoura['Semente'].apply(lambda x: x.split('_')[0])
-
+ 
 
   # Título
   st.title('Lavoura')
