@@ -439,6 +439,39 @@ def extrair_valor_recompensa(df):
     # Retornar o valor à direita da recompensa
     return df.iloc[indice_recompensa, df.columns.get_loc(coluna_recompensa) + 1]
 
+def extrair_valor_total(linha):
+    """
+    Extrai o valor que contenha o texto 'Total: ' de uma coluna.
+
+    Args:
+        linha: Uma linha do DataFrame.
+
+    Returns:
+        Uma nova coluna com os valores tratados.
+    """
+    #extrair valor das células com 'Total:'
+    if 'Total:' in str(linha):
+      if linha.str.split('Total:') > 1:
+        return linha.split('Total:')[1]
+    
+def tratar_colunas_dias(coluna):
+    """
+    Trata as colunas de dias, separando os valores e transformando em valores numéricos.
+
+    Args:
+        coluna: Uma coluna do DataFrame.
+
+    Returns:
+        Uma nova coluna com os valores tratados.
+    """
+    #extrair o valor entre '≈' e '/d'
+    coluna = coluna.apply(lambda linha: None if ('≈' in str(linha) or '/d' in str(linha)) else linha)
+    #extrair valor das células com 'Dia' ou 'dia' ou 'Total:'
+    coluna = coluna.apply(lambda linha: linha.split('Dia')[0] if isinstance(linha, str) else linha)
+    coluna = coluna.apply(lambda linha: linha.split('dia')[0] if isinstance(linha, str) else linha)
+    #coluna = coluna.apply(lambda linha: linha.split('Total:')[1] if 'Total:' in str(linha) else linha)
+    #coluna = coluna.apply(lambda linha: sum(linha.split('-'))/2 if '-' in str(linha) else linha)
+    return coluna
 
 def concat_dataframes ():
   
@@ -937,12 +970,20 @@ def concat_dataframes ():
                          'Usado em','Estação','Semente','Origem',
                          'Renda média (ouro por dia)',
                          'Crescimento estágio 4 (dias)','Crescimento estágio 5 (dias)']
+  
+  colunas_dias = ['Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)','Crescimento estágio 3 (dias)',
+                         'Tempo colheita (dias)','Tempo colheita continuado','Crescimento estágio 4 (dias)',
+                         'Crescimento estágio 5 (dias)']
+  for coluna in colunas_dias:
+    #consultar em qual coluna está o texto Total: e alocar na nova coluna 'Crescimento Total (dias)'  
+    df_lavouras['Crescimento Total (dias)'] = df_lavouras[coluna].apply(extrair_valor_total)
+    df_lavouras[coluna] = tratar_colunas_dias(df_lavouras[coluna])    
   df_lavouras = divide_valores_por_qualidade(df = df_lavouras,coluna_nome='Semente',
                                              coluna_valor='Vende_por',coluna_energia_saude='Restaura')
   df_lavouras = df_lavouras[['Semente','Estação','Vende_por','Saude','Energia',
                              'Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)',
                              'Crescimento estágio 3 (dias)','Crescimento estágio 4 (dias)',
-                             'Crescimento estágio 5 (dias)',
+                             'Crescimento estágio 5 (dias)','Crescimento Total (dias)',
                              'Tempo colheita (dias)','Tempo colheita continuado',
                              'Renda média (ouro por dia)',
                              'Origem','Usado em']]
