@@ -441,7 +441,7 @@ def extrair_valor_recompensa(df):
 
 def extrair_valor_total(linha):
     """
-    Extrai o valor que contenha o texto 'Total: ' de uma coluna.
+    Extrai o valor que contenha o texto 'Total: ' em cada linha de um dataframe.
 
     Args:
         linha: Uma linha do DataFrame.
@@ -449,29 +449,16 @@ def extrair_valor_total(linha):
     Returns:
         Uma nova coluna com os valores tratados.
     """
-    #extrair valor das células com 'Total:'
-    if 'Total:' in str(linha):
-      if linha.str.split('Total:') > 1:
-        return linha.split('Total:')[1]
+    for coluna in linha.index:
+        if 'Total: ' in str(linha[coluna]):
+            linha = linha[coluna].split('Total: ')[1].strip()
+            linha = linha.split('Dia')[0].strip()
+            linha = linha.split('dia')[0].strip()
+            if '-' in linha:
+                linha = sum([int(i) for i in linha.split('-')])/2
+            return linha
     
-def tratar_colunas_dias(coluna):
-    """
-    Trata as colunas de dias, separando os valores e transformando em valores numéricos.
 
-    Args:
-        coluna: Uma coluna do DataFrame.
-
-    Returns:
-        Uma nova coluna com os valores tratados.
-    """
-    #extrair o valor entre '≈' e '/d'
-    coluna = coluna.apply(lambda linha: None if ('≈' in str(linha) or '/d' in str(linha)) else linha)
-    #extrair valor das células com 'Dia' ou 'dia' ou 'Total:'
-    coluna = coluna.apply(lambda linha: linha.split('Dia')[0] if isinstance(linha, str) else linha)
-    coluna = coluna.apply(lambda linha: linha.split('dia')[0] if isinstance(linha, str) else linha)
-    #coluna = coluna.apply(lambda linha: linha.split('Total:')[1] if 'Total:' in str(linha) else linha)
-    #coluna = coluna.apply(lambda linha: sum(linha.split('-'))/2 if '-' in str(linha) else linha)
-    return coluna
 
 def concat_dataframes ():
   
@@ -971,22 +958,21 @@ def concat_dataframes ():
                          'Renda média (ouro por dia)',
                          'Crescimento estágio 4 (dias)','Crescimento estágio 5 (dias)']
   
-  colunas_dias = ['Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)','Crescimento estágio 3 (dias)',
-                         'Tempo colheita (dias)','Tempo colheita continuado','Crescimento estágio 4 (dias)',
-                         'Crescimento estágio 5 (dias)']
-  for coluna in colunas_dias:
-    #consultar em qual coluna está o texto Total: e alocar na nova coluna 'Crescimento Total (dias)'  
-    df_lavouras['Crescimento Total (dias)'] = df_lavouras[coluna].apply(extrair_valor_total)
-    df_lavouras[coluna] = tratar_colunas_dias(df_lavouras[coluna])    
+  #consultar em qual coluna está o texto Total: e alocar na nova coluna 'Crescimento Total (dias)'  
+  df_lavouras['Crescimento Total (dias)'] = df_lavouras.apply(extrair_valor_total, axis=1)
   df_lavouras = divide_valores_por_qualidade(df = df_lavouras,coluna_nome='Semente',
                                              coluna_valor='Vende_por',coluna_energia_saude='Restaura')
   df_lavouras = df_lavouras[['Semente','Estação','Vende_por','Saude','Energia',
-                             'Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)',
-                             'Crescimento estágio 3 (dias)','Crescimento estágio 4 (dias)',
-                             'Crescimento estágio 5 (dias)','Crescimento Total (dias)',
-                             'Tempo colheita (dias)','Tempo colheita continuado',
+                             #'Crescimento estágio 1 (dias)','Crescimento estágio 2 (dias)',
+                             #'Crescimento estágio 3 (dias)','Crescimento estágio 4 (dias)',
+                             #'Crescimento estágio 5 (dias)',
+                             'Crescimento Total (dias)',
+                             'Tempo colheita (dias)',
+                             #'Tempo colheita continuado',
                              'Renda média (ouro por dia)',
                              'Origem','Usado em']]
+  #cada célula que tiver ≈ deverá ter seu valor apagado
+  df_lavouras = df_lavouras.apply(lambda linha: None if '≈' in str(linha) else linha)
   df_lavouras['Vende_por'] = limpar_preco(df_lavouras['Vende_por'])
   df_lavouras['Energia'] = df_lavouras['Energia'].apply(lambda linha: linha.replace('−', '-') if isinstance(linha, str) else linha)
   df_lavouras['Energia'] = df_lavouras['Energia'].apply(lambda linha: 0 if (linha == 'Não comestível' or linha == 'Não') else linha)
@@ -1053,7 +1039,7 @@ def concat_dataframes ():
     if nome == 'Óleo':
       pass
     else:
-      df_mercadorias.loc[df_mercadorias['Nome'] == nome] = df_mercadorias.loc[df_mercadorias['Nome'] == nome].fillna(method='bfill')
+      df_mercadorias.loc[df_mercadorias['Nome'] == nome] = df_mercadorias.loc[df_mercadorias['Nome'] == nome].bfill()
       df_mercadorias.loc[df_mercadorias['Nome'] == nome] = df_mercadorias.loc[df_mercadorias['Nome'] == nome].drop_duplicates(subset='Nome',keep='first')
   df_mercadorias = df_mercadorias.dropna(subset=['Descrição'],ignore_index=True).reset_index(drop=True)
   df_mercadorias.to_csv('docs_silver/mercadorias.csv', encoding='utf-8')
