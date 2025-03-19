@@ -29,6 +29,7 @@ def main():
   col3.metric('Saúde (média)', round(lavoura['Saude'].mean(),2))
   col4.metric('Energia(média)', round(lavoura['Energia'].mean(),2))
   col1.metric('Renda média (ouro por dia)', round(lavoura['Renda média (ouro por dia)'].mean(),2))
+  col2.metric('Crescimento (dias)', round(lavoura['Crescimento Total (dias)'].mean(),2))
   
   st.write(lavoura, use_container_width=True,hide_index=True)
   
