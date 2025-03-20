@@ -44,7 +44,7 @@ def main():
 
   if not filtro_estacao:
     # Gráfico de quantidade de resultados por estação
-    grafico = alt.Chart(lavoura).mark_bar().encode(
+    grafico_quant = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('count():Q', title='Quantidade de resultados'),
         color=alt.Color('Cor:N', scale=None),
@@ -52,6 +52,12 @@ def main():
     ).properties(
         title='Quantidade de resultados por estação',
         width=alt.Step(80))  # Largura das barras
+    # Cria a linha de média
+    #media = lavoura.shape[0].mean()
+    #linha_media_quant = alt.Chart(pd.DataFrame({'Média': [media]})).mark_rule(color='black').encode(
+    #    y='Média:Q')
+    #grafico_quant += linha_media_quant
+    
     # gráfico de média de valor de venda por estação
     grafico2 = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
@@ -61,6 +67,7 @@ def main():
     ).properties(
         title='Valor de venda médio por estação',
         width=alt.Step(80))  # Largura das barras
+    
     grafico3 = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('mean(Saude):Q', title='Saúde média'),
@@ -86,13 +93,22 @@ def main():
     ).properties(
         title='Preço médio por estação',
         width=alt.Step(80))  # Largura das barras
+    grafico6 = alt.Chart(lavoura).mark_bar().encode(
+        x=alt.X('Estação:N', title='Estação'),
+        y=alt.Y('mean(Crescimento Total (dias)):Q', title='Crescimento médio'),
+        color=alt.Color('Cor:N', scale=None),
+        tooltip=['Estação', 'mean(Crescimento Total (dias))']
+    ).properties(
+        title='Crescimento médio por estação',
+        width=alt.Step(80))  # Largura das barras
     # Exibe o gráfico no Streamlit
     col1, col2 = st.columns(2)
-    col1.altair_chart(grafico, use_container_width=True)
+    col1.altair_chart(grafico_quant, use_container_width=True)
     col2.altair_chart(grafico2, use_container_width=True)
     col1.altair_chart(grafico3, use_container_width=True)
     col2.altair_chart(grafico4, use_container_width=True)
     col1.altair_chart(grafico5, use_container_width=True)
+    col2.altair_chart(grafico6, use_container_width=True)
   #gráficos scatter com else (filtro ativo)
   
   # fim da função
