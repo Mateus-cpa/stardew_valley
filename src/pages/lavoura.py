@@ -23,13 +23,13 @@ def main():
     lavoura = lavoura[lavoura['Semente'].str.contains(filtro_texto, case=False)]
   
   #KPIs
-  col1, col2, col3,col4 = st.columns(4)  
+  col1, col2, col3 = st.columns(3)
   col1.metric('Qtde. resultados', lavoura.shape[0])
   col2.metric('Valor Venda (média)', round(lavoura['Vende_por'].mean(),2))
   col3.metric('Saúde (média)', round(lavoura['Saude'].mean(),2))
-  col4.metric('Energia(média)', round(lavoura['Energia'].mean(),2))
-  col1.metric('Renda média (ouro por dia)', round(lavoura['Renda média (ouro por dia)'].mean(),2))
-  col2.metric('Crescimento (dias)', round(lavoura['Crescimento Total (dias)'].mean(),2))
+  col3.metric('Energia(média)', round(lavoura['Energia'].mean(),2))
+  col2.metric('Renda média (ouro por dia)', round(lavoura['Renda média (ouro por dia)'].mean(),2))
+  col1.metric('Crescimento (dias)', round(lavoura['Crescimento Total (dias)'].mean(),2))
   
   st.write(lavoura, use_container_width=True,hide_index=True)
   
@@ -52,14 +52,13 @@ def main():
     ).properties(
         title='Quantidade de resultados por estação',
         width=alt.Step(80))  # Largura das barras
-    # Cria a linha de média
-    #media = lavoura.shape[0].mean()
-    #linha_media_quant = alt.Chart(pd.DataFrame({'Média': [media]})).mark_rule(color='black').encode(
-    #    y='Média:Q')
-    #grafico_quant += linha_media_quant
+    media_quantidade = lavoura.groupby('Estação').size().mean()
+    linha_media_quant = alt.Chart(pd.DataFrame({'Média': [media_quantidade]})).mark_rule(color='gray', bandSize=10).encode(
+        y='Média:Q')
+    grafico_quant = grafico_quant + linha_media_quant
     
     # gráfico de média de valor de venda por estação
-    grafico2 = alt.Chart(lavoura).mark_bar().encode(
+    grafico_venda = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('mean(Vende_por):Q', title='Valor de venda médio'),
         color=alt.Color('Cor:N', scale=None),
@@ -67,8 +66,12 @@ def main():
     ).properties(
         title='Valor de venda médio por estação',
         width=alt.Step(80))  # Largura das barras
-    
-    grafico3 = alt.Chart(lavoura).mark_bar().encode(
+    media_venda = lavoura['Vende_por'].mean()
+    linha_media_venda = alt.Chart(pd.DataFrame({'Média': [media_venda]})).mark_rule(color='gray', bandSize=10).encode(
+        y='Média:Q')
+    grafico_venda = grafico_venda + linha_media_venda
+
+    grafico_saude = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('mean(Saude):Q', title='Saúde média'),
         color=alt.Color('Cor:N', scale=None),
@@ -76,7 +79,12 @@ def main():
     ).properties(
         title='Saúde média por estação',
         width=alt.Step(80))  # Largura das barras
-    grafico4 = alt.Chart(lavoura).mark_bar().encode(
+    media_saude = lavoura['Saude'].mean()
+    linha_media_saude = alt.Chart(pd.DataFrame({'Média': [media_saude]})).mark_rule(color='gray', bandSize=10).encode(
+        y='Média:Q')
+    grafico_saude = grafico_saude + linha_media_saude
+    
+    grafico_energia = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('mean(Energia):Q', title='Energia média'),
         color=alt.Color('Cor:N', scale=None),
@@ -84,8 +92,13 @@ def main():
     ).properties(
         title='Energia média por estação',
         width=alt.Step(80))  # Largura das barras
+    media_quantidade = lavoura['Energia'].mean()
+    linha_media_quant = alt.Chart(pd.DataFrame({'Média': [media_quantidade]})).mark_rule(color='gray', bandSize=10).encode(
+        y='Média:Q')
+    grafico_energia = grafico_energia + linha_media_quant
+
     # gráfico de barra poe estação da coluna Renda média (ouro por dia)
-    grafico5 = alt.Chart(lavoura).mark_bar().encode(
+    grafico_ouro_dia = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('mean(Renda média (ouro por dia)):Q', title='Renda média'),
         color=alt.Color('Cor:N', scale=None),
@@ -93,7 +106,12 @@ def main():
     ).properties(
         title='Preço médio por estação',
         width=alt.Step(80))  # Largura das barras
-    grafico6 = alt.Chart(lavoura).mark_bar().encode(
+    media_ouro_dia = lavoura['Renda média (ouro por dia)'].mean()
+    linha_media_ouro_dia = alt.Chart(pd.DataFrame({'Média': [media_ouro_dia]})).mark_rule(color='gray', bandSize=10).encode(
+        y='Média:Q')
+    grafico_ouro_dia = grafico_ouro_dia + linha_media_ouro_dia
+
+    grafico_crescimento = alt.Chart(lavoura).mark_bar().encode(
         x=alt.X('Estação:N', title='Estação'),
         y=alt.Y('mean(Crescimento Total (dias)):Q', title='Crescimento médio'),
         color=alt.Color('Cor:N', scale=None),
@@ -101,14 +119,19 @@ def main():
     ).properties(
         title='Crescimento médio por estação',
         width=alt.Step(80))  # Largura das barras
+    media_crescimento = lavoura['Crescimento Total (dias)'].mean()
+    linha_media_crescimento = alt.Chart(pd.DataFrame({'Média': [media_crescimento]})).mark_rule(color='gray', bandSize=10).encode(
+        y='Média:Q')
+    grafico_crescimento = grafico_crescimento + linha_media_crescimento
+    
     # Exibe o gráfico no Streamlit
     col1, col2 = st.columns(2)
     col1.altair_chart(grafico_quant, use_container_width=True)
-    col2.altair_chart(grafico2, use_container_width=True)
-    col1.altair_chart(grafico3, use_container_width=True)
-    col2.altair_chart(grafico4, use_container_width=True)
-    col1.altair_chart(grafico5, use_container_width=True)
-    col2.altair_chart(grafico6, use_container_width=True)
+    col2.altair_chart(grafico_venda, use_container_width=True)
+    col1.altair_chart(grafico_saude, use_container_width=True)
+    col2.altair_chart(grafico_energia, use_container_width=True)
+    col1.altair_chart(grafico_ouro_dia, use_container_width=True)
+    col2.altair_chart(grafico_crescimento, use_container_width=True)
   #gráficos scatter com else (filtro ativo)
   
   # fim da função
