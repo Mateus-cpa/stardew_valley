@@ -3,7 +3,7 @@ def pipeline():
     import pandas as pd
     from io import StringIO
     from bs4 import BeautifulSoup as bs4
-
+    import numpy as np
     #bibliotecas locais
     from src.extract_bs4 import extrair_sopa as extrair
     from src.process_html_to_csv import df_cultivo

@@ -10,7 +10,7 @@ def main():
 
 
   # Título
-  st.title('Lsita de Presentes')
+  st.title('Lista de Presentes')
 
   #filtros
   col1, col2 = st.columns(2)
