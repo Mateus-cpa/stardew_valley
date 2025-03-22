@@ -1,6 +1,6 @@
 FROM python:3.12.1
 RUN echo $PATH
-RUN pip install poetry==1.7.1 && export PATH="$PATH:/root/.local/bin"
+RUN pip install poetry && export PATH="$PATH:/root/.local/bin"
 COPY . /src
 WORKDIR /src
 RUN poetry cache clear --all
