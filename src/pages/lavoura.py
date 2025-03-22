@@ -133,7 +133,18 @@ def main():
     col1.altair_chart(grafico_ouro_dia, use_container_width=True)
     col2.altair_chart(grafico_crescimento, use_container_width=True)
   #gráficos scatter com else (filtro ativo)
-  
+  else:
+    #plotar gráfico scatter utilizando renda média como tamanho
+    grafico_scatter = alt.Chart(lavoura).mark_point().encode(
+      x='Renda média (ouro por dia)',
+      y='Crescimento Total (dias)',
+      size='Energia',
+      color = 'Saude',
+      tooltip=['Semente','Energia','Saude','Renda média (ouro por dia)','Crescimento Total (dias)']).properties(
+    width=800,
+    height=400)
+    st.altair_chart(grafico_scatter)
+    
   # fim da função
 
   
