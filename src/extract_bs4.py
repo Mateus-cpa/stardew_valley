@@ -78,12 +78,14 @@ def extrair_sopa():
 
     os.makedirs("docs_raw", exist_ok=True)
     for pagina in paginas:
-        with st.spinner(f"Extraindo {pagina}..."):
-            URL = f"https://pt.stardewvalleywiki.com/{pagina}"
-            sopa = bs(rq.get(URL).text, "html.parser")
-            with open(f"docs_raw/sopa_{pagina}.html", "w", encoding="utf-8") as arquivo:
-                arquivo.write(sopa.prettify())
+        URL = f"https://pt.stardewvalleywiki.com/{pagina}"
+        sopa = bs(rq.get(URL).text, "html.parser")
+        with open(f"docs_raw/sopa_{pagina}.html", "w", encoding="utf-8") as arquivo:
+            arquivo.write(sopa.prettify())
+        st.info(f"Extraindo {pagina}...")
+
     st.success("Scraping concluído")
+
     return sopa
 
 
