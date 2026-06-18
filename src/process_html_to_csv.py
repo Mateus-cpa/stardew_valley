@@ -300,7 +300,7 @@ def df_pesca(html):
 
     lista = []
     for tabela in sopa.find_all("table"):
-        lista.append(pd.read_html(StringIO(str(tabela))))  # só funciona se ativar .venv
+        lista.append(pd.read_html(StringIO(str(tabela))))
 
     profissao_pesca = lista[3][0]
 
